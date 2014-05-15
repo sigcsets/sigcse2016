@@ -9,19 +9,25 @@ showTitle: true
         <h4>
             Support
         </h4><br/>
+        <a href="{{site.data.main.prospectusurl}}">
         {% include fa name="cog" color=site.purple size="3x"  %}
+    </a>
     </div>
     <div class="col-sm-4 text-center">
         <h4>
             Exhibit
         </h4><br/>
+        <a href="{{site.data.main.prospectusurl}}">
         {% include fa name="star-o" color=site.purple size="3x"  %}
+    </a>
     </div>
     <div class="col-sm-4 text-center">
         <h4>
             Advertise
         </h4><br/>
+        <a href="{{site.data.main.prospectusurl}}">
          {% include fa name="paper-plane-o" color=site.purple size="3x"  %}
+     </a>
     </div>
 </div>
 
