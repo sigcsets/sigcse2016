@@ -4,24 +4,6 @@ layout: base
 showTitle: true
 ---
 
-
-<div class="col-sm-12" id="featured">
-    <div class="page-header text-muted">
-        Image Attributions
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm-2">
-        <img src="https://farm8.staticflickr.com/7293/9499102562_483ae1d18e_m_d.jpg" class="img-responsive"/>
-    </div>
-    <div class="col-sm-9 col-offset-sm-1">
-        <a href="https://www.flickr.com/photos/hey__paul/9499102562">Hand Embroidered Kansas City, MO Decorative Pillow Cover in Green</a>
-        <br/>
-        CC-BY hey__paul
-    </div>
-</div>
-
 <div class="col-sm-12" id="featured">
     <div class="page-header text-muted">
         HTML, CSS, and Javascript
@@ -38,3 +20,21 @@ showTitle: true
     <dt> </dt>
     <dd> </dd>
 </dl>
+
+
+<div class="col-sm-12" id="featured">
+    <div class="page-header text-muted">
+        Image Attributions
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-2">
+        <img src="https://farm8.staticflickr.com/7059/6816226238_43a56f29e0_m_d.jpg" class="img-responsive" />
+    </div>
+    <div class="col-sm-9 col-offset-sm-1">
+        <a href="https://www.flickr.com/photos/pinksherbet/6816226238/in/photostream/">Purple Wet Glass Texture Free Creative Commons</a>
+        <br/>
+        CC-BY photo from <i>Pink Sherbert Photography</i>, by D. Sharon Pruitt. Used as sidebar background.
+    </div>
+</div>
