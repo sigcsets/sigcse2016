@@ -1,11 +1,8 @@
-error:
-	jekyll build --base /
-
 local:
 	jekyll serve -w --base /
 
 remote:
-	jekyll build --base /
+	jekyll build --config _config.yml,_config_remote.yml
 	rsync -vrz \
-		-e ssh _site/ \
-		THISWILLERROR@berea.mobi:~/berea.mobi/courses/appsforapp-sp14/
+		-e "ssh -p 7822" _site/ \
+		sigcse@sigcse.hosting.acm.org:/home/sigcse/www/sigcse2015
