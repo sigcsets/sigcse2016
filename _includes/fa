@@ -1,0 +1,12 @@
+{% if include.fixed %}
+  {% assign fixed="fa-fw" %}
+{% endif %}
+
+{% if include.color %}
+{% else %}
+  {% assign color = "#000" %}
+{% endif %}
+
+<span style="color: {{include.color}}">
+  <i class="fa fa-{{include.name}} {{fixed}} fa-{{include.size}}" ></i>
+  </span>

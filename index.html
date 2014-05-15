@@ -46,7 +46,18 @@ title: Your New Jekyll Site
         {{post.content}}
     </div>
     <div class="col-sm-2 pull-right post-image">
-        <small class="text-muted"><a href="#" class="pull-right"><img src="/images/skyline.jpg" class="img-circle"></a></small>
+        {% if post.image %}
+        <small class="text-muted"><a href="#" class="pull-right"><img src="/images/circles/{{post.image}}" class="img-circle"></a></small>
+        {% elsif post.icon %}
+        {% if post.iconcolor %}
+            {% assign color = post.iconcolor %}
+        {% else %}
+            {% assign color = {{site.purple}} %}
+        {% endif %}
+        <div style="margin-top: 20px;">
+            {% include fa name=post.icon color=color size="5x"  %}
+        </div>
+        {% endif %}
     </div>
   {% endfor %}
 </div>

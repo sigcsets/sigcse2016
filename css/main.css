@@ -8,7 +8,7 @@ html, body {
 }
 
 a {
-  color: #482F92;
+  color: {{site.purple}};
   font-weight: bold;
 }
 

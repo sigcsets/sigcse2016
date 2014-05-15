@@ -1,3 +1,5 @@
 name: ACM SIGCSE 2015
 markdown: kramdown
 pygments: true
+
+purple: "#662D91"
