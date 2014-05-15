@@ -1,11 +1,11 @@
 error:
-	jekyll build --config _config.yml,_config_local.yml
+	jekyll build --base /
 
 local:
-	jekyll serve -w --config _config.yml,_config_local.yml
+	jekyll serve -w --base /
 
 remote:
-	jekyll build --config _config.yml,_config_remote.yml
+	jekyll build --base /
 	rsync -vrz \
 		-e ssh _site/ \
 		THISWILLERROR@berea.mobi:~/berea.mobi/courses/appsforapp-sp14/

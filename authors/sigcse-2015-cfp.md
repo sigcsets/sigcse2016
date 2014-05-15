@@ -13,7 +13,7 @@ Submissions in line with the conference theme, **{{site.data.main.theme}}**, are
 Papers describe an educational research project, classroom experience, teaching technique, curricular initiative, or pedagogical tool. Submitted papers for review will be anonymous. Papers will undergo a blind reviewing process and must not exceed six pages. Accepted papers will need to submit a non-anonymous version for publication in the proceedings after acceptance.  Authors will have approximately 25 minutes for their presentations, including questions and answers.
 
 <div class="alert alert-warning">
-<b>Submission Deadline</b>: {{site.data.cfp.papers}}
+<b>Submission Deadline</b>: {{site.data.cfp.dates['Papers']}}
 </div>
 
 ## PANELS 
@@ -22,7 +22,7 @@ Panels present multiple perspectives on a specific topic. To allow each panelist
 
 
 <div class="alert alert-warning">
-<b>Submission Deadline</b>: {{site.data.cfp.panels}}
+<b>Submission Deadline</b>: {{site.data.cfp.dates['Panels']}}
 </div>
 
 ## SPECIAL SESSIONS 
@@ -31,7 +31,7 @@ Special sessions are your opportunity to customize and experiment with the SIGCS
 
 
 <div class="alert alert-warning">
-<b>Submission Deadline</b>: {{site.data.cfp.specialsessions}}
+<b>Submission Deadline</b>: {{site.data.cfp.dates['Special Sessions']}}
 </div>
 
 ## WORKSHOPS
@@ -40,7 +40,7 @@ Workshops offer participants opportunities to learn new techniques and technolog
 
 
 <div class="alert alert-warning">
-<b>Submission Deadline</b>: {{site.data.cfp.workshops}}
+<b>Submission Deadline</b>: {{site.data.cfp.dates['Workshops']}}
 </div>
 
 ## BIRDS OF A FEATHER SESSIONS 
@@ -48,7 +48,7 @@ Workshops offer participants opportunities to learn new techniques and technolog
 Birds of a Feather (BOF) sessions provide an environment for colleagues with similar interests to meet for informal discussions. A maximum one-page description (including abstract) is requested to describe the informal discussion topic. A/V equipment will not be provided for these sessions. Approximately 45 minutes are allocated to each BOF topic.
 
 <div class="alert alert-warning">
-<b>Submission Deadline</b>: {{site.data.cfp.bofs}}
+<b>Submission Deadline</b>: {{site.data.cfp.dates['Birds of a Feather']}}
 </div>
 
 ## POSTERS 
@@ -58,7 +58,7 @@ Posters describe computer science education materials or research, particularly 
 
 
 <div class="alert alert-warning">
-<b>Submission Deadline</b>: {{site.data.cfp.posters}}
+<b>Submission Deadline</b>: {{site.data.cfp.dates['Posters']}}
 </div>
 
 ## STUDENT RESEARCH COMPETITION
@@ -67,5 +67,5 @@ Research from all areas of computer science is considered for awards in two cate
 
 
 <div class="alert alert-warning">
-<b>Submission Deadline</b>: {{site.data.cfp.studentresearch}}
+<b>Submission Deadline</b>: {{site.data.cfp.dates['Student Research Competition']}}
 </div>

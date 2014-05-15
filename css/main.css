@@ -112,37 +112,6 @@ span.redirect {
 
 
 
-/* center and adjust the sidebar contents on smaller devices */
-@media (max-width: 768px) {
-  #sidebar,#sidebar a.logo {
-    text-align:center;
-    margin:0 auto;
-    margin-top:30px;
-    font-size:26px;
-  }
-  #sidebar a.logo {
-    font-size:50px;
-    height:150px;
-    width:300px;
-    margin-bottom:30px;
-  }
-  
-  #sidebar div.mobile-logo {
-    display: block;
-    width: 100%;
-  }
-  
-  #main div.mobile-logo {
-    display: none;
-  }
-  
-  #main .post-image {
-    display: none;
-  }
-}
-
-
-
 
 /* bootstrap overrides */
 
@@ -173,4 +142,40 @@ h1,h2,h3 {
 small.text-muted {
   font-family:courier,courier-new,monospace;
 }
+
+.dl-horizontal dt 
+{
+    white-space: normal;
+
+}
+
+/* center and adjust the sidebar contents on smaller devices */
+@media (max-width: 768px) {
+  #sidebar,#sidebar a.logo {
+    text-align:center;
+    margin:0 auto;
+    margin-top:30px;
+    font-size:26px;
+  }
+  #sidebar a.logo {
+    font-size:50px;
+    height:150px;
+    width:300px;
+    margin-bottom:30px;
+  }
+  
+  #sidebar div.mobile-logo {
+    display: block;
+    width: 100%;
+  }
+  
+  #main div.mobile-logo {
+    display: none;
+  }
+  
+  #main .post-image {
+    display: none;
+  }
+}
+
 
