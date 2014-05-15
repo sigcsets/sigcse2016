@@ -32,8 +32,13 @@
                             {% for elem in site.data.nav %}
                                 <li> <a href="{{elem.link}}">{{elem.text}}</a> </li>
                             {% endfor %}
+                            <hr/>
+                            <li>
+                                <a href="/rss.xml">{% icon rss-square %} RSS Feed</a>
+                            </li>
                         </ul>
                         <ul class="nav hidden-xs" id="sidebar-footer">
+                           
                             <li>
                                 <small>
                                     <a href="http://www.bootply.com/templates">Basis - MIT licensed by Bootply</a>
