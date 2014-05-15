@@ -8,7 +8,8 @@ html, body {
 }
 
 a {
-  color:#222222;
+  color: #482F92;
+  font-weight: bold;
 }
 
 ul {
@@ -132,6 +133,10 @@ span.redirect {
   }
   
   #main div.mobile-logo {
+    display: none;
+  }
+  
+  #main .post-image {
     display: none;
   }
 }
