@@ -3,11 +3,11 @@ title: For Authors and Contributors
 showTitle: true
 ---
 
-<div class="col-sm-12" id="featured">
-    <div class="page-header text-muted">
-        Important Dates
-    </div>
-</div>
+{% callout warning %}
+We will announce when we are ready to begin accepting submissions. This will be mid-summer 2014, and the announcement will be made via the <a href="{{site.base}}/">SIGCSE 2015 blog</a>, Twitter, and the SIGCSE mailing list. 
+{% endcallout %}
+
+{% section Important Dates %}
 
 <div class="row"  style="padding-bottom: 20px;">
 {% for cat in site.data.cfp.dates %}
@@ -40,6 +40,7 @@ showTitle: true
         </dl>
     
 </div></div>
+
 
 {% comment %}
 <div class="col-sm-12" id="featured">
