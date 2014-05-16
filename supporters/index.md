@@ -43,20 +43,65 @@ showTitle: true
  <img src="{{site.base}}/images/keep-connected-200.png" class="img-responive pull-right" style="padding: 20px;"/>
 <p>The Special Interest Group in Computer Science Education of the Association for Computing Machinery (ACM SIGCSE) is a community of approximately 2,600 people whom, in addition to their specialization within computing, have a strong interest in the quality of computing education. The SIGCSE Symposium is the flagship conference of the organization and is regularly attended by more than 1,200 people. Conference attendees are looking for new ideas, textbooks to support their courses, and materials to improve the effectiveness of their teaching. Course related software and hardware systems are of great interest. With increased pressure to pursue distance learning and asynchronous learning, attendees will want to find out about the latest innovations in web authoring tools and class management systems.
 </p>
-<p> <a href="{{site.data.main.prospectusurl}}">The SIGCSE {{site.data.main.year}} Support and Exhibitor Prospectus</a> details the benefits of being a supporter and/or exhibitor at the symposium. If you have any questions, please feel free to contact our Support and Exhibitor Liason, Susan Rodger.
+<p> <a href="{{site.data.main.prospectusurl}}">The SIGCSE {{site.data.main.year}} Support and Exhibitor Prospectus</a> details the benefits of being a supporter and/or exhibitor at the symposium. 
 </div>
 </div> <!-- row -->
 
+Exhibit Manager
+Dorothea Heck
+D. Lawrence Planners LLC
+SIGCSE Exhibition Management
+1125 Atlantic Avenue STE 634
+Atlantic City, NJ 08401
+tel. 609.344.1333 
+fax. 609.348.4433
+E-mail: SIGCSE@dlplan.com
+
+Exhibitor Liaisons
+Prof. Susan Rodger
+Duke University
+tel. 919.660.6595
+Email: rodger@cs.duke.edu
+
+Tom Cortina
+Carnegie Mellon University
+tel. 412.268.3514
+Email: tcortina@cs.cmu.edu
+
+
+
+<p>If you have questions about being an exhibitor, please feel free to contact our exhibit manager or liaison.</p>
+
 <dl class="dl-horizontal">
-    <dt>Name</dt>
-    <dd> Dr. Susan Rodger</dd>
+    <dt> Title </dt>
+    <dd> Exhibit Liaison </dd>
+    <dt> Name </dt>
+    <dd> Dorothea Heck </dd>
     <dt> Institution </dt>
-    <dd> Duke University </dd>
+    <dd> D. Lawrence Planners LLC </dd>
+    <dt> Address </dt>
+    <dd> 1125 Atlantic Avenue STE 634, Atlantic City, NJ 08401 </dd>
     <dt> Telephone </dt>
-    <dd> +1 (919)-660-6595 </dd>
+    <dd> +1 (609)-344-1333 </dd>
+    <dt> Fax </dt>
+    <dd> +1 (609)-348-4433 </dd>
     <dt> Email </dt>
-    <dd> <a href="mailto:rodger@cs.duke.edu">rodger@cs.duke.edu</a> </dd>
+    <dd> <a href="mailto:SIGCSE@dlplan.com">SIGCSE@dlplan.com</a> </dd>
 </dl>
+
+<dl class="dl-horizontal">
+    <dt> Title </dt>
+    <dd> Exhibit Liaison </dd>
+    <dt> Name </dt>
+    <dd> Tom Cortina </dd>
+    <dt> Institution </dt>
+    <dd> Carnegie Mellon University </dd>
+    <dt> Telephone </dt>
+    <dd> +1 (412)-268-3514 </dd>
+    <dt> Email </dt>
+    <dd> <a href="mailto:tcortina@cs.cmu.edu">tcortina@cs.cmu.edu</a> </dd>
+</dl>
+
 
 {% comment %}
 <!-- SIGCSE 2014 Exhibitors -->
