@@ -43,12 +43,78 @@ showTitle: true
  <img src="{{site.base}}/images/keep-connected-200.png" class="img-responive pull-right" style="padding: 20px;"/>
 <p>The Special Interest Group in Computer Science Education of the Association for Computing Machinery (ACM SIGCSE) is a community of approximately 2,600 people whom, in addition to their specialization within computing, have a strong interest in the quality of computing education. The SIGCSE Symposium is the flagship conference of the organization and is regularly attended by more than 1,200 people. Conference attendees are looking for new ideas, textbooks to support their courses, and materials to improve the effectiveness of their teaching. Course related software and hardware systems are of great interest. With increased pressure to pursue distance learning and asynchronous learning, attendees will want to find out about the latest innovations in web authoring tools and class management systems.
 </p>
-<p>In addition to selecting the textbooks and support materials for their courses, conference attendees influence the choice of computing equipment for their laboratories as well as for their departments. They select the tools that support teaching and their own scholarly work. They also determine what languages will be used in their courses and what compilers and development environments will be installed. These professionals set aside the time of the Symposium to review what is available and make their choices for the coming years. This is the most efficient way to interact with the most active teaching faculty in computing and information science.
-</p>    </div>
+<p> <a href="{{site.data.main.prospectusurl}}">The SIGCSE {{site.data.main.year}} Support and Exhibitor Prospectus</a> details the benefits of being a supporter and/or exhibitor at the symposium. If you have any questions, please feel free to contact our Support and Exhibitor Liason, Susan Rodger.
+</div>
 </div> <!-- row -->
 
+<dl class="dl-horizontal">
+    <dt>Name</dt>
+    <dd> Dr. Susan Rodger</dd>
+    <dt> Institution </dt>
+    <dd> Duke University </dd>
+    <dt> Telephone </dt>
+    <dd> +1 (919)-660-6595 </dd>
+    <dt> Email </dt>
+    <dd> <a href="mailto:rodger@cs.duke.edu">rodger@cs.duke.edu</a> </dd>
+</dl>
 
-
+{% comment %}
+<!-- SIGCSE 2014 Exhibitors -->
+<div class="col-sm-12" id="featured">
+    <div class="page-header text-muted">
+        Exhibitors in 2014...
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12" style="margin-bottom: 10px;">
+    <i>We look forward to seeing these and many other world-class exhibitors at SIGCSE 2015.</i>
+</div>
+    <div class="col-sm-6" >
+        <ul>
+          <li>ABET</li>
+          <li>ACM Committee for Computing Education in Community Colleges</li>
+          <li>ACM Council on Women in Computing (ACM-W)</li>
+          <li>ACM SIGAda</li>
+          <li>Aldebaran Robotics</li>
+          <li>Auburn University</li>
+          <li>Broadening Participation in Computing</li>
+          <li>Cengage Learning</li>
+          <li>Clemson University/School of Computing</li>
+          <li>Computer Science Teachers Association (CSTA)</li>
+          <li>Consortium for Computing Science in Colleges</li>
+          <li>CRC Press</li>
+          <li>Franklin, Beedle & Associate</li>
+          <li>GitHub</li>
+          <li>Harvey Mudd College – CS Teaching Tips</li>
+          <li>ICCD – Institute for Certification of Computing Professionals</li>
+        </ul>    
+    </div>  
+    <div class="col-sm-6">
+        <ul>
+          <li>InterSystems Corporation</li>
+          <li>IIE/Council for International Exchange of Scholars</li>
+          <li>Jones &amp; Bartlett Learning</li>
+          <li>Kent State University/ School of Digital Sciences</li>
+          <li>Lego Education</li>
+          <li>Mercury Learning &amp; Information</li>
+          <li>Microsoft</li>
+          <li>NSF</li>
+          <li>OpenDSA/Ensemble</li>
+          <li>Oracle Corporation</li>
+          <li>Pearson</li>
+          <li>Piazza</li>
+          <li>qwikLABS Inc.</li>
+          <li>Springer</li>
+          <li>Teradata University Network</li>
+          <li>The MIT Press</li>
+          <li>Turing's Craft, Inc.</li>
+          <li>VA Tech/Web-CAT</li>
+          <li>Wiley</li>
+          <li>Zyante, Inc.</li>
+      </ul>
+  </div>
+</div> <!-- row -->
+{% endcomment %}
 
 {% comment %}
 <div class="col-sm-12" id="featured">
