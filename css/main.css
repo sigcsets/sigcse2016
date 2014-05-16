@@ -56,7 +56,7 @@ ul {
     /* http://android272.deviantart.com/art/Purple-Background-394046115 */
     /* https://www.flickr.com/photos/pinksherbet/6816226238/in/photostream/ */
     /* https://www.flickr.com/photos/pinksherbet/6816233706/in/photostream/ */  
-    background-image:url('/images/purple.jpg');
+    background-image:url('/images/purple.png');
     background-size:cover;
     background-attachment:fixed;
 }
