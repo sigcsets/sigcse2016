@@ -1,6 +1,5 @@
 ---
 title: The Premier Event in Computer Science Education
-layout: base
 showTitle: true
 ---
 

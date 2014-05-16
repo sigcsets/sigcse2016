@@ -1,6 +1,5 @@
 ---
 title: For Authors and Contributors
-layout: base
 showTitle: true
 ---
 

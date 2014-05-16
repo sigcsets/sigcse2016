@@ -1,6 +1,5 @@
 ---
 title: Call For Papers
-layout: base
 showTitle: true
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Attributions
-layout: base
 showTitle: true
 ---
 
@@ -17,8 +16,8 @@ showTitle: true
     <dd> MIT License </dd>
     <dt>  <a href="http://www.bootply.com/templates">Basis Template</a> </dt>
     <dd>  MIT License </dd>
-    <dt> </dt>
-    <dd> </dd>
+    <dt> <a href="http://jekyllrb.com/">Jekyll</a> </dt>
+    <dd> MIT License </dd>
 </dl>
 
 

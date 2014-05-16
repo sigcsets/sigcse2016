@@ -1,5 +1,5 @@
 local:
-	jekyll serve -w --base /
+	jekyll serve -w --config _config.yml
 
 remote:
 	jekyll build --config _config.yml,_config_remote.yml

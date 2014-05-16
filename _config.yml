@@ -1,5 +1,12 @@
 name: ACM SIGCSE 2015
 markdown: kramdown
-pygments: true
+highlighter: pygments
 
 purple: "#662D91"
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      layout: "base"
