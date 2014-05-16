@@ -3,9 +3,7 @@ title: For Authors and Contributors
 showTitle: true
 ---
 
-{% callout warning %}
-We will announce when we are ready to begin accepting submissions. This will be mid-summer 2014, and the announcement will be made via the <a href="{{site.base}}/">SIGCSE 2015 blog</a>, Twitter, and the SIGCSE mailing list. 
-{% endcallout %}
+{% include submission-announce-when-ready.html %}
 
 {% section Important Dates %}
 
