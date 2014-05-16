@@ -12,3 +12,18 @@ The PageSpeed calculator is here:
 
 http://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsigcse2015.sigcse.org%2F
 
+After some hacking around, I've managed to automate the compression and minimization of things with a Bash script. It's a hack, but it will work. (I'm sure the cool kids use Grunt, or some other Javascript thing.)
+
+For now, we score 68/100 on PageSpeed, which is an improvement from where things were. 
+
+Should Fix:
+Eliminate render-blocking JavaScript and CSS in above-the-fold content
+
+Consider Fixing:
+Leverage browser caching
+Enable compression
+
+FIXME: I'm not sure how to fix my JavaScript blocking yet... I've moved things to the bottom of the page wherever possible. I'll come back to it.
+
+We score 85/100 on the desktop.
+

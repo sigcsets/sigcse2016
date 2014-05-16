@@ -20,6 +20,7 @@ http://furbo.org/2007/07/24/one-line-of-code/
     html {
         font-size: 12px;
     }
+    
 }
 
 @media (min-width: 780px) {
@@ -40,6 +41,10 @@ http://furbo.org/2007/07/24/one-line-of-code/
     html {
         font-size: 9px;
     }
+    #sidebar-footer {
+      text-align: left;
+      width: 100%;
+    }
 }
 
 @media (max-width: 623px) {
@@ -47,11 +52,16 @@ http://furbo.org/2007/07/24/one-line-of-code/
         font-size: 8px;
     }
     
-    
     #sidebar {
       font-size: 2em;
       text-align: center;
       margin:0 auto;
+    }
+    
+    #sidebar-footer {
+      font-size: 0.8em;
+
+      width: 100%;
     }
     #sidebar a.logo {  
       font-size:3em;
@@ -60,15 +70,16 @@ http://furbo.org/2007/07/24/one-line-of-code/
       margin-bottom: 30px;
     }
   
-    #sidebar div.mobile-logo {
+    #sidebar div.mobile-only {
       display: block;
       width: 100%;
     }
   
-    #main div.mobile-logo {
+    #main div.mobile-only {
       display: none;
     }
-  
+    
+    
     #main .post-image {
       display: none;
     }

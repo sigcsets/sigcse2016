@@ -20,7 +20,9 @@
                          <h2>
                              <a href="/">SIGCSE 2015</a>
                          </h2>
-                         <div class="mobile-logo center-block">
+                         <div class="mobile-only center-block">
+                             <hr>
+                             <!--
                              <a class="logo" href="{{site.base}}" >
                                  <img 
                                      style = "width: 100%; height: auto; display: block; max-width: 600px"
@@ -28,6 +30,7 @@
                                      alt = "SIGCSE (ACM Special Interest Group Computer Science Education) 2015"
                                  />
                              </a>
+                                 -->
                          </div>
                         <ul class="nav">
                             {% for elem in site.data.nav %}
@@ -38,7 +41,7 @@
                                 <a href="/rss.xml">{% icon rss-square %} RSS Feed</a>
                             </li>
                         </ul>
-                        <ul class="nav hidden-xs" id="sidebar-footer">
+                        <ul class="nav" id="sidebar-footer">
                             <li>
                                 <small>
                                     <a href="{{site.base}}/policies.html">
@@ -63,7 +66,7 @@
                                     <h2>{{page.title}}</h2>
                                 {% endif %}
                             </div> <!-- sm-6 title -->
-                            <div class="full pull-right mobile-logo col-sm-6" style="padding-top: 20px;">
+                            <div class="full pull-right mobile-only col-sm-6" style="padding-top: 20px;">
                                 <a class="logo" href="{{site.base}}" >
                                     <img 
                                         style = "width: 100%; height: auto; display: block; max-width: 400px"
@@ -78,7 +81,9 @@
                                 {{content}}
                                 <hr>
                                 <div class="row" id="footer">
-                                    <div class="col-sm-6"></div>
+                                    <div class="col-sm-6">
+                                  
+                                    </div>
                                     
                                 </div> <!-- footer -->
                             </div><!-- /col-9 -->

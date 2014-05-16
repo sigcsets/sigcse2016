@@ -95,13 +95,15 @@ ul {
   text-shadow:0 0 0;
 }
 #sidebar-footer {
-  position:absolute;bottom:5px;
+  position: absolute;
+  bottom:5px;
+  
 }
 #footer {
   margin-bottom:20px;
 }
 
-#sidebar div.mobile-logo {
+#sidebar div.mobile-only {
   display: none;
 }
 
