@@ -1,4 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html>
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"> -->
 <html lang="en">
     <head>
         <title>
@@ -32,7 +33,7 @@
                             {% for elem in site.data.nav %}
                                 <li> <a href="{{elem.link}}">{{elem.text}}</a> </li>
                             {% endfor %}
-                            <hr/>
+                            <li><hr ></li>
                             <li>
                                 <a href="/rss.xml">{% icon rss-square %} RSS Feed</a>
                             </li>

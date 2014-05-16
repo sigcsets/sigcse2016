@@ -33,7 +33,7 @@ showTitle: true
     </div>
     <div class="col-sm-9 col-offset-sm-1">
         <a href="https://www.flickr.com/photos/pinksherbet/6816226238/in/photostream/">Purple Wet Glass Texture Free Creative Commons</a>
-        <br/>
+        <br>
         CC-BY photo from <i>Pink Sherbert Photography</i>, by D. Sharon Pruitt. Used as sidebar background.
     </div>
 </div>
