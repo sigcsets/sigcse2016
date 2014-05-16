@@ -8,8 +8,8 @@
 
         {% include meta-tags.html %} 
         <!--[if lt IE 9]> <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
-         {% include css.html %} 
-         {% include fonts.html %}
+        {% include fonts.html %}
+        
     </head>
     <body>
         <div class="wrapper">
@@ -87,7 +87,8 @@
                     </div><!-- /main -->
                 </div>
             </div>
-            {% include js-bottom.html %}
         </div> <!-- wrapper -->
+        {% include js-bottom.html %}
     </body>
 </html>
+{% include css.html %} 

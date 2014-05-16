@@ -79,6 +79,7 @@ ul {
     background-color:transparent;
 	text-shadow:1px 0 1px #888888;
 }
+
 #sidebar a.logo {
   display:block;
   padding:3px;
@@ -87,8 +88,8 @@ ul {
   height:40px;
   width:240px;
   margin:15px;
-  font-size:26px;
-  font-weight:700;
+  font-size: 2em;
+  font-weight: 700;
   text-align:center;
   text-decoration:none;
   text-shadow:0 0 0;
@@ -148,34 +149,4 @@ small.text-muted {
     white-space: normal;
 
 }
-
-/* center and adjust the sidebar contents on smaller devices */
-@media (max-width: 768px) {
-  #sidebar,#sidebar a.logo {
-    text-align:center;
-    margin:0 auto;
-    margin-top:30px;
-    font-size:26px;
-  }
-  #sidebar a.logo {
-    font-size:50px;
-    height:150px;
-    width:300px;
-    margin-bottom:30px;
-  }
-  
-  #sidebar div.mobile-logo {
-    display: block;
-    width: 100%;
-  }
-  
-  #main div.mobile-logo {
-    display: none;
-  }
-  
-  #main .post-image {
-    display: none;
-  }
-}
-
 
