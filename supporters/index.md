@@ -47,7 +47,6 @@ showTitle: true
 </div>
 </div> <!-- row -->
 
-
 <p>If you have questions about being an exhibitor, please feel free to contact our exhibit manager or liaison.</p>
 
 <dl class="dl-horizontal">
