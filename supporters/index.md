@@ -47,28 +47,6 @@ showTitle: true
 </div>
 </div> <!-- row -->
 
-Exhibit Manager
-Dorothea Heck
-D. Lawrence Planners LLC
-SIGCSE Exhibition Management
-1125 Atlantic Avenue STE 634
-Atlantic City, NJ 08401
-tel. 609.344.1333 
-fax. 609.348.4433
-E-mail: SIGCSE@dlplan.com
-
-Exhibitor Liaisons
-Prof. Susan Rodger
-Duke University
-tel. 919.660.6595
-Email: rodger@cs.duke.edu
-
-Tom Cortina
-Carnegie Mellon University
-tel. 412.268.3514
-Email: tcortina@cs.cmu.edu
-
-
 
 <p>If you have questions about being an exhibitor, please feel free to contact our exhibit manager or liaison.</p>
 
