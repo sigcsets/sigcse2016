@@ -10,8 +10,8 @@
 - text: For Students
   link: /students
 
-- text: For Attendees
-  link: /attendees  
+# - text: For Attendees
+#  link: /attendees  
 
 - text: Program Committee
   link: /commitee.html
