@@ -31,85 +31,92 @@
   title: Exhibitor Liaison
   institution: Duke University
   email: rodger@cs.duke.edu
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
 
 - name: Lynn Degler
-  title: Registration 
+  title: Registration Team
   institution: Rose-Hulman Institute of Technology
   email: degler@rose-hulman.edu
   image: committee-22.png
   blurb: 
 
 - name: Cary Laxer
-  title:  Registration
+  title:  Registration Team
   institution: Rose-Hulman Institute of Technology
   email: laxer@rose-hulman.edu
   image: committee-20.png
   blurb: 
 
 - name: Larry Merkle
-  title: Registration
+  title: Registration Team
   institution: Computational Optimization Services
   email: l.merkle@ieee.org
   image: committee-36.png
   blurb: 
 
 - name: Peter DePasquale
-  title: Panels and Special Sessions
+  title: Panels and Special Sessions Wrangler
   institution: The College of New Jersey
   email: depasqua@tcnj.edu
   image: committee-15.png
   blurb: 
 
 - name: Paul Cater
-  title: Workshops
+  title: Workshops Co-Wrangler
   institution: University of British Columbia
   email: pcarter@cs.ubc.ca
   image: committee-38.png
   blurb: 
 
 - name: Alvaro Monge
-  title: Workshops
+  title: Workshops Co-Wrangler
   institution: California State University, Long Beach
   email: alvaro.monge@csulb.edu
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
 
 
 - name: Michelle Craig
-  title: Posters
+  title: Posters Wrangler
   institution: University of Toronto
   email: mcraig@cs.toronto.edu
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
 
 - name: Ria Galanos
-  title: Birds-Of-a-Feather (BOFs)
+  title: Birds-Of-a-Feather (BOFs) Wrangler
   institution: Thomas Jefferson High School for Science
   email: ria.galanos@gmail.com
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
 
 - name: Steve Cooper
   title: Evaluations
   institution: Stanford University
   email: coopers@cs.stanford.edu
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
 
 - name: Cheryl Seals
   title: Kids' Camp
   institution: Auburn University
   email: asealscs@auburn.edu
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
 
 - name: Valerie Henderson Summet
   title: Kids' Camp
   institution: Emory University
   email: valerie@mathcs.emory.edu
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
 
 - name: Brian Dorn
@@ -130,35 +137,40 @@
   title: Database Administrator
   institution: Grinnell College
   email: walker@cs.grinnell.edu
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
 
 - name: Pam Cutter
-  title: Student Volunteers and Student Activities
+  title: Student Volunteers and Student Activities Wrangler
   institution: Kalamazoo College
   email: Pam.Cutter@kzoo.edu
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
 
 - name: Sarah Heckman
   title: Student Volunteers and Student Activities
   institution: North Carolina State University
   email: sarah_heckman@ncsu.edu
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
 
 - name: Sara Melnick
   title: Student Volunteers and Student Activities
   institution: Bronx Academy for Software Engineering
   email: sararielle@gmail.com
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb:
     
 - name: RJ Dake
   title: K-12 Liaison
   institution: Kansas State Department of Education
   email: rjdake@ksde.org
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
 
 - name: Matt Jadud
@@ -172,14 +184,16 @@
   title: International Liaison
   institution: University of Auckland
   email: paul@cs.auckland.ac.nz
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
 
 - name: Paul Tymann
   title: Treasurer
   institution: Rochester Institute of Technology
   email: ptt@rit.edu
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
 
 - name: Briana Morrison
@@ -190,16 +204,18 @@
   blurb: 
 
 - name: Ann Sobel
-  title: Student Research Competition
+  title: Student Research Competition Chair
   institution: Miami University (Ohio)
   email: sobelae@miamioh.edu
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
 
 - name: Brian Hare
   title: Local Arrangements
   institution: University of Missouri - Kansas City
   email: hareb@umkc.edu
-  image: 
+  image: meeple-crown-rusty.png
+  rotation: 0
   blurb: 
  

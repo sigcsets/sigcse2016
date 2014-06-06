@@ -3,7 +3,9 @@ title: For Authors and Contributors
 showTitle: true
 ---
 
+{% unless site.data.flags.paperSubmissionReady %}
 {% include submission-announce-when-ready.html %}
+{% endunless %}
 
 {% section Important Dates %}
 

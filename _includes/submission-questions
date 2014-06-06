@@ -1,0 +1,33 @@
+## Questions
+{% assign count = 0 %}
+{% assign plural = "" %}
+
+{% for cochair in site.data.committee %}
+  {% if (cochair.title == include.category) %}
+    {% assign count = count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}
+Liquid number comparison is awful.
+http://stackoverflow.com/questions/16762714/how-can-i-compare-a-strings-size-length-in-jekylls-liquid-templates
+{% endcomment %}
+
+{% capture plurality %}{{count | minus: 2}}{% endcapture %}
+
+{% unless plurality contains '-'  %}
+  {% assign plural = "s" %}
+{% endunless %}
+
+If you have questions about anything discussed above, please contact the {{site.data.main.upper}} {{site.data.main.year}} {{include.category}}{{plural}}. 
+
+<ul style="text-indent: -1em;">
+{% for cochair in site.data.committee %}
+{% if (cochair.title == include.category) %}
+<li style="padding-bottom: 10px;"> <b>{{cochair.name}}</b><br/>
+  {{cochair.institution}} <br/>
+  <a href="mailto:{{cochair.email}}">{{cochair.email}}</a>
+</li>
+{% endif %}
+{% endfor %}
+</ul>

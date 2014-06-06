@@ -1,6 +1,18 @@
 - text: For Authors
   link: /authors/index.html
-- text: For Supporters
+
+- text: For Reviewers
+  link: /reviewers
+
+- text: For Exhibitors & Supporters
   link: /supporters/index.html
+
+- text: For Students
+  link: /students
+
+- text: For Attendees
+  link: /attendees  
+
 - text: Program Committee
   link: /commitee.html
+  
