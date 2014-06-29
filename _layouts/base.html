@@ -9,6 +9,7 @@
         {% include meta-tags.html %}
         <!--[if lt IE 9]> <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
         {% include fonts.html %}
+        {% include favicon.html %}
 
     </head>
     <body>
@@ -37,10 +38,10 @@
                                 <li> <a href="{{elem.link}}">{{elem.text}}</a> </li>
                             {% endfor %}
                             <li><hr ></li>
-                            <li>
-                                <a href="/rss.xml">{% icon rss-square %} RSS Feed</a>
-                            </li>
+                            {% include social-media-list-items.html %}
                         </ul>
+                        
+                        
                         <ul class="nav" id="sidebar-footer">
                             <li>
                                 <small>

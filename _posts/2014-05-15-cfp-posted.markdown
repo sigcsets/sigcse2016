@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title:  "Call For Papers Posted"
 date:   2014-05-15
 categories: update

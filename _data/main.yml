@@ -2,10 +2,27 @@ lower: sigcse
 upper: SIGCSE
 theme: Keep Connected – Keep Committed – Keep Computing
 index: 46th
+month: March
 start: 4th
 end: 7th
 year: 2015
 url: http://www.sigcse2015.sigcse.org
+
+
+bookingURL: http://goo.gl/mzIsp2
+bookingStart: 3rd
+bookingEnd: 7th
+conferenceHotel: Kansas City Mariott Downtown
+nearestAirport: Kansas City International Airport
+nearestAirportCode: MCI
+
+rates:
+  Early: "$285 for SIGCSE members, $365 for non-members"
+  Late: "$335 for SIGCSE members, $415 for non-members"
+  On-site: "$385 for SIGCSE members, $460 for non-members"
+  K-12 two-day (Friday/Saturday): "$150 for early, $180 for late or onsite"
+  K-12 one-day (Saturday): "$80 for early, $110 for late or onsite"
+  Students (at any time): "$60 for ACM/SIGCSE members, $70 for non-members"
 
 prospectusurl: /supporters/sigcse-2015-prospectus.pdf
 
