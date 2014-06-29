@@ -87,13 +87,13 @@
                         <div class="padding">
                             <div class="row" style="margin-bottom: 10px;">
                             <div class="col-md-8">
-                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <div id="the-carousel" class="carousel slide" data-ride="carousel">
                               <!-- Indicators -->
                               <ol class="carousel-indicators">
                                 {% assign counter = '.' %}
                                 {% for i in site.data.index_carousel %}
                                   {% assign active = "" %}
-                                  <li data-target="#carousel-example-generic" 
+                                  <li data-target="#the-carousel" 
                                       data-slide-to="{{counter.size}}" class="{{i.active}}">
                                     </li>
                                   {% capture counter %}{{ counter | append:'.' }}{% endcapture %}
@@ -119,11 +119,11 @@
 
                               <!-- Controls -->
                               <a class="left carousel-control" 
-                                  href="#carousel-example-generic" role="button" data-slide="prev">
+                                  href="#the-carousel" role="button" data-slide="prev">
                                 <span class="glyphicon glyphicon-chevron-left"></span>
                               </a>
                               <a class="right carousel-control" 
-                                  href="#carousel-example-generic" role="button" data-slide="next">
+                                  href="#the-carousel" role="button" data-slide="next">
                                 <span class="glyphicon glyphicon-chevron-right"></span>
                               </a>
                             </div>
