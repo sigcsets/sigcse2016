@@ -14,3 +14,7 @@ The open exchange of ideas and the freedom of thought and expression are central
 Conference participants violating these standards may be sanctioned, expelled from the conference or asked not to attend future conferences or conference events, at the discretion of the conference organizers and the SIG executive committee.
 
 If you believe you have been harassed or notice that someone else is being harassed, or have any other concerns, you are encouraged to report the incident in confidence to either of the conference chairs.
+
+{% section Conference Policies %}
+
+SIGCSE reserves the right to reject any materials that we find offensive or inappropriate, such as politically charged material, and will not refund any expenses incurred.
