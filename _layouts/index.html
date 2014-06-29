@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"> -->
+<html lang="en">
+    <head>
+        <title>
+            {{site.data.main.ORG}} {{site.data.main.year}} - {{page.title}}
+        </title>
+
+        {% include meta-tags.html %}
+        <!--[if lt IE 9]> <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+        {% include fonts.html %}
+
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="box">
+                <div class="row">
+                    <!-- sidebar -->
+                    <div class="column col-sm-3" id="sidebar">
+                      <div>
+                        <center>
+                          <a class="logo" href="{{site.base}}" >
+                              <img
+                                  style = "width: 100%; height: auto; display: block; max-width: 600px"
+                                  src = "{{site.base}}/images/logos/{{site.data.logos.hortz_white}}"
+                                  alt = "SIGCSE (ACM Special Interest Group Computer Science Education) 2015"
+                              />
+                          </a>
+                        </center>
+                      </div>
+                      <hr/>
+                         <h2>
+                             <a href="/">SIGCSE 2015</a>
+                         </h2>                         
+                        <small>March 4-7, 2015 in Kansas City, MO</small>
+                        <hr/>
+                        <ul class="nav">
+                            {% for elem in site.data.nav %}
+                                <li> <a href="{{elem.link}}">{{elem.text}}</a> </li>
+                            {% endfor %}
+                            <li><hr ></li>
+                            <li>
+                                <a href="/rss.xml">{% icon rss-square %} RSS Feed</a>
+                            </li>
+                        </ul>
+                        <ul class="nav" id="sidebar-footer">
+                            <li>
+                                <small>
+                                    <a href="{{site.base}}/policies.html">
+                                        Conference Policies
+                                    </a>
+                                </small>
+                            </li>
+                            <li>
+                                <small>
+                                    <a href="{{site.base}}/attributions.html">Licenses and Attributions</a>
+                                </small>
+                            </li>
+                        </ul>
+                    </div><!-- /sidebar -->
+
+                    <!-- main -->
+                    <div class="column col-sm-9" id="main">
+                        <div class="padding">
+                            <div class="row" style="margin-bottom: 10px;">
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                              <!-- Indicators -->
+                              <ol class="carousel-indicators">
+                                {% assign counter = '.' %}
+                                {% for i in site.data.index_carousel %}
+                                  {% assign active = "" %}
+                                  <li data-target="#carousel-example-generic" 
+                                      data-slide-to="{{counter.size}}" class="{{i.active}}">
+                                    </li>
+                                  {% capture counter %}{{ counter | append:'.' }}{% endcapture %}
+                                  {% endfor %}
+                              </ol>
+
+                              <!-- Wrapper for slides -->
+                              <div class="carousel-inner">
+                            
+                                {% for i in site.data.index_carousel %}
+                                {% assign active = false %}
+                                {% if i.active %}
+                                {% assign active = " active " %}
+                                {% endif %}
+                                <div class="item {{active}}">
+                                  <img src="{{i.image}}" width="100%" alt="{i.caption}">
+                                  <div class="carousel-caption">
+                                  {{i.caption}}
+                                  </div>
+                                </div>
+                                {% endfor %}
+                              </div>
+
+                              <!-- Controls -->
+                              <a class="left carousel-control" 
+                                  href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                              </a>
+                              <a class="right carousel-control" 
+                                  href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                              </a>
+                            </div>
+                            
+                        </div> <!-- sm-6 row -->
+                            <div class="row">
+                            <div class="full col-sm-9">
+                                {{content}}
+                                <hr>
+                                <div class="row" id="footer">
+                                    <div class="col-sm-6">
+
+                                    </div>
+
+                                </div> <!-- footer -->
+                            </div><!-- /col-9 -->
+                        </div><!-- row -->
+                        </div><!-- /padding -->
+                    </div><!-- /main -->
+                </div>
+            </div>
+        </div> <!-- wrapper -->
+        {% include js-bottom.html %}
+        {% include analytics.html %}
+    </body>
+</html>
+{% include css.html %}
