@@ -1,10 +1,10 @@
 ---
 title: SIGCSE 2015
-layout: home
+layout: flat
 includeBlogPosts: true
 ---
 
-<div class="col-sm-12" id="featured">
+<div class="col-sm-12">
     <div class="page-header text-muted">
         {{site.data.main.upper}} News Flashes
     </div>
@@ -16,15 +16,17 @@ includeBlogPosts: true
         {% assign counter = '.' %}
         {% for post in site.posts  %}
         {% if counter.size < 5 >%}
-          <li>{{ post.date | date_to_string }} &raquo; <a href="{{site.base}}/update/index.html#{{post.title | remove: " "}}">{{ post.title }}</a></li>
+          <li>{{ post.date | date_to_string }} &raquo; <a href="{{site.base}}/update/index.html#{{post.title | remove:  ' '}}">{{ post.title }}</a></li>
           {% endif %}
           {% capture counter %}{{counter}}.{% endcapture %}
         {% endfor %}
       </ul>
-    </div>
+    </div> <!-- News Flashes -->
 
-  <div class="col-sm-12">
-      <div class="page-header text-muted">
-          Sponsors
-      </div>
-  </div><!--/top story-->
+  {% for link in site.data.nav %}
+  {% assign inc = link.include | remove: 'homepage/' | remove: '.html' %}
+  <div class="{{inc}}" id="{{inc}}">
+    {% include {{link.include}} %}
+  </div>
+  {% endfor %}
+</div>

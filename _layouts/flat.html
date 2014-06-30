@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"> -->
+<html lang="en">
+    <head>
+        <title>
+            {{site.data.main.ORG}} {{site.data.main.year}} - {{page.title}}
+        </title>
+    
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+        
+        {% include meta-tags.html %}
+        {% include fonts.html %}
+        {% include favicon.html %}
+        {% include js-bottom.html %}
+        {% include css.html %}
+
+    </head>
+  <body data-spy="scroll" data-offset="0" data-target="#navigation">
+
+    <!-- Fixed navbar -->
+    <div id="navigation" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              
+          </button>
+          <a class="navbar-brand" href="{{site.base}}/index.html"><b>{{site.data.main.upper}} {{site.data.main.year}}</b></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            {% for link in site.data.nav %}
+              <li><a href="{{site.base}}/index.html#{{link.include | remove: 'homepage/' | remove: '.html'}}" class="smothscroll">{{link.text}}</a></li>
+            {% endfor %}
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <!-- Body content -->
+    <div class="container">
+    	<div class="row">
+    		<div class="col-lg-12">
+          {{content}}
+	    	</div>
+	    </div> <!--/ row -->
+  	</div><!--/ container -->
+
+  </body>
+</html>
+

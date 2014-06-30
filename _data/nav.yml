@@ -1,18 +1,16 @@
-- text: For Authors
-  link: /authors/index.html
-
-- text: For Reviewers
-  link: /reviewers
-
-- text: For Exhibitors & Supporters
+- text: "Exhibitors & Supporters"
   link: /supporters/index.html
+  include: homepage/exhibitors.html
 
-- text: For Students
-  link: /students
+- text: "Take Part"
+  link: /takepart.html
+  include: homepage/takepart.html
 
-- text: For Attendees
-  link: /attendees
+- text: "Attend!"
+  link: /attendees/index.html
+  include: homepage/attend.html
 
-- text: Program Committee
+- text: "Program Committee"
   link: /commitee.html
+  include: homepage/pc.html
   
