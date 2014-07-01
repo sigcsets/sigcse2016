@@ -128,4 +128,4 @@ Which, as it happens, is why Kurt had to take a sabbatical this year; he's still
 
 <br/>
 
-We don't encourage vandalism, as it goes against the ACM professional code of conduct. Sadly, there is little to be done about your SIGCSE Conference Chairs. They're a rough bunch.
+We don't encourage vandalism, as it goes against the ACM professional code of conduct. Sadly, there is little to be done about your SIGCSE Symposium Chairs. They're a rough bunch.

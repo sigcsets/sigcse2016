@@ -49,6 +49,7 @@ showTitle: true
 
 <p>If you have questions about being an exhibitor, please feel free to contact our exhibit manager or liaison.</p>
 
+{% comment %}
 <dl class="dl-horizontal">
     <dt> Title </dt>
     <dd> Exhibit Liaison </dd>
@@ -65,10 +66,11 @@ showTitle: true
     <dt> Email </dt>
     <dd> <a href="mailto:SIGCSE@dlplan.com">SIGCSE@dlplan.com</a> </dd>
 </dl>
+{% endcomment %}
 
 <dl class="dl-horizontal">
     <dt> Title </dt>
-    <dd> Exhibit Liaison </dd>
+    <dd> Sponsor/Exhibit Liaison </dd>
     <dt> Name </dt>
     <dd> Tom Cortina </dd>
     <dt> Institution </dt>
@@ -77,6 +79,19 @@ showTitle: true
     <dd> +1 (412)-268-3514 </dd>
     <dt> Email </dt>
     <dd> <a href="mailto:tcortina@cs.cmu.edu">tcortina@cs.cmu.edu</a> </dd>
+</dl>
+
+<dl class="dl-horizontal">
+    <dt> Title </dt>
+    <dd> Sponsor/Exhibit Liaison </dd>
+    <dt> Name </dt>
+    <dd> Dave Musicant </dd>
+    <dt> Institution </dt>
+    <dd> Carleton College </dd>
+    <dt> Telephone </dt>
+    <dd> +1 (507)-222-4369 </dd>
+    <dt> Email </dt>
+    <dd> <a href="mailto:dmusican@carleton.edu">dmusican@carleton.edu</a> </dd>
 </dl>
 
 

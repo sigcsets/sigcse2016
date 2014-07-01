@@ -1,8 +1,10 @@
-
+---
+layout: none
+---
 
 body {
   background-color: white;
-    font-family: "Lato";
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #555;
@@ -12,22 +14,12 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
-    font-weight: 800;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
     color: #333;
-}
-
-
-/* Paragraph & Typographic */
-p {
-    line-height: 28px;
-    margin-bottom: 25px;
-}
-
-.centered {
-    text-align: center;
 }
 
 /* Links */
@@ -50,15 +42,6 @@ a:before,
 a:after {
 }
 
- hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
 ul {
     list-style: inside disc;
     margin-left: 0.5em;
@@ -69,12 +52,46 @@ ul li {
     padding-right: 1em;    
 }​
 
+
+{% comment %}
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato";
+    font-weight: 800;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
 div {
   
 }
 
 .exhibitors {
-	background-color: #CECEF6;
   color: white;
-	padding-top: 60px;
+	background-color: {{site.data.main.purple}};
+	padding-top: 10px;
 }
+
+#exhibitors {
+  color: white;
+}
+{% endcomment %}

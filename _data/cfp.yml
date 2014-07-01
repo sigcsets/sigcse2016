@@ -1,11 +1,14 @@
 dates:
-  Papers: Friday, September 5th, 2014
-  Panels: Friday, September 5th, 2014
-  Special Sessions: Friday, September 5th, 2014
-  Workshops: Friday, September 5th, 2014
-  Birds of a Feather: Monday, October 27th, 2014
-  Posters: Monday, October 27th, 2014
-  Student Research Competition: Monday, September 29, 2014
+  Papers: "Friday, September 5th, 2014"
+  Panels: "Friday, September 5th, 2014"
+  Special Sessions: "Friday, September 5th, 2014"
+  Workshops: "Friday, September 5th, 2014"
+  Student Research Competition: "Monday, September 29, 2014"
+  Birds of a Feather: "Monday, October 27th, 2014"
+  Posters: Monday, "October 27th, 2014"
+  Lightning Talks: "October 27th, 2014"
+  Demos: "October 27th, 2014"
+
 
 notifications:
   Student Research Competition: After September 29 (TBA)
@@ -14,12 +17,15 @@ studentResearchCompetition:
   chair: Dr. Ann Sobel
   email: sobelae@miamioh.edu 
   
-papers: Friday, September 5th, 2014
-panels: Friday, September 5th, 2014
-specialsessions: Friday, September 5th, 2014
-workshops: Friday, September 5th, 2014
-bofs: Monday, October 27th, 2014
-posters: Monday, October 27th, 2014
-studentresearch: Monday, September 29, 2014
+papers: "Friday, September 5th, 2014"
+panels: "Friday, September 5th, 2014"
+specialsessions: "Friday, September 5th, 2014"
+workshops: "Friday, September 5th, 2014"
+studentresearch: "Monday, September 29, 2014"
+bofs: "Monday, October 27th, 2014"
+posters: "Monday, October 27th, 2014"
+lightningtalks: "Monday, October 27th, 2014"
+demos: "Monday, October 27th, 2014"
+
 htmlurlpostfix: cfp.html
 pdfurlpostfix: cfp.pdf
