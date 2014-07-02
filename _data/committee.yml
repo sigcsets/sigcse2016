@@ -31,11 +31,19 @@
   blurb: 
 
 - name: Tom Cortina
-  title: Exhibitor Liaison
+  title: Sponsor/Exhibitor Liaison
   institution: Carnegie Melon University
   #email: tcortina@cs.cmu.edu
   email: sigcse2015-exhibitor@rit.edu
-  image: meeple-crown-rusty.png
+  image: tomc-small.png
+  rotation: 0
+  blurb: 
+
+- name: David Musicant
+  title: Sponsor/Exhibitor Liaison
+  institution: Carleton College
+  email: sigcse2015-exhibitor@rit.edu
+  image: dave-small.png
   rotation: 0
   blurb: 
 
@@ -81,8 +89,7 @@
   title: Workshops Co-Wrangler
   institution: California State University, Long Beach
   email: alvaro.monge@csulb.edu
-  #FIXME
-  image: meeple-crown-rusty.png
+  image: alvaro-small.png
   rotation: 0
   blurb: 
 
@@ -91,15 +98,15 @@
   title: Posters Wrangler
   institution: University of Toronto
   email: mcraig@cs.toronto.edu
-  image: meeple-crown-rusty.png
-  rotation: 0
+  image: committee-27.png
+  #rotation: 0
   blurb: 
 
 - name: Ria Galanos
   title: Birds-Of-a-Feather (BOFs) Wrangler
   institution: Thomas Jefferson High School for Science
   email: ria.galanos@gmail.com
-  image: meeple-crown-rusty.png
+  image: ria2-small.png
   rotation: 0
   blurb: 
 
@@ -108,7 +115,7 @@
   institution: Stanford University
   #email: coopers@cs.stanford.edu
   email: sigcse2015-evaluations@rit.edu
-  image: meeple-crown-rusty.png
+  image: stevec-small.png
   rotation: 0
   blurb: 
 
@@ -117,7 +124,7 @@
   institution: Auburn University
   #email: asealscs@auburn.edu
   email: sigcse2015-kidscamp@rit.edu
-  image: meeple-crown-rusty.png
+  image: sealsc-small.png
   rotation: 0
   blurb: 
 
@@ -126,7 +133,7 @@
   institution: Emory University
   #email: valerie@mathcs.emory.edu
   email: sigcse2015-kidscamp@rit.edu
-  image: meeple-crown-rusty.png
+  image: valerie-small.png
   rotation: 0
   blurb: 
 
@@ -151,7 +158,7 @@
   institution: Grinnell College
   #email: walker@cs.grinnell.edu
   email: sigcse2015-database@rit.edu
-  image: meeple-crown-rusty.png
+  image: henry-small.png
   rotation: 0
   blurb: 
 
@@ -160,8 +167,8 @@
   institution: Kalamazoo College
   #email: Pam.Cutter@kzoo.edu
   email: sigcse2015-volunteers@rit.edu
-  image: meeple-crown-rusty.png
-  rotation: 0
+  image: committee-19.png
+  #rotation: 0
   blurb: 
 
 - name: Sarah Heckman
@@ -169,8 +176,8 @@
   institution: North Carolina State University
   #email: sarah_heckman@ncsu.edu
   email: sigcse2015-volunteers@rit.edu
-  image: meeple-crown-rusty.png
-  rotation: 0
+  image: committee-34.png
+  #rotation: 0
   blurb: 
 
 - name: Sara Melnick
@@ -178,8 +185,8 @@
   institution: Bronx Academy for Software Engineering
   #email: sararielle@gmail.com
   email: sigcse2015-volunteers@rit.edu
-  image: meeple-crown-rusty.png
-  rotation: 0
+  image: committee-29.png
+  #rotation: 0
   blurb:
     
 - name: RJ Dake
@@ -204,7 +211,7 @@
   institution: University of Auckland
   #email: paul@cs.auckland.ac.nz
   email: sigcse2015-international@rit.edu
-  image: meeple-crown-rusty.png
+  image: paul-denny-small.png
   rotation: 0
   blurb: 
 
@@ -213,8 +220,8 @@
   institution: Rochester Institute of Technology
   #email: ptt@rit.edu
   email: sigcse2015-treasurer@rit.edu
-  image: meeple-crown-rusty.png
-  rotation: 0
+  image: committee-24.png
+  #rotation: 0
   blurb: 
 
 - name: Briana Morrison
@@ -230,7 +237,7 @@
   institution: Miami University (Ohio)
   #email: sobelae@miamioh.edu
   email: sigcse2015-src@rit.edu
-  image: meeple-crown-rusty.png
+  image: sobel-small.png
   rotation: 0
   blurb: 
 
@@ -239,7 +246,7 @@
   institution: University of Missouri - Kansas City
   #email: hareb@umkc.edu
   email: sigcse2015-local@rit.edu
-  image: meeple-crown-rusty.png
-  rotation: 0
+  image: committee-25.png
+  #rotation: 0
   blurb: 
  

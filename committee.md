@@ -15,7 +15,7 @@ http://stackoverflow.com/questions/2245972/modulus-or-lack-thereof-in-rubys-liqu
 		<img alt="300x200" 
       src="{{site.base}}/images/committee/{{member.image}}" 
       {% if member.rotation %}
-      style="-webkit-transform: rotate({{member.rotation}}deg); -moz-transform: rotate({{member.rotation}}deg);"
+      style="margin-top:-30px; margin-bottom: -30px; -webkit-transform: rotate({{member.rotation}}deg); -moz-transform: rotate({{member.rotation}}deg);"
       {% else %}
       style="-webkit-transform: rotate(90deg); -moz-transform: rotate(90deg);"
       {% endif %}

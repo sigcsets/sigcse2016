@@ -49,8 +49,9 @@ posters: "Monday, October 27th, 2014"
 lightningtalks: "Monday, October 27th, 2014"
 demos: "Monday, October 27th, 2014"
 
-htmlurlpostfix: cfp.html
-pdfurlpostfix: cfp.pdf
+html: "sigcse-2015-cfp.html"
+pdf: "sigcse-2015-cfp.pdf"
+lastupdate: "July 2, 2014"
 
 paperpagelimit: 6
 panelpagelimit: 2

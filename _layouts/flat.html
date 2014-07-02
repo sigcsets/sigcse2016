@@ -43,6 +43,11 @@
     <div class="container">
     	<div class="row">
     		<div class="col-lg-12">
+          {% if page.noTitle %}
+          {% else %}
+            <h1>{{page.title}}</h1>
+          {% endif %}
+          <hr>
           {{content}}
 	    	</div>
 	    </div> <!--/ row -->

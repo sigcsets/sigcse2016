@@ -114,7 +114,6 @@ Here is a sample BOF Proposal: FIXME
     acceptance or rejection notification.
     
 5.  After receiving confirmation, go to the to review your submission
-    for accuracy. Send e-mail to Olaf Hall-Holt
-    if there are any problems.
+    for accuracy.
 
 {% include submission-questions category="Birds-Of-a-Feather (BOFs) Wrangler" %}
