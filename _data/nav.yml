@@ -11,6 +11,6 @@
   include: homepage/attend.html
 
 - text: "Program Committee"
-  link: /commitee.html
+  link: /committee.html
   include: homepage/pc.html
   
