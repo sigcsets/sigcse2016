@@ -41,14 +41,30 @@ showTitle: true
     
 </div></div>
 
+{% section Preparing Your Submissions %}
 
-{% comment %}
-<div class="col-sm-12" id="featured">
-    <div class="page-header text-muted">
-        Preparing Your Submissions
+{% for type in site.data.cfp.includes %}
+  {% cycle 'add rows': '<div class="row" style="padding-bottom: 20px; ">', nil, nil %}
+<div class="col-md-4">
+  <div class="row">
+    <div class="col-md-6">
+      <h3>{{type[0]}}</h3>
     </div>
+    <div class="col-md-6" style="margin-top: 30px;">
+      <small>(<a href="{{type[1]}}.html">submission details</a>)</small>
+    </div>
+  </div>
+  <p>
+    {% capture file %}submissions/{{type[1]}}.md{% endcapture %}
+  {% include {{file}} %}
+  </p>
+  {% comment %}
+  <div class="text-center">
+  <a href="{{type[1]}}.html"><button type="button" class="btn btn-info">submission details</button></a>
+  </div>
+  {% endcomment %}
 </div>
+  {% cycle 'close rows': nil, nil, '</div>' %}
+{% endfor %}
+{% cycle 'close rows': nil, '</div>', '</div>' %}
 
-FIXME: This is where all the details about margins, LaTeX templates, and the like go.
-
-{% endcomment %}

@@ -5,9 +5,31 @@ dates:
   Workshops: "Friday, September 5th, 2014"
   Student Research Competition: "Monday, September 29, 2014"
   Birds of a Feather: "Monday, October 27th, 2014"
-  Posters: Monday, "October 27th, 2014"
+  Posters: "Monday, October 27th, 2014"
   Lightning Talks: "October 27th, 2014"
   Demos: "October 27th, 2014"
+
+shortdates:
+  Papers: "2014-09-05"
+  Panels: "2014-09-05"
+  Spec. Sessions: "2014-09-05"
+  Workshops: "2014-09-05"
+  SRC: "2014-09-29"
+  Birds of a Feather: "2014-10-27"
+  Posters: "2014-10-27"
+  Lightning Talks: "2014-10-27"
+  Demos: "2014-10-27"
+
+includes:
+  Paper: papers
+  Panel: panels
+  Special Session: specialsessions
+  Workshop: workshops
+  Student Research Competition: src
+  Birds of a Feather: bofs
+  Poster: posters
+  Lightning Talk: lightningtalks
+  Demo: demos
 
 
 notifications:
@@ -29,3 +51,7 @@ demos: "Monday, October 27th, 2014"
 
 htmlurlpostfix: cfp.html
 pdfurlpostfix: cfp.pdf
+
+paperpagelimit: 6
+panelpagelimit: 2
+specialsessionpagelimit: 2

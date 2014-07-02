@@ -49,25 +49,6 @@ showTitle: true
 
 <p>If you have questions about being an exhibitor, please feel free to contact our exhibit manager or liaison.</p>
 
-{% comment %}
-<dl class="dl-horizontal">
-    <dt> Title </dt>
-    <dd> Exhibit Liaison </dd>
-    <dt> Name </dt>
-    <dd> Dorothea Heck </dd>
-    <dt> Institution </dt>
-    <dd> D. Lawrence Planners LLC </dd>
-    <dt> Address </dt>
-    <dd> 1125 Atlantic Avenue STE 634, Atlantic City, NJ 08401 </dd>
-    <dt> Telephone </dt>
-    <dd> +1 (609)-344-1333 </dd>
-    <dt> Fax </dt>
-    <dd> +1 (609)-348-4433 </dd>
-    <dt> Email </dt>
-    <dd> <a href="mailto:SIGCSE@dlplan.com">SIGCSE@dlplan.com</a> </dd>
-</dl>
-{% endcomment %}
-
 <dl class="dl-horizontal">
     <dt> Title </dt>
     <dd> Sponsor/Exhibit Liaison </dd>
@@ -94,6 +75,22 @@ showTitle: true
     <dd> <a href="mailto:dmusican@carleton.edu">dmusican@carleton.edu</a> </dd>
 </dl>
 
+<dl class="dl-horizontal">
+    <dt> Title </dt>
+    <dd> Sponsor/Exhibit Manager </dd>
+    <dt> Name </dt>
+    <dd> Dorothea Heck </dd>
+    <dt> Institution </dt>
+    <dd> D. Lawrence Planners LLC </dd>
+    <dt> Address </dt>
+    <dd> 1125 Atlantic Avenue STE 634, Atlantic City, NJ 08401 </dd>
+    <dt> Telephone </dt>
+    <dd> +1 (609)-344-1333 </dd>
+    <dt> Fax </dt>
+    <dd> +1 (609)-348-4433 </dd>
+    <dt> Email </dt>
+    <dd> <a href="mailto:SIGCSE@dlplan.com">SIGCSE@dlplan.com</a> </dd>
+</dl>
 
 {% comment %}
 <!-- SIGCSE 2014 Exhibitors -->
@@ -151,15 +148,4 @@ showTitle: true
       </ul>
   </div>
 </div> <!-- row -->
-{% endcomment %}
-
-{% comment %}
-<div class="col-sm-12" id="featured">
-    <div class="page-header text-muted">
-        Preparing Your Submissions
-    </div>
-</div>
-
-FIXME: This is where all the details about margins, LaTeX templates, and the like go.
-
 {% endcomment %}

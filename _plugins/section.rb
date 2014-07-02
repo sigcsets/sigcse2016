@@ -9,10 +9,14 @@ module Jekyll
     def render(context)
       header = @text
       html = "" 
-      html += "<div class='col-sm-12'>"
-      html += "<div class='page-header text-muted' style='margin-top:5px;'>"
+      html += "<div class='col-sm-12' "
+      html += "style = 'padding: 3px;'>"
+      html += "<hr>"
+      html += "<h2 style='color: black; text-shadow: 1px 1px 1px rgb(85,30,130);'>"
       html += header
-      html += "</div></div>"
+      html += "<hr>"
+      html += "</h2>"
+      html += "</div>"
       html
     end
   end

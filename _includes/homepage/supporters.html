@@ -1,0 +1,50 @@
+
+<h1 class="text-center">Supporters: Sponsors and Exhibitors</h1>
+
+<p class="text-center">
+  <a href="{{site.base}}/supporters/">Get involved! Become a sponsor of SIGCSE
+ {{site.data.main.year}}, or join us as an exhibitor!</a>
+</p>
+
+<p>
+  The support of many excellent sponsors and exhibitors help make SIGCSE the amazing conference that it is.
+</p>
+<p>
+  <strong>Sponsors  make this conference possible</strong>. The best way to transform how we approach the teaching of computing is to bring people together to share best practices, be they design strategies for active learning assessment strategies for education online. 
+</p>
+
+<p>
+  <strong>Exhibitors are an essential part of the SIGCSE community</strong>. As we engage in questions of how best to bring computing to students around the world, exhibitors connect us to what resources exist for our students.
+</p> 
+  
+</p>
+
+
+<h1 class="text-center" style="text-shadow: 1px 1px 1px {{site.data.main.gold}};">Gold Sponsors</h1>
+
+
+{% for sponsor in site.data.sponsors.gold %}
+  {% cycle 'add rows': '<div class="row">', nil, nil %}
+<div class="col-md-4">
+	<div class="thumbnail" style="padding-top: 40px;">
+
+		<img alt="{{sponsor.name}}" 
+      src="{{site.base}}/images/sponsors/{{sponsor.image}}" 
+      />
+      <br/>
+		<div class="caption">
+      {% comment %}
+    		<h3 class="text-center">
+    			{{sponsor.name}}
+    		</h3>
+      {% endcomment %}
+      <p class="text-center">
+        {{sponsor.blurb}}
+      </p>
+		</div>
+	</div>
+</div>
+  {% cycle 'close rows': nil, nil, '</div>' %}
+{% endfor %}
+{% cycle 'close rows': nil, '</div>', '</div>' %}
+

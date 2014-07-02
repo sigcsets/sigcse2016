@@ -1,6 +1,6 @@
-- text: "Exhibitors & Supporters"
+- text: "Sponsors & Exhibitors"
   link: /supporters/index.html
-  include: homepage/exhibitors.html
+  include: homepage/supporters.html
 
 - text: "Take Part"
   link: /takepart.html

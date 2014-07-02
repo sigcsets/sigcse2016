@@ -10,17 +10,18 @@
 			<h2>
 				Submissions
 			</h2>
-      <p>We have six categories that you can submit in this year:
+      {% assign counter = '' %}
+      {% for cat in site.data.cfp.shortdates %}
+      {% capture counter%}{{counter}}.{% endcapture%}
+      {% endfor %}
+      <p>We have <b>{{counter.size}}</b> submission categories this year:
         <ul>
-          <li> Papers </li>
-          <li> Posters </li>
-          <li> Workshops </li>
-          <li> BOFs (Birds-of-a-Feather) </li>
-          <li> Lightning Talks </li>
-          <li> Demos </li>
+          {% for cat in site.data.cfp.shortdates %}
+          <li> {{cat[0]}}: {{cat[1]}} </li>
+          {% endfor %}
         </ul>
 			<p>
-        <a href="{{site.base}}/authors/">Check deadlines and submission guidelines for your next SIGCSE submission.</a>
+        <a href="{{site.base}}/authors/">Check deadlines and submission guidelines for your SIGCSE {{site.data.main.year}} submission.</a>
 			</p>
 		</div>
     
