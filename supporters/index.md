@@ -59,7 +59,7 @@ showTitle: true
     <dt> Telephone </dt>
     <dd> +1 (412)-268-3514 </dd>
     <dt> Email </dt>
-    <dd> <a href="mailto:tcortina@cs.cmu.edu">tcortina@cs.cmu.edu</a> </dd>
+    <dd> <a href="mailto:{{site.data.aliases.exhibitors}}">{{site.data.aliases.exhibitors}}</a> </dd>
 </dl>
 
 <dl class="dl-horizontal">
@@ -72,7 +72,7 @@ showTitle: true
     <dt> Telephone </dt>
     <dd> +1 (507)-222-4369 </dd>
     <dt> Email </dt>
-    <dd> <a href="mailto:dmusican@carleton.edu">dmusican@carleton.edu</a> </dd>
+    <dd> <a href="mailto:{{site.data.aliases.exhibitors}}">{{site.data.aliases.exhibitors}}</a> </dd>
 </dl>
 
 <dl class="dl-horizontal">
