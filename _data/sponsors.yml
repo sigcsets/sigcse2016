@@ -1,6 +1,9 @@
 platinum:
 gold:
   - name: ABET
-    blurb: Assuring Quality • Stimulating Innovation
+    blurb: "Assuring Quality • Stimulating Innovation"
     image: abet.png
 silver:
+  - name: Github
+    blurb: "The best place to share code with friends, co-workers, classmates, and complete strangers."
+    image: octocat-200.png

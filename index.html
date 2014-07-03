@@ -52,13 +52,16 @@ noTitle: true
   {% for link in site.data.nav %}
   {% assign inc = link.include | remove: 'homepage/' | remove: '.html' %}
   <hr>
-  <div class="{{inc}}" id="{{inc}}">
-    {% include {{link.include}} %}
+  <div class="row">
+    <div class="{{inc}}" id="{{inc}}">
+      {% include {{link.include}} %}
+    </div>
   </div>
   {% endfor %}
 </div>
 
 <hr>
+
 <div class="row">
   <div class="col-lg-12 text-center">
     <small>

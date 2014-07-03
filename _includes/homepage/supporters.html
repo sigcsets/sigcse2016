@@ -20,14 +20,50 @@
 </p>
 
 
+<div class="row">
+  <div class="col-md-12">
 <h1 class="text-center" style="text-shadow: 1px 1px 1px {{site.data.main.gold}};">Gold Sponsors</h1>
+</div>
+</div>
 
 
 {% for sponsor in site.data.sponsors.gold %}
   {% cycle 'add rows': '<div class="row">', nil, nil %}
 <div class="col-md-4">
 	<div class="thumbnail" style="padding-top: 40px;">
+    <h3 class="text-center" style="margin-top: -25px;">{{sponsor.name}}</h3>
+		<img alt="{{sponsor.name}}" 
+      src="{{site.base}}/images/sponsors/{{sponsor.image}}" 
+      />
+      <br/>
+		<div class="caption">
+      {% comment %}
+    		<h3 class="text-center">
+    			{{sponsor.name}}
+    		</h3>
+      {% endcomment %}
+      <p class="text-center">
+        {{sponsor.blurb}}
+      </p>
+		</div>
+	</div>
+</div>
+  {% cycle 'close rows': nil, nil, '</div>' %}
+{% endfor %}
+{% cycle 'close rows': nil, '</div>', '</div>' %}
 
+
+<div class="row">
+  <div class="col-md-12">
+<h1 class="text-center" style="text-shadow: 1px 1px 1px {{site.data.main.silver}};">Silver Sponsors</h1>
+</div>
+</div>
+
+{% for sponsor in site.data.sponsors.silver  %}
+  {% cycle 'add rows': '<div class="row">', nil, nil %}
+<div class="col-md-4">
+	<div class="thumbnail" style="padding-top: 40px;">
+    <h3 class="text-center" style="margin-top: -25px;">{{sponsor.name}}</h3>
 		<img alt="{{sponsor.name}}" 
       src="{{site.base}}/images/sponsors/{{sponsor.image}}" 
       />
