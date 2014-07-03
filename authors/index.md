@@ -68,11 +68,11 @@ We are particularly interested in keeping our community connected with interesti
     </div>
   </div>
   <p>
-    {% capture file %}submissions/{{type[1]}}.md{% endcapture %}
+  {% capture file %}submissions/{{type[1]}}.md{% endcapture %}
   {% include {{file}} %}
   </p>
   {% comment %}
-  <div class="text-center">
+  <div class="text-center" style="padding-top: 20px;">
   <a href="{{type[1]}}.html"><button type="button" class="btn btn-info">submission details</button></a>
   </div>
   {% endcomment %}
