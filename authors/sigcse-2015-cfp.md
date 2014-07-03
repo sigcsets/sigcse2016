@@ -17,6 +17,7 @@ Submissions to SIGCSE {{site.data.main.year}} might take many forms:
   {% else %}
   {% assign plural = "s" %}
   {% endif %}
+  {% capture pluraled %}{{type[0]}}{{plural}}{% endcapture %}
   <li><a href="#{{type[0] | remove: ' '}}">{{type[0]}}{{plural}}</a></li>
 {% endfor %}
 </ul>
@@ -24,11 +25,12 @@ Submissions to SIGCSE {{site.data.main.year}} might take many forms:
 {% for type in site.data.cfp.includes %}
 <div class="row">
   <div class="col-lg-10">
-    {% if (type[0] == "Student Research Competition") or (type[0] == "Birds of a Feather") %}
-    {% assign plural = "" %}
-    {% else %}
-    {% assign plural = "s" %}
-    {% endif %}
+  {% if (type[0] == "Student Research Competition") or (type[0] == "Birds of a Feather") %}
+  {% assign plural = "" %}
+  {% else %}
+  {% assign plural = "s" %}
+  {% endif %}
+  {% capture pluraled %}{{type[0]}}{{plural}}{% endcapture %}
     <a name="{{type[0] | remove: ' '}}"></a>
     <h2>{{type[0]}}{{plural}}</h2>
     <small><a href="{{site.base}}/authors/{{type[1]}}.html">{% icon arrow-circle-right %} Authoring Guidelines</a></small>    
@@ -38,8 +40,8 @@ Submissions to SIGCSE {{site.data.main.year}} might take many forms:
       {% include {{file}} %}
   </div>
   <div class="col-lg-10">
-    <div class="alert alert-info">
-    <b>Submission Deadline</b>: {{site.data.cfp.dates['Papers']}}
+    <div class="alert alert-info"  style="margin-top: 20px;">
+    <b>Submission Deadline</b>: {{site.data.cfp.dates[pluraled]}}
     </div>
   </div>
 </div>

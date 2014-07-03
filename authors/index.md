@@ -56,6 +56,49 @@ We are particularly interested in keeping our community connected with interesti
 
 {% section Preparing Your Submissions %}
 
+<ul>
+{% for type in site.data.cfp.includes %}
+  {% if (type[0] == "Student Research Competition") or (type[0] == "Birds of a Feather") %}
+  {% assign plural = "" %}
+  {% else %}
+  {% assign plural = "s" %}
+  {% endif %}
+  {% capture pluraled %}{{type[0]}}{{plural}}{% endcapture %}
+  <li><a href="#{{type[0] | remove: ' '}}">{{type[0]}}{{plural}}</a></li>
+{% endfor %}
+</ul>
+
+{% for type in site.data.cfp.includes %}
+<div class="row">
+  <div class="col-lg-10">
+  {% if (type[0] == "Student Research Competition") or (type[0] == "Birds of a Feather") %}
+  {% assign plural = "" %}
+  {% else %}
+  {% assign plural = "s" %}
+  {% endif %}
+  {% capture pluraled %}{{type[0]}}{{plural}}{% endcapture %}
+    <a name="{{type[0] | remove: ' '}}"></a>
+    <h2>{{type[0]}}{{plural}}</h2>
+    <small><a href="{{site.base}}/authors/{{type[1]}}.html">{% icon arrow-circle-right %} Authoring Guidelines</a></small>    
+  </div>
+  <div class="col-lg-10">
+      {% capture file %}submissions/{{type[1]}}.md{% endcapture %}
+      {% include {{file}} %}
+  </div>
+  <div class="col-lg-10">
+    <div class="alert alert-info"  style="margin-top: 20px;">
+    <b>Submission Deadline</b>: {{site.data.cfp.dates[pluraled]}}
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+
+
+
+
+
+{% comment %}
 {% for type in site.data.cfp.includes %}
   {% cycle 'add rows': '<div class="row" style="padding-bottom: 20px; ">', nil, nil %}
 <div class="col-md-4">
@@ -71,13 +114,9 @@ We are particularly interested in keeping our community connected with interesti
   {% capture file %}submissions/{{type[1]}}.md{% endcapture %}
   {% include {{file}} %}
   </p>
-  {% comment %}
-  <div class="text-center" style="padding-top: 20px;">
-  <a href="{{type[1]}}.html"><button type="button" class="btn btn-info">submission details</button></a>
-  </div>
-  {% endcomment %}
 </div>
   {% cycle 'close rows': nil, nil, '</div>' %}
 {% endfor %}
 {% cycle 'close rows': nil, '</div>', '</div>' %}
 
+{% endcomment %}
