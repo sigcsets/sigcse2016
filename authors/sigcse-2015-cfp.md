@@ -10,6 +10,59 @@ Submissions in line with the conference theme, **{{site.data.main.theme}}**, are
 We are particularly interested in keeping our community connected with interesting educational efforts in upper level courses, open-source software, outreach, and education research.  We are continuing to keep our commitment to the inclusion of a wide-variety of submissions in the program that span the spectrum of experience reports to scientifically rigorous educational studies.  We are excited for you to be a part of showing our community why we all need to keep computing.
 
 Submissions to SIGCSE {{site.data.main.year}} might take many forms:
+
+<div class="table-responsive">
+  <table class="table">
+      <thead>
+        <tr>
+          <th> Date </th>
+          <th> Submission Type</th>
+        </tr>
+      </thead>
+      <tbody>
+{% for submission in site.data.cfp.master %}
+  <tr>
+    <td> <b>{{submission.date}}</b> </td>
+    <td>
+      {% for sub in submission.types %} 
+      {% capture link %}<a href="#{{sub.plural | remove: ' '}}">{{sub.plural}}</a></li>{% endcapture %}
+      {% capture entry %}{% if forloop.first %}{% else %}<br/> {% endif %}{{link}}{% endcapture %}
+        {{entry}}
+      {% endfor %}
+    </td>
+  </tr>
+{% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% for submission in site.data.cfp.master %}
+  {% for sub in submission.types %} 
+  <div class="row">
+    <div class="col-lg-10">
+      {% if sub.new %}
+        {% capture newflag %}<span style='color: gold;'><i class="fa fa-star-o"></i> NEW! <i class="fa fa-star-o"></i></span>{% endcapture %}
+      {% endif %}
+     <a name="{{sub.plural | remove: ' '}}"></a>
+     <h2>{{sub.plural}} {{new}}</h2>
+     <small><a href="{{site.base}}/authors/{{sub.include}}.html">{% icon arrow-circle-right %} Authoring Guidelines</a></small>    
+   </div>
+   <div class="col-lg-10">
+       {% capture file %}submissions/{{sub.include}}.md{% endcapture %}
+       {% include {{file}} %}
+   </div>
+   <div class="col-lg-10">
+     <div class="alert alert-info"  style="margin-top: 20px;">
+     <b>Submission Deadline</b>: {{submission.date}}
+     </div>
+   </div>
+ </div>
+ {% endfor %}     
+{% endfor %}
+
+
+{% comment %}
+<!-- Previous listing of includes, which is outdated. -->
 <ul>
 {% for type in site.data.cfp.includes %}
   {% if (type[0] == "Student Research Competition") or (type[0] == "Birds of a Feather") %}
@@ -21,28 +74,4 @@ Submissions to SIGCSE {{site.data.main.year}} might take many forms:
   <li><a href="#{{type[0] | remove: ' '}}">{{type[0]}}{{plural}}</a></li>
 {% endfor %}
 </ul>
-
-{% for type in site.data.cfp.includes %}
-<div class="row">
-  <div class="col-lg-10">
-  {% if (type[0] == "Student Research Competition") or (type[0] == "Birds of a Feather") %}
-  {% assign plural = "" %}
-  {% else %}
-  {% assign plural = "s" %}
-  {% endif %}
-  {% capture pluraled %}{{type[0]}}{{plural}}{% endcapture %}
-    <a name="{{type[0] | remove: ' '}}"></a>
-    <h2>{{type[0]}}{{plural}}</h2>
-    <small><a href="{{site.base}}/authors/{{type[1]}}.html">{% icon arrow-circle-right %} Authoring Guidelines</a></small>    
-  </div>
-  <div class="col-lg-10">
-      {% capture file %}submissions/{{type[1]}}.md{% endcapture %}
-      {% include {{file}} %}
-  </div>
-  <div class="col-lg-10">
-    <div class="alert alert-info"  style="margin-top: 20px;">
-    <b>Submission Deadline</b>: {{site.data.cfp.dates[pluraled]}}
-    </div>
-  </div>
-</div>
-{% endfor %}
+{% endcomment %}

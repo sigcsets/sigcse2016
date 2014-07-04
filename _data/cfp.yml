@@ -1,3 +1,43 @@
+master:
+  - date: "Friday, September 5th, 2014"
+    shortdate: "2014-09-05"
+    types: 
+      - plural: Papers
+        singular: Paper
+        include: papers
+      - plural: Panels
+        singular: Panel
+        include: panels
+      - plural: Special Sessions
+        singular: Special Session
+        include: specialsessions
+      - plural: Workshops
+        singular: workshop
+        include: workshops
+  - date: "Monday, September 29, 2014"
+    shortdate: "2014-09-29"
+    types: 
+      - plural: Student Research Competition
+        singular: Student Research Competition
+        include: src
+  - date: "Monday, October 27th, 2014"
+    shortdate: "2014-10-27"
+    types: 
+      - plural: Birds of a Feather
+        singular: Birds of a Feather
+        include: bofs
+      - plural: Posters
+        singular: Poster
+        include: posters
+      - plural: Lightning Talks
+        singular: Lightning Talk
+        include: lightningtalks
+        new: true
+      - plural: Demos
+        singular: demo
+        include: demos
+        new: true
+    
 dates:
   Papers: "Friday, September 5th, 2014"
   Panels: "Friday, September 5th, 2014"
@@ -6,15 +46,15 @@ dates:
   Student Research Competition: "Monday, September 29, 2014"
   Birds of a Feather: "Monday, October 27th, 2014"
   Posters: "Monday, October 27th, 2014"
-  Lightning Talks: "October 27th, 2014"
-  Demos: "October 27th, 2014"
+  Lightning Talks: "Monday, October 27th, 2014"
+  Demos: "Monday, October 27th, 2014"
 
 shortdates:
   Papers: "2014-09-05"
   Panels: "2014-09-05"
-  Spec. Sessions: "2014-09-05"
+  Special Sessions: "2014-09-05"
   Workshops: "2014-09-05"
-  SRC: "2014-09-29"
+  Student Research Competition: "2014-09-29"
   Birds of a Feather: "2014-10-27"
   Posters: "2014-10-27"
   Lightning Talks: "2014-10-27"
