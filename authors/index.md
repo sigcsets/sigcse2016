@@ -11,12 +11,6 @@ showTitle: true
 
 <div class="table-responsive">
   <table class="table">
-      <thead>
-        <tr>
-          <th> Date </th>
-          <th> Submission Type</th>
-        </tr>
-      </thead>
       <tbody>
 {% for submission in site.data.cfp.master %}
   <tr>
