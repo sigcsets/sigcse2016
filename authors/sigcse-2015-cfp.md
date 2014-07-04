@@ -44,7 +44,7 @@ Submissions to SIGCSE {{site.data.main.year}} might take many forms:
         {% capture newflag %}<span style='color: gold;'><i class="fa fa-star-o"></i> NEW! <i class="fa fa-star-o"></i></span>{% endcapture %}
       {% endif %}
      <a name="{{sub.plural | remove: ' '}}"></a>
-     <h2>{{sub.plural}} {{new}}</h2>
+     <h2>{{sub.plural}} {{newflag}}</h2>
      <small><a href="{{site.base}}/authors/{{sub.include}}.html">{% icon arrow-circle-right %} Authoring Guidelines</a></small>    
    </div>
    <div class="col-lg-10">
