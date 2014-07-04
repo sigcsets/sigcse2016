@@ -10,20 +10,39 @@
 			<h2>
 				Submissions
 			</h2>
-      {% assign counter = '' %}
-      {% for cat in site.data.cfp.shortdates %}
-      {% capture counter%}{{counter}}.{% endcapture%}
-      {% endfor %}
-      <p>We have <b>{{counter.size}}</b> submission categories this year:
-        <ul>
-          {% for cat in site.data.cfp.shortdates %}
-          <li> {{cat[0]}}: {{cat[1]}} </li>
+        
+    <div class="table-responsive">
+      <table class="table">
+          <thead>
+            <tr>
+              <th> Date </th>
+              <th> Submission Type</th>
+            </tr>
+          </thead>
+          <tbody>
+    {% for submission in site.data.cfp.master %}
+      <tr>
+        <td> <b>{{submission.date}}</b> </td>
+        <td>
+          {% for sub in submission.types %} 
+          {% capture linked %}<a href="{{site.base}}/authors/index.html#{{sub.plural | remove: ' '}}">{{sub.plural}}</a></li>{% endcapture %}
+          {% capture entry %}{% if forloop.first %}{% else %}<br> {% endif %}{{linked}}{% endcapture %}
+            {{entry}}
           {% endfor %}
-        </ul>
-			<p>
-        <a href="{{site.base}}/authors/">Check deadlines and submission guidelines for your SIGCSE {{site.data.main.year}} submission.</a>
-			</p>
+        </td>
+      </tr>
+    {% endfor %}
+        </tbody>
+      </table>
+    </div>
+		<p>
+      <a href="{{site.base}}/authors/">The SIGCSE {{site.data.main.year}} CFP has more details!</a>
+		</p>
+    
+      
 		</div>
+    
+    
     
 		<div class="col-md-4 column">
 			<h2>

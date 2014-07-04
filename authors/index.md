@@ -1,5 +1,5 @@
 ---
-title: For Authors and Contributors
+title: Call for Papers
 showTitle: true
 ---
 
@@ -9,17 +9,29 @@ showTitle: true
 
 {% section Important Dates %}
 
-<div class="row"  style="padding-bottom: 20px;">
-{% for cat in site.data.cfp.dates %}
-<div class="row" style="padding-bottom: 5px;">
-    <div class="col-sm-5 col-sm-offset-1">
-        <b>{{cat[0]}}</b>
-    </div>
-    <div class="col-sm-6 ">
-        {{cat[1]}}
-    </div>
-</div>
+<div class="table-responsive">
+  <table class="table">
+      <thead>
+        <tr>
+          <th> Date </th>
+          <th> Submission Type</th>
+        </tr>
+      </thead>
+      <tbody>
+{% for submission in site.data.cfp.master %}
+  <tr>
+    <td> <b>{{submission.date}}</b> </td>
+    <td>
+      {% for sub in submission.types %} 
+      {% capture link %}<a href="#{{sub.plural | remove: ' '}}">{{sub.plural}}</a></li>{% endcapture %}
+      {% capture entry %}{% if forloop.first %}{% else %}<br/> {% endif %}{{link}}{% endcapture %}
+        {{entry}}
+      {% endfor %}
+    </td>
+  </tr>
 {% endfor %}
+    </tbody>
+  </table>
 </div>
 
 <div class="row">
@@ -32,91 +44,40 @@ showTitle: true
 We are particularly interested in keeping our community connected with interesting educational efforts in upper level courses, open-source software, outreach, and education research.  We are continuing to keep our commitment to the inclusion of a wide-variety of submissions in the program that span the spectrum of experience reports to scientifically rigorous educational studies.  We are excited for you to be a part of showing our community why we all need to keep computing.
 {% endcallout %}
 
+<p>The CFP for the {{site.data.main.upper}} {{site.data.main.year}} symposium was last updated {{site.data.cfp.lastupdate}}. We have a <a href="{{site.data.cfp.pdf}}">PDF version</a> of this document as well. </p>
 </div>
 </div>
-
-<div class="row">
-    <div class="col-sm-10">
-        <p>The CFP for the {{site.data.main.upper}} {{site.data.main.year}} symposium was last updated {{site.data.cfp.lastupdate}}.</p>
-        <dl class="dl-horizontal">
-            <dt> HTML </dt>
-            <dd> 
-                <a href="{{site.data.cfp.html}}">
-                  {{site.data.cfp.html}}
-                </a> </dd>
-            <dt> PDF </dt>
-            <dd> 
-                <a href="{{site.data.cfp.pdf}}"> 
-                    {{site.data.cfp.pdf}}
-                </a>
-                </dd>
-        </dl>
-    
-</div></div>
 
 {% section Preparing Your Submissions %}
 
 <ul>
-{% for type in site.data.cfp.includes %}
-  {% if (type[0] == "Student Research Competition") or (type[0] == "Birds of a Feather") %}
-  {% assign plural = "" %}
-  {% else %}
-  {% assign plural = "s" %}
-  {% endif %}
-  {% capture pluraled %}{{type[0]}}{{plural}}{% endcapture %}
-  <li><a href="#{{type[0] | remove: ' '}}">{{type[0]}}{{plural}}</a></li>
-{% endfor %}
+  {% for submission in site.data.cfp.master %}
+    {% for sub in submission.types %}
+    <li><a href="#{{sub.plural | remove: ' '}}">{{sub.plural}}</a></li>
+    {% endfor %}
+  {% endfor %}
 </ul>
 
-{% for type in site.data.cfp.includes %}
-<div class="row">
-  <div class="col-lg-10">
-  {% if (type[0] == "Student Research Competition") or (type[0] == "Birds of a Feather") %}
-  {% assign plural = "" %}
-  {% else %}
-  {% assign plural = "s" %}
-  {% endif %}
-  {% capture pluraled %}{{type[0]}}{{plural}}{% endcapture %}
-    <a name="{{type[0] | remove: ' '}}"></a>
-    <h2>{{type[0]}}{{plural}}</h2>
-    <small><a href="{{site.base}}/authors/{{type[1]}}.html">{% icon arrow-circle-right %} Authoring Guidelines</a></small>    
-  </div>
-  <div class="col-lg-10">
-      {% capture file %}submissions/{{type[1]}}.md{% endcapture %}
-      {% include {{file}} %}
-  </div>
-  <div class="col-lg-10">
-    <div class="alert alert-info"  style="margin-top: 20px;">
-    <b>Submission Deadline</b>: {{site.data.cfp.dates[pluraled]}}
-    </div>
-  </div>
-</div>
-{% endfor %}
-
-
-
-
-
-
-{% comment %}
-{% for type in site.data.cfp.includes %}
-  {% cycle 'add rows': '<div class="row" style="padding-bottom: 20px; ">', nil, nil %}
-<div class="col-md-4">
+{% for submission in site.data.cfp.master %}
+  {% for sub in submission.types %} 
   <div class="row">
-    <div class="col-md-6">
-      <h3>{{type[0]}}</h3>
-    </div>
-    <div class="col-md-6" style="margin-top: 30px;">
-      <small>(<a href="{{type[1]}}.html">submission details</a>)</small>
-    </div>
-  </div>
-  <p>
-  {% capture file %}submissions/{{type[1]}}.md{% endcapture %}
-  {% include {{file}} %}
-  </p>
-</div>
-  {% cycle 'close rows': nil, nil, '</div>' %}
+    <div class="col-lg-10">
+      {% if sub.new %}
+        {% capture newflag %}<span style='color: gold;'><i class="fa fa-star-o"></i> NEW! <i class="fa fa-star-o"></i></span>{% endcapture %}
+      {% endif %}
+     <a name="{{sub.plural | remove: ' '}}"></a>
+     <h2>{{sub.plural}} {{newflag}}</h2>
+     <small><a href="{{site.base}}/authors/{{sub.include}}.html">{% icon arrow-circle-right %} Authoring Guidelines</a></small>    
+   </div>
+   <div class="col-lg-10">
+       {% capture file %}submissions/{{sub.include}}.md{% endcapture %}
+       {% include {{file}} %}
+   </div>
+   <div class="col-lg-10">
+     <div class="alert alert-info"  style="margin-top: 20px;">
+     <b>Submission Deadline</b>: {{submission.date}}
+     </div>
+   </div>
+ </div>
+ {% endfor %}     
 {% endfor %}
-{% cycle 'close rows': nil, '</div>', '</div>' %}
-
-{% endcomment %}

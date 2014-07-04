@@ -49,15 +49,16 @@ noTitle: true
       </ul>
     </div> <!-- News Flashes -->
 
-  {% for link in site.data.nav %}
-  {% assign inc = link.include | remove: 'homepage/' | remove: '.html' %}
+{% for link in site.data.nav %}
+{% assign inc = link.include | remove: 'homepage/' | remove: '.html' %}
   <hr>
   <div class="row">
     <div class="{{inc}}" id="{{inc}}">
-      {% include {{link.include}} %}
+{% include {{link.include}} %}
+
     </div>
   </div>
-  {% endfor %}
+{% endfor %}
 </div>
 
 <hr>
