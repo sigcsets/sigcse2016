@@ -3,11 +3,20 @@ title: For Attendees
 showTitle: true
 ---
 
-{% unless site.data.flags.paperSubmissionReady %}
-{% include breaking-announcements-for-attendees.html %}
-{% endunless %}
+{% callout info %}
+<p>Everything you need for:
+  <ul>
+    <li> <a href="#registering">registering for SIGCSE</a>, </li>
+    <li> <a href="#reserving">reserving a room</a>,</li>
+    <li> figuring out <a href="#travel">how to travel to Kansas City, Missouri</a>, and</li>
+    <li> <a href="stufftodo">what to do once you are there</a></li>
+  </ul>
+  is on this page.
+</p>
+{% endcallout %}
 
-{% section Important Information %}
+{% section Quick Links %}
+
 
 
 <!-- 
@@ -37,7 +46,7 @@ showTitle: true
       <b>Booking URL</b>
     </div>
     <div class="col-sm-6 ">
-      <a href="{{site.data.main.registrationURL}}">{{site.data.main.bookingURL}}</a>
+      <a href="{{site.data.main.bookingURL}}">{{site.data.main.bookingURL}}</a>
     </div>
 </div>
 
@@ -87,7 +96,17 @@ showTitle: true
 </div>
 </div>
 
-## Conference Hotel
+<a name="registering"></a>
+
+## Registering for SIGCSE {{site.data.main.year}}
+
+{% callout danger %}
+As of July 4th, we are not quite ready to accept your conference registrations... but we will soon!
+{% endcallout %}
+
+<a name="reserving"></a>
+
+## Reserving a Room at the {{site.data.main.conferenceHotel}}
 
 <div class="row">
   <div class="col-md-6">
@@ -104,28 +123,20 @@ showTitle: true
   </div>
 </div>
 
-## Transport To/From the Airport
+<a name="travel"></a>
+
+## Getting to SIGCSE {{site.data.main.year}}
+
+### Transport To/From the Airport
 
 If you're coming from the airport, you may want to <a href="http://groups.supershuttle.com/sigcse.html">take advantage of the SuperShuttle discount code that we have</a>. You can also take a cab, rent a car, walk, or use any other mode of locomotion that appeals to you.
 
-## Awesome Stuff To Do in KC
+<a name="stufftodo"></a>
+
+## Once You Are There
+
+We'll be updating this section over the course of the year; we'll have offers and recommendations for you that you can take advantage of while you are in KC, MO.
+
+### Awesome Stuff To Do in KC
 
 The <a href="http://www.visitkc.com/index.aspx">Kansas City Visitor's Bureau</a> has a great deal to say about the city. We have a few favorites as well, and will discuss them in the blog over the coming months.  
-
-When selecting the city, Adrienne and Kurt found a few things they thought were huge fun. For example, when selecting KC, Adrienne broke this sign, vandal that she is.
-
-<div class="text-center">
-  <img src="{{site.base}}/images/kc/KC15.jpg" alt="Adrienne leaning on a street sign." />
-</div>
-
-<br/>
-
-Which, as it happens, is why Kurt had to take a sabbatical this year; he's still holding that sign up. Honest.
-
-<div class="text-center">
-  <img src="{{site.base}}/images/kc/KC18.jpg" alt="Kurt leaning on a street sign." />
-</div>
-
-<br/>
-
-We don't encourage vandalism, as it goes against the ACM professional code of conduct. Sadly, there is little to be done about your SIGCSE Symposium Chairs. They're a rough bunch.

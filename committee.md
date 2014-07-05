@@ -1,5 +1,5 @@
 ---
-title: Program Committee
+title: "Program Committee: the SIGCSE Royals"
 showTitle: true
 ---
 
@@ -7,6 +7,10 @@ showTitle: true
 http://www.layoutit.com/build
 http://stackoverflow.com/questions/2245972/modulus-or-lack-thereof-in-rubys-liquid-templating-engine
 {% endcomment %}
+
+{% callout info %}
+Kansas City, Missouri, is officially nicknamed the <a href="http://en.wikipedia.org/wiki/Kansas_City,_Missouri#Abbreviations_and_nicknames">City of Fountains</a>; only <a href="http://en.wikipedia.org/wiki/Rome">Rome</a> has more fountains within its city limits. Also, for reasons likely connected to the U.S. American pass-time of <i>baseball</i>, KC, MO is known as the <i>royal city</i>.
+{% endcallout %}
 
 {% for member in site.data.committee %}
   {% cycle 'add rows': '<div class="row">', nil, nil %}

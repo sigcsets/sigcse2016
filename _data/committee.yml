@@ -72,23 +72,35 @@
   blurb: 
 
 - name: Peter DePasquale
-  title: Panels and Special Sessions Wrangler
+  title: Panels Wrangler
   institution: The College of New Jersey
-  email: depasqua@tcnj.edu
+  #email: depasqua@tcnj.edu
+  email: sigcse2015-panels@rit.edu
   image: committee-15.png
   blurb: 
+
+- name: Peter DePasquale
+  title: Special Sessions Wrangler
+  institution: The College of New Jersey
+  #email: depasqua@tcnj.edu
+  email: sigcse2015-specialsessions@rit.edu
+  image: committee-15.png
+  blurb: 
+
 
 - name: Paul Cater
   title: Workshops Co-Wrangler
   institution: University of British Columbia
-  email: pcarter@cs.ubc.ca
+  #email: pcarter@cs.ubc.ca
+  email: sigcse2015-workshops@rit.edu
   image: committee-38.png
   blurb: 
 
 - name: Alvaro Monge
   title: Workshops Co-Wrangler
   institution: California State University, Long Beach
-  email: alvaro.monge@csulb.edu
+  #email: alvaro.monge@csulb.edu
+  email: sigcse2015-workshops@rit.edu
   image: alvaro-small.png
   rotation: 0
   blurb: 
@@ -97,7 +109,8 @@
 - name: Michelle Craig
   title: Posters Wrangler
   institution: University of Toronto
-  email: mcraig@cs.toronto.edu
+  #email: mcraig@cs.toronto.edu
+  email: sigcse2015-posters@rit.edu
   image: committee-27.png
   #rotation: 0
   blurb: 
@@ -105,7 +118,8 @@
 - name: Ria Galanos
   title: Birds-Of-a-Feather (BOFs) Wrangler
   institution: Thomas Jefferson High School for Science
-  email: ria.galanos@gmail.com
+  #email: ria.galanos@gmail.com
+  email: sigcse2015-bofs@rit.edu
   image: ria2-small.png
   rotation: 0
   blurb: 
