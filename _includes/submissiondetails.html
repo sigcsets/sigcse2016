@@ -1,0 +1,34 @@
+{% assign plural = include.plural %}
+{% for submission in site.data.cfp.master %}
+  {% for type in submission.types %}
+    {% if type.plural == plural %}
+      {% assign subdate = submission.date %}
+      {% assign subtime = submission.time %}
+      {% assign sublink = submission.link %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+
+<div class="table-responsive" style="margin-top: 20px;">
+  <table class="table">
+      <tbody>
+        <tr>
+          <td><b>Date Due: </b></td>
+          <td>{{subdate}}</td>
+        </tr>
+        <tr>
+          <td><b>Time Due: </b></td>
+          <td> <a href="{{submission.link}}">{{subtime}}</a> </td>
+        </tr>
+        <tr>
+          <td><b>Submission Limits: </b></td>
+          <td> {{site.data.cfp.details[plural].limits}}</td>
+        </tr>
+        <tr>
+          <td><b>Presentation Length: </b></td>
+          <td> {{site.data.cfp.details[plural].length}}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>

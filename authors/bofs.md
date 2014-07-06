@@ -2,8 +2,6 @@
 title: Birds of a Feather ("BOF") Submission Guidelines
 ---
 
-{% include presenter-warning.html %}
-
 {% comment %}
   ------------------------------------------------- --------------------------------------------------
   Submission Deadline:                              \<? echo \$bofAndPosterDeadline; ?\>
@@ -12,6 +10,8 @@ title: Birds of a Feather ("BOF") Submission Guidelines
   Updates to BOF Title, Proposer & Abstract:        \<? echo \$bofAndPosterUpdatesDeadline; ?\>
   ------------------------------------------------- --------------------------------------------------
 {% endcomment %}
+
+{% include submissiondetails.html plural="Birds of a Feather" %}
 
 {% section What Is A Birds Of A Feather? %}
 
@@ -115,5 +115,9 @@ Here is a sample BOF Proposal: FIXME
     
 5.  After receiving confirmation, go to the to review your submission
     for accuracy.
+
+{% include presenter-warning.html %}
+
+
 
 {% include submission-questions category="Birds-Of-a-Feather (BOFs) Wrangler" %}

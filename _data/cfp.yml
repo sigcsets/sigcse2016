@@ -2,7 +2,10 @@ master:
   - date: "Friday, September 5th, 2014"
     shortdate: "2014-09-05"
     time: "23:59 in Apia, Samoa (UTC+13h)"
-    link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+Deadline%2C+September+5th&iso=20140905T2355&p1=282"
+    notification:
+    updates:
+    cameraready:
+    link: "http://goo.gl/Gi68un"
     types: 
       - plural: Papers
         singular: Paper
@@ -16,19 +19,26 @@ master:
       - plural: Workshops
         singular: workshop
         include: workshops
+        
   - date: "Monday, September 29, 2014"
     shortdate: "2014-09-29"
     time: "5:00 PM in Columbus, Ohio (UTC-4)"
-    link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=Student+Research+Competition+Submissions&iso=20140929T17&p1=805"
-    
+    notification:
+    updates:
+    cameraready:    
+    link: "http://goo.gl/cVSxB2"
     types: 
       - plural: Student Research Competition
         singular: Student Research Competition
         include: src
+
   - date: "Monday, October 27th, 2014"
     shortdate: "2014-10-27"
     time: "23:59 in Apia, Samoa (UTC+13h)"
-    link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+Deadline%2C+October+27th&iso=20141027T2355&p1=282"
+    notification:
+    updates:
+    cameraready:
+    link: "http://goo.gl/s9cprs"
     types: 
       - plural: Birds of a Feather
         singular: Birds of a Feather
@@ -48,26 +58,32 @@ master:
 # Details are keyed off the plural from the "master" above.
 details:
   Papers:
-    pagelimit: 6
-    presentationlength: "25 minutes"
+    limits: "6 pages"
+    length: "25 minutes"
   Panels:
-    pagelimit: 2
-    presentationlength: "75 minutes"
+    limits: "2 pages"
+    length: "75 minutes"
+  Posters:
+    limits: "2 pages"
+    length: "N/A"
   Special Sessions:
-    pagelimit: 2
-    presentationlength: "75 minutes"
+    limits: "2 pages"
+    length: "75 minutes"
   Workshops:
-    pagelimit: 2
-    presentationlength: "3 hours"
+    limits: "2 pages"
+    length: "3 hours"
   Birds of a Feather:
-    pagelimit: 2
-    presentationlength: "60 minutes"
+    limits: "1 page"
+    length: "45 minutes"
   Lightning Talks:
-    pagelimit: 1
-    presentationlength: "5 minutes"
+    limits: "500 words"
+    length: "5 minutes"
   Demos:
-    pagelimit: 2
-    presentationlength: "variable"
+    limits: "2 pages"
+    length: "30 minutes (during breaks)"
+  Student Research Competition:
+    limits: ""
+    length: 
 
 notifications:
   Student Research Competition: After September 29 (TBA)
@@ -89,7 +105,3 @@ demos: "Monday, October 27th, 2014"
 html: "sigcse-2015-cfp.html"
 pdf: "sigcse-2015-cfp.pdf"
 lastupdate: "July 2, 2014"
-
-paperpagelimit: 6
-panelpagelimit: 2
-specialsessionpagelimit: 2

@@ -3,7 +3,6 @@ title: Paper Submission Guidelines
 showTitle: true
 ---
 
-{% include presenter-warning.html %}
 
 {% comment %}
 {% section Important Dates for Paper Authors %}
@@ -17,9 +16,15 @@ showTitle: true
   ------------------------------------------------- ------------------------------------------
 {% endcomment %}
 
+
+
+{% include submissiondetails.html plural="Papers" %}
+
 {% section What Kinds Of Papers Are Customary? %}
 
 **We invite papers falling into the following topic areas**:
+
+<a name="topicareas"> </a>
 
 {% for type in site.data.topicareas %}
   {% cycle 'add rows': '<div class="row" style="padding-bottom: 20px; ">', nil, nil %}
@@ -50,7 +55,7 @@ If the paper is accepted for the conference and for publication, authors
 will be asked to complete a camera-ready copy that will include all
 appropriate author names, citations, and references.
 
-The paper is limited to a **maximum of {{site.data.cfp.paperpagelimit}} pages** and must adhere to the
+The paper is limited to a **maximum of {{{{site.data.cfp.details[plural].limits}}** and must adhere to the
 [SIGCSE {{site.data.main.year}} Format Instructions](format.html).
 
 [Templates are available in Word, WordPerfect, and
@@ -118,6 +123,9 @@ Electronic submission of papers is required.
     
 -   Arrive at your room **at least 10 minutes before** the session is
     scheduled to begin.
+
+
+{% include presenter-warning.html %}
 
 
 

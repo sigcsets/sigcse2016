@@ -62,3 +62,8 @@ There are two primary ways to go from LaTeX to PDF.
     source, but generate pdf directly. A standard teTeX (Unix)
     installation of TeX has these available.
 
+{% section A Mild Disclaimer %}
+
+SIGCSE does not endorse or otherwise sponsor any of the software mentioned on this page.
+
+That said, as of the year 2014, there are many, many ways to generate PDFs. However, generating PDFs for publication remains a tricky business, and we recommend you use tools that are known to produce PDFs of high quality, suitable for inclusion in the ACM Digital Library.

@@ -68,29 +68,7 @@ We are particularly interested in keeping our community connected with interesti
        {% include {{file}} %}
    </div>
    <div class="col-lg-10">
-    <div class="table-responsive" style="margin-top: 20px;">
-      <table class="table">
-          <tbody>
-            <tr>
-              <td><b>Date Due: </b></td>
-              <td>{{submission.date}}</td>
-            </tr>
-            <tr>
-              <td><b>Time Due: </b></td>
-              <td> <a href="{{submission.link}}">{{submission.time}}</a> </td>
-            </tr>
-            <tr>
-              <td><b>Page Limit: </b></td>
-              <td> {{site.data.cfp.details[sub.plural].pagelimit}}</td>
-            </tr>
-            <tr>
-              <td><b>Presentation Limit: </b></td>
-              <td> {{site.data.cfp.details[sub.plural].presentationlength}}</td>
-            </tr>
-
-          </tbody>
-        </table>
-      </div>
+     {% include submissiondetails.html plural=sub.plural %}     
    </div>
  </div>
  {% endfor %}     

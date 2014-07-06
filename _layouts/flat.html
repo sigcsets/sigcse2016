@@ -5,6 +5,11 @@
         <title>
             {{site.data.main.ORG}} {{site.data.main.year}} - {{page.title}}
         </title>
+        <script>
+          var shiftWindow = function() { scrollBy(0, -50) };
+          window.addEventListener("hashchange", shiftWindow);
+          function load() { if (window.location.hash) shiftWindow(); }
+        </script>
     
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     
@@ -15,7 +20,7 @@
         {% include css.html %}
 
     </head>
-  <body data-spy="scroll" data-offset="0" data-target="#navigation">
+  <body data-spy="scroll" data-offset="0" data-target="#navigation" onload="load();">
 
     <!-- Fixed navbar -->
     <div id="navigation" class="navbar navbar-default navbar-fixed-top">
@@ -47,10 +52,22 @@
           {% else %}
             <h1>{{page.title}}</h1>
           {% endif %}
-          <hr>
+          
           {{content}}
 	    	</div>
 	    </div> <!--/ row -->
+      
+
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <small>
+      <a href="{{site.base}}/policies.html">ACM/SIGCSE Policies</a>
+      |
+      <a href="{{site.base}}/attributions.html">Attributions</a>
+    </small>
+  </div>
+</div>
+
   	</div><!--/ container -->
 
   </body>

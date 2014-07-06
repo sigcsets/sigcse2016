@@ -18,3 +18,5 @@ If you believe you have been harassed or notice that someone else is being haras
 {% section Conference Policies %}
 
 SIGCSE reserves the right to reject any materials that we find offensive or inappropriate, such as politically charged material, and will not refund any expenses incurred.
+
+It is **required** that at least one author attend to present any and all papers, posters, etc. that have been accepted. Works that are submitted and accepted to SIGCSE {{site.data.main.year}}, but are not presented by one of the authors of that work, will be removed from the ACM Digital Library and, therefore, be considered *unpublished*.
