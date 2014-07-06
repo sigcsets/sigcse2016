@@ -4,6 +4,9 @@ title: Student Research Contest Submission Guidelines
 
 <div> &nbsp; </div>
 
+{% include submissiondetails.html plural="Student Research Competition" %}
+
+
 The **ACM Student Research Competition** held at
 the {{site.data.main.year}} SIGCSE conference will consist of two categories of
 competition, graduate and undergraduate, with prizes awarded based on
@@ -48,7 +51,7 @@ author submitting the abstract must still be a student at the time the
 abstract is due. Each submission should include the author's name,
 affiliation, postal address, and email address; research advisor's name;
 ACM student member number; category (undergraduate or graduate);
-research title; and an extended abstract (maximum 2 pages or 800 words)
+research title; and an extended abstract (maximum {{site.data.cfp.details[plural].limits}})
 containing the following sections:
 
 -   **Problem and Motivation**: This section should clearly state the
@@ -70,14 +73,13 @@ containing the following sections:
     the results of your work contribute to computer science and should
     explain the significance of those results.
 
-Include a separate paragraph (maximum of *FIXME*, including whitespace) for
+Include a separate paragraph (maximum of {{site.data.cfp.details[plural].abstract}}, including whitespace) for
 publication in the conference proceedings that serves as a succinct
 description of the project.
 
 {% section How Do I Submit My Entry? %}
 
-Submit a plain ASCII-text electronic copy of the extended abstract by
-the submission deadline @ 5:00 p.m. EDT (Eastern Daylight
+Submit a plain ASCII-text electronic copy of the extended abstract ({{site.data.cfp.details[plural].limits}}) by the submission deadline @ 5:00 p.m. EDT (Eastern Daylight
 Time) to Dr. Ann Sobel (<a href="mailto:sigcse2015-src@rit.edu">sigcse2015-src@rit.edu</a>).
 
 Travel grants of up to \$500 may be available for students who do not

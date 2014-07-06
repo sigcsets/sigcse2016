@@ -66,7 +66,7 @@ details:
   Posters:
     limits: "2 pages"
     abstract: "150 words"
-    length: "2 hours"
+    length: "2 hours (poster session)"
   Special Sessions:
     limits: "2 pages"
     length: "75 minutes"
@@ -84,8 +84,9 @@ details:
     limits: "2 pages"
     length: "30 minutes (during breaks)"
   Student Research Competition:
-    limits: ""
-    length: 
+    limits: "800 words"
+    abstract: "800 characters"
+    length: "2 hours (poster session)"
 
 notifications:
   Student Research Competition: After September 29 (TBA)
