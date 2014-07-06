@@ -140,11 +140,13 @@ format of these documents should be as follows.
         evaluate your proposal according to the evaluation criteria
         described above.
 
-    Here are sample Full Workshop Proposals: FIXME
+    Here are sample Full Workshop Proposals: 
+    
     -   [Workshop Proposal Example
-        (Word)](<?php%20echo%20$prefix%20?>/downloads/workshopProposalsample.doc)
+        (Word)]({{site.base}}/authors/examples/workshopProposalsample.doc)
+        
     -   [Workshop Proposal Example
-        (PDF)](<?php%20echo%20$prefix%20?>/downloads/workshopProposalsample.pdf)
+        (PDF)]({{site.base}}/authors/examples/workshopProposalsample.pdf)
 
 2.  **Workshop Proposal Abstract (Limited to , including whitespace)**
 

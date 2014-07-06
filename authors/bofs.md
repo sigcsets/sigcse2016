@@ -89,10 +89,13 @@ places: in the PDF proposal and in a text box on the submission page
     proposal may contain a URL with more information. (Abstracts of
     accepted BOFs can be edited in response to reviews.)
 
-Here is a sample BOF Proposal: FIXME
-
--   [BOF Proposal Example
-    (PDF)](<?php%20echo%20$prefix%20?>/downloads/BOFSample.pdf)
+Here is a sample BOF Proposal:
+  
+  -   [BOF Proposal Example 
+      (PDF)]({{site.base}}/authors/examples/BOFSample.pdf)
+      
+  -   [BOF Proposal Example
+      (Word)]({{site.base}}/authors/examples/BOFSample.doc)
 
 {% section How Do I Submit My Proposal? %}
 
