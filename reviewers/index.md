@@ -5,28 +5,34 @@ showTitle: true
 
 ## Important Dates
 
-<div class="row-fluid">
- <div class="span12" style="text-align: center" id="dates">
-      <table class="table table-striped">
-       <tr>
-        <td align="left">Paper Submission Deadline:</td><td align="left">
-          {{site.data.cfp.dates['Papers']}}
-        </td>
-       </tr>
-       <tr>
-  	    <td align="left">Papers to Reviewers:</td><td align="left">
-          {{site.data.reviewers.dates['Papers to Reviewers']}}
-        </td>
-       </tr>
-       <tr>
- 	    <td align="left">Reviews Due:</td><td align="left">
-          {{site.data.reviewers.dates['Reviews Due']}}
-      </td>
-       </tr>
-      </table>
- </div>
-</div>
 
+<div class="table-responsive">
+  <table class="table">
+      <tbody>
+      <tr>
+        <th>
+          Due Date
+        </th>
+        <th>
+          Category
+        </th>
+      </tr>
+        
+{% for submission in site.data.cfp.master %}
+  <tr>
+    <td> <b>{{submission.date}}</b> </td>
+    <td>
+      {% for sub in submission.types %} 
+      {% capture linked %}<a href="{{site.base}}/authors/index.html#{{sub.plural | remove: ' '}}">{{sub.plural}}</a></li>{% endcapture %}
+      {% capture entry %}{% if forloop.first %}{% else %}<br> {% endif %}{{linked}}{% endcapture %}
+        {{entry}}
+      {% endfor %}
+    </td>
+  </tr>
+{% endfor %}
+    </tbody>
+  </table>
+</div>
 
 ## How Do I Volunteer to Review?
 
@@ -52,7 +58,6 @@ As part of your process as a reviewer, we recommend you work your way through th
 
 1. **Assignment**. When reviews are assigned, you will be sent an email from the system indicating that you have been assigned submissions to review and given a link that you can use to access those assigned submissions.
 
-1. **Review Criteria**. You indicated your expertise in one or more fields; before you review, please review <a href="{{site.data.main.paperCategoryCriteria}}">the criteria for the paper submission categories</a> you are now reviewing for. 
 
 1. **Reviewer Guidelines**. In addition to the category criteria, we would encourage you to review the guidelines for the submission category you are reviewing for. We have guidelines for...
 
@@ -67,6 +72,10 @@ As part of your process as a reviewer, we recommend you work your way through th
     * ... [Birds of a Feather (BOF) Submissions][bofs]
     
     * ... [Poster Submissions][posters]
+    
+    * ... Lightning Talks
+    
+    * ... Demos
     
 
 1. **Download Papers**. Access your your assigned submission(s) through the <a href="{{site.data.reviewers.proposalReviewSite}}">proposal review site</a>. You may review the submission on-line or print it for review at your leisure. If your web browser does awful things with your submission, you might try saving it to a file with a .pdf extension and opening it locally.

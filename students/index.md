@@ -17,5 +17,5 @@ Winning the ACM Student Research Competition is a prestigious event in a young c
  
 It is widely known in academic circles that the {{site.data.main.upper}} volunteer T-shirt is a rare and glorious thing; it is not uncommon for them to sell, even in their worn and slightly abused state, for hundreds of dollars. [Find out how you, too, can get your SIGCSE attendance costs waived, and become part of this long, proud tradition][volunteers].
 
-[src]: studentresearch.html
+[src]: {{site.base}}/authors/src.html
 [volunteers]: volunteers.html

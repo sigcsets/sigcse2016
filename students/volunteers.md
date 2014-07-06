@@ -32,7 +32,7 @@ take a little while to arrange travel).
 Also, please note that if you are no longer able to attend, we greatly
 appreciate you going back to the registration system to cancel.
 
-## How do I register to volunteer?
+## What To Do Once at SIGCSE
 
 Upon arrival at the conference site, you must check in at the
 **Registration Desk** to receive your conference registration packet.
