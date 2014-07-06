@@ -14,8 +14,6 @@ showTitle: true
     <dd> MIT License</dd>
     <dt> <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> </dt>
     <dd> MIT License </dd>
-    <dt>  <a href="http://www.bootply.com/templates">Basis Template</a> </dt>
-    <dd>  MIT License </dd>
     <dt> <a href="http://jekyllrb.com/">Jekyll</a> </dt>
     <dd> MIT License </dd>
 </dl>
@@ -27,7 +25,7 @@ showTitle: true
     </div>
 </div>
 
-<div class="row">
+<div class="row" style="margin-bottom: 20px;">
     <div class="col-sm-2">
         <img src="{{site.base}}/images/logos/kc-full-purple-on-white-400.png" class="img-responsive" />
     </div>
@@ -36,9 +34,9 @@ showTitle: true
     </div>
 </div>
 
-<div class="row">
+<div class="row" style="margin-bottom: 20px;">
   <div class="col-sm-2">
-      <img src="http://placehold.it/150x150" class="img-responsive" />
+      <img src="https://farm4.staticflickr.com/3147/2947454479_96ee68ec74_q_d.jpg" class="img-responsive" />
   </div>
   <div class="col-sm-9 col-offset-sm-1">
       <a href="https://flic.kr/p/5ustwF">Corona del Niño Jesús</a>
@@ -47,9 +45,9 @@ showTitle: true
   </div>
 </div>
 
-<div class="row">
+<div class="row" style="margin-bottom: 20px;">
   <div class="col-sm-2">
-      <img src="http://placehold.it/150x150" class="img-responsive" />
+      <img src="https://farm1.staticflickr.com/70/178851306_aa073d85c0_q_d.jpg" class="img-responsive" />
   </div>
   <div class="col-sm-9 col-offset-sm-1">
       <a href="https://flic.kr/p/gNEgd">gold curtain</a>
@@ -58,6 +56,7 @@ showTitle: true
   </div>
 </div>
 
+{% comment %}
 <div class="row">
   <div class="col-sm-2">
       <img src="https://farm8.staticflickr.com/7059/6816226238_43a56f29e0_m_d.jpg" class="img-responsive" />
@@ -68,6 +67,7 @@ showTitle: true
       CC-BY photo from <i>Pink Sherbert Photography</i>, by D. Sharon Pruitt. Used as sidebar background.
   </div>
 </div>
+{% endcomment %}
 
 <!--
 
