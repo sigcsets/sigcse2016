@@ -53,7 +53,7 @@ showTitle: true
 <div class="row">
   <div class="col-md-12">    
 <p>    
-  Our airport is {{site.data.main.nearestAirport}} (<a href="http://www.flykci.com/">http://www.flykci.com/</a>). Like many airports, it is a place where airplanes come and go (sometimes with you, sometimes without), there is uninspiring food, and the same set of shops as in every other airport. (Your webmaster is a bit jaded regarding air travel... your airmileage may vary.)
+  Our airport is {{site.data.main.nearestAirport}} (<a href="http://www.flykci.com/">http://www.flykci.com/</a>). 
 </p>
 <p>
   The airport's phone number is <b>+1-(816)-243-5237</b>. 

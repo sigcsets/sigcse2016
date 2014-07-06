@@ -1,6 +1,8 @@
 master:
   - date: "Friday, September 5th, 2014"
     shortdate: "2014-09-05"
+    time: "23:59 in Apia, Samoa (UTC+13h)"
+    link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+Deadline%2C+September+5th&iso=20140905T2355&p1=282"
     types: 
       - plural: Papers
         singular: Paper
@@ -16,12 +18,17 @@ master:
         include: workshops
   - date: "Monday, September 29, 2014"
     shortdate: "2014-09-29"
+    time: "5:00 PM in Columbus, Ohio (UTC-4)"
+    link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=Student+Research+Competition+Submissions&iso=20140929T17&p1=805"
+    
     types: 
       - plural: Student Research Competition
         singular: Student Research Competition
         include: src
   - date: "Monday, October 27th, 2014"
     shortdate: "2014-10-27"
+    time: "23:59 in Apia, Samoa (UTC+13h)"
+    link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+Deadline%2C+October+27th&iso=20141027T2355&p1=282"
     types: 
       - plural: Birds of a Feather
         singular: Birds of a Feather
@@ -37,40 +44,30 @@ master:
         singular: demo
         include: demos
         new: true
-    
-dates:
-  Papers: "Friday, September 5th, 2014"
-  Panels: "Friday, September 5th, 2014"
-  Special Sessions: "Friday, September 5th, 2014"
-  Workshops: "Friday, September 5th, 2014"
-  Student Research Competition: "Monday, September 29, 2014"
-  Birds of a Feather: "Monday, October 27th, 2014"
-  Posters: "Monday, October 27th, 2014"
-  Lightning Talks: "Monday, October 27th, 2014"
-  Demos: "Monday, October 27th, 2014"
 
-shortdates:
-  Papers: "2014-09-05"
-  Panels: "2014-09-05"
-  Special Sessions: "2014-09-05"
-  Workshops: "2014-09-05"
-  Student Research Competition: "2014-09-29"
-  Birds of a Feather: "2014-10-27"
-  Posters: "2014-10-27"
-  Lightning Talks: "2014-10-27"
-  Demos: "2014-10-27"
-
-includes:
-  Paper: papers
-  Panel: panels
-  Special Session: specialsessions
-  Workshop: workshops
-  Student Research Competition: src
-  Birds of a Feather: bofs
-  Poster: posters
-  Lightning Talk: lightningtalks
-  Demo: demos
-
+# Details are keyed off the plural from the "master" above.
+details:
+  Papers:
+    pagelimit: 6
+    presentationlength: "25 minutes"
+  Panels:
+    pagelimit: 2
+    presentationlength: "75 minutes"
+  Special Sessions:
+    pagelimit: 2
+    presentationlength: "75 minutes"
+  Workshops:
+    pagelimit: 2
+    presentationlength: "3 hours"
+  Birds of a Feather:
+    pagelimit: 2
+    presentationlength: "60 minutes"
+  Lightning Talks:
+    pagelimit: 1
+    presentationlength: "5 minutes"
+  Demos:
+    pagelimit: 2
+    presentationlength: "variable"
 
 notifications:
   Student Research Competition: After September 29 (TBA)
