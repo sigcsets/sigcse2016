@@ -3,21 +3,6 @@ title: Paper Submission Guidelines
 showTitle: true
 ---
 
-
-{% comment %}
-{% section Important Dates for Paper Authors %}
-
-  ------------------------------------------------- ------------------------------------------
-  Submission Deadline:                              \<? echo \$mainSubmissionDeadline; ?\>
-  @11:59 p.m. Hawaii-Aleutian Standard Time (HST)
-  Author Notification:                              \<? echo \$mainNotificationDeadline; ?\>
-  Updates to Paper Title & Authors:                 \<? echo \$mainUpdatesDeadline; ?\>
-  Camera-Ready Copy:                                \<? echo \$mainCameraReadyDeadline; ?\>
-  ------------------------------------------------- ------------------------------------------
-{% endcomment %}
-
-
-
 {% include submissiondetails.html plural="Papers" %}
 
 {% section What Kinds Of Papers Are Customary? %}
@@ -55,7 +40,7 @@ If the paper is accepted for the conference and for publication, authors
 will be asked to complete a camera-ready copy that will include all
 appropriate author names, citations, and references.
 
-The paper is limited to a **maximum of {{{{site.data.cfp.details[plural].limits}}** and must adhere to the
+The paper is limited to a **maximum of {{site.data.cfp.details[plural].limits}}** and must adhere to the
 [SIGCSE {{site.data.main.year}} Format Instructions](format.html).
 
 [Templates are available in Word, WordPerfect, and

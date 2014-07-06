@@ -2,16 +2,7 @@
 title: Poster Submission Guidelines
 ---
 
-{% include presenter-warning.html %}
-
-{% comment %}
-  ------------------------------------------------- --------------------------------------------------
-  Submission Deadline:                              \<? echo \$bofAndPosterDeadline; ?\>
-  @11:59 p.m. Hawaii-Aleutian Standard Time (HST)
-  Author Notification:                              \<? echo \$bofAndPosterNotificationDeadline; ?\>
-  Updates to Titles, Authors, & Abstracts Due:      \<? echo \$bofAndPosterUpdatesDeadline; ?\>
-  ------------------------------------------------- --------------------------------------------------
-{% endcomment %}
+{% include submissiondetails.html plural="Posters" %}
 
 {% section What Is A Poster? %}
 
@@ -26,7 +17,7 @@ Poster proposal review is **not** blind.
 
 Graduate or undergraduate students submitting posters may instead wish
 to submit to the [ACM Student Research Competition
-(SRC)](student_research.php) held at SIGCSE {{site.data.main.year}}. Like normal posters,
+(SRC)](src.html) held at SIGCSE {{site.data.main.year}}. Like normal posters,
 SRC posters are displayed at the conference, but the top poster authors
 also present their work and may win prizes and proceed to the
 international ACM Student Research Competition.
@@ -75,10 +66,10 @@ be entered into a text box on the submission page. The full proposal is
 used for review and includes a copy of the poster abstract. The format
 for the proposal should be as follows.
 
-1.  **Poster Proposal Format (limited to 2 pages)**
+1.  **Poster Proposal Format (limited to {{site.data.cfp.details[plural].limits}})**
 
     Your proposal should include as much of the following information as
-    possible. Please limit your proposal to two (2) pages. A list of the
+    possible. Please limit your proposal to {{site.data.cfp.details[plural].limits}}. A list of the
     poster titles and authors will be included in the conference
     proceedings and the program. Poster proposals are not published.
 
@@ -100,10 +91,10 @@ for the proposal should be as follows.
     4.  **Content**: A description of the expected content of the
         poster.
         
-    5.  **Abstract (Description)**: The abstract is a short ()
-        description of your poster.
+    5.  **Abstract (Description)**: The abstract is a short 
+        description of your poster ({{site.data.cfp.details[plural].abstract}}).
 
-2.  **Poster Abstract (limited to words)**
+2.  **Poster Abstract (limited to {{site.data.cfp.details[plural].abstract}})**
 
     The abstract is the description of the poster that will appear on
     the conference web pages. The description is limited to and must
@@ -136,5 +127,8 @@ for the proposal should be as follows.
 5.  After receiving confirmation, go to the to review your submission
     for accuracy. Send e-mail to
     if there are any problems.
+
+
+{% include presenter-warning.html %}
 
 {% include submission-questions category="Posters Wrangler" %}

@@ -2,12 +2,17 @@
 title: Lightning Talk Submission Guidelines
 ---
 
-{% include presenter-warning.html %}
+{% include submissiondetails.html plural="Lightning Talks" %}
 
 Lightning talks are *so fast*, you don't have to submit them!
 
 (Actually, this page isn't written yet, and we need to fill it in. Consider this a kind of "404 Page Not Found" error.)
 
+
+{% include presenter-warning.html %}
+
+
+{% comment %}
 ## Distraction
 
 <div class="text-center" style="margin-bottom: 10px;">
@@ -15,3 +20,5 @@ Lightning talks are *so fast*, you don't have to submit them!
 </div>
 
 <p>Tweet how many people you recognize by face and name in this photo with the hashtags <b>#sigcse</b> <b>#prizeone</b> to <b>@sigcsets</b>. The winner who can prove it at SIGCSE {{site.data.main.year}} will win a secret prize!</p>
+
+{% endcomment %}

@@ -2,27 +2,13 @@
 title: Panel Submission Guidelines
 ---
 
-{% include presenter-warning.html %}
-
-{% comment %}
-Important Dates for Panel Submissions {.section}
--------------------------------------
-
-  ------------------------------------------------- ------------------------------------------
-  Submission Deadline:                              \<? echo \$mainSubmissionDeadline; ?\>
-  @11:59 p.m. Hawaii-Aleutian Standard Time (HST)
-  Author Notification:                              \<? echo \$mainNotificationDeadline; ?\>
-  Updates to Panel Title & Presenters:              \<? echo \$mainUpdatesDeadline; ?\>
-  Camera-Ready Copy:                                \<? echo \$mainCameraReadyDeadline; ?\>
-  ------------------------------------------------- ------------------------------------------
-{% endcomment %}
+{% include submissiondetails.html plural="Panels" %}
 
 {% section What is a Panel? %}
 
 Panel sessions provide an opportunity for expert panel members to
 present their views on a specific topic and then to discuss these views
-among themselves and with the audience. Panel sessions run for 75
-minutes. Usually a panel session starts with a brief introduction of the
+among themselves and with the audience. Panel sessions run for {{site.data.cfp.details[plural].length}}. Usually a panel session starts with a brief introduction of the
 panel topic and the participants, followed by short presentations by the
 panelists giving their views. The session must allow sufficient
 opportunity (about 30 minutes) for an interactive question and answer
@@ -46,7 +32,7 @@ participate in the session.
 
 {% section How Should The Proposal Be Formatted? %}
 
-The proposal is limited to {{site.data.cfp.panelpagelimit}} pages that conform to the [SIGCSE
+The proposal is limited to {{site.data.cfp.details[plural].limits}} that conform to the [SIGCSE
 {{site.data.main.year}} Format Instructions](format.html) with the following modifications
 and exceptions:
 
@@ -64,7 +50,7 @@ and exceptions:
     they are included, they should be placed in a separate section
     titled **References** and should follow the formatting guidelines.
 
-If accepted, the panel description will be allocated {{site.data.cfp.panelpagelimit}} pages in
+If accepted, the panel description will be allocated {{site.data.cfp.details[plural].limits}} in
 the conference proceedings and must adhere to the formatting guidelines
 specified above. To facilitate the transition from proposal to
 camera-ready copy, it is critical that authors adhere closely to the
@@ -108,7 +94,7 @@ Note that you will be required to submit your proposal electronically.
 
 -   All presenters must register for the conference.
 
--   Panel sessions are 75 minutes in length. The session must allow
+-   Panel sessions are {{site.data.cfp.details[plural].length}} in length. The session must allow
     sufficient opportunity (about 30 minutes) for an interactive
     question and answer period involving both the panelists and the
     audience.
@@ -134,4 +120,7 @@ Note that you will be required to submit your proposal electronically.
 -   Arrive at your room at least 10 minutes before the panel session is
     scheduled to begin.
 
-{% include submission-questions category="Panels and Special Sessions Wrangler" %}
+{% include presenter-warning.html %}
+
+
+{% include submission-questions category="Panels Wrangler" %}

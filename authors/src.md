@@ -4,7 +4,7 @@ title: Student Research Contest Submission Guidelines
 
 <div> &nbsp; </div>
 
-The [ACM Student Research Competition](http://www.acm.org/src/) held at
+The **ACM Student Research Competition** held at
 the {{site.data.main.year}} SIGCSE conference will consist of two categories of
 competition, graduate and undergraduate, with prizes awarded based on
 judging during the conference. Research from all areas of computer

@@ -2,20 +2,8 @@
 title: Special Session Submission Guidelines 
 ---
 
-{% include presenter-warning.html %}
+{% include submissiondetails.html plural="Special Sessions" %}
 
-{% comment %}
-Important Dates for Paper Authors {.section}
----------------------------------
-
-  -------------------------------------------- ------------------------------------------
-  Submission Deadline:                         \<? echo \$mainSubmissionDeadline; ?\>
-  @11:59 p.m. HST - Hawaii-Aleutian Standard
-  Author Notification:                         \<? echo \$mainNotificationDeadline; ?\>
-  Updates to Panel Title & Presenters:         \<? echo \$mainUpdatesDeadline; ?\>
-  Camera-Ready Copy:                           \<? echo \$mainCameraReadyDeadline; ?\>
-  -------------------------------------------- ------------------------------------------
-{% endcomment %}
 
 {% section What Is A Special Session? %}
 
@@ -46,7 +34,7 @@ to participate in the session.
 
 {% section How Should The Proposal Be Formatted? %}
 
-The proposal is limited to {{site.data.cfp.specialsessionpagelimit}} pages that conform to the [SIGCSE {{site.data.main.year}} Format Instructions](format.html) with the
+The proposal is limited to {{site.data.cfp.details[plural].limits}} that conform to the [SIGCSE {{site.data.main.year}} Format Instructions](format.html) with the
 following modifications and exceptions:
 
 -   Do not include an abstract. Instead, the first section should be
@@ -68,7 +56,7 @@ following modifications and exceptions:
         
         We suggest that you allow at least 40 - 50% of the time for
         questions and answers or other interaction with the attendees.
-        All sessions are 75 minutes in length.
+        All sessions are {{site.data.cfp.details[plural].length}} in length.
         
     -   **Expectations:** State the intended audience. Indicate how much
         the session will cover and what the audience should learn. This
@@ -85,11 +73,7 @@ following modifications and exceptions:
     they are included, they should be placed in a separate section
     titled **References** and should follow the formatting guidelines.
 
-If accepted, the special session description will be allocated two (2)
-pages in the conference proceedings and must adhere to the formatting
-guidelines specified above. To facilitate the transition from proposal
-to camera-ready copy, it is critical that authors adhere closely to the
-formatting specifications and page limits.
+If accepted, the special session description will be allocated {{site.data.cfp.details[plural].limits}} in the conference proceedings and must adhere to the formatting guidelines specified above. To facilitate the transition from proposal to camera-ready copy, it is critical that authors adhere closely to the formatting specifications and page limits.
 
 {% section How Do I Submit My Proposal? %}
 
@@ -127,7 +111,7 @@ Note that you will be required to submit your proposal electronically.
 
 -   All presenters must register for the conference.
 
--   Panel sessions are 75 minutes in length. The session must allow
+-   Panel sessions are {{site.data.cfp.details[plural].length}} in length. The session must allow
     sufficient opportunity (about 30 minutes) for an interactive
     question and answer period involving both the panelists and the
     audience.
@@ -152,4 +136,7 @@ Note that you will be required to submit your proposal electronically.
 -   Arrive at your room at least 10 minutes before the panel session is
     scheduled to begin.
 
-{% include submission-questions category="Panels and Special Sessions Wrangler" %}
+{% include presenter-warning.html %}
+
+
+{% include submission-questions category="Special Sessions Wrangler" %}

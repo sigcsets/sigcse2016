@@ -2,15 +2,6 @@
 title: Birds of a Feather ("BOF") Submission Guidelines
 ---
 
-{% comment %}
-  ------------------------------------------------- --------------------------------------------------
-  Submission Deadline:                              \<? echo \$bofAndPosterDeadline; ?\>
-  @11:59 p.m. Hawaii-Aleutian Standard Time (HST)
-  Acceptance Notification:                          \<? echo \$bofAndPosterNotificationDeadline; ?\>
-  Updates to BOF Title, Proposer & Abstract:        \<? echo \$bofAndPosterUpdatesDeadline; ?\>
-  ------------------------------------------------- --------------------------------------------------
-{% endcomment %}
-
 {% include submissiondetails.html plural="Birds of a Feather" %}
 
 {% section What Is A Birds Of A Feather? %}
@@ -27,7 +18,7 @@ contains an up to BOF abstract. The abstract needs to appear in two
 places: in the PDF proposal and in a text box on the submission page
 (see below). The format for the BOF proposal is as follows.
 
-1.  **BOF Proposal Format and Contents (limited to 1 page)**
+1.  **BOF Proposal Format and Contents (limited to {{site.data.cfp.details[plural].limits}} page)**
 
     1.  **Proposer**: Include name, affiliation, address, phone and fax
         numbers, email address, and Website address (if applicable).
@@ -80,7 +71,7 @@ places: in the PDF proposal and in a text box on the submission page
         requested equipment will be available, we will make every effort
         to let you know this well before the conference.
 
-2.  **BOF Abstract (limited to )**
+2.  **BOF Abstract (limited to {{site.data.cfp.details[plural].abstract}})**
 
     The abstract is the description of the BOF that will appear on the
     conference web pages. The description is limited to and must match

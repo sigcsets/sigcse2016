@@ -65,7 +65,8 @@ details:
     length: "75 minutes"
   Posters:
     limits: "2 pages"
-    length: "N/A"
+    abstract: "150 words"
+    length: "2 hours"
   Special Sessions:
     limits: "2 pages"
     length: "75 minutes"
@@ -74,6 +75,7 @@ details:
     length: "3 hours"
   Birds of a Feather:
     limits: "1 page"
+    abstract: "150 words"
     length: "45 minutes"
   Lightning Talks:
     limits: "500 words"
