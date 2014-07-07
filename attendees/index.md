@@ -19,11 +19,28 @@ showTitle: true
 
 ## Registering for SIGCSE {{site.data.main.year}}
 
+As always, we encourage attendees to register early; this helps us with our planning, and in return, you get lower registration rates! And, of course, you can <a href="http://www.sigcse.org/membership/join">join ACM SIGCSE</a>, which will further reduce your rates. Joining SIGCSE is $45 for professionals and $8 for students, so it really is to your benefit to join the world's premier professional computer science education organization!
+
+<div class="row"  style="padding-bottom: 20px;">
+{% for rate in site.data.main.rates %}
+<div class="row" style="padding-bottom: 5px;">
+    <div class="col-sm-5 col-sm-offset-1">
+        <b>{{rate[0]}}</b>
+    </div>
+    <div class="col-sm-6 ">
+        {{rate[1]}}
+    </div>
+</div>
+{% endfor %}
+</div>
+
 {% callout danger %}
 <p>As of July 4th, we are not quite ready to accept your conference registrations... but we will soon!
 </p>
 <p>For reference, the conference dates are {{site.data.main.month}} {{site.data.main.bookingStart}} — {{site.data.main.bookingEnd}}. However, that first day is actually a "meeting" day for people who are in charge and stuff, so hang tight until we get the official registration links up.</p>
 {% endcallout %}
+
+
 
 <a name="reserving"></a>
 
