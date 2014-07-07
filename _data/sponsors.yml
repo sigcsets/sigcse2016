@@ -7,3 +7,6 @@ silver:
   - name: Github
     blurb: "The best place to share code with friends, co-workers, classmates, and complete strangers."
     image: octocat-200.png
+  - name: Teradata University Network
+    blurb: "Providing students with hands-on software experiences with the worlds' largest companies."
+    image: teradata-350.png
