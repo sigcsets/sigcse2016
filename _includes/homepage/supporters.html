@@ -84,3 +84,35 @@
 {% endfor %}
 {% cycle 'close rows': nil, '</div>', '</div>' %}
 
+
+<div class="row" style="margin-bottom: 30px;">
+
+<div class="row">
+  <div class="col-md-12">
+    <h1 class="text-center" style="text-shadow: 1px 1px 1px {{site.data.main.silver}};">Exhibitors</h1>
+    <p> 
+      We have many excellent exhibitors this year: both old friends who we love to see, and new faces who will bring new ideas and tools to the table.
+    </p>
+  </div>
+</div>
+  
+
+{% assign modulus = 3 %}
+{% capture span %}{{ 12 | divided_by: modulus }}{% endcapture %}
+{% capture subone %}{{modulus | minus: 1}}{% endcapture %}
+{% for ex in site.data.exhibitors  %}
+  {% capture mod %}{{ forloop.index0 | mod: modulus }}{% endcapture %}
+  {% if mod == '0' or forloop.first %}
+    <div class="row" style="margin-top: 20px; margin-left: 30px;">
+  {% endif %}
+  
+  <div class="col-md-{{span}}">
+    {% icon heart-o %} {{ex}}
+  </div>
+  
+  {% if mod == subone or forloop.last %}
+    </div> <!-- end row -->
+  {% endif %}
+  
+{% endfor %}
+</div>
