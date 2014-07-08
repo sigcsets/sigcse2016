@@ -4,9 +4,11 @@
 
 {% for cochair in site.data.committee %}
   {% if (cochair.title == include.category) %}
-    {% assign count = count | plus: 1 %}
+    {% assign count = count | plus: 1 %}    
   {% endif %}
 {% endfor %}
+
+
 
 {% comment %}
 Liquid number comparison is awful.
