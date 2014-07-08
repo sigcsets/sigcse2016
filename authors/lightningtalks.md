@@ -11,6 +11,7 @@ Lightning talks are *so fast*, you don't have to submit them!
 
 {% include presenter-warning.html %}
 
+{% include submission-questions category="Lightning Talks and Demos Wrangler" %}
 
 {% comment %}
 ## Distraction

@@ -72,21 +72,12 @@
   blurb: 
 
 - name: Peter DePasquale
-  title: Panels Wrangler
+  title: Panels and Special Sessions Wrangler
   institution: The College of New Jersey
   #email: depasqua@tcnj.edu
   email: sigcse2015-panels@rit.edu
   image: committee-15.png
   blurb: 
-
-- name: Peter DePasquale
-  title: Special Sessions Wrangler
-  institution: The College of New Jersey
-  #email: depasqua@tcnj.edu
-  email: sigcse2015-specialsessions@rit.edu
-  image: committee-15.png
-  blurb: 
-
 
 - name: Paul Carter
   title: Workshops Co-Wrangler
@@ -105,7 +96,6 @@
   rotation: 0
   blurb: 
 
-
 - name: Michelle Craig
   title: Posters Wrangler
   institution: University of Toronto
@@ -121,6 +111,16 @@
   #email: ria.galanos@gmail.com
   email: sigcse2015-bofs@rit.edu
   image: ria2-small.png
+  rotation: 0
+  blurb: 
+
+    
+- name: Mike Helmick
+  title: Lightning Talks and Demos Wrangler
+  institution: "Google Inc."
+  #email: depasqua@tcnj.edu
+  email: TBA
+  image: mike-small.png
   rotation: 0
   blurb: 
 
