@@ -39,7 +39,6 @@ As always, we encourage attendees to register early; this helps us with our plan
 {% callout danger %}
 <p>As of July 4th, we are not quite ready to accept your conference registrations... but we will soon!
 </p>
-<p>For reference, the conference dates are {{site.data.main.month}} {{site.data.main.bookingStart}} — {{site.data.main.bookingEnd}}. However, that first day is actually a "meeting" day for people who are in charge and stuff, so hang tight until we get the official registration links up.</p>
 {% endcallout %}
 
 
