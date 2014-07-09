@@ -1,0 +1,25 @@
+rates:
+  - category: "Early"
+    rates: "$285 for SIGCSE members, $365 for non-members"
+  - category: "Late"
+    rates: "$335 for SIGCSE members, $415 for non-members" 
+  - category: "On-site"
+    rates: "$385 for SIGCSE members, $460 for non-members"
+  - category: "K-12 two-day (Friday/Saturday)"
+    rates: "$150 for early, $180 for late or onsite"
+  - category: "K-12 one-day (Saturday)"
+    rates: "$80 for early, $110 for late or onsite"
+  - category: "Students (at any time)"
+    rates:  "$60 for ACM/SIGCSE members, $70 for non-members"
+    
+deadlines:
+  - category: "Early"
+    date: "Closes Sunday, February 1, 2015"
+  - category: "Late"
+    date: "Opens Monday, February 2, 2015; <br/>Closes Sunday, February 22, 2015"
+  - category: "ONLINE REGISTRATION CLOSES"
+    alert: "alert alert-warning"
+    date: "Sunday, February 22, 2015"
+  - category: "On-site"
+    date: "Rates take effect Monday, February 23, 2015; register at SIGCSE"
+  

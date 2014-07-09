@@ -23,17 +23,38 @@ showTitle: true
 
 As always, we encourage attendees to register early; this helps us with our planning, and in return, you get lower registration rates! And, of course, you can <a href="http://www.sigcse.org/membership/join">join ACM SIGCSE</a>, which will further reduce your rates. Joining SIGCSE is $45 for professionals and $8 for students, so it really is to your benefit to join the world's premier professional computer science education organization!
 
-<div class="row"  style="padding-bottom: 20px;">
-{% for rate in site.data.main.rates %}
-<div class="row" style="padding-bottom: 5px;">
-    <div class="col-sm-5 col-sm-offset-1">
-        <b>{{rate[0]}}</b>
-    </div>
-    <div class="col-sm-6 ">
-        {{rate[1]}}
-    </div>
-</div>
+#### Deadlines
+  
+<div class="row">
+  <div class="col-md-11 col-md-offset-1">
+    <div class="table-responsive">
+      <table>
+{% for e in site.data.registration.deadlines %}
+        <tr class="{{e.alert}}">
+          <td style="padding-top: 10px; padding-right: 30px; padding-bottom: 10px;"><b>{{e.category}}</b></td>
+          <td>{{e.date}}</td>
+        </tr>
 {% endfor %}
+      </table>
+    </div>
+  </div>
+</div>
+
+#### Rates
+
+<div class="row">
+  <div class="col-md-11 col-md-offset-1">
+    <div class="table-responsive">
+      <table>
+{% for e in site.data.registration.rates %}
+        <tr class="{{e.alert}}">
+          <td style="padding-top: 10px; padding-right: 30px; padding-bottom: 10px;"><b>{{e.category}}</b></td>
+          <td>{{e.rates}}</td>
+        </tr>
+{% endfor %}
+      </table>
+    </div>
+  </div>
 </div>
 
 {% callout danger %}

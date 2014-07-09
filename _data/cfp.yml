@@ -22,7 +22,7 @@ master:
         
   - date: "Monday, September 29, 2014"
     shortdate: "2014-09-29"
-    time: "5:00 PM in Columbus, Ohio (UTC-4)"
+    time: "23:59 in Apia, Samoa (UTC+13h)"
     notification:
     updates:
     cameraready:    
@@ -94,16 +94,17 @@ notifications:
 studentResearchCompetition:
   chair: Dr. Ann Sobel
   email: sobelae@miamioh.edu 
-  
-papers: "Friday, September 5th, 2014"
-panels: "Friday, September 5th, 2014"
-specialsessions: "Friday, September 5th, 2014"
-workshops: "Friday, September 5th, 2014"
-studentresearch: "Monday, September 29, 2014"
-bofs: "Monday, October 27th, 2014"
-posters: "Monday, October 27th, 2014"
-lightningtalks: "Monday, October 27th, 2014"
-demos: "Monday, October 27th, 2014"
+
+# FIXME: It would be good to remove these. I don't think I rely on them anymore...
+#papers: "Friday, September 5th, 2014"
+#panels: "Friday, September 5th, 2014"
+#specialsessions: "Friday, September 5th, 2014"
+#workshops: "Friday, September 5th, 2014"
+#studentresearch: "Monday, September 29, 2014"
+#bofs: "Monday, October 27th, 2014"
+#posters: "Monday, October 27th, 2014"
+#lightningtalks: "Monday, October 27th, 2014"
+#demos: "Monday, October 27th, 2014"
 
 html: "sigcse-2015-cfp.html"
 pdf: "sigcse-2015-cfp.pdf"

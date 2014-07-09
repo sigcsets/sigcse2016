@@ -6,10 +6,14 @@ info:
 notifications:
   Student Research Competition: After September 29 (TBA)
 
+# FIXME: This looks like repeated information from the CFP.
+# I need to make sure this kind of thing is in one place only.
 studentResearchCompetition:
   chair: Dr. Ann Sobel
   email: sobelae@miamioh.edu 
   
+# FIXME: This, too, looks like repetition. I don't think I'm using it, but
+# it needs to go.
 papers: Friday, September 5th, 2014
 panels: Friday, September 5th, 2014
 specialsessions: Friday, September 5th, 2014
