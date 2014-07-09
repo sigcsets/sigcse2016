@@ -123,4 +123,4 @@ Note that you will be required to submit your proposal electronically.
 {% include presenter-warning.html %}
 
 
-{% include submission-questions category="Panels and Special Sessions Wrangler" %}
+{% include submission-questions category="Panels Wrangler" %}

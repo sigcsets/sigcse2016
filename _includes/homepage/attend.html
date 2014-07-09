@@ -28,22 +28,24 @@
 <div id="the-carousel-also" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators"></ol>
   <div class="carousel-inner">
-    <div class="item">
-      <img src="/images/carousel/KC19.jpg" width="100%" alt="{i.caption}">
+    <div class="item active">
+      <img src="/images/carousel/KC19.jpg" width="100%" alt="{{i.caption}}">
       <div class="carousel-caption">
-        Street signs galore!
       </div>
     </div>
+    <!-- The image that was here has been sacked -->
+    {% comment %}
     <div class="item false active">
-      <img src="/images/carousel/KC23.JPG" width="100%" alt="{i.caption}">
+      <img src="/images/carousel/KC23.JPG" width="100%" alt="{{i.caption}}">
       <div class="carousel-caption">
         Monuments you didn't know existed!
       </div>
     </div>
+    {% endcomment %}
     <div class="item false">
-      <img src="/images/carousel/KC10.jpg" width="100%" alt="{i.caption}">
+      <img src="/images/carousel/KC10.jpg" width="100%" alt="{{i.caption}}">
       <div class="carousel-caption">
-        An excellent conference venue!
+        <!-- An excellent conference venue! -->
       </div>
     </div>
   </div>

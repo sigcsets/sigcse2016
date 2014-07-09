@@ -10,7 +10,7 @@ Everyone loves demos, so they're all automatically accepted! (Kidding!)
 
 {% include presenter-warning.html %}
 
-{% include submission-questions category="Lightning Talks and Demos Wrangler" %}
+{% include submission-questions category="Demos Wrangler" %}
 
 {% comment %}
 ## Distraction
