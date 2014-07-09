@@ -71,6 +71,16 @@
   image: committee-36.png
   blurb: 
 
+- name: Jian Zhang
+  title: Publications Wrangler
+  institution: Texas Woman's University
+  #email: l.merkle@ieee.org
+  email: sigcse2015-publications@rit.edu
+  # Pick one of two images
+  image: committee-16.png
+  #image: committee-17.png
+  blurb: 
+    
 - name: Peter DePasquale
   title: Special Sessions Wrangler
   institution: The College of New Jersey
