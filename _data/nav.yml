@@ -10,7 +10,7 @@
   link: /attendees/index.html
   include: homepage/attend.html
 
-- text: "Program Committee"
+- text: "Committee"
   link: /committee.html
   include: homepage/pc.html
   
