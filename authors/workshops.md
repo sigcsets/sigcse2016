@@ -15,7 +15,7 @@ Important Dates for Workshops {.section}
   ----------------------------------------------------- ------------------------------------------
 {% endcomment %}
 
-{% section What Is a Workshop? %}
+## What Is a Workshop?
 
 Workshops provide an in-depth review of, or introduction to, a topic of
 interest, and should provide participants with materials and/or ideas
@@ -39,7 +39,7 @@ participant) and will provide one night free lodging per workshop (not
 per presenter) at the conference hotel.
 
 
-{% section Hands-On Lab-Based Workshops %}
+## Hands-On Lab-Based Workshops
 
 **All** hands-on workshops at SIGCSE {{site.data.main.year}} will
 use participants' laptop computers at the conference site. The Symposium
@@ -67,7 +67,7 @@ formats they wish for their workshop:
     laptops to this workshop.
 
 
-{% section How Should The Proposal Be Formatted? %}
+## How Should The Proposal Be Formatted?
 
 Workshop proposals consist of **two** documents: the full workshop
 proposal and a workshop abstract. The full proposal is used for the
@@ -166,7 +166,7 @@ format of these documents should be as follows.
     be edited in response to reviews for the camera-ready submission.)
 
 
-{% section How Do I Submit My Proposal? %}
+## How Do I Submit My Proposal?
 
 Note that you will be required to submit your proposal electronically.
 

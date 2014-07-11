@@ -4,18 +4,18 @@ title: Birds of a Feather ("BOF") Submission Guidelines
 
 {% include submissiondetails.html plural="Birds of a Feather" %}
 
-{% section What Is A Birds Of A Feather? %}
+## What Is A Birds Of A Feather?
 
 Birds-of-a-Feather (BOF) Sessions provide an environment for colleagues
 with similar interests to meet for informal discussion. Proposers of BOF
 sessions should serve as discussion leaders only. BOFs are not intended
 to be presentations.
 
-{% section How Should The Proposal Be Formatted? %}
+## How Should The Proposal Be Formatted?
 
 BOF proposals are to be provided in PDF format. The full proposal contains an abstract and a body that describes your BOF (as detailed below). The abstract needs to appear in two places: in the PDF proposal and in a text box on the submission page (see below). The format for the BOF proposal is as follows.
 
-### **BOF Proposal Format and Contents (limited to {{site.data.cfp.details[plural].limits}} page)**
+### BOF Proposal Format and Contents (limited to {{site.data.cfp.details[plural].limits}})
 
 1.  **Proposer**: Include name, affiliation, address, phone and fax
     numbers, email address, and Website address (if applicable).
@@ -68,7 +68,7 @@ BOF proposals are to be provided in PDF format. The full proposal contains an ab
     requested equipment will be available, we will make every effort
     to let you know this well before the conference.
 
-### **BOF Abstract (limited to {{site.data.cfp.details[plural].abstract}})**
+### BOF Abstract (limited to {{site.data.cfp.details[plural].abstract}})
 
 The abstract is the description of the BOF that will appear on the
 conference web pages. The description is limited to and must match
@@ -77,7 +77,7 @@ must be submitted in plain text. The abstract for an accepted
 proposal may contain a URL with more information. (Abstracts of
 accepted BOFs can be edited in response to reviews.)
 
-Here is a sample BOF Proposal:
+Here is a sample BOF Proposal (right-click to download):
   
   -   [BOF Proposal Example 
       (PDF)]({{site.base}}/authors/examples/BOFSample.pdf)
@@ -85,14 +85,14 @@ Here is a sample BOF Proposal:
   -   [BOF Proposal Example
       (Word)]({{site.base}}/authors/examples/BOFSample.doc)
 
-{% section How Do I Submit My Proposal? %}
+## How Do I Submit My Proposal?
 
 1.  Write your proposal using the format specified above.
 
 2.  Convert your proposal into Adobe PDF format. Refer to our [Creating
     Adobe PDF Documents](creating_pdf.html) page for assistance.
     
-3.  Submit the PDF version of your proposal using the . Recall that you
+3.  Submit the PDF version of your proposal using the BOF template. Recall that you
     will also need to cut-and-paste or type your text abstract
     description into a text box during the submission process. Please do
     not wait until the last minute to submit your documents because that
@@ -104,7 +104,7 @@ Here is a sample BOF Proposal:
     may need to check your spam trap for the confirmation and later,
     acceptance or rejection notification.
     
-5.  After receiving confirmation, go to the to review your submission
+5.  After receiving confirmation, go to the submission site to review your submission
     for accuracy.
 
 {% include presenter-warning.html %}

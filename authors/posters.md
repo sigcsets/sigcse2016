@@ -4,7 +4,7 @@ title: Poster Submission Guidelines
 
 {% include submissiondetails.html plural="Posters" %}
 
-{% section What Is A Poster? %}
+## What Is A Poster?
 
 Posters provide an opportunity for an informal presentation featuring
 "give and take" with conference attendees. Presenting a poster is also a
@@ -22,7 +22,7 @@ SRC posters are displayed at the conference, but the top poster authors
 also present their work and may win prizes and proceed to the
 international ACM Student Research Competition.
 
-{% section Poster Topic Ideas %}
+## Poster Topic Ideas
 
 The topic of a poster presentation is not limited. However, the topic
 should lend itself to presentation in poster format with additional
@@ -46,7 +46,7 @@ suggestions were published for student researchers, the ideas are also
 applicable to posters for this conference.)
 
 
-{% section Poster Presentation %}
+## Poster Presentation
 -------------------
 
 Poster presentations at SIGCSE will be competitive and if your proposal
@@ -57,7 +57,7 @@ register for and attend the conference. The space available for your
 poster will be 4 feet high by 8 feet wide with a small shelf below.
 Power sources are not available.
 
-{% section How Should The Proposal Be Formatted? %}
+## How Should The Proposal Be Formatted?
 
 
 Poster proposals consist of two documents: The full poster proposal
@@ -105,7 +105,7 @@ for the proposal should be as follows.
     revised, final abstract will appear on the web pages.
 
 
-{% section How Do I Submit My Proposal? %}
+## How Do I Submit My Proposal?
 
 **Electronic Submissions:**
 

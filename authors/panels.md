@@ -4,7 +4,7 @@ title: Panel Submission Guidelines
 
 {% include submissiondetails.html plural="Panels" %}
 
-{% section What is a Panel? %}
+## What is a Panel?
 
 Panel sessions provide an opportunity for expert panel members to
 present their views on a specific topic and then to discuss these views
@@ -30,7 +30,7 @@ If the proposal is accepted, all presenters listed in the panel
 description will be required to register for the conference and to
 participate in the session.
 
-{% section How Should The Proposal Be Formatted? %}
+## How Should The Proposal Be Formatted?
 
 The proposal is limited to {{site.data.cfp.details[plural].limits}} that conform to the [SIGCSE
 {{site.data.main.year}} Format Instructions](format.html) with the following modifications
@@ -56,7 +56,7 @@ specified above. To facilitate the transition from proposal to
 camera-ready copy, it is critical that authors adhere closely to the
 formatting specifications and page limits.
 
-{% section How Do I Submit My Proposal? %}
+## How Do I Submit My Proposal?
 
 Note that you will be required to submit your proposal electronically.
 
@@ -90,7 +90,7 @@ Note that you will be required to submit your proposal electronically.
     if there are any problems.
 
 
-{% section Presentation Notes %}
+## Presentation Notes
 
 -   All presenters must register for the conference.
 

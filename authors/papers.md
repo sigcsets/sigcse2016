@@ -5,7 +5,7 @@ showTitle: true
 
 {% include submissiondetails.html plural="Papers" %}
 
-{% section What Kinds Of Papers Are Customary? %}
+## What Kinds Of Papers Are Customary?
 
 **We invite papers falling into the following topic areas**:
 
@@ -22,7 +22,7 @@ showTitle: true
 
 And, in truth, probably a few other areas as well, as long as you're within the conference theme and in the realm of  computer science education.
 
-{% section How Should The Paper Be Formatted? %}
+## How Should The Paper Be Formatted?
 
 Authors must submit ONLY an anonymized version of the paper. The goal of
 the anonymized version is to, as much as possible, allow the author(s)
@@ -51,7 +51,7 @@ publication version before it is published.
 
 Electronic submission of papers is required.
 
-{% section How Do I Submit My Paper? %}
+## How Do I Submit My Paper?
 
 1.  Write your paper using the format specified above. Within the
     anonymized paper, you must provide Category and Subject Descriptors,
@@ -79,7 +79,7 @@ Electronic submission of papers is required.
 6.  After receiving confirmation, go to the to review your submission
     for accuracy. Send e-mail to (Adrienne Decker and Kurt Eiselt) if there are any problems.
 
-{% section Presentation Notes %}
+## Presentation Notes
 
 -   **All presenters must register for the conference**.
 

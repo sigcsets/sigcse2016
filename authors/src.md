@@ -44,7 +44,7 @@ Additional competition details, including information about past
 winners, can be found on the [ACM Student Research Competition home page
 (http://www.acm.org/src/)](http://www.acm.org/src/).
 
-{% section What Should a Submission Contain? %}
+## What Should a Submission Contain?
 
 Research projects from all areas of computer science are acceptable. The
 author submitting the abstract must still be a student at the time the
@@ -77,7 +77,7 @@ Include a separate paragraph (maximum of {{site.data.cfp.details[plural].abstrac
 publication in the conference proceedings that serves as a succinct
 description of the project.
 
-{% section How Do I Submit My Entry? %}
+## How Do I Submit My Entry?
 
 Submit a plain ASCII-text electronic copy of the extended abstract ({{site.data.cfp.details[plural].limits}}) by the submission deadline @ 5:00 p.m. EDT (Eastern Daylight
 Time) to Dr. Ann Sobel (<a href="mailto:sigcse2015-src@rit.edu">sigcse2015-src@rit.edu</a>).
