@@ -14,7 +14,8 @@ noTitle: true
         <div class="carousel-inner">
           {% for i in site.data.index_carousel %}
           <div class="item {{i.active}}">
-            <img src="/images/carousel/{{i.image}}" width="100%" alt="{{i.caption}}">
+            <img src="/images/carousel/height-400px/{{i.image}}" alt="{{i.caption}}" 
+            style="padding-top: 20px;">
             <div class="carousel-caption">
               {{i.caption}}
             </div>
@@ -23,8 +24,10 @@ noTitle: true
       </div>
     </div> <!-- / md-8 -->
     
-    <div class="col-md-4 text-center" style="padding-top: 20px;">
-      <img src="/images/logos/kc-full-page-purple-400.png" class="image-responsive">
+    <div class="col-md-4 text-center">
+      <img src="/images/logos/kc-full-page-purple-400.png" 
+      class="image-responsive"
+      style="padding-top: 20px;">
     </div> <!-- / md-4 -->
   </div>
 </div> <!-- / lg-12 -->

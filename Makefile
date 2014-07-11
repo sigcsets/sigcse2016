@@ -13,5 +13,6 @@ remote:
 
 full:
 	$(MAKE) -C _assets/${BOOTSTRAP}
+	./minify.bash
 		
 fulllocal: full local
