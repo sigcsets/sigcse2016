@@ -7,8 +7,10 @@ showTitle: true
 {% include submission-announce-when-ready.html %}
 {% endunless %}
 
-{% section Important Dates %}
+## Important Dates
 
+<div class="row">
+  <div class="col-md-12">
 <div class="table-responsive">
   <table class="table">
       <tbody>
@@ -27,6 +29,8 @@ showTitle: true
     </tbody>
   </table>
 </div>
+</div>
+</div>
 
 <div class="row">
   <div class="col-sm-10">
@@ -42,7 +46,7 @@ We are particularly interested in keeping our community connected with interesti
 </div>
 </div>
 
-{% section Preparing Your Submissions %}
+## Preparing Your Submissions
 
 <ul>
   {% for submission in site.data.cfp.master %}

@@ -9,17 +9,38 @@ icon: info-circle
 Rates for {{site.data.main.upper}} {{site.data.main.year}} are posted, and we don't expect them to change at this point. 
 
 
-<div class="row"  style="padding-bottom: 20px;">
-{% for rate in site.data.main.rates %}
-<div class="row" style="padding-bottom: 5px;">
-    <div class="col-sm-5 col-sm-offset-1">
-        <b>{{rate[0]}}</b>
-    </div>
-    <div class="col-sm-6 ">
-        {{rate[1]}}
-    </div>
-</div>
+#### Deadlines
+  
+<div class="row">
+  <div class="col-md-11 col-md-offset-1">
+    <div class="table-responsive">
+      <table>
+{% for e in site.data.registration.deadlines %}
+        <tr class="{{e.alert}}">
+          <td style="padding-top: 10px; padding-right: 30px; padding-bottom: 10px;"><b>{{e.category}}</b></td>
+          <td>{{e.date}}</td>
+        </tr>
 {% endfor %}
+      </table>
+    </div>
+  </div>
+</div>
+
+#### Rates
+
+<div class="row">
+  <div class="col-md-11 col-md-offset-1">
+    <div class="table-responsive">
+      <table>
+{% for e in site.data.registration.rates %}
+        <tr class="{{e.alert}}">
+          <td style="padding-top: 10px; padding-right: 30px; padding-bottom: 10px;"><b>{{e.category}}</b></td>
+          <td>{{e.rates}}</td>
+        </tr>
+{% endfor %}
+      </table>
+    </div>
+  </div>
 </div>
 
 In the event that these rates change, we will update you on the blog, through social media, and (most likely) the SIGCSE mailing list as well. We do not anticipate any changes, however.

@@ -114,7 +114,7 @@ for the proposal should be as follows.
 2.  Convert your document into Adobe PDF format. Refer to our [Creating
     Adobe PDF Documents page](creating_pdf.html) for assistance.
     
-3.  Submit your document and text abstract description using the Please
+3.  Submit your document and text abstract description using the electronic submission system. Please
     do not wait until the last minute to submit your document because
     that is when everyone else will be connecting to our server!
     

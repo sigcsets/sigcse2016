@@ -10,7 +10,8 @@
 			<h2>
 				Submissions
 			</h2>
-        
+
+{% comment %}        
     <div class="table-responsive">
       <table class="table">
           <tbody>
@@ -32,8 +33,31 @@
 		<p>
       <a href="{{site.base}}/authors/">The SIGCSE {{site.data.main.year}} CFP has more details!</a>
 		</p>
-    
-      
+		</div>
+{% endcomment %}
+
+    <!-- This version has no per-type hyperlinks, as per Carl Alphonse's comment. -->
+    <div class="table-responsive">
+      <table class="table">
+          <tbody>
+    {% for submission in site.data.cfp.master %}
+      <tr>
+        <td> <b>{{submission.date}}</b> </td>
+        <td>
+          {% for sub in submission.types %} 
+          {% capture linked %}{{sub.plural}}</li>{% endcapture %}
+          {% capture entry %}{% if forloop.first %}{% else %}<br> {% endif %}{{linked}}{% endcapture %}
+            {{entry}}
+          {% endfor %}
+        </td>
+      </tr>
+    {% endfor %}
+        </tbody>
+      </table>
+    </div>
+		<p>
+      <a href="{{site.base}}/authors/">The SIGCSE {{site.data.main.year}} CFP has more details!</a>
+		</p>
 		</div>
     
     
