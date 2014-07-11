@@ -13,7 +13,7 @@ minimizeHTML () {
     for h in `ls *.html`
       do
         echo Minifying HTML in: $h
-        java -jar $HTML $h > TMP
+        java -jar $HTML -o TMP $h
         mv TMP $h
       done
     fi
@@ -41,7 +41,7 @@ popd > /dev/null
 # Optimize the PNGs
 for imgdir in "images" "images/carousel" "images/carousel/height-400px" "images/committee" "images/logos" "images/sponsors"
 do
-  pushd _site/images > /dev/null
+  pushd $imgdir > /dev/null
   echo Minimizing images
   for img in `ls *.png`
   do
