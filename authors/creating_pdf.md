@@ -11,7 +11,7 @@ this format.
 
 {%section How Can I Convert My Documents to Adobe PDF Format? %}
 
-You have a number of options for converting your Word, WordPerfect, or
+You have a number of options for converting your Word, LaTeX, or
 Postscript files into Adobe PDF.
 
 -   If you are using Google Docs, selecting print produces a PDF file.
@@ -31,7 +31,7 @@ Postscript files into Adobe PDF.
 -   Export your document from within OpenOffice, available at
     [openoffice.org](http://openoffice.org).
     
--   Adobe has an online service to convert your Word, WordPerfect and
+-   Adobe has an online service to convert your Word and
     other formatted documents into Adobe PDF format ([Create Adobe PDF
     Online](https://createpdf.acrobat.com/)). The converted file is
     either sent to you via e-mail or available through FTP. You may

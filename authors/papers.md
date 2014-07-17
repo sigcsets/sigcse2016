@@ -62,9 +62,9 @@ Electronic submission of papers is required.
 2.  Convert your paper into Adobe PDF format. Refer to our [Creating
     Adobe PDF Documents page](creating_pdf.html) for assistance.
     
-3.  Submit your paper using the . Be sure to choose the appropriate
+3.  A PDF version of your submission should be uploaded using the <a href="{{site.data.cfp.submissionurl}}">online submission system</a>. Be sure to choose the appropriate
     [topic areas](#topicareas) when submitting. Your choices help in
-    determining appropriate reviewers, and to assist the reviewer in
+    determining appropriate reviewers, and assists the reviewers in
     evaluating the paper from an appropriate perspective.
     
 4.  Please do not wait until the last minute to submit your documents,
@@ -77,7 +77,7 @@ Electronic submission of papers is required.
     acceptance or rejection notification.
     
 6.  After receiving confirmation, go to the to review your submission
-    for accuracy. Send e-mail to (Adrienne Decker and Kurt Eiselt) if there are any problems.
+    for accuracy. Send e-mail to your Program Chairs if you have questions (email addresses below).
 
 ## Presentation Notes
 
@@ -94,9 +94,8 @@ Electronic submission of papers is required.
 -   The conference supplies a projector but not a laptop. You will need
     to **bring a laptop or arrange to use one from another attendee**.
     You may want to contact your session chair or other speakers in your
-    session to arrange sharing. (If neither you, the other session
-    speakers, nor the session chair have a laptop, send an email to
-    .)
+    session to arrange sharing. Please contact the Program Chairs (email addresses below)
+    if you need further assistance in this regard.
     
 -   Bring a **backup copy** of your presentation on a USB stick. Session
     chairs may request that presenters arrange to make all presentations

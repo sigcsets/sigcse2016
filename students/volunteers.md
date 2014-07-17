@@ -4,7 +4,7 @@ showTitle: true
 ---
 
 Student volunteers are an important part of the {{site.data.main.upper}} Symposium and
-have been for many years. Each volunteer works for up to 6 hours,
+have been for many years. Each volunteer works for 5-6 hours,
 helping with various conference management activities. You'll interact
 with the conference organizers and presenters and will meet other
 students from all over the world. More information about the experience,
@@ -60,12 +60,11 @@ registration refund:
 
 ### Who is eligible to be a student volunteer?
 
-Any full-time student may become a student volunteer. Both undergraduate
+Any full-time student may become a student volunteer. (You must be a currently **registered student** at your institution!) Both undergraduate
 and graduate students are welcome. You specify your school affiliation
 when you sign up as a volunteer, and you should bring a copy of your
 current course schedule to the conference as verification of your full
-time status. Students attending the conference for the Research Poster
-competition are encouraged to become volunteers as well.
+time status. Students attending the conference for the ACM Student Research Competition are encouraged to become volunteers as well.
 
 ### What if I require a visa?
 
@@ -78,6 +77,7 @@ following information:
 -   Name and mailing address as it appears on your passport.
 
 -   The name of the conference you wish to attend ({{site.data.main.upper}} {{site.data.main.year}}).
+
 -   Registration confirmation number.
 
 -   If you are the author of any papers accepted for the conference,
@@ -87,7 +87,7 @@ following information:
 
 ### What are the benefits of student volunteering?
 
-In exchange for 5 hours of conference service (6 hour maximum), you will
+In exchange for 5-6 hours of volunteer service, you will
 receive:
 
 -   Refunded registration fee.

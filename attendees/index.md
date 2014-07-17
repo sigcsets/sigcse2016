@@ -23,6 +23,12 @@ showTitle: true
 
 As always, we encourage attendees to register early; this helps us with our planning, and in return, you get lower registration rates! And, of course, you can <a href="http://www.sigcse.org/membership/join">join ACM SIGCSE</a>, which will further reduce your rates. Joining SIGCSE is $45 for professionals and $8 for students, so it really is to your benefit to join the world's premier professional computer science education organization!
 
+{% callout info %}
+
+<p>Even if you <a href="{{site.data.main.sigcsemembershipurl}}">join SIGCSE</a> ($25/year), you're guaranteed to save on your conference registration! And, consider a </p>
+
+{% endcallout %}
+
 #### Deadlines
   
 <div class="row">

@@ -23,9 +23,12 @@ showTitle: true
     <td> <b>{{submission.date}}</b> </td>
     <td>
       {% for sub in submission.types %} 
-      {% capture linked %}<a href="{{site.base}}/authors/index.html#{{sub.plural | remove: ' '}}">{{sub.plural}}</a></li>{% endcapture %}
+      {% if sub.new %}
+        {% capture newflag %}<span style='color: gold;'><i class="fa fa-star-o"></i></span>{% endcapture %}
+      {% endif %}
+      {% capture linked %}<a href="{{site.base}}/authors/index.html#{{sub.plural | remove: ' '}}">{{sub.plural}}</a>{% endcapture %}
       {% capture entry %}{% if forloop.first %}{% else %}<br> {% endif %}{{linked}}{% endcapture %}
-        {{entry}}
+        {{entry}}{{newflag}}
       {% endfor %}
     </td>
   </tr>

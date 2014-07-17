@@ -21,8 +21,7 @@ Workshops provide an in-depth review of, or introduction to, a topic of
 interest, and should provide participants with materials and/or ideas
 that are immediately useful in the classroom. To this end, workshop
 presenters should provide participants with handouts outlining the
-workshop material. We plan to support a number of workshops involving
-hands-on computer use by participants. All SIGCSE {{site.data.main.year}} workshops will be half-day workshops (3 hours).
+workshop material. All SIGCSE {{site.data.main.year}} workshops will be half-day workshops (3 hours).
 
 Workshop Proposals undergo review but **not** blind review. Proposals
 are evaluated for **relevance, anticipated interest, quality, and
@@ -75,8 +74,7 @@ review process only. The abstract is the description that appears on the
 Symposium web site and in the Symposium program and proceedings. The
 format of these documents should be as follows.
 
-1.  **Full Workshop Proposal Format (limited to 3 pages, including the
-    title page)**
+1.  **Full Workshop Proposal Format ({{site.data.cfp.details["Workshops"].limits}})**
 
     The first page is a title page that must contain only the workshop
     title and presenters (items a and b below). The remaining
@@ -124,8 +122,8 @@ format of these documents should be as follows.
         acceptance, more information about the standard vs. non-standard
         A/V equipment will be available. For hands-on workshops,
         indicate Laptop Recommended, Laptop Required, or Laptop Optional
-        (see " Hands-on Lab-based Workshops " above) and which OSs are
-        supported (Linux, Mac, Windows). Describe any special
+        (see " Hands-on Lab-based Workshops " above) and which operating systems are
+        supported (Linux, Mac, Windows, Android, iOS). Describe any special
         requirements for attendees' computers.
         
     -   **Space and Enrollment Restrictions**: Please tell us the
@@ -177,8 +175,7 @@ Note that you will be required to submit your proposal electronically.
     [Creating Adobe PDF Documents page](creating_pdf.html) for
     assistance.
     
-3.  Submit the `.pdf` proposal and the (including whitespace) text
-    abstract description using the . Note that the text version of the
+3.  A PDF version of your submission should be uploaded using the <a href="{{site.data.cfp.submissionurl}}">online submission system</a>. Note that the text version of the
     abstract will be published in the various forms of the program and
     proceedings, and may be formatted and/or edited to meet their
     requirements. The proposal, formatted in `.pdf`, is for reviewers
@@ -191,8 +188,9 @@ Note that you will be required to submit your proposal electronically.
     filters sometimes trap these automatically generated messages. You
     may need to check your spam trap for the confirmation and, later,
     for the acceptance or rejection notification.
+    
 5.  After receiving confirmation, go to the to review your submission
-    for accuracy. Send e-mail to
+    for accuracy. Send e-mail to the Workshops coordinator(s)
     if there are any problems.
 
 {% include submission-questions category="Workshops Co-Wrangler" %}

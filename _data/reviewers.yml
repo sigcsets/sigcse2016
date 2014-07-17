@@ -2,8 +2,8 @@ dates:
   Papers to Reviewers: After September 5th (TBA)
   Reviews Due: After September 5th (TBA)
 
-reviewerRegistrationForm: #
+reviewerRegistrationForm: /reviewers/submission.html
 
 paperCategoryCriteria: #
 
-proposalReviewSite: #
+proposalReviewSite: /reviewers/submission.html
