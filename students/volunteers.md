@@ -134,7 +134,7 @@ It varies. Duties may include (and are not limited to) the following:
 
 Not much, but we'll do what we can. If you have a skill we are
 interested in then you get a chance to indicate that when you are
-indicating available work times (e.g. like working children might make
+indicating available work times (e.g. like working with children might make
 you a great choice to help with kids camp!). We also try to accommodate
 students who have a preference for a particular shift or session, but
 due to the complexity of scheduling and ensuring we have adequate
@@ -153,7 +153,7 @@ at and leaving the conference. You will also have the opportunity to
 specify when you are presenting a paper or poster. Given those
 constraints we will make our schedule.
 
-We recognize that things may change and will do our best make changes as
+We recognize that things may change and will do our best to make changes as
 needed. In return, we ask that you be as flexible as possible as
 coordinating a conference is challenging and your role is important!
 
