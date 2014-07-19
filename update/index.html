@@ -1,5 +1,6 @@
 ---
 title: SIGCSE 2015 Blog
+layout: flat
 showTitle: true
 ---
 
@@ -21,7 +22,9 @@ showTitle: true
   
   {% for post in site.posts  %}
   
-    <div class="col-sm-10">
+  <div class="row" style="margin-top: 30px;">
+    
+    <div class="col-sm-10 well" >
         <a name="{{post.title | remove: ' '}}"></a>
         <h3>
             {{post.title}}
@@ -44,21 +47,30 @@ showTitle: true
                   {% endcase %} {{ post.date | date: "%Y" }}
             </small>
         </h4>
-        {{post.content}}
+      </div>
+      {% comment %}
+      <div class="col-sm-2 pull-right post-image">
+          {% if post.image %}
+          <small class="text-muted"><a href="#" class="pull-right"><img src="/images/circles/{{post.image}}" class="img-circle"></a></small>
+          {% elsif post.icon %}
+          {% if post.iconcolor %}
+              {% assign color = post.iconcolor %}
+          {% else %}
+              {% assign color = {{site.purple}} %}
+          {% endif %}
+          <div style="margin-top: 20px;">
+              {% include fa name=post.icon color=color size="5x"  %}
+          </div>
+          {% endif %}
+      </div>
+      {% endcomment %}
+  </div> <!-- end row -->
+  <div class="row">
+    <div class="col-md-10">
+      {{post.content}}
     </div>
-    <div class="col-sm-2 pull-right post-image">
-        {% if post.image %}
-        <small class="text-muted"><a href="#" class="pull-right"><img src="/images/circles/{{post.image}}" class="img-circle"></a></small>
-        {% elsif post.icon %}
-        {% if post.iconcolor %}
-            {% assign color = post.iconcolor %}
-        {% else %}
-            {% assign color = {{site.purple}} %}
-        {% endif %}
-        <div style="margin-top: 20px;">
-            {% include fa name=post.icon color=color size="5x"  %}
-        </div>
-        {% endif %}
-    </div>
+  </div>
+    
+
   {% endfor %}
 </div>

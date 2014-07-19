@@ -23,11 +23,7 @@ showTitle: true
 
 As always, we encourage attendees to register early; this helps us with our planning, and in return, you get lower registration rates! And, of course, you can <a href="http://www.sigcse.org/membership/join">join ACM SIGCSE</a>, which will further reduce your rates. Joining SIGCSE is $45 for professionals and $8 for students, so it really is to your benefit to join the world's premier professional computer science education organization!
 
-{% callout info %}
-
-<p>Even if you <a href="{{site.data.main.sigcsemembershipurl}}">join SIGCSE</a> ($25/year), you're guaranteed to save on your conference registration! And, consider a </p>
-
-{% endcallout %}
+<p>If you <a href="{{site.data.main.sigcsemembershipurl}}">join SIGCSE</a> ($25/year), you're guaranteed to save on your conference registration! And, consider a </p>
 
 #### Deadlines
   
@@ -79,7 +75,7 @@ As always, we encourage attendees to register early; this helps us with our plan
 <p>Our conference hotel is the <b>{{site.data.main.conferenceHotel}}</b>. The rumor on the street in KC is that <i>{{site.data.main.upper}} booked the whole thing</i>. So, take that conference rate, and book rooms for yourself and all of your colleagues—this would be great year to bring the whole department/division/school.
 </p>
 
-<p>**We're excited to note that our conference hotel and venue hotel are one and the same!** Sessions and accommodations are all under the same roof.</p>
+<p><b>Note that the <a href="http://www.visitkc.com/convention-center/index.aspx">KC Convention Center is barely a block away</a> from the conference hotel!</b> Sessions and accommodations are practically under the same roof!</p>
 
 <p>So <a href="{{site.data.main.bookingURL}}">go reserve your room now</a>. You might as well: it's the 2014-2015 budget year, and at least this way you won't be thinking about it all through the fall term.</p>
 
