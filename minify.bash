@@ -38,21 +38,6 @@ done
 popd > /dev/null
 
 ###################
-# Optimize the PNGs
-for imgdir in "images" "images/carousel" "images/carousel/height-400px" "images/committee" "images/logos" "images/sponsors"
-do
-  pushd $imgdir > /dev/null
-  echo Minimizing images
-  for img in `ls *.png`
-  do
-    echo $img
-    # Maximum optimization
-    ${WEBROOT}/_assets/optipng -o5 $img
-  done
-  popd > /dev/null
-done
-
-###################
 # Minify the CSS files
 echo Minimizing CSS files
 pushd _site/css > /dev/null

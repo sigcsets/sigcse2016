@@ -3,16 +3,21 @@ BOOTSTRAP=bootstrap-3.2.0
 local:
 	jekyll serve -w --config _config.yml
 
-remote:
-	$(MAKE) -C _assets/${BOOTSTRAP}
-	jekyll build --config _config.yml,_config_remote.yml
-	./minify.bash
+remote: boot build mini 
 	rsync -vrz \
 		-e "ssh -p 7822" _site/ \
 		sigcse@sigcse.hosting.acm.org:/home/sigcse/www/sigcse2015
 
-full:
-	$(MAKE) -C _assets/${BOOTSTRAP}
+img:
+	./optimizepng.bash
+
+mini:
 	./minify.bash
-		
-fulllocal: full local
+
+build:
+	jekyll build --config _config.yml,_config_remote.yml
+
+site: build mini
+	
+boot: 
+	$(MAKE) -C _assets/${BOOTSTRAP}
