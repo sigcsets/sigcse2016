@@ -67,7 +67,7 @@ details:
     length: "75 minutes"
   Posters:
     limits: "2 pages"
-    abstract: "150 words"
+    abstract: "250 words"
     length: "2 hours (poster session)"
   Special Sessions:
     limits: "2 pages"
@@ -77,15 +77,15 @@ details:
     length: "3 hours"
   Birds of a Feather:
     limits: "1 page"
-    abstract: "150 words"
+    abstract: "250 words"
     length: "45 minutes"
   Lightning Talks:
     limits: "1 page"
-    abstract: "150 words"
+    abstract: "250 words"
     length: "5 minutes"
   Demos:
     limits: "2 pages"
-    abstract: "150 words"
+    abstract: "250 words"
     length: "30 minutes (during breaks)"
   Student Research Competition:
     limits: "800 words"
