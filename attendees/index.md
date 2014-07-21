@@ -3,6 +3,7 @@ title: For Attendees
 showTitle: true
 ---
 
+<div class="row" style="margin-top: 20px; margin-bottom: 20px;">
 {% callout info %}
 <p>Everything you need for:
   <ul>
@@ -14,20 +15,23 @@ showTitle: true
   is on this page.
 </p>
 {% endcallout %}
+</div>
 
 <a name="registering"></a>
 
 ## Registering for SIGCSE {{site.data.main.year}}
 
-{{site.data.main.upper}} {{site.data.main.year}} takes place between {{site.data.main.month}} {{site.data.main.start}} and {{site.data.main.month}} {{site.data.main.end}} this year.
+{{site.data.main.upper}} {{site.data.main.year}} takes place between {{site.data.main.month}} {{site.data.main.start}} and {{site.data.main.month}} {{site.data.main.end}} of... you guessed it, {{site.data.main.year}}.
 
-As always, we encourage attendees to register early; this helps us with our planning, and in return, you get lower registration rates! And, of course, you can <a href="http://www.sigcse.org/membership/join">join ACM SIGCSE</a>, which will further reduce your rates. Joining SIGCSE is $45 for professionals and $8 for students, so it really is to your benefit to join the world's premier professional computer science education organization!
+As always, we encourage attendees to register early; this helps us with our planning, and in return, you get lower registration rates! And, of course, you can <a href="http://www.sigcse.org/membership/join">join ACM SIGCSE</a>, which will further reduce your rates. Joining SIGCSE is {{site.data.main.sigcsemembershipcost}} for professionals and {{site.data.main.sigcsestudentmembershipcost}} for students, so it really is to your benefit to join the world's premier professional computer science education organization!
 
-<p>If you <a href="{{site.data.main.sigcsemembershipurl}}">join SIGCSE</a> ($25/year), you're guaranteed to save on your conference registration! And, consider a </p>
+<p>If you <a href="{{site.data.main.sigcsemembershipurl}}">join SIGCSE</a> ({{site.data.main.sigcsemembershipcost}}/year), you save at least {{site.data.main.sigseregistrationsavings}} on your registration, and gain access to an incredible global network of dedicated professionals and educators who are part of the SIGCSE community.</p>
+
+&nbsp;
 
 #### Deadlines
   
-<div class="row">
+<div class="row" style="margin-top: 20px; margin-bottom: 20px;">
   <div class="col-md-11 col-md-offset-1">
     <div class="table-responsive">
       <table>
@@ -44,7 +48,7 @@ As always, we encourage attendees to register early; this helps us with our plan
 
 #### Rates
 
-<div class="row">
+<div class="row" style="margin-top: 20px; margin-bottom: 20px;">
   <div class="col-md-11 col-md-offset-1">
     <div class="table-responsive">
       <table>
@@ -59,10 +63,12 @@ As always, we encourage attendees to register early; this helps us with our plan
   </div>
 </div>
 
+<div class="row" style="margin-top: 30px; margin-bottom: 30px;">
 {% callout danger %}
 <p>As of July 4th, we are not quite ready to accept your conference registrations... but we will soon!
 </p>
 {% endcallout %}
+</div>
 
 
 
