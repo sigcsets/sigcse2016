@@ -2,18 +2,9 @@
 title: Workshop Submission Guidelines
 ---
 
-{% comment %}
-Important Dates for Workshops {.section}
------------------------------
 
-  ----------------------------------------------------- ------------------------------------------
-  Submission Deadline:                                  \<? echo \$mainSubmissionDeadline; ?\>
-  @11:59 p.m. Hawaii-Aleutian Standard Time (HST)
-  Presenter Notification:                               \<? echo \$mainNotificationDeadline; ?\>
-  Updates to Titles, Authors, & Abstracts Due:          \<? echo \$mainUpdatesDeadline; ?\>
-  Software Distribution URLs (for Hands-On Labs) Due:   \<? echo \$workshopUrlDeadline; ?\>
-  ----------------------------------------------------- ------------------------------------------
-{% endcomment %}
+{% include submissiondetails.html plural="Workshops" %}
+
 
 ## What Is a Workshop?
 

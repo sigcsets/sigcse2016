@@ -4,11 +4,8 @@
     {% if type.plural == plural %}
       {% assign subdate = submission.date %}
       {% assign subtime = submission.time %}
-      {% assign sublink = submission.link %}
-      {% comment %}
-      This lets me exclude the pre-symposium events submission link below...
-      {% endcomment %}
-      {% assign excludelink = type.notincfp %}
+      {% assign subtimelink = submission.link %}
+      {% assign specialsubmission = site.data.cfp.details[plural].specialsubmission %}
     {% endif %}
   {% endfor %}
 {% endfor %}
@@ -22,7 +19,7 @@
         </tr>
         <tr>
           <td><b>Time Due: </b></td>
-          <td> <a href="{{submission.link}}">{{subtime}}</a> </td>
+          <td> <a href="{{subtimelink}}">{{subtime}}</a> </td>
         </tr>
         <tr>
           <td><b>Submission Limits: </b></td>
@@ -38,16 +35,16 @@
         </tr>
         
         {% unless (page.title contains "Call") %}
-        {% unless excludelink == true %}
         <tr>
-          {% comment %}
-          This is weird... I don't want this on the CFP itself, so I'm using a fragile filter.
-          {% endcomment %}
-
           <td><b>Submission Link: </b></td>
-          <td> <a href="{{site.data.cfp.submissionurl}}">{{site.data.main.upper}} {{site.data.main.year}} Submissions (OpenConf)</a> </td>
+          <td> 
+            {% if specialsubmission %}
+            See below
+            {% else %}
+            <a href="{{site.data.cfp.submissionurl}}">{{site.data.main.upper}} {{site.data.main.year}} Submissions (OpenConf)</a> 
+            {% endif %}
+            </td>
         </tr>
-        {% endunless %}
         {% endunless %}
       </tbody>
     </table>

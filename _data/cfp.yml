@@ -95,9 +95,11 @@ details:
     limits: "800 words"
     abstract: "800 characters"
     length: "2 hours (poster session)"
+    specialsubmission: true
   Pre-Symposium Events:
     limits: "Request Application Form"
     length: "Varies"
+    specialsubmission: true
 
 notifications:
   Student Research Competition: After September 29 (TBA)
