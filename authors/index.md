@@ -19,15 +19,15 @@ showTitle: true
     <td> <b>{{submission.date}}</b> </td>
     <td>
       {% for sub in submission.types %} 
-      {% if sub.include %}
-        {% if sub.new %}
-          {% capture newflag %}<span style='color: gold;'><i class="fa fa-star-o"></i></span>{% endcapture %}
-        {% endif %}
-        {% capture link %}<a href="#{{sub.plural | remove: ' '}}">{{sub.plural}}</a>{% endcapture %}
-        {% capture entry %}{% if forloop.first %}{% else %}<br/> {% endif %}{{link}}{% endcapture %}
-          {{entry}}{{newflag}}
-        {% assign newflag = "" %}
-      {% endif %}
+        {% unless sub.notincfp %}
+          {% if sub.new %}
+            {% capture newflag %}<span style='color: gold;'><i class="fa fa-star-o"></i></span>{% endcapture %}
+          {% endif %}
+          {% capture link %}<a href="#{{sub.plural | remove: ' '}}">{{sub.plural}}</a>{% endcapture %}
+          {% capture entry %}{% if forloop.first %}{% else %}<br/> {% endif %}{{link}}{% endcapture %}
+            {{entry}}{{newflag}}
+          {% assign newflag = "" %}
+        {% endunless %}
       {% endfor %}
     </td>
   </tr>
@@ -61,20 +61,20 @@ We are particularly interested in keeping our community connected with interesti
 <ul>
   {% for submission in site.data.cfp.master %}
     {% for sub in submission.types %}
-    {% if sub.include %}
+    {% unless sub.notincfp %}
     {% if sub.new %}
       {% capture newflag %}<span style='color: gold;'><i class="fa fa-star-o"></i></span>{% endcapture %}
     {% endif %}
       <li><a href="#{{sub.plural | remove: ' '}}">{{sub.plural}}</a> {{newflag}}</li>
       {% assign newflag = "" %}
-    {% endif %}
+    {% endunless %}
     {% endfor %}
   {% endfor %}
 </ul>
 
 {% for submission in site.data.cfp.master %}
   {% for sub in submission.types %} 
-  {% if sub.include %}
+  {%  unless sub.notincfp  %}
   <div class="row">
     <div class="col-lg-10">
       {% if sub.new %}
@@ -82,7 +82,7 @@ We are particularly interested in keeping our community connected with interesti
       {% endif %}
      <a name="{{sub.plural | remove: ' '}}"></a>
      <h2>{{sub.plural}} {{newflag}}</h2>
-     <small><a href="{{site.base}}/authors/{{sub.include}}.html">{% icon arrow-circle-right %} Authoring Guidelines</a></small>    
+     <p><a href="{{site.base}}/authors/{{sub.include}}.html">{% icon arrow-circle-right %} Authoring and Submission Guidelines</a></p>
    </div>
    <div class="col-lg-10">
        {% capture file %}submissions/{{sub.include}}.md{% endcapture %}
@@ -93,6 +93,6 @@ We are particularly interested in keeping our community connected with interesti
    </div>
  </div>
    {% assign newflag = "" %}
- {% endif %}
+ {% endunless %}
  {% endfor %}     
 {% endfor %}

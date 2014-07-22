@@ -35,7 +35,8 @@ master:
         include: src
       - plural: Pre-Symposium Events
         singular: Pre-Symposium Event
-        include: false
+        include: presymposium
+        notincfp: true
 
   - date: "Monday, October 27th, 2014"
     shortdate: "2014-10-27"

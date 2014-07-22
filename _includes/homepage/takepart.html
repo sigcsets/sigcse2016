@@ -26,7 +26,8 @@
             {% capture newflag %}<span style='color: gold;'><i class="fa fa-star-o"></i></span>{% endcapture %}
           {% endif %}
           
-          {% capture linked %}{{sub.plural}}{% endcapture %}
+          {% capture linked %}<a href="{{site.base}}/authors/{{sub.include}}.html">{{sub.plural}}</a>{% endcapture %}
+          
           {% capture entry %}{% if forloop.first %}{% else %}{% endif %}{{linked}}{% endcapture %}
             {{entry}}{{newflag}}<br>
           {% endfor %}
@@ -37,7 +38,7 @@
       </table>
     </div>
 		<p>
-      <a href="{{site.base}}/authors/">The SIGCSE {{site.data.main.year}} CFP has more details.</a>
+      <a href="{{site.base}}/authors/">The SIGCSE {{site.data.main.year}} CFP has more details</a>, or follow the links above to jump directly to authoring and submission guidelines.
 		</p>
 		</div>
     

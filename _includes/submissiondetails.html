@@ -33,6 +33,17 @@
           <td><b>Presentation Length: </b></td>
           <td> {{site.data.cfp.details[plural].length}}</td>
         </tr>
+        
+        {% unless page.title contains "Call "%}
+        <tr>
+          {% comment %}
+          This is weird... I don't want this on the CFP itself, so I'm using a fragile filter.
+          {% endcomment %}
+
+          <td><b>Submission Link: </b></td>
+          <td> <a href="{{site.data.cfp.submissionurl}}">{{site.data.main.upper}} {{site.data.main.year}} Submissions (OpenConf)</a> </td>
+        </tr>
+        {% endunless %}
       </tbody>
     </table>
 </div>
