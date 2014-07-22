@@ -5,10 +5,13 @@
       {% assign subdate = submission.date %}
       {% assign subtime = submission.time %}
       {% assign sublink = submission.link %}
+      {% comment %}
+      This lets me exclude the pre-symposium events submission link below...
+      {% endcomment %}
+      {% assign excludelink = type.notincfp %}
     {% endif %}
   {% endfor %}
 {% endfor %}
-
 
 <div class="table-responsive" style="margin-top: 20px;">
   <table class="table">
@@ -34,7 +37,8 @@
           <td> {{site.data.cfp.details[plural].length}}</td>
         </tr>
         
-        {% unless page.title contains "Call "%}
+        {% unless (page.title contains "Call") %}
+        {% unless excludelink == true %}
         <tr>
           {% comment %}
           This is weird... I don't want this on the CFP itself, so I'm using a fragile filter.
@@ -43,6 +47,7 @@
           <td><b>Submission Link: </b></td>
           <td> <a href="{{site.data.cfp.submissionurl}}">{{site.data.main.upper}} {{site.data.main.year}} Submissions (OpenConf)</a> </td>
         </tr>
+        {% endunless %}
         {% endunless %}
       </tbody>
     </table>
