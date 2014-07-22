@@ -19,12 +19,15 @@ showTitle: true
     <td> <b>{{submission.date}}</b> </td>
     <td>
       {% for sub in submission.types %} 
-      {% if sub.new %}
-        {% capture newflag %}<span style='color: gold;'><i class="fa fa-star-o"></i></span>{% endcapture %}
+      {% if sub.include %}
+        {% if sub.new %}
+          {% capture newflag %}<span style='color: gold;'><i class="fa fa-star-o"></i></span>{% endcapture %}
+        {% endif %}
+        {% capture link %}<a href="#{{sub.plural | remove: ' '}}">{{sub.plural}}</a>{% endcapture %}
+        {% capture entry %}{% if forloop.first %}{% else %}<br/> {% endif %}{{link}}{% endcapture %}
+          {{entry}}{{newflag}}
+        {% assign newflag = "" %}
       {% endif %}
-      {% capture link %}<a href="#{{sub.plural | remove: ' '}}">{{sub.plural}}</a>{% endcapture %}
-      {% capture entry %}{% if forloop.first %}{% else %}<br/> {% endif %}{{link}}{% endcapture %}
-        {{entry}}{{newflag}}
       {% endfor %}
     </td>
   </tr>
@@ -58,13 +61,20 @@ We are particularly interested in keeping our community connected with interesti
 <ul>
   {% for submission in site.data.cfp.master %}
     {% for sub in submission.types %}
-    <li><a href="#{{sub.plural | remove: ' '}}">{{sub.plural}}</a></li>
+    {% if sub.include %}
+    {% if sub.new %}
+      {% capture newflag %}<span style='color: gold;'><i class="fa fa-star-o"></i></span>{% endcapture %}
+    {% endif %}
+      <li><a href="#{{sub.plural | remove: ' '}}">{{sub.plural}}</a> {{newflag}}</li>
+      {% assign newflag = "" %}
+    {% endif %}
     {% endfor %}
   {% endfor %}
 </ul>
 
 {% for submission in site.data.cfp.master %}
   {% for sub in submission.types %} 
+  {% if sub.include %}
   <div class="row">
     <div class="col-lg-10">
       {% if sub.new %}
@@ -82,5 +92,7 @@ We are particularly interested in keeping our community connected with interesti
      {% include submissiondetails.html plural=sub.plural %}     
    </div>
  </div>
+   {% assign newflag = "" %}
+ {% endif %}
  {% endfor %}     
 {% endfor %}
