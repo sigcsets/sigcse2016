@@ -5,37 +5,46 @@ showTitle: true
 
 ## Important Dates
 
-
-<div class="table-responsive">
-  <table class="table">
-      <tbody>
-      <tr>
-        <th>
-          Due Date
-        </th>
-        <th>
-          Category
-        </th>
-      </tr>
-        
-{% for submission in site.data.cfp.master %}
-  <tr>
-    <td> <b>{{submission.date}}</b> </td>
-    <td>
-      {% for sub in submission.types %} 
-      {% if sub.new %}
-        {% capture newflag %}<span style='color: gold;'><i class="fa fa-star-o"></i></span>{% endcapture %}
-      {% endif %}
-      {% capture linked %}<a href="{{site.base}}/authors/index.html#{{sub.plural | remove: ' '}}">{{sub.plural}}</a>{% endcapture %}
-      {% capture entry %}{% if forloop.first %}{% else %}<br> {% endif %}{{linked}}{% endcapture %}
-        {{entry}}{{newflag}}
+{% for group in site.data.reviewers.reviewgroups %}
+  {% assign grouparray = group | remove: " " | split: ","%}
+  <div class="table-responsive">
+    <div class="well">Deadlines for <b>{{group}}</b></div>  
+    <table class="table">
+        <tbody>
+    {% for submission in site.data.reviewers.reviewdates %}
+      {% assign generateRow = false %}
+      {% for sub in submission.types %}
+        {% if grouparray contains sub.plural %}
+          {% assign generateRow = true %}
+        {% endif %}
       {% endfor %}
-    </td>
-  </tr>
+      {% if generateRow %}
+        <tr>
+          <td> <b>{{submission.event}}</b> </td>
+          <td> {{submission.date}} </td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+    {% comment %}
+    {% for submission in site.data.reviewers.finalization %}
+      {% assign generateRow = false %}
+      {% for sub in submission.types %}
+        {% if grouparray contains sub.plural %}
+          {% assign generateRow = true %}
+        {% endif %}
+      {% endfor %}
+      {% if generateRow %}
+        <tr>
+          <td> <b>{{submission.event}}</b> </td>
+          <td> {{submission.date}} </td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+    {% endcomment %}
+      </tbody>
+    </table>
+  </div>
 {% endfor %}
-    </tbody>
-  </table>
-</div>
 
 ## How Do I Volunteer to Review?
 
@@ -43,7 +52,17 @@ All SIGCSE members are encouraged to participate in the reviewing process.
 
 {% if site.data.flags.reviewSiteReady %}
 
-If you are interested in reviewing papers for {{site.data.main.upper}} {{site.data.main.year}}, you are invited to complete the <a href="{{site.data.reviewers.reviewerRegistrationForm}}">reviewer registration form</a>. 
+### For New Reviewers
+
+If you are interested in reviewing papers for {{site.data.main.upper}} {{site.data.main.year}}, you are <a href="{{site.data.reviewers.reviewerRegistrationForm}}">invited to complete the reviewer registration form</a>. In the box that says "Sign Up — Keycode:" input the code <span class="label label-warning">{{site.data.reviewers.keycode}}</span>.
+
+After you have filled in your contact information, it it **MOST IMPORTANT** to select the topic areas for which you would like to review. Please limit yourself to areas in which you feel somewhat expert. The system will automatically ask you to consider the areas carefully if you choose more than four.
+
+### For Those Who Have Previously Reviewed
+
+All people currently listed in the reviewer database will receive an e-mail message in August with their current recorded information.
+
+If you would like to <a href="{{site.data.reviewers.reviewerRegistrationForm}}">update your information in the database, go to the proposal review site</a> by <span class="label label-warning">{{site.data.reviewers.reviewsignupdeadline}}</span>. Please select your areas of reviewing carefully, limiting yourself to areas in which you have expertise.
 
 {% else %}
 

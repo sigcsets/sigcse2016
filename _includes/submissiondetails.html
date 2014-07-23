@@ -14,15 +14,15 @@
   <table class="table">
       <tbody>
         <tr>
-          <td><b>Date Due: </b></td>
+          <td><b>Date Due </b></td>
           <td>{{subdate}}</td>
         </tr>
         <tr>
-          <td><b>Time Due: </b></td>
+          <td><b>Time Due </b></td>
           <td> <a href="{{subtimelink}}">{{subtime}}</a> </td>
         </tr>
         <tr>
-          <td><b>Submission Limits: </b></td>
+          <td><b>Submission Limits </b></td>
           <td> {{site.data.cfp.details[plural].limits}} 
           {% if site.data.cfp.details[plural].abstract %}
             (including abstract of {{site.data.cfp.details[plural].abstract}})
@@ -30,13 +30,13 @@
           </td>
         </tr>
         <tr>
-          <td><b>Presentation Length: </b></td>
+          <td><b>Presentation Length </b></td>
           <td> {{site.data.cfp.details[plural].length}}</td>
         </tr>
         
         {% unless (page.title contains "Call") %}
         <tr>
-          <td><b>Submission Link: </b></td>
+          <td><b>Submission Link </b></td>
           <td> 
             {% if specialsubmission %}
             See below
@@ -45,6 +45,22 @@
             {% endif %}
             </td>
         </tr>
+        
+        {% for submission in site.data.reviewers.finalization %}
+          {% assign generateRow = false %}
+          {% for sub in submission.types %}
+            {% if plural == sub.plural %}
+              {% assign generateRow = true %}
+            {% endif %}
+          {% endfor %}
+          {% if generateRow %}
+            <tr>
+              <td> <b>{{submission.event}}</b> </td>
+              <td> {{submission.date}} </td>
+            </tr>
+          {% endif %}
+        {% endfor %}
+
         {% endunless %}
       </tbody>
     </table>

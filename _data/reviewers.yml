@@ -1,9 +1,184 @@
-dates:
-  Papers to Reviewers: After September 5th (TBA)
-  Reviews Due: After September 5th (TBA)
-
 reviewerRegistrationForm: https://www.openconf.org/sigcse2015/
-
 paperCategoryCriteria: #
-
 proposalReviewSite: https://www.openconf.org/sigcse2015/
+keycode: review15
+
+reviewsignupdeadline: "Friday, August 22nd, 2014"
+rewviewsignupdeadlineshort: "2014-08-22"
+
+reviewgroups:
+  - "Papers, Panels, Special Sessions, Workshops"
+  - "Birds of a Feather, Posters, Lightning Talks, Demos"
+
+reviewdates:
+  - date: "Friday, August 22nd, 2014"
+    event: "Sign Up to Review"
+    shortdate: "2014-08-22"
+    types: 
+      - plural: Papers
+        singular: Paper
+        include: papers
+      - plural: Panels
+        singular: Panel
+        include: panels
+      - plural: Special Sessions
+        singular: Special Session
+        include: specialsessions
+      - plural: Workshops
+        singular: workshop
+        include: workshops
+      - plural: Birds of a Feather
+        singular: Birds of a Feather
+        include: bofs
+      - plural: Posters
+        singular: Poster
+        include: posters
+      - plural: Lightning Talks
+        singular: Lightning Talk
+        include: lightningtalks
+        new: true
+      - plural: Demos
+        singular: demo
+        include: demos
+        new: true
+
+  - date: "Monday, September 8th, 2014"
+    event: "Reviewers Receive Assignments"
+    shortdate: "2014-09-08"
+    types: 
+      - plural: Papers
+        singular: Paper
+        include: papers
+      - plural: Panels
+        singular: Panel
+        include: panels
+      - plural: Special Sessions
+        singular: Special Session
+        include: specialsessions
+      - plural: Workshops
+        singular: workshop
+        include: workshops
+        
+  - date: "Monday, September 22nd, 2014"
+    event: "Reviews Due"
+    shortdate: "2014-09-22"
+    types: 
+      - plural: Papers
+        singular: Paper
+        include: papers
+      - plural: Panels
+        singular: Panel
+        include: panels
+      - plural: Special Sessions
+        singular: Special Session
+        include: specialsessions
+      - plural: Workshops
+        singular: workshop
+        include: workshops
+
+  - date: "Monday, October 29th, 2014"
+    event: "Reviewers Receive Assignments"
+    shortdate: "2014-10-29"
+    types: 
+      - plural: Birds of a Feather
+        singular: Birds of a Feather
+        include: bofs
+      - plural: Posters
+        singular: Poster
+        include: posters
+      - plural: Lightning Talks
+        singular: Lightning Talk
+        include: lightningtalks
+        new: true
+      - plural: Demos
+        singular: demo
+        include: demos
+        new: true
+        
+  - date: "Tuesday, November 11th, 2014"
+    event: "Reviews Due"
+    shortdate: "2014-11-11"
+    types: 
+      - plural: Birds of a Feather
+        singular: Birds of a Feather
+        include: bofs
+      - plural: Posters
+        singular: Poster
+        include: posters
+      - plural: Lightning Talks
+        singular: Lightning Talk
+        include: lightningtalks
+        new: true
+      - plural: Demos
+        singular: demo
+        include: demos
+        new: true
+
+finalization:
+  - date: "Monday, October 13th, 2014"
+    event: "Notification to Authors"
+    shortdate: "2014-10-13"
+    types: 
+      - plural: Papers
+        singular: Paper
+        include: papers
+      - plural: Panels
+        singular: Panel
+        include: panels
+      - plural: Special Sessions
+        singular: Special Session
+        include: specialsessions
+      - plural: Workshops
+        singular: workshop
+        include: workshops
+
+  - date: "Monday, November 17th"
+    event: "Notification to Authors"
+    shortdate: "2014-11-17"
+    types: 
+      - plural: Birds of a Feather
+        singular: Birds of a Feather
+        include: bofs
+      - plural: Posters
+        singular: Poster
+        include: posters
+      - plural: Lightning Talks
+        singular: Lightning Talk
+        include: lightningtalks
+        new: true
+      - plural: Demos
+        singular: demo
+        include: demos
+        new: true
+        
+  - date: "Monday, December 1st, 2014"
+    event: "Camera-ready Copy"
+    shortdate: "2014-12-01"
+    types: 
+      - plural: Papers
+        singular: Paper
+        include: papers
+      - plural: Panels
+        singular: Panel
+        include: panels
+      - plural: Special Sessions
+        singular: Special Session
+        include: specialsessions
+      - plural: Workshops
+        singular: workshop
+        include: workshops
+      - plural: Birds of a Feather
+        singular: Birds of a Feather
+        include: bofs
+      - plural: Posters
+        singular: Poster
+        include: posters
+      - plural: Lightning Talks
+        singular: Lightning Talk
+        include: lightningtalks
+        new: true
+      - plural: Demos
+        singular: demo
+        include: demos
+        new: true
+        
