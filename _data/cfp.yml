@@ -78,6 +78,7 @@ details:
     length: "75 minutes"
   Workshops:
     limits: "3 pages (including title page)"
+    abstract: "250 words"
     length: "3 hours"
   Birds of a Feather:
     limits: "1 page"

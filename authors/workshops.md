@@ -137,7 +137,7 @@ format of these documents should be as follows.
     -   [Workshop Proposal Example
         (PDF)]({{site.base}}/authors/examples/workshopProposalsample.pdf)
 
-2.  **Workshop Proposal Abstract (Limited to , including whitespace)**
+2.  **Workshop Proposal Abstract (Limited to {{site.data.cfp.details[plural].abstract}})**
 
     The abstract is the description of the workshop that will appear in
     SIGCSE publications and is what participants will read on the
@@ -185,5 +185,3 @@ Note that you will be required to submit your proposal electronically.
     if there are any problems.
 
 {% include submission-questions category="Workshops Co-Wrangler" %}
-
-
