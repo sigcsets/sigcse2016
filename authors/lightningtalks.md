@@ -9,8 +9,7 @@ title: Lightning Talk Submission Guidelines
 Lightning talks describe works in progress, new and untested ideas, or 
 opportunities for collaborative work. The purpose of a lightning talk 
 can be to start a discussion, find collaborators, or receive input and 
-critique about an idea. Proposals are limited to 1 page (including a 150 
-word abstract). Lightning talk presentations will be 5 minutes each and 
+critique about an idea. Proposals are limited to {{site.data.cfp.details.["Lightning Talks"].limits}} (including an abstract of {{site.data.cfp.details.["Lightning Talks"].abstract}}). Lightning talk presentations will be 5 minutes each and 
 given without media/slide support.
 
 # How Should The Proposal Be Formatted?
