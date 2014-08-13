@@ -1,0 +1,48 @@
+- name: "Eric Aaron"
+  institution: "Vassar College"
+  email: eaaron@cs.vassar.edu
+
+- name: "Ruth Anderson"
+  institution: "University of Washington"
+  email: rea@cs.washington.edu
+
+- name: "Don Blaheta"
+  institution: "Longwood University"
+  email: blahetadp@longwood.edu
+
+- name: "Alistair Campbell"
+  institution: "Hamilton College"
+  email: acampbel@hamilton.edu
+
+- name: "Stephen Edwards"
+  institution: "Virginia Tech"
+  email: edwards@cs.vt.edu
+
+- name: "Mary Anne Egan"
+  institution: "Siena College"
+  email: maegan@siena.edu
+
+- name: "Dave Levine"
+  institution: "St Bonaventure University"
+  email: DLEVINE@sbu.edu
+
+- name: "Sam Rebelsky"
+  institution: "Grinnell College"
+  email: rebelsky@grinnell.edu
+
+- name: "Brad Richards"
+  institution: "Puguet Sound"
+  email: brichards@puguetsound.edu
+
+- name: "Tammy Vandegrift"
+  institution: "University of Portland"
+  email: vandergri@up.edu
+
+- name: "Ellen Walker"
+  institution: "Hiram College"
+  email: walkerel@hiram.edu
+
+- name: "Steve Wolfman"
+  institution: "Univesity of British Columbia"
+  email: wolf@CS.ubc.ca
+

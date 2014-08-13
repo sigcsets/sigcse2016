@@ -95,9 +95,9 @@ As part of your process as a reviewer, we recommend you work your way through th
     
     * ... [Poster Submissions][posters]
     
-    * ... Lightning Talks
+    * ... [Lightning Talks][lightning]
     
-    * ... Demos
+    * ... [Demos][demos]
     
 
 1. **Download Papers**. Access your your assigned submission(s) through the <a href="{{site.data.reviewers.proposalReviewSite}}">proposal review site</a>. You may review the submission on-line or print it for review at your leisure. If your web browser does awful things with your submission, you might try saving it to a file with a .pdf extension and opening it locally.
@@ -112,5 +112,7 @@ Remember, **all reviews will be distributed anonymously to both the author(s) an
 [workshops]: guideworkshops.html
 [bofs]: guidebofs.html
 [posters]: guideposters.html
+[lightning]: guidelightningtalks.html
+[demos]: guidedemos.html
 
 {% include submission-questions category="Program Co-Chair" %}
