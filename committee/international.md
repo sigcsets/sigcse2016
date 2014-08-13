@@ -9,7 +9,7 @@ http://stackoverflow.com/questions/2245972/modulus-or-lack-thereof-in-rubys-liqu
 {% endcomment %}
 
 {% callout info %}
-SIGCSE is an international organization made up of dedicated students, educators, researchers, and administrators (sometimes all at the same time) from around the world. 
+SIGCSE is an international organization made up of dedicated students, educators, researchers, and administrators (sometimes all at the same time) from <a href="http://batchgeo.com/map/f8afb6b0a5857b4fb18247c5e552b580">around the world</a>. 
 {% endcallout %}
 
 

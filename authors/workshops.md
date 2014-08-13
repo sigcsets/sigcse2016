@@ -68,8 +68,8 @@ format of these documents should be as follows.
 1.  **Full Workshop Proposal Format ({{site.data.cfp.details["Workshops"].limits}})**
 
     The first page is a title page that must contain only the workshop
-    title and presenters (items a and b below). The remaining
-    information (items c through j below) must fit on no more than two
+    title and presenters. The remaining
+    information must fit on no more than two
     pages total written in Times Roman, 12 pt. font. The page format is
     for 8 1/2 x 11 paper, 1 column, single spaced, and 1 inch margins
     (top, bottom, left, right). Include all of the following
@@ -88,8 +88,8 @@ format of these documents should be as follows.
             affiliation; e-mail address)
 
     -   **Abstract (Description of the Workshop)**: Describe your
-        workshop in at most (including whitespace). This should match
-        verbatim the abstract described below.
+        workshop in at most {{site.data.cfp.details["Workshops"].abstract}}. 
+        This should match verbatim the abstract described below.
         
     -   **Intended Audience**: For whom is this workshop intended?
     
@@ -101,7 +101,8 @@ format of these documents should be as follows.
         materials that will be provided to attendees.
         
     -   **Rough Agenda for the Workshop**: Timing details would be
-        helpful here.
+        helpful here. Please keep in mind the time limit of 3 hours 
+        for your workshop, including a 15 minute break.
         
     -   **Audio/Visual and Computer Requirements**: Indicate your A/V
         requirements, such as wireless access, wired access, extra power
@@ -136,6 +137,8 @@ format of these documents should be as follows.
         
     -   [Workshop Proposal Example
         (PDF)]({{site.base}}/authors/examples/workshopProposalsample.pdf)
+        
+        <span class="label label-danger">WARNING</span> The abstract/proposal lengths in these examples have not been updated to reflect the requirements for {{site.data.main.upper}} {{site.data.main.year}}. Please adhere to the stated page lengths/word limits, and not the current example lengths.
 
 2.  **Workshop Proposal Abstract (Limited to {{site.data.cfp.details[plural].abstract}})**
 
@@ -146,7 +149,7 @@ format of these documents should be as follows.
     and computing requirements **in the abstract** to help readers make
     that choice.
 
-    The description is limited to (including whitespace) and must match
+    The description is limited to {{site.data.cfp.details[plural].abstract}} and must match
     verbatim the abstract section of the Full Workshop Proposal.
 
     The workshop proposal abstract must be submitted in plain text. The
@@ -166,13 +169,7 @@ Note that you will be required to submit your proposal electronically.
     [Creating Adobe PDF Documents page](creating_pdf.html) for
     assistance.
     
-3.  A PDF version of your submission should be uploaded using the <a href="{{site.data.cfp.submissionurl}}">online submission system</a>. Note that the text version of the
-    abstract will be published in the various forms of the program and
-    proceedings, and may be formatted and/or edited to meet their
-    requirements. The proposal, formatted in `.pdf`, is for reviewers
-    only. Please do not wait until the last minute to submit your
-    documents because that is when everyone else will be connecting to
-    our server!
+3.   A plain text version of your abstract and a PDF version of your 3-page workshop proposal should be uploaded using <a href="{{site.data.cfp.submissionurl}}">online submission system</a>. Note that the text version of the abstract will be published in the various forms of the program and proceedings, and may be formatted and/or edited to meet their requirements. The proposal, formatted in `.pdf`, is for reviewers only. Please do not wait until the last minute to submit your documents because that is when everyone else will be connecting to our server!
     
 4.  Make note of the workshop ID number and password assigned to your
     submission. You will receive an e-mail message confirmation. Spam
