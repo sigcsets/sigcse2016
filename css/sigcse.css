@@ -108,22 +108,12 @@ ul {
     margin-left: 0.5em;
 }
 
-ul li {
-    position: relative;
-    left: 1em;
-    padding-right: 1em;    
-}​
 
 ol {
     list-style: inside;
     margin-left: 0.5em;
 }
 
-ol li {
-    position: relative;
-    left: 1em;
-    padding-right: 1em;    
-}​
 
 ul li{position:relative;left:1em;padding-right:1em}
 ol li{position:relative;left:1em;padding-right:1em}
