@@ -103,17 +103,6 @@ a:before,
 a:after {
 }
 
-ul {
-    list-style: inside disc;
-    margin-left: 0.5em;
-}
-
-
-ol {
-    list-style: inside;
-    margin-left: 0.5em;
-}
-
 
 ul li{position:relative;left:1em;padding-right:1em}
 ol li{position:relative;left:1em;padding-right:1em}

@@ -23,10 +23,10 @@ http://stackoverflow.com/questions/16762714/how-can-i-compare-a-strings-size-len
 
 If you have questions about anything discussed above, please contact the {{site.data.main.upper}} {{site.data.main.year}} {{include.category}}{{plural}}. 
 
-<ul style="text-indent: -1em;">
+<ul style="">
 {% for cochair in site.data.committee %}
 {% if (cochair.title == include.category) %}
-<li style="padding-bottom: 10px;"> <b>{{cochair.name}}</b><br/>
+<li style="padding-bottom: 10px;"><b>{{cochair.name}}</b><br/>
   {{cochair.institution}} <br/>
   <a href="mailto:{{cochair.email}}">{{cochair.email}}</a>
 </li>
