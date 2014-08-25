@@ -14,8 +14,8 @@ showTitle: true
       <tr>
         <td> <b>{{submission.date}}</b> </td>
         <td>
-          {% for sub in submission.types %} 
-            {% unless sub.notincfp %}
+          {% for sub in submission.types %}
+
               {% if sub.new %}
                 {% capture newflag %}<span style='color: gold;'><i class="fa fa-star-o"></i></span>{% endcapture %}
               {% endif %}
@@ -23,7 +23,7 @@ showTitle: true
               {% capture entry %}{% if forloop.first %}{% else %}<br/> {% endif %}{{link}}{% endcapture %}
                 {{entry}}{{newflag}}
               {% assign newflag = "" %}
-            {% endunless %}
+
           {% endfor %}
         </td>
       </tr>
@@ -41,11 +41,11 @@ showTitle: true
 <div class="row">
   <div class="col-sm-10">
     <h2>About The Program</h2>
-<p>    {{site.data.main.upper}} {{site.main.data.year}} continues our long tradition of bringing together colleagues 
-from around the world to discuss computer science education in both 
-formal and informal settings.  The {{site.data.main.upper}} {{site.main.data.year}} program offers a variety 
-of sessions: papers, panels, posters, special sessions, workshops, 
-birds-of-a-feather, and new this year, lightning talks and demos! The {{site.data.main.upper}} Technical Symposium addresses problems common among educators working to develop, implement and/or evaluate computing programs, curricula, and courses. The symposium provides a forum for sharing new ideas for syllabi, laboratories, and other elements of teaching and pedagogy, at all levels of instruction. 
+<p>    {{site.data.main.upper}} {{site.main.data.year}} continues our long tradition of bringing together colleagues
+from around the world to discuss computer science education in both
+formal and informal settings.  The {{site.data.main.upper}} {{site.main.data.year}} program offers a variety
+of sessions: papers, panels, posters, special sessions, workshops,
+birds-of-a-feather, and new this year, lightning talks and demos! The {{site.data.main.upper}} Technical Symposium addresses problems common among educators working to develop, implement and/or evaluate computing programs, curricula, and courses. The symposium provides a forum for sharing new ideas for syllabi, laboratories, and other elements of teaching and pedagogy, at all levels of instruction.
 </p>
 <p>    Submissions in line with the conference theme, <b>{{site.data.main.theme}}</b>, are encouraged. The theme is a call for all of us to make sure that our efforts in this field keep us moving in the right directions.  We need to keep connected with each other for the sharing of ideas.  We want our students to be connected to each other and to us to help further their educational experience.  We need to keep our focus and commitment on the efforts we are pursuing to further computing education.  And most importantly we need to keep our students committed to the field so that they will keep computing.
 </p>
@@ -62,20 +62,19 @@ We are particularly interested in keeping our community connected with interesti
 <ul>
   {% for submission in site.data.cfp.master %}
     {% for sub in submission.types %}
-    {% unless sub.notincfp %}
+    <!-- unless sub.notincfp -->
     {% if sub.new %}
       {% capture newflag %}<span style='color: gold;'><i class="fa fa-star-o"></i></span>{% endcapture %}
     {% endif %}
       <li><a href="#{{sub.plural | remove: ' '}}">{{sub.plural}}</a> {{newflag}}</li>
       {% assign newflag = "" %}
-    {% endunless %}
+    <!-- endunless -->
     {% endfor %}
   {% endfor %}
 </ul>
 
 {% for submission in site.data.cfp.master %}
-  {% for sub in submission.types %} 
-  {%  unless sub.notincfp  %}
+  {% for sub in submission.types %}
   <div class="row">
     <div class="col-lg-10">
       {% if sub.new %}
@@ -90,10 +89,9 @@ We are particularly interested in keeping our community connected with interesti
        {% include {{file}} %}
    </div>
    <div class="col-lg-10">
-     {% include submissiondetails.html plural=sub.plural %}     
+     {% include submissiondetails.html plural=sub.plural %}
    </div>
  </div>
    {% assign newflag = "" %}
- {% endunless %}
- {% endfor %}     
+ {% endfor %}
 {% endfor %}

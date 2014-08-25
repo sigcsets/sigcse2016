@@ -3,12 +3,12 @@ submissionurl: "https://www.openconf.org/sigcse2015/"
 master:
   - date: "Friday, September 5th, 2014"
     shortdate: "2014-09-05"
-    time: "23:59 in Apia, Samoa (UTC+13h)"
+    time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
     notification:
     updates:
     cameraready:
-    link: "http://goo.gl/Gi68un"
-    types: 
+    link: "http://goo.gl/pe76O5"
+    types:
       - plural: Papers
         singular: Paper
         include: papers
@@ -21,18 +21,15 @@ master:
       - plural: Workshops
         singular: workshop
         include: workshops
-        
+
   - date: "Monday, September 29, 2014"
     shortdate: "2014-09-29"
-    time: "23:59 in Apia, Samoa (UTC+13h)"
+    time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
     notification:
     updates:
-    cameraready:    
-    link: "http://goo.gl/cVSxB2"
-    types: 
-      - plural: Student Research Competition
-        singular: Student Research Competition
-        include: src
+    cameraready:
+    link: "http://goo.gl/bZFC5x"
+    types:
       - plural: Pre-Symposium Events
         singular: Pre-Symposium Event
         include: presymposium
@@ -40,12 +37,16 @@ master:
 
   - date: "Monday, October 27th, 2014"
     shortdate: "2014-10-27"
-    time: "23:59 in Apia, Samoa (UTC+13h)"
+    time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
     notification:
     updates:
     cameraready:
-    link: "http://goo.gl/s9cprs"
-    types: 
+    link: "http://goo.gl/cg1aex"
+    types:
+      - plural: Student Research Competition
+        singular: Student Research Competition
+        include: src
+
       - plural: Birds of a Feather
         singular: Birds of a Feather
         include: bofs
@@ -107,7 +108,7 @@ notifications:
 
 studentResearchCompetition:
   chair: Dr. Ann Sobel
-  email: sobelae@miamioh.edu 
+  email: sobelae@miamioh.edu
 
 # FIXME: It would be good to remove these. I don't think I rely on them anymore...
 #papers: "Friday, September 5th, 2014"
