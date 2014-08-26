@@ -3,10 +3,17 @@ gold:
   - name: ABET
     blurb: "Assuring Quality • Stimulating Innovation"
     image: abet.png
+    link: "http://www.abet.org/"
+  - name: Oracle Academy
+    image: oracle-academy-144.png
+    blurb: "Hardware and Software, Engineered to Work Together"
+    link: "https://academy.oracle.com/"
 silver:
   - name: Github
     blurb: "The best place to share code with friends, co-workers, classmates, and complete strangers."
     image: octocat-200.png
+    link: "https://github.com/"
   - name: Teradata University Network
     blurb: "Providing students with hands-on software experiences with the worlds' largest companies."
     image: teradata-350.png
+    link: "http://www.teradatauniversitynetwork.com/"

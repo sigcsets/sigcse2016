@@ -32,16 +32,13 @@
 <div class="col-md-4">
 	<div class="thumbnail" style="padding-top: 40px;">
     <h3 class="text-center" style="margin-top: -25px;">{{sponsor.name}}</h3>
+    <a href="{{sponsor.link}}">
 		<img alt="{{sponsor.name}}" 
       src="{{site.base}}/images/sponsors/{{sponsor.image}}" 
       />
+    </a>
       <br/>
 		<div class="caption">
-      {% comment %}
-    		<h3 class="text-center">
-    			{{sponsor.name}}
-    		</h3>
-      {% endcomment %}
       <p class="text-center">
         {{sponsor.blurb}}
       </p>
@@ -64,9 +61,11 @@
 <div class="col-md-4">
 	<div class="thumbnail" style="padding-top: 40px;">
     <h3 class="text-center" style="margin-top: -25px;">{{sponsor.name}}</h3>
+    <a href="{{sponsor.link}}">
 		<img alt="{{sponsor.name}}" 
       src="{{site.base}}/images/sponsors/{{sponsor.image}}" 
       />
+    </a>
       <br/>
 		<div class="caption">
       {% comment %}
