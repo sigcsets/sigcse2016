@@ -3,17 +3,17 @@ paperCategoryCriteria: #
 proposalReviewSite: https://www.openconf.org/sigcse2015/
 keycode: review15
 
-reviewsignupdeadline: "Friday, August 22nd, 2014"
-rewviewsignupdeadlineshort: "2014-08-22"
+reviewsignupdeadline: "Monday, September 1st, 2014"
+rewviewsignupdeadlineshort: "2014-09-01"
 
 reviewgroups:
   - "Papers, Panels, Special Sessions, Workshops"
   - "Birds of a Feather, Posters, Lightning Talks, Demos"
 
 reviewdates:
-  - date: "Friday, August 22nd, 2014"
+  - date: "Monday, September 1st, 2014"
     event: "Sign Up to Review"
-    shortdate: "2014-08-22"
+    shortdate: "2014-09-01"
     types: 
       - plural: Papers
         singular: Paper
