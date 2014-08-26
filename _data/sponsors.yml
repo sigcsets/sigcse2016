@@ -7,7 +7,7 @@ gold:
   - name: Oracle Academy
     image: oracle-academy-144.png
     blurb: "Hardware and Software, Engineered to Work Together"
-    link: "https://academy.oracle.com/"
+    link: "http://www.oracle.com/academy/"
 silver:
   - name: Github
     blurb: "The best place to share code with friends, co-workers, classmates, and complete strangers."
