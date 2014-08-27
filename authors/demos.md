@@ -42,7 +42,7 @@ information, in the order given below:
 
 1. **Other presenters**: one entry for each other presenter (name; department; college, university, or other affiliation; e-mail address)
 
-1. **Abstract (Description of the Demo)**: Describe your Demo in at most {{site.data.cfp.details.Demos.limits}}. This must match verbatim the abstract described below.
+1. **Abstract (Description of the Demo)**: Describe your Demo in at most {{site.data.cfp.details.Demos.abstract}}. This must match verbatim the abstract described below.
 
 1. **Intended Audience**: For whom is this Demo intended?
 
