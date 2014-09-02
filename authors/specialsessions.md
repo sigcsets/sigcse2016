@@ -88,7 +88,7 @@ Note that you will be required to submit your proposal electronically.
 2.  Convert your proposal into Adobe PDF format. Refer to our [Creating
     Adobe PDF Documents](creating_pdf.html) page for assistance.
     
-3.  Submit the PDF version of your proposal using the . Note that there
+3.  A PDF version of your submission should be uploaded using the <a href="{{site.data.cfp.submissionurl}}">online submission system</a>. Note that there
     are several ways you must categorize your proposal submission in the
     online system. These categories are used to select the reviewers who
     will evaluate your proposal. Please select no more than 3 categories
