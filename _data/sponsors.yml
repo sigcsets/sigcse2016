@@ -1,4 +1,8 @@
 platinum:
+  - name: "Google, Inc."
+    blurb: "Organizing the world’s information and making it universally accessible and useful."
+    image: google.png
+    link: "https://www.google.com/"
 gold:
   - name: ABET
     blurb: "Assuring Quality • Stimulating Innovation"
