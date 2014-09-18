@@ -43,7 +43,10 @@ showTitle: true
  <img src="{{site.base}}/images/keep-connected-200.png" class="img-responive pull-right" style="padding: 20px;"/>
 <p>The Special Interest Group in Computer Science Education of the Association for Computing Machinery (ACM SIGCSE) is a community of approximately 2,600 people whom, in addition to their specialization within computing, have a strong interest in the quality of computing education. The SIGCSE Symposium is the flagship conference of the organization and is regularly attended by more than 1,200 people. Conference attendees are looking for new ideas, textbooks to support their courses, and materials to improve the effectiveness of their teaching. Course related software and hardware systems are of great interest. With increased pressure to pursue distance learning and asynchronous learning, attendees will want to find out about the latest innovations in web authoring tools and class management systems.
 </p>
-<p> <a href="{{site.data.main.prospectusurl}}">The SIGCSE {{site.data.main.year}} Support and Exhibitor Prospectus</a> details the benefits of being a supporter and/or exhibitor at the symposium. 
+<p> <a href="{{site.data.main.prospectusurl}}">The SIGCSE {{site.data.main.year}} Support and Exhibitor Prospectus</a> details the benefits of being a supporter and/or exhibitor at the symposium. </p>
+
+<p><a href="{{site.data.main.floorplan}}">The exhibitor floor plan</a> lays out where all of the action is.
+</p>
 </div>
 </div> <!-- row -->
 
