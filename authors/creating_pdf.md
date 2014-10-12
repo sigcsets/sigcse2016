@@ -7,7 +7,7 @@ convenient method to exchange data files without affecting the original
 appearance. SIGCSE will accept electronic submissions of papers only in
 this format.
 
-{%section How Can I Convert My Documents to Adobe PDF Format? %}
+## How Can I Convert My (Word Processing) Documents to PDF Format?
 
 You have a number of options for converting your Word, LaTeX, or
 Postscript files into Adobe PDF.
@@ -39,7 +39,7 @@ Postscript files into Adobe PDF.
     resulting document may not look good on other machines.
 
 
-## How Can I Convert My LaTeX Documents to Adobe PDF Format?
+## How Can I Convert My LaTeX Documents to PDF Format?
 
 There are two primary ways to go from LaTeX to PDF.
 
