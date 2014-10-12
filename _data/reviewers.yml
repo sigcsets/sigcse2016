@@ -151,9 +151,9 @@ finalization:
         include: demos
         new: true
         
-  - date: "Monday, December 1st, 2014"
+  - date: "Sunday, December 7th, 2014"
     event: "Camera-ready Copy"
-    shortdate: "2014-12-01"
+    shortdate: "2014-12-07"
     types: 
       - plural: Papers
         singular: Paper
