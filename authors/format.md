@@ -95,8 +95,7 @@ subsection head.
 publication to be indexed by. The title of this section ("Keywords")
 should be formatted as a subsection head.
 
-**Other Requirements:** Do NOT use page numbers or headers/footers. Use
-a blank line between paragraphs.
+**Other Requirements:** Do NOT use page numbers or headers/footers. 
 
 ## ACM Web Reference Guidelines
 
