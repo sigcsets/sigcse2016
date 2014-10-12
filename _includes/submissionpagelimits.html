@@ -1,12 +1,13 @@
-
+<div class="row">
 <div class="table-responsive" style="margin-top: 20px;">
   <table class="table" width="40%">
       <tbody>
         {% for submission in site.data.cfp.master %}
           {% for sub in submission.types %}
-        <tr>
+
           {% unless {{sub.plural}} contains 'Symposium' %}
-          <td><b>{{sub.plural}} </b></td>
+        <tr>
+          <td><b>{{sub.plural}} </b></td> 
           <td> {{site.data.cfp.details[sub.plural].limits}} 
           {% if site.data.cfp.details[sub.plural].abstract %}
             (including abstract of {{site.data.cfp.details[sub.plural].abstract}})
@@ -18,4 +19,5 @@
         {% endfor %}
       </tbody>
     </table>
+</div>
 </div>
