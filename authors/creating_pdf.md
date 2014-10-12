@@ -2,8 +2,6 @@
 title: Creating PDF Documents
 ---
 
-{% section What is Adobe PDF Format? %}
-
 Adobe Portable Document Format (PDF) documents are a standardized and
 convenient method to exchange data files without affecting the original
 appearance. SIGCSE will accept electronic submissions of papers only in
@@ -41,7 +39,7 @@ Postscript files into Adobe PDF.
     resulting document may not look good on other machines.
 
 
-{% section How Can I Convert My LaTeX Documents to Adobe PDF Format? %}
+## How Can I Convert My LaTeX Documents to Adobe PDF Format?
 
 There are two primary ways to go from LaTeX to PDF.
 
@@ -62,7 +60,7 @@ There are two primary ways to go from LaTeX to PDF.
     source, but generate pdf directly. A standard teTeX (Unix)
     installation of TeX has these available.
 
-{% section A Mild Disclaimer %}
+## A Mild Disclaimer
 
 SIGCSE does not endorse or otherwise sponsor any of the software mentioned on this page.
 

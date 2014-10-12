@@ -98,7 +98,7 @@ should be formatted as a subsection head.
 **Other Requirements:** Do NOT use page numbers or headers/footers. Use
 a blank line between paragraphs.
 
-{% section ACM Web Reference Guidelines %}
+## ACM Web Reference Guidelines
 
 Elements (in most cases):
 
@@ -120,7 +120,7 @@ published literature. If citing a formally published online-only
 publication, use the format for that genre and add elements 5 and 6
 above.
 
-**Examples:**\
+**Examples:**
 
 H. Thornburg. 2001.  Introduction to Bayesian Statistics. Retrieved March 2, 2005 from http://ccrma.stanford.edu/~jos/bayes/bayes.html
 
@@ -128,15 +128,13 @@ Rafal Ablamowicz and Bertfried Fauser. 2007. CLIFFORD: a Maple 11 Package for Cl
 
 Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www.poker-edge.com/stats.php
 
-{% section Page Limits %}
+## Page Limits
 
-All submission must adhere to the following page limits:
+All submissions must adhere to the limits for their specific submission type.
 
--   **Paper:** {{site.data.cfp.paperpagelimit}} (Increased from 5 starting with SIGCSE 2011)
--   **Panel:** {{site.data.cfp.panelpagelimit}}
--   **Special Session:** {{site.data.cfp.specialsessionpagelimit}}
+{% include submissionpagelimits.html %}
 
-{% section Copyright/Permission Forms %}
+## Copyright/Permission Forms
 
 All authors of accepted papers will need to submit a signed copyright
 form with their FINAL document.
@@ -147,11 +145,10 @@ signed permission form with the FINAL document.
 Information on these forms will be sent to authors after notification of
 acceptance by the program committee.
 
-{% comment warning %}
-ACM publication guidelines have been updated, and this page does not yet reflect that fact. [More information can be found on the ACM website](http://www.acm.org/news/featured/author-rights-management), and this page will be revised to reflect that policy shortly. MCJ 20140701.
-{% endcomment %}
+Authors should take the time to familiarize themselves with the ACM's policies regarding author rights, and [what options exist if they wish to openly license their submitted content](http://authors.acm.org/main.html). 
 
-{% section Templates and Samples %}
+
+## Templates and Samples
 
 Templates for submissions can be found at the [ACM SIG Proceedings
 website](http://www.acm.org/sigs/publications/proceedings-templates).

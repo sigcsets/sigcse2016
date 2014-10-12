@@ -1,5 +1,8 @@
 BOOTSTRAP=bootstrap-3.2.0
 
+clean:
+	rm -rf _site/
+
 local:
 	jekyll serve -w --config _config.yml
 
