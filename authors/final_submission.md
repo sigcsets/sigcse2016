@@ -31,7 +31,7 @@ ACM is introducing the [ACM Author-Izer](http://www.acm.org/publications/acm-aut
 
 1. **Verify Conformance to All Formatting Guidelines:** 
   
-    **SIGCSE Guidelines** - Double-check that your submission adheres to the [SIGCSE 2015 Format Instructions](http://sigcse2015.sigcse.org/authors/format.html) and includes all required sections (i.e., Abstract, Categories & Subject Descriptors, General Terms, and Keywords), including details on the ACM Reference Guidelines.  These are the same formatting guidelines published when you submitted your paper/panel/special session, so hopefully you should not have to make any significant modifications. We encourage authors to use the [templates available on ACM's website](http://www.acm.org/sigs/pubs/proceed/template.html). LaTeX users should use [sig-alternate.cls](http://sheridanprinting.com/typedept/sig-alternate.cls) for papers and [sig-alt-release.cls](http://sheridanprinting.com/typedept/sig-alt-release.cls) for panels and special sessions. 
+    **SIGCSE Guidelines** - Double-check that your submission adheres to the [SIGCSE 2015 Format Instructions]({{site.base}}/authors/format.html) and includes all required sections (i.e., Abstract, Categories & Subject Descriptors, General Terms, and Keywords), including details on the ACM Reference Guidelines.  These are the same formatting guidelines published when you submitted your paper/panel/special session, so hopefully you should not have to make any significant modifications. We encourage authors to use the [templates available on ACM's website](http://www.acm.org/sigs/pubs/proceed/template.html). LaTeX users should use [sig-alternate.cls](http://sheridanprinting.com/typedept/sig-alternate.cls) for papers and [sig-alt-release.cls](http://sheridanprinting.com/typedept/sig-alt-release.cls) for panels and special sessions. 
 
     **Sheridan Publishing Guidelines** - Your final submission must also conform to the formatting rules on the publisher’s page for your submission type:
     
@@ -61,7 +61,7 @@ THREE SUBMISSIONS ARE NECESSARY BY THE DEADLINE **-- one to the online database 
 
 1. **Complete final editing and create a PDF file of your submission. Name your files correctly.** 
 
-    When your submission editing is complete, convert your paper into Adobe PDF format. Be sure to retain a copy of the source document(s), as well (e.g.,`.doc,.tex,.ps)` . Refer to our [hints on creating PDF documents](http://sigcse2015.sigcse.org/authors/creating_pdf.html). Name all of your files using your SIGCSE submission number and the lead author's last name (e.g., `fp309-turing.pdf, fp309-turing.doc`, etc.). 
+    When your submission editing is complete, convert your paper into Adobe PDF format. Be sure to retain a copy of the source document(s), as well (e.g.,`.doc,.tex,.ps)` . Refer to our [hints on creating PDF documents]({{site.base}}/authors/creating_pdf.html). Name all of your files using your SIGCSE submission number and the lead author's last name (e.g., `fp309-turing.pdf, fp309-turing.doc`, etc.). 
 
 2. **Submit the PDF file of your submission to the SIGCSE online database.** 
 
