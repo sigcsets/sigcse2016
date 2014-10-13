@@ -26,6 +26,7 @@ Verification deadline: Monday, October 27, 2014
 ACM is introducing the [ACM Author-Izer](http://www.acm.org/publications/acm-author-izer-service), a unique service that enables ACM authors to post links on either their own web page or institutional repository for visitors to download the definitive version of their articles from the ACM Digital Library at no charge. ACM Author-Izer also allows the dynamic display of download and citation statistics for each "authorized" article on the author’s personal page. By linking the author’s personal bibliography with the ACM Digital Library, downloads from the author’s site are captured in official ACM statistics, more accurately reflecting total usage. ACM Author-Izer also expands ACM’s reputation as an innovative “Green Path” publisher.
 
 <a name="finalcopy"></a>
+
 ## Preparation of Final Copy
 
 
