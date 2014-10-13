@@ -6,7 +6,7 @@ master:
     time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
     notification:
     updates:
-    cameraready:
+    cameraready: 
     link: "http://goo.gl/pe76O5"
     types:
       - plural: Papers
@@ -27,7 +27,7 @@ master:
     time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
     notification:
     updates:
-    cameraready:
+    cameraready: 
     link: "http://goo.gl/bZFC5x"
     types:
       - plural: Pre-Symposium Events

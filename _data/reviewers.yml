@@ -150,14 +150,19 @@ finalization:
         singular: demo
         include: demos
         new: true
+
+  - date: "Sunday, December 1st, 2014"
+    event: "Camera-ready Copy"
+    shortdate: "2014-12-01"
+    types: 
+      - plural: Papers
+        singular: Paper
+        include: papers
         
   - date: "Sunday, December 7th, 2014"
     event: "Camera-ready Copy"
     shortdate: "2014-12-07"
     types: 
-      - plural: Papers
-        singular: Paper
-        include: papers
       - plural: Panels
         singular: Panel
         include: panels
