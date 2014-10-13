@@ -1,5 +1,5 @@
 ---
-title: Publication Guidelines for Camera-ready Papers, Panels, and Special Sessions
+title: Publication Guidelines for Camera-ready Materials
 ---
 
 {% callout danger %}
