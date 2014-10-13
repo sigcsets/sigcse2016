@@ -3,8 +3,6 @@ title: Final Submission Instructions
 FIXME: THIS PAGE HAS CONTENT WHICH SHOULD BE CONVERTED TO VARIABLES.
 ---
 
-**Final Submission Instructions**
-
 NOTICE TO ALL ACCEPTED AUTHORS: Several activities must be performed to ensure that your work is correctly represented in the conference program and proceedings. Please read this entire page and follow all instructions carefully. Submissions that do not conform to the expected standards, specifications, and formats will be returned to the author for corrections and/or alterations. Submissions that fail to meet the expected standards, specifications, and formats by the deadline will not be published.
 
 **Database Information Verification**
