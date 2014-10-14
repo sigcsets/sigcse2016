@@ -17,101 +17,37 @@
   <strong>Exhibitors are an essential part of the SIGCSE community</strong>. As we engage in questions of how best to bring computing to students around the world, exhibitors connect us to what resources exist for our students.
 </p> 
   
-</p>
 
+{% for category in site.data.sponsors %}
 <div class="row">
   <div class="col-md-12">
-<h1 class="text-center" style="text-shadow: 1px 1px 1px {{site.data.main.gold}};">Platinum Sponsors</h1>
+    <h1 class="text-center" style="text-shadow: 1px 1px 1px {{site.data.main.gold}};">{{category[0]}} Sponsors</h1>
+  </div>
 </div>
-</div>
-
-
-{% for sponsor in site.data.sponsors.platinum %}
-  {% cycle 'add rows': '<div class="row">', nil, nil %}
-<div class="col-md-4">
-	<div class="thumbnail" style="padding-top: 40px;">
-    <h3 class="text-center" style="margin-top: -25px;">{{sponsor.name}}</h3>
-    <a href="{{sponsor.link}}">
-		<img alt="{{sponsor.name}}" 
-      src="{{site.base}}/images/sponsors/{{sponsor.image}}" 
-      />
-    </a>
+{% assign rowcount = "" %}
+{% for sponsor in category[1] %}
+  {% assign mod = forloop.index0 | mod:3 %}
+  {% if (mod == 0) %}
+    <div class="row">
+  {% endif %}
+  <div class="col-md-4">
+	  <div class="thumbnail" style="padding-top: 40px;">
+      <h3 class="text-center" style="margin-top: -25px;">{{sponsor.name}}</h3>
+      <a href="{{sponsor.link}}">{{mod}}
+		    <img alt="{{sponsor.name}}" 
+             src="{{site.base}}/images/sponsors/{{sponsor.image}}" 
+             />
+      </a>
       <br/>
-      {% comment %}
-		<div class="caption">
-      <p class="text-center">
-        {{sponsor.blurb}}
-      </p>
-		</div>
-    {% endcomment %}
-	</div>
-</div>
-  {% cycle 'close rows': nil, nil, '</div>' %}
+	  </div>
+  </div>
+  {% if mod == 0 and forloop.index0 != 0 %}
+    </div><div class="row">
+  {% endif %}
 {% endfor %}
-{% cycle 'close rows': nil, '</div>', '</div>' %}
-
-
-<div class="row">
-  <div class="col-md-12">
-<h1 class="text-center" style="text-shadow: 1px 1px 1px {{site.data.main.gold}};">Gold Sponsors</h1>
 </div>
-</div>
-
-
-{% for sponsor in site.data.sponsors.gold %}
-  {% cycle 'add rows': '<div class="row">', nil, nil %}
-<div class="col-md-4">
-	<div class="thumbnail" style="padding-top: 40px;">
-    <h3 class="text-center" style="margin-top: -25px;">{{sponsor.name}}</h3>
-    <a href="{{sponsor.link}}">
-		<img alt="{{sponsor.name}}" 
-      src="{{site.base}}/images/sponsors/{{sponsor.image}}" 
-      />
-    </a>
-      <br/>
-      {% comment %}
-		<div class="caption">
-      <p class="text-center">
-        {{sponsor.blurb}}
-      </p>
-		</div>
-    {% endcomment %}
-	</div>
-</div>
-  {% cycle 'close rows': nil, nil, '</div>' %}
 {% endfor %}
-{% cycle 'close rows': nil, '</div>', '</div>' %}
 
-
-<div class="row">
-  <div class="col-md-12">
-<h1 class="text-center" style="text-shadow: 1px 1px 1px {{site.data.main.silver}};">Silver Sponsors</h1>
-</div>
-</div>
-
-{% for sponsor in site.data.sponsors.silver %}
-  {% cycle 'add rows': '<div class="row">', nil, nil %}
-<div class="col-md-4">
-	<div class="thumbnail" style="padding-top: 40px;">
-    <h3 class="text-center" style="margin-top: -25px;">{{sponsor.name}}</h3>
-    <a href="{{sponsor.link}}">
-		<img alt="{{sponsor.name}}" 
-      src="{{site.base}}/images/sponsors/{{sponsor.image}}" 
-      />
-    </a>
-      <br/>
-      {% comment %}
-		<div class="caption">
-      <p class="text-center">
-        {{sponsor.blurb}}
-      </p>
-		</div>
-    {% endcomment %}
-	</div>
-</div>
-  {% cycle 'close rows': nil, nil, '</div>' %}
-{% endfor %}
-{% cycle 'close rows': nil, '</div>', '</div>' %}
 
 <div class="row" style="margin-bottom: 30px;">
 

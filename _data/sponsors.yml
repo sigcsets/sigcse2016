@@ -1,9 +1,9 @@
-platinum:
+Platinum:
   - name: "Google, Inc."
     blurb: "Organizing the world’s information and making it universally accessible and useful."
     image: google.png
     link: "https://www.google.com/"
-gold:
+Gold:
   - name: ABET
     blurb: "Assuring Quality • Stimulating Innovation"
     image: abet.png
@@ -12,7 +12,7 @@ gold:
     image: oracle-academy-144.png
     blurb: "Hardware and Software, Engineered to Work Together"
     link: "http://www.oracle.com/academy/"
-silver:
+Silver:
   - name: Github
     blurb: "The best place to share code with friends, co-workers, classmates, and complete strangers."
     image: octocat-200.png
@@ -21,3 +21,8 @@ silver:
     blurb: "Providing students with hands-on software experiences with the worlds' largest companies."
     image: teradata-350.png
     link: "http://www.teradatauniversitynetwork.com/"
+Bronze:
+  - name: Zyante
+    blurb: "Animated interactive learning"
+    image: zyante-200.png
+    link: "http://www.zyante.com/"
