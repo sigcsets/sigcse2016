@@ -53,7 +53,7 @@ There are several exciting pre-symposium events this year; plan your travel so y
 <ul>
 {% for org in event.organizers %}
 {% if org.email %}
-  <li>{{org.name}} (<a href="mail:{{org.email}}">{{org.email}}</a>)</li>
+  <li>{{org.name}} (<a href="mailto:{{org.email}}">{{org.email}}</a>)</li>
   {% else %}
     <li>{{org.name}}</li>
   {% endif %}
