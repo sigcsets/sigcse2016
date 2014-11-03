@@ -13,9 +13,9 @@ Gold:
     blurb: "Hardware and Software, Engineered to Work Together"
     link: "http://www.oracle.com/academy/"
 Silver:
-  - name: Github
+  - name: GitHub
     blurb: "The best place to share code with friends, co-workers, classmates, and complete strangers."
-    image: octocat-200.png
+    image: github-text-200.png
     link: "https://github.com/"
   - name: Teradata University Network
     blurb: "Providing students with hands-on software experiences with the worlds' largest companies."

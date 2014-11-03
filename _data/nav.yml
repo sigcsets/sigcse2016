@@ -1,3 +1,7 @@
+- text: "Attendees"
+  link: /attendees/index.html
+  include: homepage/attend.html
+
 - text: "Sponsors & Exhibitors"
   link: /supporters/index.html
   include: homepage/supporters.html
@@ -5,10 +9,6 @@
 - text: "Take Part"
   link: /takepart.html
   include: homepage/takepart.html
-
-- text: "Attend!"
-  link: /attendees/index.html
-  include: homepage/attend.html
 
 - text: "Committee"
   link: /committee.html

@@ -108,8 +108,19 @@ Also, it is less expensive to join ACM SIGCSE and register for the conference as
 <p>
   The airport's phone number is <b>+1-(816)-243-5237</b>. 
 </p>
+
+<h3>SuperShuttle</h3>
 <p>
-  Once you get to the airport, you'll probably want to leave. There are <a href="http://www.flykci.com/Direction/GroundTransportation/Index.htm">many ground transport services that you might investigate</a>. Having spent some time digging around the <a href="http://www.kcata.org/">KCATA website</a> (Kansas City's public transit service), it looks like the <a href="http://www.kcata.org/maps_schedules/routes/129_boardwalk_kci">129 bus service stops at all terminals and provides transit downtown</a>. This is a $1.50 fare (exact change). According to <a href="https://www.google.com/maps/dir/Kansas+City+International+Airport,+601+Brasilia+Ave,+Kansas+City,+MO+64153/Kansas+City+Marriott+Downtown,+200+W+12th+St,+Kansas+City,+MO+64105/@39.2268637,-94.6533486,11z/am=t/data=!3m1!4b1!4m16!4m15!1m5!1m1!1s0x87c05e0888e68799:0xc3cdd0195d2edaa0!2m2!1d-94.712594!2d39.300643!1m5!1m1!1s0x87c0f05c3a99cf1b:0x9ccdfaf81d70a39b!2m2!1d-94.586282!2d39.100269!2m1!6e4!3e3">Google's public transit directions</a>, this trip looks to take just over an hour, and you will be dropped off at 10th and Broadway. This is roughly a 5 minute walk from the KC Marriott Downtown. 
+   SIGCSE has a <a href="http://groups.supershuttle.com/sigcse.html">SuperShuttle discount code</a> if you want to do that. You can also take a cab or rent a car; those both tend to work the same in most every country I've visited; remember, always tip your cabbie.
+ </p>
+ 
+ <h3>Cab/Taxi</h3>
+Cabs/taxies are available from the airport. The fare from the airport to the hotel is approximately $50.
+
+<h3>Public Transport</h3>
+
+<p>
+Having spent some time digging around the <a href="http://www.kcata.org/">KCATA website</a> (Kansas City's public transit service), it looks like the <a href="http://www.kcata.org/maps_schedules/routes/129_boardwalk_kci">129 bus service stops at all terminals and provides transit downtown</a>. This is a $1.50 fare (exact change). According to <a href="https://www.google.com/maps/dir/Kansas+City+International+Airport,+601+Brasilia+Ave,+Kansas+City,+MO+64153/Kansas+City+Marriott+Downtown,+200+W+12th+St,+Kansas+City,+MO+64105/@39.2268637,-94.6533486,11z/am=t/data=!3m1!4b1!4m16!4m15!1m5!1m1!1s0x87c05e0888e68799:0xc3cdd0195d2edaa0!2m2!1d-94.712594!2d39.300643!1m5!1m1!1s0x87c0f05c3a99cf1b:0x9ccdfaf81d70a39b!2m2!1d-94.586282!2d39.100269!2m1!6e4!3e3">Google's public transit directions</a>, this trip looks to take just over an hour, and you will be dropped off at 10th and Broadway. This is roughly a 5 minute walk from the KC Marriott Downtown. 
 </p>
 <p>
   Please note, the directions regarding bus usage have not been validated or verified by anyone who 1) lives in KC or 2) has ever attempted the journey described.
@@ -121,9 +132,7 @@ Also, it is less expensive to join ACM SIGCSE and register for the conference as
 <p>
   If you decide you want to do public transport, make sure that your arrival time allows for this. For example, the last bus out from the airport seems to be around 11PM; have a backup plan if you think your flight might be delayed and prevent you from catching your bus.
 </p>
-<p>
-   SIGCSE has a <a href="http://groups.supershuttle.com/sigcse.html">SuperShuttle discount code</a> if you want to do that. You can also take a cab or rent a car; those both tend to work the same in most every country I've visited; remember, always tip your cabbie.
- </p>
+
   </div>
 </div>
 

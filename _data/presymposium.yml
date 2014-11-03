@@ -1,0 +1,125 @@
+- name: "GENI in Your Classroom"
+  date: "Wednesday, March 4, 8:30am-12:00pm"
+  cost: "None"
+  max: "35"
+  where: "TBD"
+  blurb: presymposium/geni.md
+  info: "http://geni.web.unc.edu/geni-sigcse/"
+  register: "http://geni.web.unc.edu/geni-sigcse/"
+  organizers: 
+    - name: "Jay Aikat"
+      email: aikat@cs.unc.edu 
+    - name: "Vic Thomas"
+      email: vthomas@bbn.com
+
+- name: "SIGCSE2015 Department Chairs Roundtable"
+  date: "Wednesday, March 4, 8:30am-5:00pm"
+  cost: "TBD (paid during SIGCSE registration)"
+  max: "35"
+  where: "TBD"
+  blurb: presymposium/chairs.md
+  info: ""
+  register: "To register for this event, select it during SIGCSE2015 conference registration."
+  organizers: 
+    - name: "Sandra J. DeLoatch"
+      email: "sjdeloatch@nsu.edu"
+
+- name: "LittleFe Build-Out"
+  date: "Wednesday, March 4, 8:15am-5:30pm"
+  cost: "Free"
+  max: "24"
+  where: "TBD"
+  blurb: presymposium/littlefe.md
+  info: "http://littlefe.net/buildout"
+  register: "http://littlefe.net/buildout"
+  organizers: 
+    - name: "Charlie Peck"
+      email: "charliep@cs.earlham.edu"
+    - name: "Aaron Weeden"
+      email: "aweeden@shodor.org"
+    - name: "Bob Panoff"
+    - name: "Skylar Thompson"
+    - name: "Mobeen Ludin"
+
+- name: "Git and GitHub: Foundations for Educators"
+  date: "Wednesday, March 4, 9am-5:00pm"
+  cost: "Free"
+  max: "100"
+  where: "TBD"
+  blurb: presymposium/github.md
+  info: "https://training.github.com/classes/foundations/"
+  register: "https://www.eventbrite.com/e/git-github-foundations-for-educators-tickets-14073364813"
+  organizers: 
+    - name: "John Britton"
+      email: "jbd@github.com"
+
+- name: "Managing the Academic Career for Women Faculty in Undergraduate Computing Programs"
+  date: "Wednesday, March 4, 8:15am-5:15pm"
+  cost: "Free"
+  max: "45"
+  where: "TBD"
+  blurb: presymposium/managingcareer.md
+  info: "http://cra-w.org/ArticleDetails/tabid/77/ArticleID/50/Career-Mentoring-Workshop-CMW.aspx "
+  register: "http://cra-w.org/ArticleDetails/tabid/77/ArticleID/50/Career-Mentoring-Workshop-CMW.aspx "
+  organizers: 
+    - name: "Sheila Castaneda"
+      email: "cast@clarke.edu"
+    - name: "Susan Rodger"
+      email: "rodger@cs.duke.edu"
+
+- name: "ACM SIGCAS Symposium on Computing for the Social Good: Educational Practices"
+  date: "Wednesday, March 4, 1:00pm-5:30pm"
+  cost: "Free for SIGCAS members, $30 for non-members"
+  max: "No Max"
+  where: "TBD"
+  blurb: presymposium/sigcas.md
+  info: "http://www.sigcas.org"
+  register: "http://www.sigcas.org"
+  organizers: 
+    - name: "Michael (Mikey) Goldweber"
+      email: "mikeyg@xavier.edu"
+    - name: "Karla Carter"
+      email: "professorkarla@gmail.com"
+
+- name: "CSTeachingTips.org: Tip-A-Thon"
+  date: "Wednesday, March 4, 1:00pm-4:00pm"
+  cost: "Free"
+  max: "25"
+  where: "TBD"
+  blurb: presymposium/csteachingtips.md
+  info: "http://csteachingtips.org/sigcse15/"
+  register: "https://docs.google.com/forms/d/1UB3sM_cRaoUuDPg-PKQV-lqI5Z1oAG48hUYsvZcY_Fw/viewform"
+  organizers: 
+    - name: "Arielle Schlesinger"
+      email: "aschlesinger@g.hmc.edu"
+    - name: "Colleen Lewis"
+      email: "lewis@cs.hmc.edu"
+
+- name: "Teaching to Diversity in Computer Science"
+  date: "Wednesday, March 4, 1:00pm-4:30pm"
+  cost: "Free"
+  max: "100"
+  where: "TBD"
+  blurb: presymposium/teachingtodiversity.md
+  info: "http://tinyurl.com/tides2015"
+  register: ""
+  organizers: 
+    - name: "Helen Hu"
+      email: "hhu@westminstercollege.edu"
+    - name: "Patricia Campbell"
+      email: "campbell@campell-kibler.com"
+
+- name: ""
+  date: ""
+  cost: ""
+  max: ""
+  where: "TBD"
+  blurb: presymposium/
+  info: ""
+  register: ""
+  organizers: 
+    - name: ""
+      email: ""
+    - name: ""
+      email: ""
+

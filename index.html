@@ -9,19 +9,8 @@ noTitle: true
   <div class="row" style="margin-bottom: 10px;">
     
     <div class="col-md-8 text-center">
-      <div id="the-carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators"></ol>
-        <div class="carousel-inner">
-          {% for i in site.data.index_carousel %}
-          <div class="item {{i.active}}">
-            <img src="/images/carousel/height-400px/{{i.image}}" alt="{{i.caption}}" 
-            style="padding-top: 20px;">
-            <div class="carousel-caption">
-              {{i.caption}}
-            </div>
-          </div>{% endfor %}
-        </div>
-      </div>
+      <img src="/images/carousel/height-400px/Exterior_Wide_1211.png" alt="KC Conference Venue" 
+      style="padding-top: 20px;">
     </div> <!-- / md-8 -->
     
     <div class="col-md-4 text-center">
@@ -32,11 +21,24 @@ noTitle: true
   </div>
 </div> <!-- / lg-12 -->
 
+
+<div class="row">
+  <div class="col-lg-10 col-lg-offset-1" >
+    <div class="well"0>
+    <p>
+      SIGCSE 2015 continues our long tradition of bringing together colleagues from around the world to present papers, panels, posters, special sessions, and workshops, (and <i>new this year</i> demos and lightning talks) and to discuss computer science education in birds-of-a-feather sessions and informal settings. The SIGCSE Technical Symposium addresses problems common among educators working to develop, implement and/or evaluate computing programs, curricula, and courses. The symposium provides a forum for sharing new ideas for syllabi, laboratories, and other elements of teaching and pedagogy, at all levels of instruction.
+    </p>
+  </div>
+  </div>
+</div>
+
+<div class="row">
 <div class="col-lg-12">
     <div class="page-header text-muted">
         {{site.data.main.upper}} Blog - News Flashes
     </div>
 </div> <!-- / lg-12 -->
+</div>
 
 <div class="row">
   <div class="col-lg-12">
@@ -52,6 +54,8 @@ noTitle: true
     </ul>
   </div> <!-- lg-12 News Flashes -->
 </div>
+
+
 
 {% for link in site.data.nav %}
 {% assign inc = link.include | remove: 'homepage/' | remove: '.html' %}
