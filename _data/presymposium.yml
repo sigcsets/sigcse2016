@@ -59,8 +59,8 @@
   max: "45"
   where: "TBD"
   blurb: presymposium/managingcareer.md
-  info: "http://cra-w.org/ArticleDetails/tabid/77/ArticleID/50/Career-Mentoring-Workshop-CMW.aspx "
-  register: "http://cra-w.org/ArticleDetails/tabid/77/ArticleID/50/Career-Mentoring-Workshop-CMW.aspx "
+  info: "http://cra-w.org/ArticleDetails/tabid/77/ArticleID/50/Career-Mentoring-Workshop-CMW.aspx"
+  register: "http://cra-w.org/ArticleDetails/tabid/77/ArticleID/50/Career-Mentoring-Workshop-CMW.aspx"
   organizers: 
     - name: "Sheila Castaneda"
       email: "cast@clarke.edu"
