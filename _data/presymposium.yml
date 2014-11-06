@@ -73,8 +73,8 @@
   max: "No Max"
   where: "TBD"
   blurb: presymposium/sigcas.md
-  info: "http://www.sigcas.org"
-  register: "http://www.sigcas.org"
+  info: "http://www.sigcas.org/"
+  register: "http://www.sigcas.org/"
   organizers: 
     - name: "Michael (Mikey) Goldweber"
       email: "mikeyg@xavier.edu"
