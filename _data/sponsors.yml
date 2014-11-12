@@ -1,7 +1,7 @@
 Platinum:
   - name: "Google, Inc."
     blurb: "Organizing the world’s information and making it universally accessible and useful."
-    image: google.png
+    image: google-350.png
     link: "https://www.google.com/"
 Gold:
   - name: ABET
@@ -15,13 +15,17 @@ Gold:
 Silver:
   - name: GitHub
     blurb: "The best place to share code with friends, co-workers, classmates, and complete strangers."
-    image: github-text-200.png
+    image: github-text-350.png
     link: "https://github.com/"
+  - name: Gradescope
+    blurb: ""
+    image: gradescope-350.png
+    link: "https://gradescope.com/"
   - name: Teradata University Network
     blurb: "Providing students with hands-on software experiences with the worlds' largest companies."
     image: teradata-350.png
     link: "http://www.teradatauniversitynetwork.com/"
   - name: Zyante
     blurb: "Animated interactive learning"
-    image: zyante-200.png
+    image: zyante-350.png
     link: "http://www.zyante.com/"
