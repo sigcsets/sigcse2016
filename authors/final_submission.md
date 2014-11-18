@@ -38,7 +38,7 @@ ACM is introducing the [ACM Author-Izer](http://www.acm.org/publications/acm-aut
     
     * *Papers* - [publisher's web page for papers](http://www.sheridanprinting.com/typedept/sigcse.htm#insertCopyright) 
     * *Panels & Special Sessions* - [publisher's web page for panels and special sessions](http://www.sheridanprinting.com/typedept/sigcse2.htm#insertCopyright) 
-    * *Workshops, Posters, Birds of a Feather* - [publisher's web page for workshops, posters, and birds of a feather](http://www.sheridanprinting.com/typedept/sigcse3.htm#insertCopyright) 
+    * *Workshops, Posters, Birds of a Feather, Demos and Lightning Talks* - [publisher's web page for these submissions](http://www.sheridanprinting.com/typedept/sigcse3.htm#insertCopyright) 
 
 2. **Insert copyright statement:** 
 
@@ -48,7 +48,7 @@ ACM is introducing the [ACM Author-Izer](http://www.acm.org/publications/acm-aut
 
     **Panels & Special Sessions** - The publisher's page [publisher's web page for panels and special sessions](http://www.sheridanprinting.com/typedept/sigcse2.htm#insertCopyright) provides instructions on how to add the appropriate notice for panels and special sessions. 
 
-    **Workshops, Posters, Birds of a Feather** - The publisher's page [publisher's web page for workshops, posters, and birds of a feather](http://www.sheridanprinting.com/typedept/sigcse3.htm#insertCopyright) provides instructions on how to add the appropriate notice for these submissions. 
+    **Workshops, Posters, Birds of a Feather, Demos and Lightning Talks** - The publisher's page [for these submissions](http://www.sheridanprinting.com/typedept/sigcse3.htm#insertCopyright) provides instructions on how to add the appropriate notice for these submissions. 
 
 ## Submission of Final Copy
 
