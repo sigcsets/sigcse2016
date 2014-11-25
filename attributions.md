@@ -16,6 +16,8 @@ showTitle: true
     <dd> MIT License </dd>
     <dt> <a href="http://jekyllrb.com/">Jekyll</a> </dt>
     <dd> MIT License </dd>
+    <dt> <a href="http://countdownjs.org/">Countdown.js</a> </dt>
+    <dd> MIT License </dd>
 </dl>
 
 

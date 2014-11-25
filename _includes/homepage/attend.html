@@ -23,13 +23,39 @@
       <li><a href="https://www.visitkc.com/">The KC Visitor's Bureau</a></li>
     </ul>
   </p>
-      
+  
+  <p>
+    <h3>First Timer?</h3>
+    <p>If this is your first time attending SIGCSE, make sure to register for and attend the First Timers’ Lunch that is held on Thursday, March 5 at noon.  This event is included in your conference registration.</p>
+  </p>
+  <p>
+    <h3>K-12 or Community College Educator?</h3>
+    <p> Pages highlighting activities for professionals in these groups coming soon.</p>
+  </p>
 
 </div>
 <div class="col-md-6 text-center">
         <img src="/images/carousel/height-400px/KC19-400.png" alt="Street sign.">
-  </div>
+        <br>
+        <h3> COUNTDOWN TO SIGCSE {{site.data.main.year}} </h3>
+        <div id="countdown-to-sigcse"></div>
+</div>
     
     
 	</div>
 </div>
+
+<script>
+  var clock = document.getElementById("countdown-to-sigcse")
+    , targetDate = new Date(2015, 02, 04); // March 4, 2015;
+  var cd = countdown(null, targetDate, countdown.MONTHS | countdown.DAYS );
+  var mplural = "";
+  var dplural = "";
+  if (cd.months > 1) {
+    mplural = "s";
+  }
+  if (cd.days > 1) {
+    dplural = "s";
+  }
+  clock.innerHTML = cd.months + " month" + mplural + " and " + cd.days + " day" + dplural;
+</script>

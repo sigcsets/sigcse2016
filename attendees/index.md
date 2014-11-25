@@ -86,7 +86,13 @@ Also, it is less expensive to join ACM SIGCSE and register for the conference as
 
 <p><b>Note that the <a href="http://www.visitkc.com/convention-center/index.aspx">KC Convention Center is barely a block away</a> from the conference hotel!</b> Sessions and accommodations are practically under the same roof!</p>
 
-<p>So <a href="{{site.data.main.bookingURL}}">go reserve your room now</a>. You might as well: it's the 2014-2015 budget year, and at least this way you won't be thinking about it all through the fall term.</p>
+<p>So <a href="{{site.data.main.bookingURL}}">go reserve your room now</a>. Conference room rates are guaranteed until February 3.  Please make your reservations before that date to ensure the SIGCSE rate.</p>
+  
+<p>Please note that the SIGCSE rate is guaranteed for three days before and three days after the conference.  There are rooms available during those times.  However, <b>the online system may indicate that the rooms are sold out due to limitations of the reservation system</b>.  Please call the reservation number directly and your reservation can be adjusted for the days you need.</p>
+  
+<p>The hotel requires a credit card to hold reservations.  Your credit card will not be charged until your stay.  If you need to cancel your reservation, 24 hours’ notice is required.</p>
+
+<p><em>Roommate matching database coming soon!</em></p>
 
 </div>
   <div class="col-md-6 pull-right">
