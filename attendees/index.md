@@ -21,14 +21,20 @@ showTitle: true
 
 ## Registering for SIGCSE {{site.data.main.year}}
 
-{{site.data.main.upper}} {{site.data.main.year}} takes place between {{site.data.main.month}} {{site.data.main.start}} and {{site.data.main.month}} {{site.data.main.end}} of... you guessed it, {{site.data.main.year}}.
+{{site.data.main.upper}} {{site.data.main.year}} takes place between {{site.data.main.month}} {{site.data.main.start}} and {{site.data.main.month}} {{site.data.main.end}} of {{site.data.main.year}}.
 
-As always, we encourage attendees to register early. This helps us
-with our planning, and in return, you get lower registration rates!
+As always, we encourage attendees to register early. This helps us with our planning, and in return, you get lower registration rates!
 
-Also, it is less expensive to join ACM SIGCSE and register for the conference as a regular member than to register as a regular non-member. Joining SIGCSE is {{site.data.main.sigcsemembershipcost}} for professionals and {{site.data.main.sigcsestudentmembershipcost}} for students, and rates for regular member attendees are at least $75 less than regular nonmember attendees at all times. Furthermore, by joining you gain access to an incredible global network of dedicated professionals and educators who are part of the SIGCSE community, so it is a double benefit to join the world’s premier professional computer science education organization!
+Also, it is <b>less expensive to join ACM SIGCSE and register for the conference as a regular member than to register as a regular non-member</b>. Joining SIGCSE is {{site.data.main.sigcsemembershipcost}} for professionals and {{site.data.main.sigcsestudentmembershipcost}} for students, and rates for regular member attendees are at least $75 less than regular nonmember attendees at all times. Furthermore, by joining you gain access to an incredible global network of dedicated professionals and educators who are part of the SIGCSE community, so it is a double benefit to join the world’s premier professional computer science education organization!
 
 <p>If you <a href="{{site.data.main.sigcsemembershipurl}}">join SIGCSE</a> ({{site.data.main.sigcsemembershipcost}}/year), you save at least {{site.data.main.sigseregistrationsavings}} on your registration, and gain access to an incredible global network of dedicated professionals and educators who are part of the SIGCSE community.</p>
+
+
+<div class="text-center">
+  <hr>
+<h3><a href="{{site.data.main.registrationurl}}">The Registration Link</a></h3>
+<hr>
+</div>
 
 &nbsp;
 
@@ -52,7 +58,7 @@ Also, it is less expensive to join ACM SIGCSE and register for the conference as
 #### Rates
 
 <div class="row" style="margin-top: 20px; margin-bottom: 20px;">
-  <div class="col-md-11 col-md-offset-1">
+  <div class="col-md-6">
     <div class="table-responsive">
       <table>
 {% for e in site.data.registration.rates %}
@@ -63,17 +69,17 @@ Also, it is less expensive to join ACM SIGCSE and register for the conference as
 {% endfor %}
       </table>
     </div>
+  </div><!-- end row6 -->
+  <div class="col-md-4 col-md-offset-1"> <!-- picture with shirts -->
+    <div class="text-center">
+      <img 
+        src="/images/amazing-people-in-amazing-sigcse2015-shirts-300.png" 
+        alt="Amazing People in Amazing SIGCSE 2015 Shirts" 
+        width="100%"
+        class="image-responsive">
+    </div>
   </div>
 </div>
-
-<div class="row" style="margin-top: 30px; margin-bottom: 30px;">
-{% callout danger %}
-<p>As of July 4th, we are not quite ready to accept your conference registrations... but we will soon!
-</p>
-{% endcallout %}
-</div>
-
-
 
 <a name="reserving"></a>
 
