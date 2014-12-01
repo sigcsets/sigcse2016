@@ -102,7 +102,7 @@ THREE SUBMISSIONS ARE NECESSARY BY THE DEADLINE **-- one to the online database 
 
     * You have submitted both PDF and source file(s) to the publisher 
 
-    * You have faxed the signed copyright or permission form to the publisher 
+    * You have completed the signed copyright or permission form and sent it to the publisher 
 
 {% include submission-questions category="Publications Wrangler" %}
 
