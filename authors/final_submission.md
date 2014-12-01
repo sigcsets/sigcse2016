@@ -80,9 +80,9 @@ THREE SUBMISSIONS ARE NECESSARY BY THE DEADLINE **-- one to the online database 
 
 4. **After confirmation from the publisher, submit the signed ACM Copyright Form or Permission Form.** 
 
-    **For papers:** After submitting your document on the publisher's website, the publisher will send the contact author a confirmation message. After your paper has been processed, you will be emailed a link to an electronic ACM Copyright Form. Fill out and submit this form. **Note that no links to the copyright forms have gone out yet; the electronic copyright form is still being set up.** 
+    **For papers:** After submitting your document on the publisher's website, the publisher will send the contact author a confirmation message. After your paper has been processed, you will be emailed a link to an electronic ACM Copyright Form. Fill out and submit this form; [details are provided on the Sheridan website](http://www.sheridanprinting.com/typedept/sigcse.htm).
 
-    **For panels and special sessions:** After submitting your document on the publisher's website, the publisher will send the contact author a confirmation message with a link to an ACM Permission Form. This process is entirely electronic, and [you should follow the instructions provided by Sheridan online](www.sheridanprinting.com/typedept/sigcse.htm).
+    **For panels and special sessions:** After submitting your document on the publisher's website, the publisher will send the contact author a confirmation message with a link to an ACM Permission Form. This process is entirely electronic, and [you should follow the instructions provided by Sheridan online](http://www.sheridanprinting.com/typedept/sigcse2.htm).
 
 5. **Send email to the publications chair to indicate that you have completed all of the steps above.** 
 
