@@ -29,13 +29,6 @@ Also, it is <b>less expensive to join ACM SIGCSE and register for the conference
 
 <p>If you <a href="{{site.data.main.sigcsemembershipurl}}">join SIGCSE</a> ({{site.data.main.sigcsemembershipcost}}/year), you save at least {{site.data.main.sigseregistrationsavings}} on your registration, and gain access to an incredible global network of dedicated professionals and educators who are part of the SIGCSE community.</p>
 
-
-<div class="text-center">
-  <hr>
-<h3><a href="{{site.data.main.registrationurl}}">The Registration Link</a></h3>
-<hr>
-</div>
-
 &nbsp;
 
 #### Deadlines
@@ -76,10 +69,19 @@ Also, it is <b>less expensive to join ACM SIGCSE and register for the conference
         src="/images/amazing-people-in-amazing-sigcse2015-shirts-300.png" 
         alt="Amazing People in Amazing SIGCSE 2015 Shirts" 
         width="100%"
-        class="image-responsive">
+        class="image-responsive"><br>
+        <em>New this year - purchase a SIGCSE 2015 t-shirt for only $6. 
+          <b>Pre-orders only</b>.  Order when you register for the conference.</em>
     </div>
   </div>
 </div>
+
+<div class="text-center">
+  <hr>
+<h3><a href="{{site.data.main.registrationurl}}">The Registration Link</a></h3>
+<hr>
+</div>
+
 
 <a name="reserving"></a>
 
