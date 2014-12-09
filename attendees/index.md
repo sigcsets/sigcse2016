@@ -76,6 +76,7 @@ Also, it is <b>less expensive to join ACM SIGCSE and register for the conference
   </div>
 </div>
 
+
 <div class="text-center">
   <hr>
 <h3><a href="{{site.data.main.registrationurl}}">The Registration Link</a></h3>
@@ -91,6 +92,8 @@ Also, it is <b>less expensive to join ACM SIGCSE and register for the conference
   <div class="col-md-6">
 <p>Our conference hotel is the <b>{{site.data.main.conferenceHotel}}</b>. The rumor on the street in KC is that <i>{{site.data.main.upper}} booked the whole thing</i>. So, take that conference rate, and book rooms for yourself and all of your colleagues—this would be great year to bring the whole department/division/school.
 </p>
+
+<p><b>The conference rate is $159 plus tax per night.</b></p>
 
 <p><b>Note that the <a href="http://www.visitkc.com/convention-center/index.aspx">KC Convention Center is barely a block away</a> from the conference hotel!</b> Sessions and accommodations are practically under the same roof!</p>
 

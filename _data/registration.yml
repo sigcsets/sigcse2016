@@ -5,6 +5,8 @@ rates:
     rates: "$335 for SIGCSE members, $415 for non-members" 
   - category: "On-site"
     rates: "$385 for SIGCSE members, $460 for non-members"
+  - category: "Workshops"
+    rates: "$75 early; $90 late; $100 onsite"
   - category: "K-12 two-day (Friday/Saturday)"
     rates: "$150 for early, $180 for late or onsite"
   - category: "K-12 one-day (Saturday)"
