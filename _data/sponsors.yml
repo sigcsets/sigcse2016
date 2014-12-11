@@ -21,6 +21,10 @@ Silver:
     blurb: ""
     image: gradescope-350.png
     link: "https://gradescope.com/"
+  - name: Piazza
+    blurb: ""
+    image: piazza-350.png
+    link: "https://piazza.com/"
   - name: Teradata University Network
     blurb: "Providing students with hands-on software experiences with the worlds' largest companies."
     image: teradata-350.png
