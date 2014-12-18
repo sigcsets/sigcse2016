@@ -26,7 +26,7 @@
 </div>
 {% assign rowcount = "" %}
 {% for sponsor in category[1] %}
-  {% assign mod = forloop.index0 | mod:3 %}
+  {% assign mod = forloop.index0 | mod:2 %}
   {% if (mod == 0) %}
     <div class="row">
   {% endif %}

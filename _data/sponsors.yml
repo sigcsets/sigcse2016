@@ -31,7 +31,7 @@ Silver:
     link: "http://www.teradatauniversitynetwork.com/"
   - name: Zyante
     blurb: "Animated interactive learning"
-    image: zyante-350.png
+    image: zybooks-350.png
     link: "http://www.zyante.com/"
 Bronze:
   - name: "Turing's Craft"
