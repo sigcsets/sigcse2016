@@ -113,6 +113,12 @@ Also, it is <b>less expensive to join ACM SIGCSE and register for the conference
 
 <a name="travel"></a>
 
+## Find a Roommate!
+
+You can also use the [SIGCSE roommate database](http://sigcse.rit.edu/roommates/) to find someone to room with. This is the preferred database of SIGCSE members around the world for finding roommates at the SIGCSE Technical Symposium. Honest.
+
+
+
 ## Getting to SIGCSE {{site.data.main.year}}
 
 ### {{site.data.main.nearestAirport}} (Airport Code: {{site.data.main.nearestAirportCode}})
