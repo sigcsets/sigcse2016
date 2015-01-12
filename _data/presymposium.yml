@@ -6,9 +6,9 @@
   blurb: presymposium/geni.md
   info: "http://geni.web.unc.edu/geni-sigcse/"
   register: "http://geni.web.unc.edu/geni-sigcse/"
-  organizers: 
+  organizers:
     - name: "Jay Aikat"
-      email: aikat@cs.unc.edu 
+      email: aikat@cs.unc.edu
     - name: "Vic Thomas"
       email: vthomas@bbn.com
 
@@ -20,7 +20,7 @@
   blurb: presymposium/chairs.md
   info: ""
   register: "To register for this event, select it during SIGCSE2015 conference registration."
-  organizers: 
+  organizers:
     - name: "Sandra J. DeLoatch"
       email: "sjdeloatch@nsu.edu"
 
@@ -32,7 +32,7 @@
   blurb: presymposium/littlefe.md
   info: "http://littlefe.net/buildout"
   register: "http://littlefe.net/buildout"
-  organizers: 
+  organizers:
     - name: "Charlie Peck"
       email: "charliep@cs.earlham.edu"
     - name: "Aaron Weeden"
@@ -49,7 +49,7 @@
   blurb: presymposium/github.md
   info: "https://training.github.com/classes/foundations/"
   register: "https://www.eventbrite.com/e/git-github-foundations-for-educators-tickets-14073364813"
-  organizers: 
+  organizers:
     - name: "John Britton"
       email: "jbd@github.com"
 
@@ -61,7 +61,7 @@
   blurb: presymposium/managingcareer.md
   info: "http://cra-w.org/ArticleDetails/tabid/77/ArticleID/50/Career-Mentoring-Workshop-CMW.aspx"
   register: "http://cra-w.org/ArticleDetails/tabid/77/ArticleID/50/Career-Mentoring-Workshop-CMW.aspx"
-  organizers: 
+  organizers:
     - name: "Sheila Castaneda"
       email: "cast@clarke.edu"
     - name: "Susan Rodger"
@@ -75,7 +75,7 @@
   blurb: presymposium/sigcas.md
   info: "http://www.sigcas.org/"
   register: "http://www.sigcas.org/"
-  organizers: 
+  organizers:
     - name: "Michael (Mikey) Goldweber"
       email: "mikeyg@xavier.edu"
     - name: "Karla Carter"
@@ -89,7 +89,7 @@
   blurb: presymposium/csteachingtips.md
   info: "http://csteachingtips.org/sigcse15/"
   register: "https://docs.google.com/forms/d/1UB3sM_cRaoUuDPg-PKQV-lqI5Z1oAG48hUYsvZcY_Fw/viewform"
-  organizers: 
+  organizers:
     - name: "Arielle Schlesinger"
       email: "aschlesinger@g.hmc.edu"
     - name: "Colleen Lewis"
@@ -103,11 +103,15 @@
   blurb: presymposium/teachingtodiversity.md
   info: "http://tinyurl.com/tides2015"
   register: ""
-  organizers: 
+  organizers:
     - name: "Helen Hu"
       email: "hhu@westminstercollege.edu"
     - name: "Patricia Campbell"
       email: "campbell@campell-kibler.com"
+    - name: "Douglas Blank"
+      email: "noemail"
+    - name: "Albert Chan"
+      email: "noemail"
 
 - name: ""
   date: ""
@@ -117,9 +121,8 @@
   blurb: presymposium/
   info: ""
   register: ""
-  organizers: 
+  organizers:
     - name: ""
       email: ""
     - name: ""
       email: ""
-
