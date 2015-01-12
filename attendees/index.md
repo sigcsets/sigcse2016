@@ -117,8 +117,6 @@ The Association for Computing Machinery (ACM, SIGCSE's umbrella organization) do
 
 <p>The hotel requires a credit card to hold reservations.  Your credit card will not be charged until your stay.  If you need to cancel your reservation, 24 hours’ notice is required.</p>
 
-<p><em>Roommate matching database coming soon!</em></p>
-
 </div>
   <div class="col-md-6 pull-right">
     <img src="{{site.base}}/images/carousel/Exterior_Wide_1211.jpg" width="100%" class="image-responsive" ></img>
