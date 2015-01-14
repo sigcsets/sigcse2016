@@ -20,21 +20,17 @@ volunteer hours.
 **SEPARATELY** register as a volunteer with the student volunteering
 team.
 
+<div class="text-center">
+<h3><a href="{{site.data.students.registrationurl}}">Register to Volunteer Here</a></h3>
+</div>
+
 {% callout warning %}
-Please note that while in previous years we have been able to accept
-everyone who registered in December and January and often anyone
-interested, we cannot guarantee that this is the case every year. Please
-try to register as early as possible (you can provide your availability
-for shifts closer to the conference start as we understand that it can
-take a little while to arrange travel).
+Please note that while in previous years we have been able to accept everyone who registered, and often anyone who was interested, we cannot guarantee that this is the case every year.  Please try to register as early as possible, and please make sure to provide your availability.
 {% endcallout %}
 
 Also, please note that if you are no longer able to attend, we greatly
 appreciate you going back to the registration system to cancel.
 
-<div class="text-center">
-<h3><a href="{{site.data.students.registrationurl}}">Register Here</a></h3>
-</div>
 
 ## What To Do Once at SIGCSE
 
