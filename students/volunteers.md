@@ -32,6 +32,10 @@ take a little while to arrange travel).
 Also, please note that if you are no longer able to attend, we greatly
 appreciate you going back to the registration system to cancel.
 
+<div class="text-center">
+<h3><a href="{{site.data.students.registrationurl}}">Register Here</a></h3>
+</div>
+
 ## What To Do Once at SIGCSE
 
 Upon arrival at the conference site, you must check in at the
