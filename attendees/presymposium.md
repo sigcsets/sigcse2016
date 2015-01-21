@@ -28,7 +28,7 @@ There are several exciting pre-symposium events this year; plan your travel so y
 
 **Date/Time**: {{event.date}}
 
-**Where**: {{event.where}}
+**Where**: {{event.room}}
 
 **Cost**: {{event.cost}}
 
@@ -49,7 +49,7 @@ There are several exciting pre-symposium events this year; plan your travel so y
   {% endif %}
 {% endif %}
 
-**Organizers**: 
+**Organizers**:
 <ul>
 {% for org in event.organizers %}
 {% if org.email %}
@@ -57,7 +57,7 @@ There are several exciting pre-symposium events this year; plan your travel so y
   {% else %}
     <li>{{org.name}}</li>
   {% endif %}
-  
+
 {% endfor%}
 </ul>
 

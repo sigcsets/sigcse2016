@@ -1,5 +1,6 @@
 - name: "GENI in Your Classroom"
   date: "Wednesday, March 4, 8:30am-12:00pm"
+  room: "2503A"
   cost: "None"
   max: "35"
   where: "TBD"
@@ -12,8 +13,24 @@
     - name: "Vic Thomas"
       email: vthomas@bbn.com
 
+
+
+- name: "Cyber Education Program Steering Committee Meeting"
+  date: "Wednesday, March 4, 8:30am -12:30pm"
+  room: "2503B"
+  cost: "N/A"
+  max: "25"
+  where: "TBD"
+  blurb: presymposium/cep.md
+  info: "http://cep-public.caps.ua.edu/"
+  register: "To register for this event, please write <a  href='mailto:ashaffer@usna.edu'>ashaffer@usna.edu</a>"
+  organizers:
+    - name: "Chris Inglis"
+      email: "inglis@usna.edu"
+
 - name: "SIGCSE2015 Department Chairs Roundtable"
   date: "Wednesday, March 4, 8:30am-5:00pm"
+  room: "2505A"
   cost: "TBD (paid during SIGCSE registration)"
   max: "35"
   where: "TBD"
@@ -26,6 +43,7 @@
 
 - name: "LittleFe Build-Out"
   date: "Wednesday, March 4, 8:15am-5:30pm"
+  room: "2502B"
   cost: "Free"
   max: "24"
   where: "TBD"
@@ -42,7 +60,8 @@
     - name: "Mobeen Ludin"
 
 - name: "Git and GitHub: Foundations for Educators"
-  date: "Wednesday, March 4, 9am-5:00pm"
+  date: "Wednesday, March 4, 9:00am-5:00pm"
+  room: "2505B"
   cost: "Free"
   max: "100"
   where: "TBD"
@@ -55,6 +74,7 @@
 
 - name: "Managing the Academic Career for Women Faculty in Undergraduate Computing Programs"
   date: "Wednesday, March 4, 8:15am-5:15pm"
+  room: "2502A"
   cost: "Free"
   max: "45"
   where: "TBD"
@@ -69,6 +89,7 @@
 
 - name: "ACM SIGCAS Symposium on Computing for the Social Good: Educational Practices"
   date: "Wednesday, March 4, 1:00pm-5:30pm"
+  room: "2504A"
   cost: "Free for SIGCAS members, $30 for non-members"
   max: "No Max"
   where: "TBD"
@@ -83,6 +104,7 @@
 
 - name: "CSTeachingTips.org: Tip-A-Thon"
   date: "Wednesday, March 4, 1:00pm-4:00pm"
+  room: "2503A"
   cost: "Free"
   max: "25"
   where: "TBD"
@@ -97,6 +119,7 @@
 
 - name: "Teaching to Diversity in Computer Science"
   date: "Wednesday, March 4, 1:00pm-4:30pm"
+  room: "2503B"
   cost: "Free"
   max: "100"
   where: "TBD"
@@ -112,6 +135,7 @@
       email: "dblank@cs.brynmawr.edu"
     - name: "Albert Chan"
       email: "achan@uncfsu.edu"
+
 
 - name: ""
   date: ""

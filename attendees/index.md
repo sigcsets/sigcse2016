@@ -177,7 +177,7 @@ Having spent some time digging around the <a href="http://www.kcata.org/">KCATA 
 
 ## Once You Are There
 
-We'll be updating this section over the course of the year; we'll have offers and recommendations for you that you can take advantage of while you are in KC, MO.
+There's a lot to do in KC, and to get you started thinking about it, <a href="https://www.visitkc.com/visitors/deals/list?search-filter_type=2227">we have some excellent discounts</a> you may want to take advantage of in the Downtown Area and Crown Center Area.
 
 ### Awesome Stuff To Do in KC
 
