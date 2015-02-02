@@ -100,6 +100,12 @@ The Association for Computing Machinery (ACM, SIGCSE's umbrella organization) do
 
 ## Reserving a Room at the {{site.data.main.conferenceHotel}}
 
+{% callout info %}
+<div class='text-center'>
+  <b>There is space</b> at the conference hotel (Feb 2nd)!
+</div>
+{% endcallout %}
+
 <div class="row">
   <div class="col-md-6">
 <p>Our conference hotel is the <b>{{site.data.main.conferenceHotel}}</b>. The rumor on the street in KC is that <i>{{site.data.main.upper}} booked the whole thing</i>. So, take that conference rate, and book rooms for yourself and all of your colleagues—this would be great year to bring the whole department/division/school.
@@ -128,6 +134,36 @@ The Association for Computing Machinery (ACM, SIGCSE's umbrella organization) do
 ## Find a Roommate!
 
 You can also use the [SIGCSE roommate database](http://sigcse.rit.edu/roommates/) to find someone to room with. This is the preferred database of SIGCSE members around the world for finding roommates at the SIGCSE Technical Symposium. Honest.
+
+
+## If Needed: Overflow Options
+
+Once we fill the conference hotel (it is best if we do!), these are some (relatively) nearby options that might serve for overflow.
+
+* **Alladin Holiday Inn Hotel**
+
+  1215 Wyandotte Street, Kansas City, MO  64105 
+  
+  The Alladin has an underground walkway like the Marriott
+  
+  http://www.ihg.com/holidayinn/hotels/us/en/kansas-city/mkccc/hoteldetail
+
+* **Crowne Plaza Kansas City Downtown**
+
+  1301 Wyandotte Street, Kansas City, MO 64105
+  
+  Attached to Convention Center
+  
+  http://www.cpkansascity.com
+  
+  http://www.ihg.com/crowneplaza/hotels/us/en/kansas-city/mkcws/hoteldetail
+
+* **Hotel Phillips**
+  106 West 12th Street, Kansas City, MO 64105
+  
+  Located 2 Blocks from Convention Center / luxury boutique hotel
+  
+  http://www.hotelphillips.com
 
 
 
