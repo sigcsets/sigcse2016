@@ -181,4 +181,7 @@ Note that you will be required to submit your proposal electronically.
     for accuracy. Send e-mail to the Workshops coordinator(s)
     if there are any problems.
 
+{% include presenter-warning.html %}
+
+
 {% include submission-questions category="Workshops Co-Wrangler" %}

@@ -13,8 +13,6 @@
     - name: "Vic Thomas"
       email: vthomas@bbn.com
 
-
-
 - name: "Cyber Education Program Steering Committee Meeting"
   date: "Wednesday, March 4, 8:30am -12:30pm"
   room: "2503B"
@@ -30,7 +28,7 @@
 
 - name: "SIGCSE2015 Department Chairs Roundtable"
   date: "Wednesday, March 4, 8:30am-5:00pm"
-  room: "2505A"
+  room: "2502B"
   cost: "TBD (paid during SIGCSE registration)"
   max: "35"
   where: "TBD"
@@ -43,7 +41,7 @@
 
 - name: "LittleFe Build-Out"
   date: "Wednesday, March 4, 8:15am-5:30pm"
-  room: "2502B"
+  room: "2505A"
   cost: "Free"
   max: "24"
   where: "TBD"
@@ -111,6 +109,7 @@
   blurb: presymposium/csteachingtips.md
   info: "http://csteachingtips.org/sigcse15/"
   register: "https://docs.google.com/forms/d/1UB3sM_cRaoUuDPg-PKQV-lqI5Z1oAG48hUYsvZcY_Fw/viewform"
+  deadline: "Feb 18, 2015"
   organizers:
     - name: "Arielle Schlesinger"
       email: "aschlesinger@g.hmc.edu"
@@ -125,7 +124,7 @@
   where: "TBD"
   blurb: presymposium/teachingtodiversity.md
   info: "http://tinyurl.com/tides2015"
-  register: ""
+  register: "https://docs.google.com/forms/d/1pofxHio4uyikB5A6iboBOkHh5swI9AlGojMeas6iXuo/viewform"
   organizers:
     - name: "Helen Hu"
       email: "hhu@westminstercollege.edu"
@@ -135,7 +134,6 @@
       email: "dblank@cs.brynmawr.edu"
     - name: "Albert Chan"
       email: "achan@uncfsu.edu"
-
 
 - name: ""
   date: ""

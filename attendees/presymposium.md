@@ -49,6 +49,10 @@ There are several exciting pre-symposium events this year; plan your travel so y
   {% endif %}
 {% endif %}
 
+{% if event.deadline %}
+<b>Application Deadline</b>: {{event.deadline}}
+{% endif %}
+
 **Organizers**:
 <ul>
 {% for org in event.organizers %}

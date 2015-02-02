@@ -17,7 +17,7 @@ We are excited about these two affiliated events; both involve excellent educato
         </tr>
         <tr>
           <td><b>Where</b></td>
-          <td>TBD in the conference hotel</td>
+          <td>Room 2502B</td>
         </tr>
         <tr>
           <td><b>Cost</b></td>
@@ -55,7 +55,7 @@ Don't miss the chance to learn something new in a relaxed session with friends, 
         </tr>
         <tr>
           <td><b>Where</b></td>
-          <td>TBD</td>
+          <td>Room 2502B</td>
         </tr>
         <tr>
           <td><b>Cost</b></td>
