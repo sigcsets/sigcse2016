@@ -102,7 +102,7 @@ The Association for Computing Machinery (ACM, SIGCSE's umbrella organization) do
 
 {% callout info %}
 <div class='text-center'>
-  <b>There is space</b> at the conference hotel (Feb 2nd)!
+  The conference hotel is sold out for Wednesday night, and has <b>ample space remaining Thursday through Sunday</b>. (As of Feb 2nd.)
 </div>
 {% endcallout %}
 
@@ -140,30 +140,18 @@ You can also use the [SIGCSE roommate database](http://sigcse.rit.edu/roommates/
 
 Once we fill the conference hotel (it is best if we do!), these are some (relatively) nearby options that might serve for overflow.
 
-* **Alladin Holiday Inn Hotel**
+* **Alladin Holiday Inn Hotel** ([reservations](http://www.ihg.com/holidayinn/hotels/us/en/kansas-city/mkccc/hoteldetail))
 
   1215 Wyandotte Street, Kansas City, MO  64105 
   
-  The Alladin has an underground walkway like the Marriott
-  
-  http://www.ihg.com/holidayinn/hotels/us/en/kansas-city/mkccc/hoteldetail
-
-* **Crowne Plaza Kansas City Downtown**
+* **Crowne Plaza Kansas City Downtown** ([reservations](http://www.ihg.com/crowneplaza/hotels/us/en/kansas-city/mkcws/hoteldetail))
 
   1301 Wyandotte Street, Kansas City, MO 64105
-  
-  Attached to Convention Center
-  
-  http://www.cpkansascity.com
-  
-  http://www.ihg.com/crowneplaza/hotels/us/en/kansas-city/mkcws/hoteldetail
 
-* **Hotel Phillips**
+* **Hotel Phillips** ([reservations](http://www.hotelphillips.com))
+  
   106 West 12th Street, Kansas City, MO 64105
   
-  Located 2 Blocks from Convention Center / luxury boutique hotel
-  
-  http://www.hotelphillips.com
 
 
 
