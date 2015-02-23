@@ -6,11 +6,10 @@
   link: /supporters/index.html
   include: homepage/supporters.html
 
-- text: "Take Part"
-  link: /takepart.html
-  include: homepage/takepart.html
+#- text: "Take Part"
+#  link: /takepart.html
+#  include: homepage/takepart.html
 
 - text: "Committee"
   link: /committee.html
   include: homepage/pc.html
-  

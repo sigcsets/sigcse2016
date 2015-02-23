@@ -1,0 +1,17 @@
+- title: "Interactive Programme"
+  link: "https://www.openconf.org/sigcse2015/modules/request.php?module=oc_program&action=program.php&p=program"
+
+- title: "Full Programme (PDF)"
+  link: "docs/sigcse2015-programme.pdf"
+
+- title: "Venue Maps"
+  link: false
+
+- title: "Symposium App (Android)"
+  link: false
+
+- title: "Area Restaurants (PDF)"
+  link: "docs/kcmo-restaurants.pdf"
+
+- title: "Call a Cab"
+  link: "tel:+18164715000"
