@@ -31,7 +31,7 @@ Also, it is <b>less expensive to join ACM SIGCSE and register for the conference
 
 ### Regarding Visas
 
-This is the official word from <a href="mailto:supportletters@acm.org">supportletters@acm.org</a> regarding letters of support for visas:
+The following is the official word from <a href="mailto:supportletters@acm.org">supportletters@acm.org</a> regarding letters of support for visas. Your requests should be emailed to <a href="mailto:supportletters@acm.org">supportletters@acm.org</a> with the information described below.
 
 <div class="well">
   <p>
