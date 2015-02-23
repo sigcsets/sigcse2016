@@ -31,15 +31,30 @@ Also, it is <b>less expensive to join ACM SIGCSE and register for the conference
 
 ### Regarding Visas
 
-The Association for Computing Machinery (ACM, SIGCSE's umbrella organization) does not issue formal invitation letters for visas. However, they can issue a visa support letter. For a visa support letter, please send a request to <a href="mailto:supportletters@acm.org">supportletters@acm.org</a> with the following information:
+This is the official word from <a href="mailto:supportletters@acm.org">supportletters@acm.org</a> regarding letters of support for visas:
 
-* Name and mailing address as it appears on your passport
-* The name of the conference you wish to attend (SIGCSE {{site.data.main.year}})
-* Registration confirmation number
-* If you are the author of any papers accepted for the conference, please provide the title
-* Fax number (visa support letters are not issued via email)
+<div class="well">
+  <p>
+Visa support letters are answered in the order they are received. You will receive a PDF letter by email within the next 4-5 business days.  Please note we do not fax visa support letters.  The PDF serves as a signed electronic version of the original letter which will be mailed to your current mailing address.  If you do not receive the letter by post mail on time for your visa appointment, please print out your PDF letter and take it with you. 
+ </p>
+ <p>
+Please be sure you have included all of the following information below in your original email:
+ </p>
+ 
+<ol>
+  <li>Your name as it appears on your passport </li>
+ 
+  <li>Your current postal mailing address</li>
+ 
+  <li>The name of the conference you wish to attend</li>
+ 
+  <li>Your Registration Confirmation Number</li>
+ 
+  <li>If you have any papers accepted for the conference, please provide the title and indicate whether you are the ‘sole author’ or a ‘co- author’</li>
+</ol>
+</div>
 
-
+Note that it could take some time for your request to be honored; leave plenty of time.
 
 &nbsp;
 
