@@ -1,18 +1,3 @@
-- name: "GENI in Your Classroom"
-  date: "Wednesday, March 4, 8:30am-12:00pm"
-  room: "2503A"
-  cost: "None"
-  max: "35"
-  where: "TBD"
-  blurb: presymposium/geni.md
-  info: "http://geni.web.unc.edu/geni-sigcse/"
-  register: "http://geni.web.unc.edu/geni-sigcse/"
-  organizers:
-    - name: "Jay Aikat"
-      email: aikat@cs.unc.edu
-    - name: "Vic Thomas"
-      email: vthomas@bbn.com
-
 - name: "Cyber Education Program Steering Committee Meeting"
   date: "Wednesday, March 4, 8:30am -12:30pm"
   room: "2503B"
