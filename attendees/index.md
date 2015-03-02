@@ -21,6 +21,11 @@ showTitle: true
 
 ## Registering for SIGCSE {{site.data.main.year}}
 
+<div class="row">
+  {% include onsiteregistration.md %}
+</div>
+
+
 {{site.data.main.upper}} {{site.data.main.year}} takes place between {{site.data.main.month}} {{site.data.main.start}} and {{site.data.main.month}} {{site.data.main.end}} of {{site.data.main.year}}. [Register now!]({{site.data.main.registrationurl}})
 
 As always, we encourage attendees to register early. This helps us with our planning, and in return, you get lower registration rates!
