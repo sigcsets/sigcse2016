@@ -1,2 +1,4 @@
 _site/
 .DS_Store
+_assets/bootstrap-3.2.0/dist/
+_assets/bootstrap-3.2.0/docs/dist/
