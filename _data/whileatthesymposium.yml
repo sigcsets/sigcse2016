@@ -4,11 +4,11 @@
 - title: "Full Programme (PDF)"
   link: "docs/sigcse2015-programme.pdf"
 
-- title: "Venue Maps"
-  link: false
+- title: "CONNECT (WWW)"
+  link: "http://toilers.mines.edu/conferences/connect-sigcse-2015/public/"
 
-- title: "Symposium App (Android)"
-  link: false
+- title: "CONNECT (Android)"
+  link: "https://play.google.com/store/apps/details?id=edu.mines.toilers.conferenceMobile"
 
 - title: "Area Restaurants (PDF)"
   link: "docs/kcmo-restaurants.pdf"
