@@ -9,7 +9,7 @@ local:
 remote: boot build mini 
 	rsync -vrz \
 		-e "ssh -p 7822" _site/ \
-		sigcse@sigcse.hosting.acm.org:/home/sigcse/www/sigcse2015
+		sigcse@sigcse.hosting.acm.org:/home/sigcse/www/sigcse2016
 
 img:
 	./optimizepng.bash
