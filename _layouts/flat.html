@@ -1,97 +1,166 @@
 <!DOCTYPE html>
-<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"> -->
-<html lang="en">
-    <head>
-        <title>
-            {{site.data.main.ORG}} {{site.data.main.year}} - {{page.title}}
-        </title>
-        <script>
-          var shiftWindow = function() { scrollBy(0, -50) };
-          window.addEventListener("hashchange", shiftWindow);
-          function load() { if (window.location.hash) shiftWindow(); }
-        </script>
-    
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    
-        {% include meta-tags.html %}
-        {% include fonts.html %}
-        {% include favicon.html %}
-        {% include js-bottom.html %}
-        {% include css.html %}
+<head>
+          <title>
+              {{site.data.main.upper}} {{site.data.main.year}} - {{page.title}}
+          </title>
+        
+          {% include meta-tags.html %}
+          {% include favicon.html %}
+          {% include js-bottom.html %}
+          {% include css.html %}
 
-    </head>
-  <body data-spy="scroll" data-offset="0" data-target="#navigation" onload="load();">
+      </head>
+  
 
-    <!-- Fixed navbar -->
-    <div id="navigation" class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              
-          </button>
-          <a class="navbar-brand" href="{{site.base}}/index.html"><b>{{site.data.main.upper}} {{site.data.main.year}} :: {{site.data.main.month}} {{site.data.main.start}} - {{site.data.main.end}} </b></a>
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<body>
+
+    <!--Header-->
+    <header class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <h2>
+                  <a  class="pull-left" href="{{site.base}}/index.html">
+                    {{site.data.main.upper}} {{site.data.main.year}}
+                  </a>
+                </h2>
+                <div class="nav-collapse collapse pull-right">
+                    <ul class="nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <!--
+                        <li><a href="about-us.html">Attendees</a></li>
+                        <li><a href="services.html">Sponsors</a></li>
+                        <li><a href="portfolio.html">Exhibitors</a></li>
+                        <li><a href="portfolio.html">Take Part</a></li>
+                        <li><a href="portfolio.html">Committee</a></li>
+                        -->
+                    </ul>        
+                </div><!--/.nav-collapse -->
+            </div>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            {% for link in site.data.nav %}
-              <li><a href="{{site.base}}/index.html#{{link.include | remove: 'homepage/' | remove: '.html'}}" class="smothscroll">{{link.text}}</a></li>
-            {% endfor %}
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+    </header>
+    <!-- /header -->
+
+<section id="main">
+    <div class="container">
+        <div class="center">
+            <h3>{{site.data.main.upper}} {{site.data.main.year}} - Memphis, Tennessee</h3>
+            <p class="lead">Calling all sponsors, exhibitors, and authors!</p>
+        </div>  
+        <div class="gap"></div>
+        <ul class="gallery col-4">
+            <li>
+              &nbsp;
+            </li>
+
+            <!--Item 2-->
+            <li>
+                <div class="preview">
+                    <a href="{{site.base}}/docs/sigcse2016-cfp.pdf">
+                      <img alt=" " src="{{site.base}}/images/logo-2016-280.png">
+                    </a>
+                </div>
+                <div class="desc center">
+                    <h5>
+                      <a href="{{site.base}}/docs/sigcse2016-cfp.pdf">Call For Papers</a>
+                      <br>For Authors and Presenters
+                    </h5>
+                </div>
+            </li>
+            <!--/Item 2-->
+
+            <!--Item 3-->
+            <li>
+                <div class="preview">
+                    <a href="{{site.base}}/docs/sigcse2016-prospectus.pdf">
+                      <img alt=" " src="{{site.base}}/images/engage-empower-energize-284.png">
+                    </a>
+                </div>
+                <div class="desc center">
+                    <h5>
+                      <a href="{{site.base}}/docs/sigcse2016-prospectus.pdf">The Prospectus</a>
+                      <br>For Sponsors and Exhibitors
+                    </h5>
+                </div>
+                            
+            </li>
+            <!--/Item 3--> 
+
+            <!--Item 4-->
+            <li>
+              &nbsp;
+            </li>
+            <!--/Item 4-->               
+
+        </ul>
     </div>
 
-    <!-- Body content -->
+</section>
+
+<!--Bottom-->
+<footer id="footer">
+    <!--Container-->
     <div class="container">
-    	<div class="row">
-    		<div class="col-lg-12">
-          {% if page.noTitle %}
-          {% else %}
-            <h1>{{page.title}}</h1>
-          {% endif %}
-          
-          {{content}}
-	    	</div>
-	    </div> <!--/ row -->
-      
 
-<hr>
+        <!--row-fluids-->
+        <div class="row-fluid">
 
-<div class="row" style="padding-bottom: 20px;">
-  <div class="col-lg-4 text-center">
-    <a href="http://sigcse2015.sigcse.org/">
-    <img src="{{site.base}}/images/logos/KC_horizontal_banner_with_signs_purple_on_white-400.png" width="400" height="96" alt="KC Horizontal Banner With Signs Purple On White 400">
-  </a>
-  </div>
+            <!--Contact Form-->
+            <div class="span4 center">
+              <a href="http://sigcse.org/">
+                <img src="{{site.base}}/images/logos/sigcse-logo-80.png" alt="SIGCSE Logo">
+              </a>
   
-  <div class="col-lg-4 text-center">
-    <a href="http://sigcse.org/">
-    <img src="{{site.base}}/images/logos/sigcse-logo-400.png" width="96" height="96" alt="SIGCSE Logo"></a>
-  </div>
-  
-  <div class="col-lg-4 text-center">
-    <a href="http://acm.org/">
-    <img src="{{site.base}}/images/logos/acm-400.png" width="276" height="96" alt="ACM Logo">
-  </a>
-  </div>
+            </div>
+            <!--End Contact Form-->
+
+            <!--Important Links-->
+            <div id="tweets" class="span4 center">
+              <a href="http://acm.org/">
+                <img src="{{site.base}}/images/logos/acm-200.png"  alt="ACM Logo">
+              </a>
+            </div>
+            <!--Important Links-->
+            <!--Archives-->
+            <div id="archives" class="span4">
+                <div>                      
+                  <li>ACM/SIGCSE Policies</li>
+                  <li>Attributions</li>
+                  
+<!--                        <li><a href="{{site.base}}/policies.html">ACM/SIGCSE Policies</a></li>
+                        <li><a href="{{site.base}}/attributions.html">Attributions</a></li>
+                  -->
+                    </ul>
+                </div>
+            </div>
+            <!--End Archives-->
+
+    </div>
+    <!--/row-fluid-->
 </div>
+<!--/container-->
 
-<div class="row" style="padding-bottom: 30px;">
-  
-  <div class="col-lg-12 text-center">
-    <small>
-      <a href="{{site.base}}/policies.html">ACM/SIGCSE Policies</a>
-      |
-      <a href="{{site.base}}/attributions.html">Attributions</a>
-    </small>
-  </div>
-</div>
+</footer>
+<!--/bottom-->
 
-  	</div><!--/ container -->
 
-  </body>
+<script src="js/vendor/jquery-1.9.1.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
 </html>
-
