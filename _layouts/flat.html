@@ -3,164 +3,72 @@
           <title>
               {{site.data.main.upper}} {{site.data.main.year}} - {{page.title}}
           </title>
-        
+
           {% include meta-tags.html %}
           {% include favicon.html %}
           {% include js-bottom.html %}
           {% include css.html %}
 
       </head>
-  
+
 
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head>
 
 <body>
 
     <!--Header-->
-    <header class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
-                <h2>
-                  <a  class="pull-left" href="{{site.base}}/index.html">
-                    {{site.data.main.upper}} {{site.data.main.year}}
-                  </a>
-                </h2>
-                <div class="nav-collapse collapse pull-right">
-                    <ul class="nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <!--
-                        <li><a href="about-us.html">Attendees</a></li>
-                        <li><a href="services.html">Sponsors</a></li>
-                        <li><a href="portfolio.html">Exhibitors</a></li>
-                        <li><a href="portfolio.html">Take Part</a></li>
-                        <li><a href="portfolio.html">Committee</a></li>
-                        -->
-                    </ul>        
-                </div><!--/.nav-collapse -->
-            </div>
-        </div>
-    </header>
+    <body>
+   <div class="navbar navbar-default navbar-fixed-top">
+     <div class="container">
+       <div class="navbar-header">
+         <a href="/" class="navbar-brand">{{site.data.main.upper}} {{site.data.main.year}}</a>
+         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+       </div>
+       <!-- START COLLAPSE -->
+       <div class="navbar-collapse collapse" id="navbar-main">
+         <ul class="nav navbar-nav">
+
+           <!-- AUTHORS -->
+           <li class="dropdown">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Authors <span class="caret"></span></a>
+             <ul class="dropdown-menu" aria-labelledby="themes">
+               <li><a href="">Call For Papers</a></li>
+               <li class="divider"></li>
+               <li><a href="">TBA</a></li>
+             </ul>
+           </li>
+
+           <!-- EXHIBITORS/SPONSORS -->
+           <li class="dropdown">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Exhibitors & Sponsors<span class="caret"></span></a>
+             <ul class="dropdown-menu" aria-labelledby="themes">
+               <li><a href="">Call For Papers</a></li>
+               <li class="divider"></li>
+               <li><a href="">TBA</a></li>
+             </ul>
+           </li>
+        </ul>
+
+         <!-- FAR RIGHT -->
+         <ul class="nav navbar-nav navbar-right">
+           <li><a href="http://www.sigcse.org/" target="_blank">SIGCSE</a></li>
+           <li><a href="https://www.acm.org/" target="_blank">ACM</a></li>
+         </ul>
+
+       </div> <!-- END COLLAPSE -->
+     </div>
+   </div>
     <!-- /header -->
 
-<section id="main">
-    <div class="container">
-        <div class="center">
-            <h3>{{site.data.main.upper}} {{site.data.main.year}} - Memphis, Tennessee</h3>
-            <p class="lead">Calling all sponsors, exhibitors, and authors!</p>
-        </div>  
-        <div class="gap"></div>
-        <ul class="gallery col-4">
-            <li>
-              &nbsp;
-            </li>
-
-            <!--Item 2-->
-            <li>
-                <div class="preview">
-                    <a href="{{site.base}}/docs/sigcse2016-cfp.pdf">
-                      <img alt=" " src="{{site.base}}/images/logo-2016-280.png">
-                    </a>
-                </div>
-                <div class="desc center">
-                    <h5>
-                      <a href="{{site.base}}/docs/sigcse2016-cfp.pdf">Call For Papers</a>
-                      <br>For Authors and Presenters
-                    </h5>
-                </div>
-            </li>
-            <!--/Item 2-->
-
-            <!--Item 3-->
-            <li>
-                <div class="preview">
-                    <a href="{{site.base}}/docs/sigcse2016-prospectus.pdf">
-                      <img alt=" " src="{{site.base}}/images/engage-empower-energize-284.png">
-                    </a>
-                </div>
-                <div class="desc center">
-                    <h5>
-                      <a href="{{site.base}}/docs/sigcse2016-prospectus.pdf">The Prospectus</a>
-                      <br>For Sponsors and Exhibitors
-                    </h5>
-                </div>
-                            
-            </li>
-            <!--/Item 3--> 
-
-            <!--Item 4-->
-            <li>
-              &nbsp;
-            </li>
-            <!--/Item 4-->               
-
-        </ul>
-    </div>
-
-</section>
-
-<!--Bottom-->
-<footer id="footer">
-    <!--Container-->
-    <div class="container">
-
-        <!--row-fluids-->
-        <div class="row-fluid">
-
-            <!--Contact Form-->
-            <div class="span4 center">
-              <a href="http://sigcse.org/">
-                <img src="{{site.base}}/images/logos/sigcse-logo-80.png" alt="SIGCSE Logo">
-              </a>
-  
-            </div>
-            <!--End Contact Form-->
-
-            <!--Important Links-->
-            <div id="tweets" class="span4 center">
-              <a href="http://acm.org/">
-                <img src="{{site.base}}/images/logos/acm-200.png"  alt="ACM Logo">
-              </a>
-            </div>
-            <!--Important Links-->
-            <!--Archives-->
-            <div id="archives" class="span4">
-                <div>                      
-                  <li>ACM/SIGCSE Policies</li>
-                  <li>Attributions</li>
-                  
-<!--                        <li><a href="{{site.base}}/policies.html">ACM/SIGCSE Policies</a></li>
-                        <li><a href="{{site.base}}/attributions.html">Attributions</a></li>
-                  -->
-                    </ul>
-                </div>
-            </div>
-            <!--End Archives-->
-
-    </div>
-    <!--/row-fluid-->
-</div>
-<!--/container-->
-
-</footer>
-<!--/bottom-->
-
-
-<script src="js/vendor/jquery-1.9.1.min.js"></script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
-
-</body>
+  <body>
+    {{content}}
+  </body>
 </html>

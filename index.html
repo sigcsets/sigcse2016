@@ -1,79 +1,46 @@
 ---
-title: SIGCSE 2015
+title: SIGCSE 2016
 layout: flat
-includeBlogPosts: true
 noTitle: true
 ---
 
-<div class="col-lg-12" style="padding: 10px;">
-  <div class="row" style="margin-bottom: 10px;">
-    <div class="col-md-8 text-center">
-      <img src="/images/carousel/height-400px/Exterior_Wide_1211.png" alt="KC Conference Venue"
-      style="padding-top: 20px;">
-    </div> <!-- / md-8 -->
-
-    <div class="col-md-4 text-center">
-      <img src="/images/logos/kc-full-page-purple-400.png"
-      class="image-responsive"
-      style="padding-top: 20px;">
-    </div> <!-- / md-4 -->
-  </div> <!-- row -->
-  
-  <div class = "row" style="padding:10px;">
-    <div class="text-center">
-      <h3>SIGCSE IS</h3>
-    </div>
-  </div>
-</div> <!-- / lg-12 -->
-
-
-<div class="row">
-  <div class="col-lg-12">
-    <div class="col-lg-6 ">
-      <h1>While At the Symposium...</h1>
-
-      <p style="padding-left: 15px;">{% include small-follow-links.html %}</p>
-      
-      <p>
-      <ul>
-        {% for item in site.data.whileatthesymposium %}
-        {% if item.link %}
-        <li> <a href="{{item.link}}">{{item.title}}</a></li>
-
-        {% endif %}
-        {% endfor %}
-
-      </ul>
-    </p>
-        
-
-    
-      <div class="text-center">
-        <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fsigcse2015&amp;width=519&amp;height=260&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:519px; height:260px;" allowTransparency="true"></iframe>
-      </div>
-    </div> <!-- col-lg-6 -->
-
-    <div class="col-lg-6 text-center">
-    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/SIGCSE_TS" data-widget-id="569669624586067968">Tweets by @SIGCSE_TS</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </div>
-  </div>
-</div> <!-- row -->
-<div class="row">
-  {% include onsiteregistration.md %}
-</div>
-
-
-{% for link in site.data.nav %}
-{% assign inc = link.include | remove: 'homepage/' | remove: '.html' %}
-<hr>
-<div class="row" style="margin-top: 20px;">
-  <div class="col-lg-12">
-    <div class="{{inc}}" id="{{inc}}">
-      {% include {{link.include}} %}
-    </div>
+<div class = "row">
+  <div class = "col-md-12 center">
+    <h3>{{site.data.main.upper}} {{site.data.main.year}} - Memphis, Tennessee</h3>
+    <p class="lead">Calling all sponsors, exhibitors, and authors!</p>
   </div>
 </div>
-{% endfor %}
 
-<hr>
+<div class = "row"> &nbsp; </div>
+
+<div class = "row">
+
+  <div class = "col-md-3 col-md-offset-3">
+    <div class = "row">
+      <a href = "{{site.base}}/docs/sigcse2016-cfp.pdf">
+        <img alt = " " src = "{{site.base}}/images/logo-2016-280.png">
+      </a>
+    </div>
+    <div class = "row text-center" style = "padding: 20px;">
+      <h5>
+        <a href = "{{site.base}}/docs/sigcse2016-cfp.pdf">Call For Papers</a>
+      </h5>
+      For Authors and Presenters
+    </div>
+  </div>
+
+  <div class = "col-md-3 col-md-offset-1">
+    <div class = "row">
+      <a href = "{{site.base}}/docs/sigcse2016-prospectus.pdf">
+        <img alt = " " src = "{{site.base}}/images/engage-empower-energize-284.png">
+      </a>
+    </div>
+    <div class = "row text-center" style = "padding: 20px;">
+      <h5>
+        <a href = "{{site.base}}/docs/sigcse2016-prospectus.pdf">The Prospectus</a>
+      </h5>
+      For Sponsors and Exhibitors
+    </div>
+  </div>
+
+</div>
