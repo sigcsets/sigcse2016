@@ -23,7 +23,7 @@
         </tr>
         <tr>
           <td><b>Submission Limits </b></td>
-          <td> {{site.data.cfp.details[plural].limits}} 
+          <td> {{site.data.cfp.details[plural].limits}}
           {% if site.data.cfp.details[plural].abstract %}
             (including abstract of {{site.data.cfp.details[plural].abstract}})
           {% endif %}
@@ -33,19 +33,23 @@
           <td><b>Presentation Length </b></td>
           <td> {{site.data.cfp.details[plural].length}}</td>
         </tr>
-        
+
         {% unless (page.title contains "Call") %}
         <tr>
           <td><b>Submission Link </b></td>
-          <td> 
+          <td>
             {% if specialsubmission %}
             See below
             {% else %}
-            <a href="{{site.data.cfp.submissionurl}}">{{site.data.main.upper}} {{site.data.main.year}} Submissions (OpenConf)</a> 
+            {% if site.data.flags.paperSubmissionReady == true %}
+              <a href="{{site.data.cfp.submissionurl}}">{{site.data.main.upper}} {{site.data.main.year}} Submissions (OpenConf)</a>
+            {% else %}
+              TBA
+            {% endif %}
             {% endif %}
             </td>
         </tr>
-        
+
         {% for submission in site.data.reviewers.finalization %}
           {% assign generateRow = false %}
           {% for sub in submission.types %}

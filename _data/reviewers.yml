@@ -11,10 +11,10 @@ reviewgroups:
   - "Birds of a Feather, Posters, Lightning Talks, Demos"
 
 reviewdates:
-  - date: "Monday, September 1st, 2014"
+  - date: "TBA"
     event: "Sign Up to Review"
     shortdate: "2014-09-01"
-    types: 
+    types:
       - plural: Papers
         singular: Paper
         include: papers
@@ -42,27 +42,10 @@ reviewdates:
         include: demos
         new: true
 
-  - date: "Monday, September 8th, 2014"
+  - date: "TBA"
     event: "Reviewers Receive Assignments"
     shortdate: "2014-09-08"
-    types: 
-      - plural: Papers
-        singular: Paper
-        include: papers
-      - plural: Panels
-        singular: Panel
-        include: panels
-      - plural: Special Sessions
-        singular: Special Session
-        include: specialsessions
-      - plural: Workshops
-        singular: workshop
-        include: workshops
-        
-  - date: "Monday, September 22nd, 2014"
-    event: "Reviews Due"
-    shortdate: "2014-09-22"
-    types: 
+    types:
       - plural: Papers
         singular: Paper
         include: papers
@@ -76,10 +59,27 @@ reviewdates:
         singular: workshop
         include: workshops
 
-  - date: "Monday, October 29th, 2014"
+  - date: "TBA"
+    event: "Reviews Due"
+    shortdate: "2014-09-22"
+    types:
+      - plural: Papers
+        singular: Paper
+        include: papers
+      - plural: Panels
+        singular: Panel
+        include: panels
+      - plural: Special Sessions
+        singular: Special Session
+        include: specialsessions
+      - plural: Workshops
+        singular: workshop
+        include: workshops
+
+  - date: "TBA"
     event: "Reviewers Receive Assignments"
     shortdate: "2014-10-29"
-    types: 
+    types:
       - plural: Birds of a Feather
         singular: Birds of a Feather
         include: bofs
@@ -94,11 +94,11 @@ reviewdates:
         singular: demo
         include: demos
         new: true
-        
-  - date: "Tuesday, November 11th, 2014"
+
+  - date: "TBA"
     event: "Reviews Due"
     shortdate: "2014-11-11"
-    types: 
+    types:
       - plural: Birds of a Feather
         singular: Birds of a Feather
         include: bofs
@@ -115,10 +115,10 @@ reviewdates:
         new: true
 
 finalization:
-  - date: "Monday, October 13th, 2014"
+  - date: "TBA"
     event: "Notification to Authors"
     shortdate: "2014-10-13"
-    types: 
+    types:
       - plural: Papers
         singular: Paper
         include: papers
@@ -132,10 +132,10 @@ finalization:
         singular: workshop
         include: workshops
 
-  - date: "Monday, November 17th"
+  - date: "TBA"
     event: "Notification to Authors"
     shortdate: "2014-11-17"
-    types: 
+    types:
       - plural: Birds of a Feather
         singular: Birds of a Feather
         include: bofs
@@ -151,18 +151,18 @@ finalization:
         include: demos
         new: true
 
-  - date: "Monday, December 1st, 2014"
+  - date: "TBA"
     event: "Camera-ready Copy"
     shortdate: "2014-12-01"
-    types: 
+    types:
       - plural: Papers
         singular: Paper
         include: papers
-        
-  - date: "Sunday, December 7th, 2014"
+
+  - date: "TBA"
     event: "Camera-ready Copy"
     shortdate: "2014-12-07"
-    types: 
+    types:
       - plural: Panels
         singular: Panel
         include: panels
@@ -186,4 +186,3 @@ finalization:
         singular: demo
         include: demos
         new: true
-        

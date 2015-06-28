@@ -1,12 +1,12 @@
-submissionurl: "https://www.openconf.org/sigcse2015/"
+submissionurl: "https://www.openconf.org/sigcse2016/"
 
 master:
-  - date: "Friday, September 5th, 2014"
+  - date: "TBA"
     shortdate: "2014-09-05"
     time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
     notification:
     updates:
-    cameraready: 
+    cameraready:
     link: "http://goo.gl/pe76O5"
     types:
       - plural: Papers
@@ -22,12 +22,12 @@ master:
         singular: workshop
         include: workshops
 
-  - date: "Monday, September 29, 2014"
+  - date: "TBA"
     shortdate: "2014-09-29"
     time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
     notification:
     updates:
-    cameraready: 
+    cameraready:
     link: "http://goo.gl/bZFC5x"
     types:
       - plural: Pre-Symposium Events
@@ -35,7 +35,7 @@ master:
         include: presymposium
         notincfp: true
 
-  - date: "Monday, October 27th, 2014"
+  - date: "TBA"
     shortdate: "2014-10-27"
     time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
     notification:

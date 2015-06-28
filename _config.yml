@@ -1,8 +1,9 @@
-name: ACM SIGCSE 2015
+name: ACM SIGCSE 2016
 markdown: kramdown
 highlighter: pygments
 
 purple: "#662D91"
+orange: "#FF892A"
 
 defaults:
   -

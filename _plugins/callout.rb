@@ -10,17 +10,17 @@ module Jekyll
       tag = @text
       tag.delete!("\n")
       tag.delete!(" ")
-      
+
       if ['success'].include?(tag)
         @alert = 'success'
-      elsif ['info'].include?(tag) 
+      elsif ['info'].include?(tag)
         @alert = 'info'
-      elsif ['warning'].include?(tag) 
+      elsif ['warning'].include?(tag)
         @alert = 'warning'
       elsif ['danger'].include?(tag)
         @alert = 'danger'
       end
-      
+
       "<div style='margin: 15px;' class=\"bs-callout bs-callout-#{@alert}\">\n" + super + "\n</div>\n"
     end
   end

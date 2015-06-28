@@ -6,7 +6,12 @@ clean:
 local:
 	jekyll serve -w --config _config.yml
 
-remote: build 
+staging: buildstaging
+	rsync -vrz \
+		-e "ssh -p 7822" _site/ \
+		sigcse@sigcse.hosting.acm.org:/home/sigcse/www/sigcse2016/.staging
+
+remote: build
 	rsync -vrz \
 		-e "ssh -p 7822" _site/ \
 		sigcse@sigcse.hosting.acm.org:/home/sigcse/www/sigcse2016
@@ -19,6 +24,9 @@ mini:
 
 build:
 	jekyll build --config _config.yml,_config_remote.yml
+
+buildstaging:
+	jekyll build --config _config.yml,_config_staging.yml
 
 site: build mini
 

@@ -1,0 +1,295 @@
+- name: Adrienne Decker
+  title: Symposium Co-Chair
+  institution: Rochester Institute of Technology
+  #email: adrienne.decker@rit.edu
+  email: sigcse2015-symposium@rit.edu
+  image: committee-42.png
+  blurb:
+  
+- name: Kurt Eiselt
+  title: Symposium Co-Chair
+  institution: University of British Columbia
+  #email: eiselt@cs.ubc.ca
+  email: sigcse2015-symposium@rit.edu
+  image: committee-45.png
+  blurb: 
+
+- name: Jodi Tims
+  title: Program Co-Chair 
+  institution: Baldwin Wallace University
+  #email: jltimes@bw.edu
+  email: sigcse2015-program@rit.edu
+  image: committee-9.png
+  blurb: 
+    
+- name: Carl Alphonce
+  title: Program Co-Chair
+  institution: University at Buffalo
+  #email: alphonce@buffalo.edu
+  email: sigcse2015-program@rit.edu
+  image: committee-3.png
+  blurb: 
+
+- name: Tom Cortina
+  title: Sponsor/Exhibitor Liaison
+  institution: Carnegie Mellon University
+  #email: tcortina@cs.cmu.edu
+  email: sigcse2015-exhibitor@rit.edu
+  image: tomc-small.png
+  rotation: 0
+  blurb: 
+
+- name: David Musicant
+  title: Sponsor/Exhibitor Liaison
+  institution: Carleton College
+  email: sigcse2015-exhibitor@rit.edu
+  image: dave-small.png
+  rotation: 0
+  blurb: 
+
+- name: Lynn Degler
+  title: Registration Team
+  institution: Rose-Hulman Institute of Technology
+  #email: degler@rose-hulman.edu
+  email: sigcse2015-reg@rit.edu
+  image: committee-22.png
+  blurb: 
+
+- name: Cary Laxer
+  title:  Registration Team
+  institution: Rose-Hulman Institute of Technology
+  #email: laxer@rose-hulman.edu
+  email: sigcse2015-reg@rit.edu
+  image: committee-20.png
+  blurb: 
+
+- name: Larry Merkle
+  title: Registration Team
+  institution: Computational Optimization Services
+  #email: l.merkle@ieee.org
+  email: sigcse2015-reg@rit.edu
+  image: committee-36.png
+  blurb: 
+
+- name: Jian Zhang
+  title: Publications Wrangler
+  institution: Texas Woman's University
+  #email: l.merkle@ieee.org
+  email: sigcse2015-publications@rit.edu
+  # Pick one of two images
+  image: committee-16.png
+  #image: committee-17.png
+  blurb: 
+    
+- name: Peter DePasquale
+  title: Special Sessions Wrangler
+  institution: The College of New Jersey
+  #email: depasqua@tcnj.edu
+  email: sigcse2015-specialsessions@rit.edu
+  image: committee-15.png
+  blurb: 
+
+- name: Peter DePasquale
+  title: Panels Wrangler
+  institution: The College of New Jersey
+  #email: depasqua@tcnj.edu
+  email: sigcse2015-panels@rit.edu
+  image: committee-15.png
+  blurb: 
+
+
+- name: Paul Carter
+  title: Workshops Co-Wrangler
+  institution: University of British Columbia
+  #email: pcarter@cs.ubc.ca
+  email: sigcse2015-workshops@rit.edu
+  image: committee-38.png
+  blurb: 
+
+- name: Alvaro Monge
+  title: Workshops Co-Wrangler
+  institution: California State University, Long Beach
+  #email: alvaro.monge@csulb.edu
+  email: sigcse2015-workshops@rit.edu
+  image: alvaro-small.png
+  rotation: 0
+  blurb: 
+
+- name: Michelle Craig
+  title: Posters Wrangler
+  institution: University of Toronto
+  #email: mcraig@cs.toronto.edu
+  email: sigcse2015-posters@rit.edu
+  image: committee-27.png
+  #rotation: 0
+  blurb: 
+
+- name: Ria Galanos
+  title: Birds-Of-a-Feather (BOFs) Wrangler
+  institution: Thomas Jefferson High School for Science and Technology
+  #email: ria.galanos@gmail.com
+  email: sigcse2015-bofs@rit.edu
+  image: ria2-small.png
+  rotation: 0
+  blurb: 
+
+    
+- name: Mike Helmick
+  title: Lightning Talks Wrangler
+  institution: "Google Inc."
+  #email: depasqua@tcnj.edu
+  email: sigcse2015-lightning@rit.edu
+  image: mike-small.png
+  rotation: 0
+  blurb: 
+    
+- name: Mike Helmick
+  title: Demos Wrangler
+  institution: "Google Inc."
+  #email: depasqua@tcnj.edu
+  email: sigcse2015-demos@rit.edu
+  image: mike-small.png
+  rotation: 0
+  blurb: 
+
+- name: Steve Cooper
+  title: Evaluations
+  institution: Stanford University
+  #email: coopers@cs.stanford.edu
+  email: sigcse2015-evaluations@rit.edu
+  image: stevec-small.png
+  rotation: 0
+  blurb: 
+
+- name: Cheryl Seals
+  title: Kids' Camp
+  institution: Auburn University
+  #email: asealscs@auburn.edu
+  email: sigcse2015-kidscamp@rit.edu
+  image: sealsc-small.png
+  rotation: 0
+  blurb: 
+
+- name: Valerie Henderson Summet
+  title: Kids' Camp
+  institution: Emory University
+  #email: valerie@mathcs.emory.edu
+  email: sigcse2015-kidscamp@rit.edu
+  #image: valerie-small.png
+  image: committee-8.png
+  #rotation: 0
+  blurb: 
+
+- name: Brian Dorn
+  title: Pre-Conference Events Liaison
+  institution: University of Nebraska - Omaha
+  #email: bdorn@unomaha.edu
+  email: sigcse2015-events@rit.edu
+  image: committee-11.png
+  blurb: 
+
+- name: John Dooley
+  title: Database Administrator
+  institution: Knox College
+  #email: jdooley@knox.edu
+  email: sigcse2015-database@rit.edu
+  image: committee-33.png
+  blurb: 
+
+- name: Henry Walker
+  title: Database Administrator
+  institution: Grinnell College
+  #email: walker@cs.grinnell.edu
+  email: sigcse2015-database@rit.edu
+  image: henry-small.png
+  rotation: 0
+  blurb: 
+
+- name: Pam Cutter
+  title: Student Volunteers and Student Activities Wrangler
+  institution: Kalamazoo College
+  #email: Pam.Cutter@kzoo.edu
+  email: sigcse2015-volunteers@rit.edu
+  image: committee-19.png
+  #rotation: 0
+  blurb: 
+
+- name: Sarah Heckman
+  title: Student Volunteers and Student Activities Wrangler
+  institution: North Carolina State University
+  #email: sarah_heckman@ncsu.edu
+  email: sigcse2015-volunteers@rit.edu
+  image: committee-34.png
+  #rotation: 0
+  blurb: 
+
+- name: Sara Melnick
+  title: Student Volunteers and Student Activities Wrangler
+  institution: Bronx Academy for Software Engineering
+  #email: sararielle@gmail.com
+  email: sigcse2015-volunteers@rit.edu
+  image: committee-29.png
+  #rotation: 0
+  blurb:
+    
+- name: RJ Dake
+  title: K-12 Liaison
+  institution: Kansas State Department of Education
+  #email: rjdake@ksde.org
+  email: sigcse2015-k12@rit.edu
+  image: rj-small.png
+  rotation: 0
+  blurb: 
+
+- name: Matt Jadud
+  title: Webmaster
+  institution: Berea College
+  #email: matt_jadud@berea.edu
+  email: sigcse2015-webmaster@rit.edu
+  image: committee-26.png
+  blurb: 
+
+- name: Paul Denny
+  title: International Liaison
+  institution: University of Auckland
+  #email: paul@cs.auckland.ac.nz
+  email: sigcse2015-international@rit.edu
+  image: paul-denny-small.png
+  rotation: 0
+  blurb: 
+
+- name: Paul Tymann
+  title: Treasurer
+  institution: Rochester Institute of Technology
+  #email: ptt@rit.edu
+  email: sigcse2015-treasurer@rit.edu
+  image: committee-24.png
+  #rotation: 0
+  blurb: 
+
+- name: Briana Morrison
+  title: Publicity / Social Media
+  institution: Southern Polytechnic State University
+  #email: bmorriso@spsu.edu
+  email: sigcse2015-publicity@rit.edu
+  image: committee-12.png
+  blurb: 
+
+- name: Ann Sobel
+  title: Student Research Competition Chair
+  institution: Miami University (Ohio)
+  #email: sobelae@miamioh.edu
+  email: sigcse2015-src@rit.edu
+  image: sobel-small.png
+  rotation: 0
+  blurb: 
+
+- name: Brian Hare
+  title: Local Arrangements
+  institution: University of Missouri - Kansas City
+  #email: hareb@umkc.edu
+  email: sigcse2015-local@rit.edu
+  image: committee-25.png
+  #rotation: 0
+  blurb: 
+ 
