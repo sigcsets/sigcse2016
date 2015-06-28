@@ -1,15 +1,13 @@
-- text: "Attendees"
-  link: /attendees/index.html
-  include: homepage/attend.html
-
-- text: "Sponsors & Exhibitors"
-  link: /supporters/index.html
-  include: homepage/supporters.html
-
-- text: "Take Part"
-  link: /takepart.html
-  include: homepage/takepart.html
-
-- text: "Committee"
-  link: /committee.html
-  include: homepage/pc.html
+- dropdown: true
+  title: "Authors"
+  links:
+    - title: "Call For Papers"
+      link:  "/docs/sigcse2016-cfp.pdf"
+    - title: "divider"
+    - title: ""
+    
+- dropdown: true
+  title: "Supporters and Exhibitors"
+  links:
+    - title: "Prospecturs"
+      link: "/docs/sigcse2016-prospectus.pdf"

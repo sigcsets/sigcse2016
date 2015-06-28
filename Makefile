@@ -6,7 +6,7 @@ clean:
 local:
 	jekyll serve -w --config _config.yml
 
-remote: build mini 
+remote: build 
 	rsync -vrz \
 		-e "ssh -p 7822" _site/ \
 		sigcse@sigcse.hosting.acm.org:/home/sigcse/www/sigcse2016
@@ -21,6 +21,6 @@ build:
 	jekyll build --config _config.yml,_config_remote.yml
 
 site: build mini
-	
-boot: 
+
+boot:
 	$(MAKE) -C _assets/${BOOTSTRAP}

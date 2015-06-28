@@ -37,25 +37,27 @@
          <ul class="nav navbar-nav">
 
            <!-- AUTHORS -->
-           <li class="dropdown">
-             <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Authors <span class="caret"></span></a>
-             <ul class="dropdown-menu" aria-labelledby="themes">
-               <li><a href="">Call For Papers</a></li>
-               <li class="divider"></li>
-               <li><a href="">TBA</a></li>
-             </ul>
-           </li>
-
-           <!-- EXHIBITORS/SPONSORS -->
-           <li class="dropdown">
-             <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Exhibitors & Sponsors<span class="caret"></span></a>
-             <ul class="dropdown-menu" aria-labelledby="themes">
-               <li><a href="">Call For Papers</a></li>
-               <li class="divider"></li>
-               <li><a href="">TBA</a></li>
-             </ul>
-           </li>
-        </ul>
+           {% for topItem in site.data.nav %}
+            {% if topItem["dropdown"] %}
+              <li class = "dropdown">
+                <a class = "dropdown-toggle" data-toggle = "dropdown" href = "#" id = "{{topItem['title']}}" >
+                  {{topItem['title']}} <span class = "caret"</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="themes">
+                  {% for menuItem in topItem["links"] %}
+                    {% if menuItem["title"] == "divider" %}
+                      <li class = "divider"></li>
+                    {% else %}
+                      <li> <a href = "{{menuItem['link']}}">{{menuItem['title']}}</a> </li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li> <a href = "{{menuItem['link']}}">{{menuItem['title']}}</a> </li>
+            {% endif %}
+           {% endfor %}
+         </ul>
 
          <!-- FAR RIGHT -->
          <ul class="nav navbar-nav navbar-right">
