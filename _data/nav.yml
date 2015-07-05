@@ -2,13 +2,14 @@
   title: "Authors"
   links:
     - title: "Call For Papers"
-      link:  "/docs/sigcse2016-cfp.pdf"
-    - title: "divider"
-    - title: "Submission Guidelines"
-      link: "/authors/index.html"
+      link:  "docs/sigcse2016-cfp.pdf"
+    - title: "Submissions Overview"
+      link:  "authors/index.html"
+    - title: "DIVIDER"
+    - title: "ALLSUBMISSIONS"
 
 - dropdown: true
   title: "Supporters & Exhibitors"
   links:
-    - title: "Prospecturs"
-      link: "/docs/sigcse2016-prospectus.pdf"
+    - title: "Prospectus"
+      link: "docs/sigcse2016-prospectus.pdf"

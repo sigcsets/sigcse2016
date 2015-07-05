@@ -45,19 +45,31 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="themes">
                   {% for menuItem in topItem["links"] %}
-                    {% if menuItem["title"] == "divider" %}
+                    {% if menuItem["title"] == "DIVIDER" %}
                       <li class = "divider"></li>
+                    {% elsif menuItem["title"] == "ALLSUBMISSIONS" %}
+                      {% for submission in site.data.cfp.master %}
+                        {% for sub in submission.types %}
+                            {% capture link %}<a href = "{{sub.plural | remove: ' ' | downcase}}.html">{{sub.plural}}</a>{% endcapture %}
+                            {% capture entry %}{{link}}{% endcapture %}
+                            <li> {{entry}} </li>
+                        {% endfor %}
+                      {% endfor %}
                     {% else %}
-                      <li> <a href = "{{menuItem['link']}}">{{menuItem['title']}}</a> </li>
+                      <li> <a href = "{{site.base}}/{{menuItem['link']}}">{{menuItem['title']}}</a> </li>
                     {% endif %}
                   {% endfor %}
                 </ul>
               </li>
             {% else %}
-              <li> <a href = "{{menuItem['link']}}">{{menuItem['title']}}</a> </li>
+              <li> <a href = "{{site.base}}/{{menuItem['link']}}">{{menuItem['title']}}</a> </li>
             {% endif %}
            {% endfor %}
+
+
+
          </ul>
+
 
          <!-- FAR RIGHT -->
          <ul class="nav navbar-nav navbar-right">

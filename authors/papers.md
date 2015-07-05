@@ -26,7 +26,7 @@ Authors must submit ONLY an anonymized version of the paper. The goal of the ano
 
 If the paper is accepted for the conference and for publication, authors will be asked to complete a camera-ready copy that will include all appropriate author names, citations, and references.
 
-The paper is limited to a maximum of {{site.data.cfp.details[plural].limits}} and must adhere to the <a href = "{{site.data.main.acmpubguidelines}}">ACM publication guidelines</a>.
+The paper is limited to a maximum of {{site.data.cfp.details[plural].limits}} and must adhere to the [ACM publication guidelines]({{site.data.main.acmpubguidelines}}).
 
 Templates are available in Word, WordPerfect, and LaTeX.
 
@@ -35,10 +35,10 @@ If your paper is accepted you will have a chance to modify your publication vers
 Electronic submission of papers is required.
 
 ## How Do I Submit My Paper?
+
 Write your paper using the format specified above. Within the anonymized paper, you must provide Category and Subject Descriptors, General Terms, and Keywords based on the ACM classification system. These requirements are described in more detail in the SIGCSE {{site.data.main.year}} Format Instructions.
 
-Convert your paper into Adobe PDF format. Refer to our [Creating
-    Adobe PDF Documents page](creating_pdf.html) page for assistance.
+Convert your paper into Adobe PDF format. Refer to our [Creating Adobe PDF Documents page](creating_pdf.html) page for assistance.
 
 A PDF version of your submission should be uploaded using the online submission system. Be sure to choose the appropriate topic areas when submitting. Your choices help in determining appropriate reviewers, and assists the reviewers in evaluating the paper from an appropriate perspective.
 

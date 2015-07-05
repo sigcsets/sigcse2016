@@ -7,10 +7,10 @@
 
           {% unless {{sub.plural}} contains 'Symposium' %}
         <tr>
-          <td><b>{{sub.plural}} </b></td> 
-          <td> {{site.data.cfp.details[sub.plural].limits}} 
+          <td><b>{{sub.plural}} </b></td>
+          <td> {{site.data.cfp.details[sub.plural].limits}}
           {% if site.data.cfp.details[sub.plural].abstract %}
-            (including abstract of {{site.data.cfp.details[sub.plural].abstract}})
+            ({{site.data.cfp.details[sub.plural].connector}} abstract of {{site.data.cfp.details[sub.plural].abstract}})
           {% endif %}
           </td>
         </tr>

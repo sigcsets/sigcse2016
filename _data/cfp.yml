@@ -18,22 +18,22 @@ master:
       - plural: Special Sessions
         singular: Special Session
         include: specialsessions
-      - plural: Workshops
-        singular: workshop
-        include: workshops
+      # - plural: Workshops
+      #   singular: workshop
+      #   include: workshops
 
-  - date: "TBA"
-    shortdate: "2014-09-29"
-    time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
-    notification:
-    updates:
-    cameraready:
-    link: "http://goo.gl/bZFC5x"
-    types:
-      - plural: Pre-Symposium Events
-        singular: Pre-Symposium Event
-        include: presymposium
-        notincfp: true
+  # - date: "TBA"
+  #   shortdate: "2014-09-29"
+  #   time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
+  #   notification:
+  #   updates:
+  #   cameraready:
+  #   link: "http://goo.gl/bZFC5x"
+  #   types:
+  #     - plural: Pre-Symposium Events
+  #       singular: Pre-Symposium Event
+  #       include: presymposium
+  #       notincfp: true
 
   - date: "TBA"
     shortdate: "2014-10-27"
@@ -53,10 +53,10 @@ master:
       - plural: Posters
         singular: Poster
         include: posters
-      - plural: Lightning Talks
-        singular: Lightning Talk
-        include: lightningtalks
-        new: true
+      # - plural: Lightning Talks
+      #   singular: Lightning Talk
+      #   include: lightningtalks
+      #   new: true
       - plural: Demos
         singular: demo
         include: demos
@@ -84,17 +84,21 @@ details:
   Birds of a Feather:
     limits: "1 page"
     abstract: "250 words"
+    connector: "including"
     length: "45 minutes"
   Lightning Talks:
     limits: "1 page"
+    connector: "including"
     abstract: "250 words"
     length: "5 minutes"
   Demos:
     limits: "2 pages"
+    connector: "including"
     abstract: "250 words"
     length: "30 minutes (during breaks)"
   Student Research Competition:
     limits: "800 words"
+    connector: "in addition to"
     abstract: "800 characters"
     length: "2 hours (poster session)"
     specialsubmission: true
