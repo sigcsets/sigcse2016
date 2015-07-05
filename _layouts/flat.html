@@ -50,7 +50,7 @@
                     {% elsif menuItem["title"] == "ALLSUBMISSIONS" %}
                       {% for submission in site.data.cfp.master %}
                         {% for sub in submission.types %}
-                            {% capture link %}<a href = "/authors/{{sub.plural | remove: ' ' | downcase}}.html">{{sub.plural}}</a>{% endcapture %}
+                            {% capture link %}<a href = "{{site.base}}/authors/{{sub.plural | remove: ' ' | downcase}}.html">{{sub.plural}}</a>{% endcapture %}
                             {% capture entry %}{{link}}{% endcapture %}
                             <li> {{entry}} </li>
                         {% endfor %}
