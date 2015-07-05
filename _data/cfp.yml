@@ -18,9 +18,9 @@ master:
       - plural: Special Sessions
         singular: Special Session
         include: specialsessions
-      # - plural: Workshops
-      #   singular: workshop
-      #   include: workshops
+      - plural: Workshops
+        singular: workshop
+        include: workshops
 
   # - date: "TBA"
   #   shortdate: "2014-09-29"
@@ -53,10 +53,10 @@ master:
       - plural: Posters
         singular: Poster
         include: posters
-      # - plural: Lightning Talks
-      #   singular: Lightning Talk
-      #   include: lightningtalks
-      #   new: true
+      - plural: Lightning Talks
+        singular: Lightning Talk
+        include: lightningtalks
+        new: true
       - plural: Demos
         singular: demo
         include: demos
@@ -73,12 +73,14 @@ details:
   Posters:
     limits: "2 pages"
     abstract: "250 words"
+    connector: "including"
     length: "2 hours (poster session)"
   Special Sessions:
     limits: "2 pages"
     length: "75 minutes"
   Workshops:
     limits: "3 pages (including title page)"
+    connector: "including"
     abstract: "250 words"
     length: "3 hours"
   Birds of a Feather:
