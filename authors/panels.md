@@ -4,6 +4,8 @@ title: "Guidelines: Panels"
 
 {% include submissiondetails.html plural="Panels" %}
 
+## What is a Panel Session?
+
 Panel sessions provide an opportunity for expert panel members to
 present their views on a specific topic and then to discuss these views
 among themselves and with the audience. Panel sessions run for
@@ -61,28 +63,9 @@ and page limits.
 
 ## How Do I Submit My Proposal?
 
-Write your proposal using the format specified above. Within the
-proposal, you must provide Category and Subject Descriptors, General
-Terms, and Keywords, just as paper authors must do. These requirements
-are described in more detail in the [ACM publication guidelines]({{site.data.main.acmpubguidelines}}).
+Within the proposal, you must provide Category and Subject Descriptors, General Terms, and Keywords, just as paper authors must do. These requirements are described in more detail in the [ACM publication guidelines]({{site.data.main.acmpubguidelines}}).
 
-Convert your paper into Adobe PDF format. Refer to our [Creating Adobe PDF Documents page](creating_pdf.html) page for assistance.
-
-A PDF version of your submission should be uploaded using the online
-submission system. Submit the PDF version of your proposal using the
-Panels template. Please do not wait until the last minute to submit your
-documents because that is when everyone else will be connecting to our
-server!
-
-Make note of the proposal ID number and password assigned to your
-submission. You will receive an e-mail message confirmation. Spam
-filters sometimes trap these automatically generated messages so you may
-need to check your spam trap for the confirmation and later, acceptance
-or rejection notification.
-
-After receiving confirmation, go to the to review your submission for
-accuracy. Send e-mail to the Panels chair(s) (see below) if there are
-any problems.
+{% include generic-submission-block.html %}
 
 {% include presenter-warning.html %}
 

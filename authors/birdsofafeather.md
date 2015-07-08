@@ -3,6 +3,8 @@ title: "Guidelines: BOFs"
 ---
 {% include submissiondetails.html plural="Birds of a Feather" %}
 
+## What is a BOF?
+
 Birds-of-a-Feather (BOF) Sessions provide an environment for colleagues with similar interests to meet for informal discussion. Proposers of BOF sessions should serve as discussion leaders only. BOFs are not intended to be presentations.  BOF sessions will be 50 minutes each.
 
 Proposals undergo review but not blind review.
@@ -41,15 +43,7 @@ Here is a sample BOF Proposal (right-click to download):
 
 ## How Do I Submit My Proposal?
 
-Write your proposal using the format specified above.
-
-Convert your paper into Adobe PDF format. Refer to our [Creating Adobe PDF Documents page](creating_pdf.html) page for assistance.
-
-A PDF version of your submission should be uploaded using the online submission system. Submit the PDF version of your proposal using the BOF template. Recall that you will also need to cut-and-paste or type your text abstract description into a text box during the submission process. Please do not wait until the last minute to submit your documents because that is when everyone else will be connecting to our server!
-
-Make note of the proposal ID number and password assigned to your submission. You will receive an e-mail message confirmation. Spam filters sometimes trap these automatically generated messages so you may need to check your spam trap for the confirmation and later, acceptance or rejection notification.
-
-After receiving confirmation, go to the submission site to review your submission for accuracy. Send e-mail to the BOFs chair(s) (see below) if there are any problems.
+{% include generic-submission-block.html %}
 
 {% include presenter-warning.html %}
 

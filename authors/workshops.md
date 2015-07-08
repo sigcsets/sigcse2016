@@ -4,6 +4,8 @@ title: "Guidelines: Workshops"
 
 {% include submissiondetails.html plural="Workshops" %}
 
+## What is a Workshop?
+
 Workshops provide an in-depth review of, or introduction to, a topic of
 interest, and should provide participants with materials and/or ideas
 that are immediately useful in the classroom. To this end, workshop
@@ -151,28 +153,7 @@ Here is a sample Workshop Proposal (right-click to download):
 
 ## How Do I Submit My Proposal?
 
-Write your proposal using the format specified above.
-
-Convert your paper into Adobe PDF format. Refer to our [Creating Adobe PDF Documents page](creating_pdf.html) page for assistance.
-
-
-A PDF version of your submission should be uploaded using the online
-submission system. Submit the PDF version of your proposal using the
-workshop template. Recall that you will also need to cut-and-paste or type
-your text abstract description into a text box during the submission
-process. Please do not wait until the last minute to submit your
-documents because that is when everyone else will be connecting to our
-server!
-
-Make note of the proposal ID number and password assigned to your
-submission. You will receive an e-mail message confirmation. Spam
-filters sometimes trap these automatically generated messages so you may
-need to check your spam trap for the confirmation and later, acceptance
-or rejection notification.
-
-After receiving confirmation, go to the submission site to review your
-submission for accuracy. Send e-mail to the Workshop chair(s) (see
-below) if there are any problems.
+{% include generic-submission-block.html %}
 
 {% include presenter-warning.html %}
 

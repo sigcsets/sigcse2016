@@ -1,8 +1,9 @@
+submissionopen: false
 submissionurl: "https://www.openconf.org/sigcse2016/"
 
 master:
-  - date: "TBA"
-    shortdate: "2014-09-05"
+  - date: "Friday, August 28th, 2015"
+    shortdate: "2015-08-28"
     time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
     notification:
     updates:
