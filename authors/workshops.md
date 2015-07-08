@@ -10,10 +10,9 @@ Workshops provide an in-depth review of, or introduction to, a topic of
 interest, and should provide participants with materials and/or ideas
 that are immediately useful in the classroom. To this end, workshop
 presenters should provide participants with handouts outlining the
-workshop material. All SIGCSE {{site.data.main.year}} workshops will be
-half-day workshops (3 hours).
+workshop material.
 
-Workshop Proposals undergo review but not blind review. Proposals are
+Workshop proposals undergo review but not blind review. Proposals are
 evaluated for relevance, anticipated interest, quality, and availability
 of appropriate facilities. You may want to review the list of last
 year’s accepted SIGCSE workshops prior to submitting a proposal.
@@ -155,6 +154,6 @@ Here is a sample Workshop Proposal (right-click to download):
 
 {% include generic-submission-block.html %}
 
-{% include presenter-warning.html %}
+{% include presenter-warning.html howmany = "ALL" kind = "workshop" %}
 
 {% include submission-questions category="Workshops Co-Wrangler" %}

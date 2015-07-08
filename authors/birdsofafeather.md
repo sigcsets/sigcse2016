@@ -5,7 +5,7 @@ title: "Guidelines: BOFs"
 
 ## What is a BOF?
 
-Birds-of-a-Feather (BOF) Sessions provide an environment for colleagues with similar interests to meet for informal discussion. Proposers of BOF sessions should serve as discussion leaders only. BOFs are not intended to be presentations.  BOF sessions will be 50 minutes each.
+Birds-of-a-Feather (BOF) Sessions provide an environment for colleagues with similar interests to meet for informal discussion. Proposers of BOF sessions should serve as discussion leaders only. BOFs are not intended to be presentations.  
 
 Proposals undergo review but not blind review.
 
@@ -45,6 +45,6 @@ Here is a sample BOF Proposal (right-click to download):
 
 {% include generic-submission-block.html %}
 
-{% include presenter-warning.html %}
+{% include presenter-warning.html howmany = "ALL" kind = "BOF" %}
 
 {% include submission-questions category="Birds-Of-a-Feather (BOFs) Wrangler" %}

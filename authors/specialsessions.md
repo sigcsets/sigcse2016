@@ -9,7 +9,7 @@ title: "Guidelines: Special Sessions"
 Special sessions are your opportunity to customize and experiment with
 the SIGCSE conference format. Special sessions should NOT replicate
 existing SIGCSE session formats (i.e., panels, paper presentations, and
-poster sessions). They are 75 minutes in length and are scheduled in
+poster sessions). They scheduled in
 standard conference spaces. Within these constraints, the form is yours
 to design.
 
@@ -55,8 +55,7 @@ the following modifications and exceptions:
     authors.
 
 We suggest that you allow at least 40 - 50% of the time for questions
-and answers or other interaction with the attendees. All sessions are
-{{site.data.cfp.details[plural].length}} in length.
+and answers or other interaction with the attendees.
 
 -   Expectations: State the intended audience. Indicate how much the
     session will cover and what the audience should learn. This is
@@ -84,6 +83,6 @@ and page limits.
 
 {% include generic-submission-block.html %}
 
-{% include presenter-warning.html %}
+{% include presenter-warning.html howmany = "ALL" kind = "special session" %}
 
 {% include submission-questions category="Special Sessions Wrangler" %}
