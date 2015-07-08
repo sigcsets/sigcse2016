@@ -3,7 +3,8 @@ title: "Guidelines: Demos"
 ---
 {% include submissiondetails.html plural="Demos" %}
 
-Demos provide a way to showcase an educational tool or project in a live setting. Not designed to be sales pitches, demonstrations are a way for the community to see the relevance, potential and innovation of the tool and allow time for discussion with its creator. Demos take place during break periods, and will be 45 minutes each.
+Demos provide a way to showcase an educational tool or project in a live setting. Not designed to be sales pitches, demonstrations are a way for the community to see the relevance, potential and innovation of the tool and allow time for discussion with its creator. Demos take place during break periods, and will be {{site.data.cfp.details.["Demos"].length}}.
+
 Proposals undergo review but not blind review.
 
 ## How Should The Proposal Be Formatted?
@@ -34,9 +35,9 @@ Rough Agenda for the Demo: Timing details would be helpful here. Explain what th
 The abstract is the description of the Demo that will appear on the conference web pages. The description is limited to and must match verbatim the abstract section of the Demo Proposal. The Demo abstract must be submitted in plain text. The abstract for an accepted proposal may contain a URL with more information. (Abstracts of accepted Demos can be edited in response to reviews.)
 Here is a sample Demo Proposal (right-click to download):
 
-* Demo Proposal Example (PDF)
+* Demo Proposal Example (PDF) - **COMING SOON**
 
-* Demo Proposal Example (Word)
+* Demo Proposal Example (Word) - **COMING SOON**
 
 ## How Do I Submit My Proposal?
 

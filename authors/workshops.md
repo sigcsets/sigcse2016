@@ -61,7 +61,7 @@ is accepted, the abstract is the description that appears on the
 Symposium website and in the Symposium program and proceedings. The
 format for the proposal is as follows.
 
-## Full Demo Proposal Format ({{site.data.cfp.details.["Workshops"].limits}})
+## Full Workshop Proposal Format ({{site.data.cfp.details.["Workshops"].limits}})
 
 -   **Proposer**: Include name, affiliation, address, phone and fax numbers,
     email address, and Website address (if applicable). This item does
@@ -145,9 +145,9 @@ Workshop can be edited in response to reviews.)
 
 Here is a sample Workshop Proposal (right-click to download):
 
--   Workshop Proposal Example (PDF)
+-   Workshop Proposal Example (PDF) - **COMING SOON**
 
--   Workshop Proposal Example (Word)
+-   Workshop Proposal Example (Word) - **COMING SOON**
 
 ## How Do I Submit My Proposal?
 
@@ -158,7 +158,7 @@ Convert your paper into Adobe PDF format. Refer to our [Creating Adobe PDF Docum
 
 A PDF version of your submission should be uploaded using the online
 submission system. Submit the PDF version of your proposal using the
-Demo template. Recall that you will also need to cut-and-paste or type
+workshop template. Recall that you will also need to cut-and-paste or type
 your text abstract description into a text box during the submission
 process. Please do not wait until the last minute to submit your
 documents because that is when everyone else will be connecting to our

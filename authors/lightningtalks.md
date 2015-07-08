@@ -58,9 +58,9 @@ reviews.)
 
 Here is a sample Lightning talk Proposal (right-click to download):
 
--   Lightning talk Proposal Example (PDF)
+-   Lightning talk Proposal Example (PDF) - **COMING SOON**
 
--   Lightning talk Proposal Example (Word)
+-   Lightning talk Proposal Example (Word) - **COMING SOON**
 
 ## How Do I Submit My Proposal?
 

@@ -101,8 +101,9 @@ Posters can be edited in response to reviews.)
 
 Here is a sample Poster Proposal (right-click to download):
 
--   Poster Proposal Example (PDF)
--   Poster Proposal Example (Word)
+-   Poster Proposal Example (PDF) - **COMING SOON**
+
+-   Poster Proposal Example (Word) - **COMING SOON**
 
 ## How Do I Submit My Proposal?
 
