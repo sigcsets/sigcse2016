@@ -11,7 +11,7 @@ Proposals undergo review but not blind review.
 
 ## How Should The Proposal Be Formatted?
 
-BOF proposals are to be provided in PDF format. The full proposal contains an abstract and a body that describes your BOF (as detailed below). The abstract needs to appear in two places: in the PDF proposal and in a text box on the submission page (see below). Proposals are limited to {{site.data.cfp.details.["Birds of a Feather"].limits}} (including an abstract of {{site.data.cfp.details.["Birds of a Feather"].abstract}}).
+BOF proposals are to be provided in PDF format. The full proposal contains an abstract and a body that describes your BOF (as detailed below). The abstract needs to appear in two places: in the PDF proposal and in a text box on the submission page.
 
 The full proposal is used for the review process only. If the proposal is accepted, the abstract is the description that appears on the Symposium website and in the Symposium program and proceedings. The format for the proposal is as follows.
 
@@ -36,10 +36,11 @@ Significance and Relevance of the Topic: Please include information about any tr
 
 The abstract is the description of the BOF that will appear on the conference web pages. The description is limited to and must match verbatim the abstract section of the BOF Proposal. The BOF abstract must be submitted in plain text. The abstract for an accepted proposal may contain a URL with more information. (Abstracts of accepted BOFs can be edited in response to reviews.)
 
-Here is a sample BOF Proposal (right-click to download):
+### Sample Proposal
 
-* BOF Proposal Example (PDF)
-* BOF Proposal Example (Word)
+* BOF Proposal Example (PDF) - **COMING SOON**
+
+* BOF Proposal Example (Word) - **COMING SOON**
 
 ## How Do I Submit My Proposal?
 

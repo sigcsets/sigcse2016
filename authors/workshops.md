@@ -144,11 +144,11 @@ abstract must be submitted in plain text. The abstract for an accepted
 proposal may contain a URL with more information. (Abstracts of accepted
 Workshop can be edited in response to reviews.)
 
-Here is a sample Workshop Proposal (right-click to download):
+### Sample Proposal
 
--   Workshop Proposal Example (PDF) - **COMING SOON**
+-  Proposal Example (PDF) - **COMING SOON**
 
--   Workshop Proposal Example (Word) - **COMING SOON**
+-  Proposal Example (Word) - **COMING SOON**
 
 ## How Do I Submit My Proposal?
 

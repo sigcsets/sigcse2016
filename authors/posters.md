@@ -99,11 +99,11 @@ abstract must be submitted in plain text. The abstract for an accepted
 proposal may contain a URL with more information. (Abstracts of accepted
 Posters can be edited in response to reviews.)
 
-Here is a sample Poster Proposal (right-click to download):
+### Sample Proposal
 
--   Poster Proposal Example (PDF) - **COMING SOON**
+-  Proposal Example (PDF) - **COMING SOON**
 
--   Poster Proposal Example (Word) - **COMING SOON**
+-  Proposal Example (Word) - **COMING SOON**
 
 ## How Do I Submit My Proposal?
 

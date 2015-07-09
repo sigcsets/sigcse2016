@@ -35,11 +35,12 @@ Rough Agenda for the Demo: Timing details would be helpful here. Explain what th
 ### Demo Proposal Abstract ({{site.data.cfp.details.["Demos"].abstract}})
 
 The abstract is the description of the Demo that will appear on the conference web pages. The description is limited to and must match verbatim the abstract section of the Demo Proposal. The Demo abstract must be submitted in plain text. The abstract for an accepted proposal may contain a URL with more information. (Abstracts of accepted Demos can be edited in response to reviews.)
-Here is a sample Demo Proposal (right-click to download):
 
-* Demo Proposal Example (PDF) - **COMING SOON**
+### Sample Proposal
 
-* Demo Proposal Example (Word) - **COMING SOON**
+* Proposal Example (PDF) - **COMING SOON**
+
+* Proposal Example (Word) - **COMING SOON**
 
 ## How Do I Submit My Proposal?
 
