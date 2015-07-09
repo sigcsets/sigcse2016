@@ -4,6 +4,8 @@
     {% if type.plural == plural %}
       {% assign subdate = submission.date %}
       {% assign subtime = submission.time %}
+      {% assign subnotification = submission.notification %}
+      {% assign subcameraready = submission.cameraready %}
       {% assign subtimelink = submission.link %}
       {% assign specialsubmission = site.data.cfp.details[plural].specialsubmission %}
     {% endif %}
@@ -34,7 +36,7 @@
           <td> {{site.data.cfp.details[plural].length}}</td>
         </tr>
 
-        {% unless (page.title contains "Call") %}
+        {% if site.data.cfp.submissionopen %}
         <tr>
           <td><b>Submission Link </b></td>
           <td>
@@ -49,7 +51,25 @@
             {% endif %}
             </td>
         </tr>
+        {% endif %}
 
+        <tr>
+          <td><b>Notification to Authors </b></td>
+          <td> {{subnotification}}</td>
+        </tr>
+
+        <tr>
+          <td><b>Camera-Ready Copy </b></td>
+          <td> {{subcameraready}}</td>
+        </tr>
+
+        {% comment %}
+        <!--- FIXME: Why did I do this this way? It is probably to avoid
+        some kind of duplication between two YAML files. However, it makes things
+        a bit more complex. I am going to just do the render up above.
+
+        This may have been because things evolved organically during the first build of the site.
+      -->
         {% for submission in site.data.reviewers.finalization %}
           {% assign generateRow = false %}
           {% for sub in submission.types %}
@@ -64,8 +84,8 @@
             </tr>
           {% endif %}
         {% endfor %}
+        {% endcomment %}
 
-        {% endunless %}
       </tbody>
     </table>
 </div>

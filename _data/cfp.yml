@@ -5,14 +5,23 @@ master:
   - date: "Friday, August 28th, 2015"
     shortdate: "2015-08-28"
     time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
-    notification:
+    notification: "Monday, October 12th, 2015"
     updates:
-    cameraready:
-    link: "http://goo.gl/pe76O5"
+    cameraready: "Monday, November 30th, 2015"
+    link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+Paper+Submission+Deadline&iso=20150828T235959&p1=1033"
     types:
       - plural: Papers
         singular: Paper
         include: papers
+
+  - date: "Friday, August 28th, 2015"
+    shortdate: "2015-08-28"
+    time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
+    notification: "Monday, October 12th, 2015"
+    updates:
+    cameraready: "Wednesday, December 9th, 2015"
+    link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+Panel%2C+Workshop%2C+and+Special+Session+Submission+Deadline&iso=20150828T235959&p1=1033"
+    types:
       - plural: Panels
         singular: Panel
         include: panels
@@ -23,31 +32,26 @@ master:
         singular: workshop
         include: workshops
 
-  # - date: "TBA"
-  #   shortdate: "2014-09-29"
-  #   time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
-  #   notification:
-  #   updates:
-  #   cameraready:
-  #   link: "http://goo.gl/bZFC5x"
-  #   types:
-  #     - plural: Pre-Symposium Events
-  #       singular: Pre-Symposium Event
-  #       include: presymposium
-  #       notincfp: true
-
-  - date: "TBA"
-    shortdate: "2014-10-27"
+  - date: "Monday, September 28th, 2015"
+    shortdate: "2015-09-28"
     time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
-    notification:
+    notification: "TBA"
     updates:
-    cameraready:
-    link: "http://goo.gl/cg1aex"
+    cameraready: "TBA"
+    link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+SRC+Deadline&iso=20150928T235959&p1=1033"
     types:
       - plural: Student Research Competition
         singular: Student Research Competition
         include: src
 
+  - date: "Monday, October 23rd, 2015"
+    shortdate: "2015-10-23"
+    time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
+    notification: "Tuesday, November 17th, 2015"
+    updates:
+    cameraready: "Wednesday, December 9th, 2015"
+    link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+BOF%2C+Poster%2C+LT%2C+and+Demos+Deadline&iso=20151023T235959&p1=1033"
+    types:
       - plural: Birds of a Feather
         singular: Birds of a Feather
         include: bofs
@@ -57,11 +61,11 @@ master:
       - plural: Lightning Talks
         singular: Lightning Talk
         include: lightningtalks
-        new: true
+        new: false
       - plural: Demos
         singular: demo
         include: demos
-        new: true
+        new: false
 
 # Details are keyed off the plural from the "master" above.
 details:
