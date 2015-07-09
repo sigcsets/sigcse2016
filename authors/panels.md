@@ -26,7 +26,7 @@ participate in the session.
 
 ## How Should The Proposal Be Formatted?
 
-The proposal is limited to {{site.data.cfp.details[plural].limits}} and must adhere to the [ACM publication guidelines]({{site.data.main.acmpubguidelines}}) with
+The proposal must adhere to the [ACM publication guidelines]({{site.data.main.acmpubguidelines}}) with
 the following modifications and exceptions:
 
 -   When providing author information, indicate which of the panelists
@@ -50,6 +50,12 @@ and must adhere to the formatting guidelines specified above. To
 facilitate the transition from proposal to camera-ready copy, it is
 critical that authors adhere closely to the formatting specifications
 and page limits.
+
+### Sample Proposal
+
+* Sample proposal (PDF) - **COMING SOON**
+
+* Sample proposal (Word) - **COMING SOON**
 
 ## How Do I Submit My Proposal?
 
