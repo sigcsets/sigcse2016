@@ -9,7 +9,7 @@ title: "Guidelines: Special Sessions"
 Special sessions are your opportunity to customize and experiment with
 the SIGCSE conference format. Special sessions should NOT replicate
 existing SIGCSE session formats (i.e., panels, paper presentations, and
-poster sessions). They scheduled in
+poster sessions). They are scheduled in
 standard conference spaces. Within these constraints, the form is yours
 to design.
 
@@ -54,7 +54,7 @@ the following modifications and exceptions:
     case of a committee report, the presenters might be a subset of the
     authors.
 
-We suggest that you allow at least 40 - 50% of the time for questions
+    We suggest that you allow at least 40 - 50% of the time for questions
 and answers or other interaction with the attendees.
 
 -   Expectations: State the intended audience. Indicate how much the
