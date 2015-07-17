@@ -26,8 +26,14 @@ participate in the session.
 
 ## How Should The Proposal Be Formatted?
 
-The proposal must adhere to the [ACM publication guidelines]({{site.data.main.acmpubguidelines}}) with
-the following modifications and exceptions:
+
+The proposal is limited to a maximum of {{site.data.cfp.details[plural].limits}} and must adhere to ACM's publication guidelines:
+
+<div class="text-center" style="margin-top: 10px; margin-bottom: 10px;">
+<a href="{{site.data.main.acmpubguidelines}}">Formatting requirements, MS Word template, and LaTeX template</a>
+</div>
+
+The following modifications and exceptions do apply:
 
 -   When providing author information, indicate which of the panelists
     is the moderator by placing the word "Moderator" in parentheses
@@ -59,9 +65,7 @@ and page limits.
 
 ## How Do I Submit My Proposal?
 
-Within the proposal, you must provide Category and Subject Descriptors, General Terms, and Keywords, just as paper authors must do. These requirements are described in more detail in the [ACM publication guidelines]({{site.data.main.acmpubguidelines}}).
-
-{% include generic-submission-block.html %}
+{% include generic-submission-block.html ispanel = "true" %}
 
 {% include presenter-warning.html howmany = "ALL" kind = "panel" %}
 

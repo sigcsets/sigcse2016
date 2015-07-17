@@ -60,7 +60,7 @@ is accepted, the abstract is the description that appears on the
 Symposium website and in the Symposium program and proceedings. The
 format for the proposal is as follows.
 
-### Poster Proposal Format and Contents (limited to {{site.data.cfp.details["Posters"].limits}})
+### Poster Proposal Format and Contents
 
 -   **Proposer**: Include name, affiliation,
     email address, and website address. You should expect most

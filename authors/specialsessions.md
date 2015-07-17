@@ -33,9 +33,14 @@ to participate in the session.
 
 ## How Should The Proposal Be Formatted?
 
-The proposal is limited to {{site.data.cfp.details[plural].limits}} that
-conform to the [ACM publication guidelines]({{site.data.main.acmpubguidelines}}) with
-the following modifications and exceptions:
+
+The paper is limited to a maximum of {{site.data.cfp.details[plural].limits}} and must adhere to ACM's publication guidelines:
+
+<div class="text-center" style="margin-top: 10px; margin-bottom: 10px;">
+<a href="{{site.data.main.acmpubguidelines}}">Formatting requirements, MS Word template, and LaTeX template</a>
+</div>
+
+The following modifications and exceptions apply:
 
 -   Do not include an abstract. Instead, the first section should be
     titled Summary and should provide a summary of the session.

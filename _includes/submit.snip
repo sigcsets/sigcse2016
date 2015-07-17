@@ -1,4 +1,4 @@
-{% if site.data.cfp.submissionopen %}
+{% if site.data.cfp.submissionopen == "true" %}
   [{{include.txt}}]({{site.data.cfp.submissionurl}})
 {% else %}
   {{include.txt}}

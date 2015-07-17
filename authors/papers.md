@@ -26,24 +26,18 @@ Authors must submit ONLY an anonymized version of the paper. The goal of the ano
 
 If the paper is accepted for the conference and for publication, authors will be asked to complete a camera-ready copy that will include all appropriate author names, citations, and references.
 
-The paper is limited to a maximum of {{site.data.cfp.details[plural].limits}} and must adhere to the [ACM publication guidelines]({{site.data.main.acmpubguidelines}}).
+The paper is limited to a maximum of {{site.data.cfp.details[plural].limits}} and must adhere to ACM's publication guidelines:
+
+<div class="text-center" style="margin-top: 10px; margin-bottom: 10px;">
+<a href="{{site.data.main.acmpubguidelines}}">Formatting requirements, MS Word template, and LaTeX template</a>
+</div>
 
 If your paper is accepted you will have a chance to modify your publication version before it is published.
 
 ## How Do I Submit My Paper?
 
-Write your paper using the format specified above. Within the anonymized paper, you must provide Category and Subject Descriptors, General Terms, and Keywords based on the ACM classification system. These requirements are described in more detail in the [ACM publication guidelines]({{site.data.main.acmpubguidelines}}).
+{% include generic-submission-block.html ispaper = "true" %}
 
-Convert your paper into Adobe PDF format. Refer to our [Creating Adobe PDF Documents page](creating_pdf.html) page for assistance.
-
-A PDF version of your submission must be uploaded using the {% include submit.snip txt="online submission system" %}. Be sure to choose the appropriate topic areas when submitting. Your choices, limited here to three (3), help in assigning appropriate reviewers to your submission, and assist the reviewers in evaluating the paper from an appropriate perspective.
-
-Please do not wait until the last minute to submit your documents, because that is when everyone else will be connecting to our server!
-
-Make note of the paper ID number and password assigned to your submission. You will receive an e-mail message confirmation. Spam filters sometimes trap these automatically generated messages so you may need to check your spam trap for the confirmation and later, acceptance or rejection notification.
-
-After receiving confirmation, go to the to review your submission for accuracy. Send e-mail to your Program Co-Chairs if you have questions (email addresses below).
-
-{% include presenter-warning.html %}
+{% include presenter-warning.html kind = "paper" %}
 
 {% include submission-questions category="Program Co-Chair" %}
