@@ -16,6 +16,8 @@ remote: build
 		-e "ssh -p 7822" _site/ \
 		sigcse@sigcse.hosting.acm.org:/home/sigcse/www/sigcse2016
 
+both: staging remote
+
 img:
 	./optimizepng.bash
 
