@@ -1,16 +1,100 @@
 ---
 title: SIGCSE 2016
 layout: flat
-noTitle: true
+showTitle: false
 ---
 
 <div class = "row">
-  <div class = "col-md-12 center">
-    <h3>{{site.data.main.upper}} {{site.data.main.year}} - Memphis, Tennessee</h3>
-    <p class="lead">Calling all sponsors, exhibitors, and authors!</p>
-  </div>
+  <div class = "col-md-10 center">
+    <div class = "row">
+      <h1 >
+        {{page.title}} - {{site.data.main.month}} {{site.data.main.start}} - {{site.data.main.end}}
+                  <br><small>Memphis, Tennessee</small>
+      </h1>
+      <p class="lead">Follow us on <a href="{{site.data.social.twitter}}">Twitter</a> and <a href="{{site.data.social.facebook}}">Facebook</a>!</p>
+    </div>
+
+    <div class = "row"> <!-- Four Blocks -->
+      <div class = "row"> <!-- Top Row -->
+
+        <div class = "col-md-5">
+          <h3>Contribute</h3>
+          <br>
+          <ul>
+            <li> Submission links </li>
+            <li> Pre-symposium Events </li>
+          </ul>
+        </div>
+
+        <div class = "col-md-5">
+          <h3>Sponsors and Exhibitors</h3>
+          <br>
+          <div class = "row text-center">
+            <a href = "{{site.base}}/docs/sigcse2016-prospectus.pdf">
+              <img alt = " " src = "{{site.base}}/images/engage-empower-energize-284.png">
+            </a>
+          </div>
+          <div class = "row text-center" style = "padding: 20px;">
+            <h5>
+              <a href = "{{site.base}}/docs/sigcse2016-prospectus.pdf">The Prospectus</a>
+            </h5>
+            For Sponsors and Exhibitors
+          </div>
+        </div>
+      </div> <!-- End Top Row -->
+
+      <div class = "row"> <!-- Bottom row -->
+        <div class = "col-md-5">
+
+        </div>
+
+        <div class = "col-md-5">
+
+        </div>
+      </div> <!-- End Bottom Row -->
+
+    </div> <!-- End 4 Blocks -->
+  </div> <!-- End LH 9 -->
+
+  <div class = "col-md-2 center">
+    <div class = "row">
+      <div class = "row">
+        <h3>Submission Deadlines</h3>
+      </div>
+      <div class = "row">
+        <div id = "track1countdown">Paper, Panel, Special Session, Workshop, and SRC </div>
+      </div>
+      <div class = "row">
+        <hr>
+      </div>
+      <div class = "row">
+          <div id = "track2countdown">BOF, Poster, and LT </div>
+      </div>
+      <div class = "row">
+        <hr>
+      </div>
+      <div class = "row">
+        <div id = "conferencecountdown"> to SIGCSE {{site.data.main.year}}.</div>
+      </div>
+    </div> <!-- End countdown row -->
+    <div class = "row">
+      Scrolling Pictures
+    </div>
+  </div> <!-- End RH 3 -->
 </div>
 
+<script>
+var track1 = countdown (new Date (), new Date ("{{site.data.cfp.track1}}"), countdown.DAYS);
+$("#track1countdown").html (track1.toString() + " until " + $("#track1countdown").html() + " submissions are due.");
+
+var track2 = countdown (new Date (), new Date ("{{site.data.cfp.track2}}"), countdown.DAYS);
+$("#track2countdown").html (track2.toString() + " until " + $("#track2countdown").html() + " submissions are due.");
+
+var conference = countdown (new Date (), new Date ("{{site.data.main.startdatestring}}"), countdown.DAYS);
+$("#conferencecountdown").html (conference.toString() + $("#conferencecountdown").html() + " " );
+</script>
+
+<!--
 <div class = "row"> &nbsp; </div>
 
 <div class = "row">
@@ -44,3 +128,4 @@ noTitle: true
   </div>
 
 </div>
+-->
