@@ -18,20 +18,26 @@ showTitle: false
       <div class = "row"> <!-- Top Row -->
 
         <div class = "col-md-5">
-          <h3>Contribute</h3>
+          <h3 class = "text-center">Contribute</h3>
           <br>
           <ul>
-            <li> Submission links </li>
+            {% for submission in site.data.cfp.master %}
+              {% for sub in submission.types %}
+                  {% capture link %}<a href = "{{site.base}}/authors/{{sub.plural | remove: ' ' | downcase}}.html">{{sub.plural}}</a>{% endcapture %}
+                  {% capture entry %}{{link}}{% endcapture %}
+                  <li> {{entry}} </li>
+              {% endfor %}
+            {% endfor %}
             <li> Pre-symposium Events </li>
           </ul>
         </div>
 
         <div class = "col-md-5">
-          <h3>Sponsors and Exhibitors</h3>
+          <h3 class = "text-center">Sponsors and Exhibitors</h3>
           <br>
           <div class = "row text-center">
             <a href = "{{site.base}}/docs/sigcse2016-prospectus.pdf">
-              <img alt = " " src = "{{site.base}}/images/engage-empower-energize-284.png">
+              <img alt = " " src = "{{site.base}}/images/logos/engage-empower-prospectus-splash.png">
             </a>
           </div>
           <div class = "row text-center" style = "padding: 20px;">
@@ -45,11 +51,20 @@ showTitle: false
 
       <div class = "row"> <!-- Bottom row -->
         <div class = "col-md-5">
+          <h3 class = "text-center">Attend SIGCSE {{site.data.main.year}}</h3>
+          <br>
+
+          1 link to travel info page, with hotel,  restaurant, airport, ground transport info
+          1 link to program
+          1 link to registration system
 
         </div>
 
         <div class = "col-md-5">
-
+          <h3 class = "text-center">Your Committees</h3>
+          <br>
+          1 link to program committee
+          1 link to international committee
         </div>
       </div> <!-- End Bottom Row -->
 
@@ -68,7 +83,7 @@ showTitle: false
         <hr>
       </div>
       <div class = "row">
-          <div id = "track2countdown">BOF, Poster, and LT </div>
+          <div id = "track2countdown">BOF, Poster, LT, and Demo </div>
       </div>
       <div class = "row">
         <hr>
