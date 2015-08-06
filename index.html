@@ -92,12 +92,42 @@ showTitle: false
         <div id = "conferencecountdown"> to SIGCSE {{site.data.main.year}}.</div>
       </div>
     </div> <!-- End countdown row -->
+
     <div class = "row">
-      Scrolling Pictures
+      <hr>
     </div>
+
+    <div class = "row"> <!-- Scrolling Pictures -->
+      <div class="indexpictures">
+        <div><img src = "images/memphis/memphis-2-200.png"  width = 200 height = 400></div>
+        <div><img src = "images/memphis/memphis-8-200.png"  width = 200 height = 400></div>
+        <div><img src = "images/memphis/memphis-15-200.png"  width = 200 height = 400></div>
+        <div><img src = "images/memphis/memphis-18-200.png"  width = 200 height = 400></div>
+        <div><img src = "images/memphis/memphis-28-200.png"  width = 200 height = 400></div>
+        <div><img src = "images/memphis/memphis-38-200.png"  width = 200 height = 400></div>
+        <div><img src = "images/memphis/memphis-43-200.png"  width = 200 height = 400></div>
+      </div>
+    </div> <!-- End Scrolling Pictures -->
   </div> <!-- End RH 3 -->
 </div>
 
+<!-- Slick -->
+<script>
+$(document).ready(function(){
+  $('.indexpictures').slick({
+    // lazyLoad : "ondemand",
+    infinite : true,
+    mobileFirst : true,
+    // pauseOnHover : true,
+    swipe : true,
+    swipeToSlide : true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  });
+});
+</script>
+
+<!-- Countdown.js -->
 <script>
 var track1 = countdown (new Date (), new Date ("{{site.data.cfp.track1}}"), countdown.DAYS);
 $("#track1countdown").html (track1.toString() + " until " + $("#track1countdown").html() + " submissions are due.");
