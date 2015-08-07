@@ -21,3 +21,11 @@
       link: "attendees/hotel.html"
     - title: "Hotel Information"
       link: "attendees/hotel.html"
+
+- dropdown: true
+  title: "Committees"
+  links:
+    - title: "Program Committee"
+      link: "committee/index.html"
+    #- title: "International Committee"
+    #  link: "committee/international.html"
