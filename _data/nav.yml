@@ -13,3 +13,11 @@
   links:
     - title: "Prospectus"
       link: "docs/sigcse2016-prospectus.pdf"
+
+- dropdown: true
+  title: "Attendees"
+  links:
+    - title: "Air Travel"
+      link: "attendees/hotel.html"
+    - title: "Hotel Information"
+      link: "attendees/hotel.html"

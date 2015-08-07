@@ -10,12 +10,17 @@ year: 2016
 url: http://sigcse2016.sigcse.org
 startdatestring: "2016-03-04T00:00:00"
 
-bookingURL: http://goo.gl/mzIsp2
+bookingURL: https://goo.gl/RI93kE
 bookingStart: 3rd
 bookingEnd: 7th
-conferenceHotel: Kansas City Marriott Downtown
-nearestAirport: Kansas City International Airport
-nearestAirportCode: MCI
+conferencecity: Memphis, Tennessee
+conferenceHotel: Sheraton
+hotelrate: "$141"
+hotelguaranteedate: "January 30th, 2016"
+nearestAirport: "Memphis International Airport"
+nearestAirportCode: MEM
+airporturl: http://www.mscaa.com/
+airportphonenumber: "+1-901-922-8000"
 
 floorplan: /supporters/sigcse-2015-floorplan.pdf
 
@@ -30,6 +35,7 @@ sigcsemembershipurl: http://www.sigcse.org/membership
 sigcsemembershipcost: $25
 sigcsestudentmembershipcost: $8
 sigseregistrationsavings: $55
+isregistrationopen: false
 registrationopens: December 2015
 registrationurl: http://www.regonline.com/sigcse2016
 acmpubguidelines: http://www.acm.org/publications/article-templates/proceedings-template.html
