@@ -4,6 +4,9 @@ submissionurl: "https://www.openconf.org/sigcse2016/"
 track1: "2015-08-28T00:00:00"
 track2: "2015-10-23T00:00:00"
 
+presymposiumdates: "Wednesday, March 2nd, 2016"
+presymposiumformurl: "docs/pre-symposium-event-form.docx"
+
 master:
   - date: "Friday, August 28th, 2015"
     shortdate: "2015-08-28"
@@ -32,7 +35,7 @@ master:
         singular: Special Session
         include: specialsessions
       - plural: Workshops
-        singular: workshop
+        singular: Workshop
         include: workshops
 
   - date: "Monday, September 28th, 2015"
@@ -46,6 +49,21 @@ master:
       - plural: Student Research Competition
         singular: Student Research Competition
         include: src
+      - plural: Pre-Symposium Events
+        singular: Pre-Symposium Event
+        include: presymposium
+
+  - date: "Monday, September 28th, 2015"
+    shortdate: "2015-09-28"
+    time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
+    notification: "Monday, October 19th, 2015"
+    updates:
+    cameraready: "TBA"
+    link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+Pre-Symposum+Deadline&iso=20150928T235959&p1=1033"
+    types:
+      - plural: Pre-Symposium Events
+        singular: Pre-Symposium Event
+        include: presymposium
 
   - date: "Monday, October 23rd, 2015"
     shortdate: "2015-10-23"
@@ -113,7 +131,7 @@ details:
     length: "2 hours (poster session)"
     specialsubmission: true
   Pre-Symposium Events:
-    limits: "Request Application Form"
+    limits: "Request to host event at Convention Center"
     length: "Varies"
     specialsubmission: true
 

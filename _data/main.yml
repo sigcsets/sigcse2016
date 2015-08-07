@@ -10,7 +10,6 @@ year: 2016
 url: http://sigcse2016.sigcse.org
 startdatestring: "2016-03-04T00:00:00"
 
-
 bookingURL: http://goo.gl/mzIsp2
 bookingStart: 3rd
 bookingEnd: 7th
@@ -31,6 +30,6 @@ sigcsemembershipurl: http://www.sigcse.org/membership
 sigcsemembershipcost: $25
 sigcsestudentmembershipcost: $8
 sigseregistrationsavings: $55
-registrationopens: December 2014
-registrationurl: http://www.regonline.com/sigcse2015
+registrationopens: December 2015
+registrationurl: http://www.regonline.com/sigcse2016
 acmpubguidelines: http://www.acm.org/publications/article-templates/proceedings-template.html
