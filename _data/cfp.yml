@@ -49,9 +49,6 @@ master:
       - plural: Student Research Competition
         singular: Student Research Competition
         include: src
-      - plural: Pre-Symposium Events
-        singular: Pre-Symposium Event
-        include: presymposium
 
   - date: "Monday, September 28th, 2015"
     shortdate: "2015-09-28"
