@@ -142,9 +142,9 @@ Workshop can be edited in response to reviews.)
 
 ### Sample Proposal
 
--  Proposal Example (PDF) - **COMING SOON**
+-  [Proposal Example (PDF)]({{site.base}}/docs/sigcse-sample-workshop.pdf)
 
--  Proposal Example (Word) - **COMING SOON**
+-  [Proposal Example (Word)]({{site.base}}/docs/sigcse-sample-workshop.docx)
 
 
 ## How Do I Submit My Proposal?

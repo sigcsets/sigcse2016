@@ -97,9 +97,9 @@ posters can be edited in response to reviews.)
 
 ### Sample Proposal
 
--  Proposal Example (PDF) - **COMING SOON**
+-  [Proposal Example (PDF)]({{site.base}}/docs/sigcse-sample-poster.pdf)
 
--  Proposal Example (Word) - **COMING SOON**
+-  [Proposal Example (Word)]({{site.base}}/docs/sigcse-sample-poster.docx)
 
 ## How Do I Submit My Proposal?
 

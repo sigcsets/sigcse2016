@@ -59,9 +59,9 @@ and page limits.
 
 ### Sample Proposal
 
-* Sample proposal (PDF) - **COMING SOON**
+* [Sample proposal (PDF)]({{site.base}}/docs/sigcse-sample-panel.pdf)
 
-* Sample proposal (Word) - **COMING SOON**
+* [Sample proposal (Word)]({{site.base}}/docs/sigcse-sample-panel.docx)
 
 ## How Do I Submit My Proposal?
 

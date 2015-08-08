@@ -84,6 +84,12 @@ facilitate the transition from proposal to camera-ready copy, it is
 critical that authors adhere closely to the formatting specifications
 and page limits.
 
+### Sample Proposal
+
+-  [Proposal Example (PDF)]({{site.base}}/docs/sigcse-sample-special-session.pdf)
+
+-  [Proposal Example (Word)]({{site.base}}/docs/sigcse-sample-special-session.docx)
+
 ## How Do I Submit My Proposal?
 
 {% include generic-submission-block.html %}

@@ -1,11 +1,15 @@
 submissionopen: "false"
 submissionurl: "https://www.openconf.org/sigcse2016/"
+track1open: true
+track1url: https://www.openconf.org/sigcse2016/track1/openconf.php
+track2open: false
+track2url: https://en.wikipedia.org/wiki/HTTP_404
 
 track1: "2015-08-28T00:00:00"
 track2: "2015-10-23T00:00:00"
 
 presymposiumdates: "Wednesday, March 2nd, 2016"
-presymposiumformurl: "docs/pre-symposium-event-form.docx"
+presymposiumformurl: "docs/sigcse-pre-symposium-events.docx"
 
 master:
   - date: "Friday, August 28th, 2015"
@@ -15,6 +19,7 @@ master:
     updates:
     cameraready: "Monday, November 30th, 2015"
     link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+Paper+Submission+Deadline&iso=20150828T235959&p1=1033"
+    track: track1
     types:
       - plural: Papers
         singular: Paper
@@ -27,6 +32,7 @@ master:
     updates:
     cameraready: "Wednesday, December 9th, 2015"
     link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+Panel%2C+Workshop%2C+and+Special+Session+Submission+Deadline&iso=20150828T235959&p1=1033"
+    track: track1
     types:
       - plural: Panels
         singular: Panel
@@ -45,6 +51,7 @@ master:
     updates:
     cameraready: "TBA"
     link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+SRC+Deadline&iso=20150928T235959&p1=1033"
+    track: false
     types:
       - plural: Student Research Competition
         singular: Student Research Competition
@@ -57,6 +64,7 @@ master:
     updates:
     cameraready: "TBA"
     link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+Pre-Symposum+Deadline&iso=20150928T235959&p1=1033"
+    track: false
     types:
       - plural: Pre-Symposium Events
         singular: Pre-Symposium Event
@@ -69,6 +77,7 @@ master:
     updates:
     cameraready: "Wednesday, December 9th, 2015"
     link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+BOF%2C+Poster%2C+LT%2C+and+Demos+Deadline&iso=20151023T235959&p1=1033"
+    track: track2
     types:
       - plural: Birds of a Feather
         singular: Birds of a Feather

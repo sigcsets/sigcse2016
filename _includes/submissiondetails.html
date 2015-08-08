@@ -2,6 +2,7 @@
 {% for submission in site.data.cfp.master %}
   {% for type in submission.types %}
     {% if type.plural == plural %}
+      {% assign subtrack = submission.track %}
       {% assign subdate = submission.date %}
       {% assign subtime = submission.time %}
       {% assign subnotification = submission.notification %}
@@ -43,11 +44,29 @@
             {% if specialsubmission %}
             See below
             {% else %}
-            {% if site.data.flags.paperSubmissionReady == true %}
-              <a href="{{site.data.cfp.submissionurl}}">{{site.data.main.upper}} {{site.data.main.year}} Submissions (OpenConf)</a>
+            {% if subtrack == "track1" %}
+              {% capture tracklink %}
+              <a href="{{site.data.cfp.track1url}}">{{site.data.main.upper}} {{site.data.main.year}} OpenConf </a>
+              {% endcapture %}
+              {% assign trackopen = site.data.cfp.track1open %}
+            {% else if subtrack == "track2" %}
+              {% capture tracklink %}
+              <a href="{{site.data.cfp.track1url}}">{{site.data.main.upper}} {{site.data.main.year}} OpenConf </a>
+              {% endcapture %}
+              {% assign trackopen = site.data.cfp.track2open %}
             {% else %}
-              TBA
+              {% capture tracklink %}
+              NA
+              {% endcapture %}
+              {% assign trackopen = true %}
             {% endif %}
+
+            {% if trackopen %}
+              {{tracklink}}
+            {% else %}
+              <em>Not yet, but soon...</em>
+            {% endif %}
+
             {% endif %}
             </td>
         </tr>
