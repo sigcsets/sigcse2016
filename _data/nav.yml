@@ -9,6 +9,29 @@
     - title: "ALLSUBMISSIONS"
 
 - dropdown: true
+  title: "Reviewers"
+  links:
+    - title: "Overview & Signup"
+      link: "reviewers/index.html"
+    - title: "DIVIDER"
+    - title: "Guidelines: Papers"
+      link: "reviewers/guidepapers.html"
+    - title: "Guidelines: Panels"
+      link: "reviewers/guidepanels.html"
+    - title: "Guidelines: Special Sessions"
+      link: "reviewers/guidesessions.html"
+    - title: "Guidelines: Workshops"
+      link: "reviewers/guideworkshops.html"
+    - title: "Guidelines: BOFs"
+      link: "reviewers/guidebofs.html"
+    - title: "Guidelines: Posters"
+      link: "reviewers/guideposters.html"
+    - title: "Guidelines: Lightning Talks"
+      link: "reviewers/guidelightningtalks.html"
+    - title: "Guidelines: Demos"
+      link: "reviewers/guidedemos.html"
+
+- dropdown: true
   title: "Supporters & Exhibitors"
   links:
     - title: "Prospectus"

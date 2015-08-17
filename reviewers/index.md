@@ -56,13 +56,13 @@ All SIGCSE members are encouraged to participate in the reviewing process.
 
 If you are interested in reviewing papers for {{site.data.main.upper}} {{site.data.main.year}}, you are <a href="{{site.data.reviewers.reviewerRegistrationForm}}">invited to complete the reviewer registration form</a>. In the box that says "Sign Up — Keycode:" input the code <span class="label label-warning">{{site.data.reviewers.keycode}}</span>.
 
-After you have filled in your contact information, it it **MOST IMPORTANT** to select the topic areas for which you would like to review. Please limit yourself to areas in which you feel somewhat expert. The system will automatically ask you to consider the areas carefully if you choose more than four.
+After you have filled in your contact information, it it **MOST IMPORTANT** to select the topic areas for which you would like to review. Please limit yourself to areas in which you feel somewhat expert. The system will automatically ask you to consider the areas carefully if you choose more than four. Please note you may be called upon to review in track 1, track 2, or both track 1 and 2.
 
 ### For Those Who Have Previously Reviewed
 
 All people currently listed in the reviewer database will receive an e-mail message in August with their current recorded information.
 
-If you would like to <a href="{{site.data.reviewers.reviewerRegistrationForm}}">update your information in the database, go to the proposal review site</a> by <span class="label label-warning">{{site.data.reviewers.reviewsignupdeadline}}</span>. Please select your areas of reviewing carefully, limiting yourself to areas in which you have expertise.
+If you would like to <a href="{{site.data.reviewers.reviewerRegistrationForm}}">update your information in the database, go to the proposal review site</a> by <span class="label label-warning">{{site.data.reviewers.reviewsignupdeadline}}</span>. Please select your areas of reviewing carefully, limiting yourself to areas in which you have expertise. Please note you may be called upon to review in track 1, track 2, or both track 1 and 2.
 
 {% else %}
 
@@ -84,21 +84,21 @@ As part of your process as a reviewer, we recommend you work your way through th
 1. **Reviewer Guidelines**. In addition to the category criteria, we would encourage you to review the guidelines for the submission category you are reviewing for. We have guidelines for...
 
     * ... [Paper Submissions][papers]
-    
+
     * ... [Panel Submissions][panels]
-    
+
     * ... [Special Session Submissions][specials]
-    
+
     * ... [Workshop Submissions][workshops]
-    
+
     * ... [Birds of a Feather (BOF) Submissions][bofs]
-    
+
     * ... [Poster Submissions][posters]
-    
+
     * ... [Lightning Talks][lightning]
-    
+
     * ... [Demos][demos]
-    
+
 
 1. **Download Papers**. Access your your assigned submission(s) through the <a href="{{site.data.reviewers.proposalReviewSite}}">proposal review site</a>. You may review the submission on-line or print it for review at your leisure. If your web browser does awful things with your submission, you might try saving it to a file with a .pdf extension and opening it locally.
 

@@ -1,19 +1,20 @@
-reviewerRegistrationForm: https://www.openconf.org/sigcse2015/
+reviewerRegistrationForm: https://www.openconf.org/sigcse2016/track1/openconf.php
 paperCategoryCriteria: #
-proposalReviewSite: https://www.openconf.org/sigcse2015/
-keycode: review15
+proposalReviewSite: https://www.openconf.org/sigcse2016/track1/openconf.php
+keycode: review16
 
-reviewsignupdeadline: "Monday, September 1st, 2014"
-rewviewsignupdeadlineshort: "2014-09-01"
+# reviewsignupdeadline: "Monday, September 1st, 2014"
+# rewviewsignupdeadlineshort: "2014-09-01"
 
 reviewgroups:
-  - "Papers, Panels, Special Sessions, Workshops"
-  - "Birds of a Feather, Posters, Lightning Talks, Demos"
+  - "Track 1: Papers, Panels, Special Sessions, Workshops"
+  - "Track 2: Birds of a Feather, Posters, Lightning Talks, Demos"
+
 
 reviewdates:
-  - date: "TBA"
+  - date: "Thursday, August 27, 2015"
     event: "Sign Up to Review"
-    shortdate: "2014-09-01"
+    shortdate: "2015-08-27"
     types:
       - plural: Papers
         singular: Paper
@@ -42,9 +43,9 @@ reviewdates:
         include: demos
         new: true
 
-  - date: "TBA"
+  - date: "Monday, September 1st, 2015"
     event: "Reviewers Receive Assignments"
-    shortdate: "2014-09-08"
+    shortdate: "2015-09-01"
     types:
       - plural: Papers
         singular: Paper
@@ -59,9 +60,9 @@ reviewdates:
         singular: workshop
         include: workshops
 
-  - date: "TBA"
+  - date: "Monday, September 15th, 2015"
     event: "Reviews Due"
-    shortdate: "2014-09-22"
+    shortdate: "2014-09-15"
     types:
       - plural: Papers
         singular: Paper
@@ -76,9 +77,10 @@ reviewdates:
         singular: workshop
         include: workshops
 
-  - date: "TBA"
+
+  - date: "Monday, October 26th, 2015"
     event: "Reviewers Receive Assignments"
-    shortdate: "2014-10-29"
+    shortdate: "2015-10-26"
     types:
       - plural: Birds of a Feather
         singular: Birds of a Feather
@@ -95,9 +97,9 @@ reviewdates:
         include: demos
         new: true
 
-  - date: "TBA"
+  - date: "Monday, November 9th, 2015"
     event: "Reviews Due"
-    shortdate: "2014-11-11"
+    shortdate: "2015-11-09"
     types:
       - plural: Birds of a Feather
         singular: Birds of a Feather
