@@ -56,13 +56,13 @@ All SIGCSE members are encouraged to participate in the reviewing process.
 
 If you are interested in reviewing papers for {{site.data.main.upper}} {{site.data.main.year}}, you are <a href="{{site.data.reviewers.reviewerRegistrationForm}}">invited to complete the reviewer registration form</a>. In the box that says "Sign Up — Keycode:" input the code <span class="label label-warning">{{site.data.reviewers.keycode}}</span>.
 
-After you have filled in your contact information, it it **MOST IMPORTANT** to select the topic areas for which you would like to review. Please limit yourself to areas in which you feel somewhat expert. The system will automatically ask you to consider the areas carefully if you choose more than four. Please note you may be called upon to review in track 1, track 2, or both track 1 and 2.
+After you have filled in your contact information, it it **MOST IMPORTANT** to select the topic areas for which you would like to review. Please limit yourself to areas in which you feel somewhat expert; you are limited to a maximum of <b>five</b> areas. Please note you may be called upon to review in track 1, track 2, or both track 1 and 2.
 
 ### For Those Who Have Previously Reviewed
 
 All people currently listed in the reviewer database will receive an e-mail message in August with their current recorded information.
 
-If you would like to <a href="{{site.data.reviewers.reviewerRegistrationForm}}">update your information in the database, go to the proposal review site</a> by <span class="label label-warning">{{site.data.reviewers.reviewsignupdeadline}}</span>. Please select your areas of reviewing carefully, limiting yourself to areas in which you have expertise. Please note you may be called upon to review in track 1, track 2, or both track 1 and 2.
+If you would like to <a href="{{site.data.reviewers.reviewerRegistrationForm}}">update your personal information in the database, go to the proposal review site</a> by <span class="label label-warning">{{site.data.reviewers.reviewsignupdeadline}}</span>. Your areas of reviewing expertise are not stored, so you will need to select them again, limiting yourself to a maximum of five areas in which you feel you have expertise. Please note you may be called upon to review in track 1, track 2, or both track 1 and 2.
 
 {% else %}
 
@@ -104,7 +104,7 @@ As part of your process as a reviewer, we recommend you work your way through th
 
 1. After reviewing, complete a report for each submission. Submit each review to the  <a href="{{site.data.reviewers.proposalReviewSite}}">proposal review site</a>.
 
-Remember, **all reviews will be distributed anonymously to both the author(s) and reviewers of that submission**. This will give the author feedback and provide information to reviewers as well. It is hoped that, over time, this feedback will help make the review process more consistent as reviewers can compare their responses to those of others.
+Remember, **excellent reviewing improves the quality of the technical symposium and our community as a whole**. Your reviews provide the author with valuable insight into the work they are presenting.
 
 [papers]: guidepapers.html
 [panels]: guidepanels.html
