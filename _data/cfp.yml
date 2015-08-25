@@ -111,7 +111,7 @@ details:
     limits: "2 pages"
     length: "75 minutes"
   Workshops:
-    limits: "2 pages (including title page)"
+    limits: "3 pages (including title page)"
     connector: "including"
     abstract: "250 words"
     length: "3 hours"
