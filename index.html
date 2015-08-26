@@ -139,8 +139,11 @@ $(document).ready(function(){
 
 <!-- Countdown.js -->
 <script>
-var track1 = countdown (new Date (), new Date ("{{site.data.cfp.track1}}"), countdown.DAYS);
-$("#track1countdown").html (track1.toString() + " until " + $("#track1countdown").html() + " submissions are due.");
+
+// var track1 = countdown (new Date (), new Date ("{{site.data.cfp.track1}}"), countdown.DAYS);
+//$("#track1countdown").html (track1.toString() + " until " + //$("#track1countdown").html() + " submissions are due.");
+
+$("#track1countdown").html("Papers due the 28th of August!");
 
 var track2 = countdown (new Date (), new Date ("{{site.data.cfp.track2}}"), countdown.DAYS);
 $("#track2countdown").html (track2.toString() + " until " + $("#track2countdown").html() + " submissions are due.");
