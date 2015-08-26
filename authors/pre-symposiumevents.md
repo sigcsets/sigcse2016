@@ -24,10 +24,9 @@ If we can accommodate your event:
 
 * We will respond by {{subnotification}} to let you know if we can accommodate your event.  More information will be provided at that time to help you with your event.
 
-* The information you provide on the request form will be posted on the SIGCSE {{site.data.main.year}} website.
-SIGCSE will bill you for your room and any extra fees associated with AV or room set up.
+* The information you provide on the request form will be posted on the SIGCSE {{site.data.main.year}} website. SIGCSE will bill you for your room and any extra fees associated with AV or room set up.
 
-* You are responsible for managing registration (is this true?) and attendee fee collection for your event.  The SIGCSE planning committee does not handle registration and fee collection f for pre-conference and affiliated events.  
+* You are responsible for managing registration and attendee fee collection for your event.  The SIGCSE planning committee does not handle registration and fee collection for pre-conference and affiliated events.  
 
 * You will receive information regarding whom to contact to make separate arrangements for food and beverages.  The SIGCSE planning committee does not handle food and beverage orders for pre-conference and affiliated events.  
 
