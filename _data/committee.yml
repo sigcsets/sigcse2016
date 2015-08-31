@@ -1,115 +1,115 @@
 - name: Carl Alphonce
-  title: Symposium Co-Chair
-  institution: University at Buffalo
+  title: "Symposium Co-Chair"
+  institution: "University at Buffalo"
   email: sigcse2016-symposium@bw.edu
   image: committee-42.png
   blurb:
 
 - name: Jodi Tims
-  title: Symposium Co-Chair
-  institution: Baldwin Wallace University
+  title: "Symposium Co-Chair"
+  institution: "Baldwin Wallace University"
   email: sigcse2016-symposium@bw.edu
   image: committee-45.png
   blurb:
 
 - name: Michael E. Caspersen
-  title: Program Co-Chair
-  institution: Aarhus University
+  title: "Program Co-Chair"
+  institution: "Aarhus University"
   email: sigcse2016-program@bw.edu
   image: committee-9.png
   blurb:
 
 - name: Stephen Edwards
-  title: Program Co-Chair
-  institution: Virginia Tech
+  title: "Program Co-Chair"
+  institution: "Virginia Tech"
   email: sigcse2016-program@bw.edu
   image: committee-3.png
   blurb:
 
 - name: Tom Cortina
-  title: Sponsor/Exhibitor Liaison
-  institution: Carnegie Mellon University
+  title: "Sponsor/Exhibitor Liaison"
+  institution: "Carnegie Mellon University"
   email: sigcse2016-exhibitor@bw.edu
   image: tomc-small.png
   rotation: 0
   blurb:
 
 - name: David Musicant
-  title: Sponsor/Exhibitor Liaison
-  institution: Carleton College
+  title: "Sponsor/Exhibitor Liaison"
+  institution: "Carleton College"
   email: sigcse2016-exhibitor@bw.edu
   image: dave-small.png
   rotation: 0
   blurb:
 
 - name: Lynn Degler
-  title: Registration Team
-  institution: Rose-Hulman Institute of Technology
+  title: "Registration Team"
+  institution: "Rose-Hulman Institute of Technology"
   email: sigcse2016-reg@bw.edu
   image: committee-22.png
   blurb:
 
 - name: Cary Laxer
-  title:  Registration Team
-  institution: Rose-Hulman Institute of Technology
+  title: " Registration Team"
+  institution: "Rose-Hulman Institute of Technology"
   email: sigcse2016-reg@bw.edu
   image: committee-20.png
   blurb:
 
 - name: Larry Merkle
-  title: Registration Team
-  institution: Computational Optimization Services
+  title: "Registration Team"
+  institution: "Computational Optimization Services"
   email: sigcse2016-reg@bw.edu
   image: committee-36.png
   blurb:
 
 - name: Jian Zhang
-  title: Publications Wrangler
-  institution: Texas Woman's University
+  title: "Publications Wrangler"
+  institution: "Texas Woman's University"
   email: sigcse2016-publications@bw.edu
   image: committee-16.png
   blurb:
 
 - name: Ruth Anderson
-  title: Special Sessions Wrangler
-  institution: University of Washington
+  title: "Special Sessions Wrangler"
+  institution: "University of Washington"
   email: sigcse2016-specialsessions@bw.edu
   image: committee-15.png
   blurb:
 
 - name: Ruth Anderson
-  title: Panels Wrangler
-  institution: University of Washington
+  title: "Panels Wrangler"
+  institution: "University of Washington"
   email: sigcse2016-panels@bw.edu
   image: committee-15.png
   blurb:
 
 
 - name: Bo Brinkman
-  title: Workshops Co-Wrangler
-  institution: Miami University
+  title: "Workshops Co-Wrangler"
+  institution: "Miami University"
   email: sigcse2016-workshops@bw.edu
   image: committee-38.png
   blurb:
 
 - name: Alvaro Monge
-  title: Workshops Co-Wrangler
-  institution: California State University, Long Beach
+  title: "Workshops Co-Wrangler"
+  institution: "California State University, Long Beach"
   email: sigcse2016-workshops@bw.edu
   image: alvaro-small.png
   rotation: 0
   blurb:
 
 - name: Don Goelman
-  title: Posters Wrangler
-  institution: Villanova University
+  title: "Posters Wrangler"
+  institution: "Villanova University"
   email: sigcse2016-posters@bw.edu
   image: committee-27.png
   blurb:
 
 - name: Samuel A. Rebelsky
-  title: Birds-Of-a-Feather (BOFs) Wrangler
-  institution: Grinnell College
+  title: "Birds-Of-a-Feather (BOFs) Wrangler"
+  institution: "Grinnell College"
   email: sigcse2016-bofs@bw.edu
   image: ria2-small.png
   rotation: 0
@@ -117,135 +117,142 @@
 
 
 - name: Martha Kosa
-  title: Lightning Talks Wrangler
-  institution: Tennessee Tech
+  title: "Lightning Talks Wrangler"
+  institution: "Tennessee Tech"
   email: sigcse2016-lightning@bw.edu
   image: mike-small.png
   rotation: 0
   blurb:
 
 - name: Martha Kosa
-  title: Demos Wrangler
-  institution: Tennessee Tech
+  title: "Demos Wrangler"
+  institution: "Tennessee Tech"
   email: sigcse2016-demos@bw.edu
   image: mike-small.png
   rotation: 0
   blurb:
 
 - name: Christopher Painter-Wakefield
-  title: Evaluations
-  institution: Colorado School of Mines
+  title: "Evaluations"
+  institution: "Colorado School of Mines"
   email: sigcse2016-evaluations@bw.edu
   image: stevec-small.png
   rotation: 0
   blurb:
 
 - name: Charles R. Hardnett
-  title: Kids' Camp Co-Wrangler
-  institution: Gwinnett Technical College
+  title: "Kids' Camp Co-Wrangler"
+  institution: "Gwinnett Technical College"
   email: sigcse2016-kidscamp@bw.edu
   image: sealsc-small.png
   rotation: 0
   blurb:
 
 - name: Valerie Henderson Summet
-  title: Kids' Camp Co-Wrangler
-  institution: Emory University
+  title: "Kids' Camp Co-Wrangler"
+  institution: "Emory University"
   email: sigcse2016-kidscamp@bw.edu
   image: committee-8.png
   blurb:
 
 - name: Rachelle Kristof Hippler
-  title: Pre-Symposium and Affiliated Events Liaison
-  institution: Bowling Green University - Firelands
+  title: "Pre-Symposium and Affiliated Events Liaison"
+  institution: "Bowling Green University - Firelands"
   email: sigcse2016-events@bw.edu
   image: committee-11.png
   blurb:
 
 - name: Brad Miller
-  title: Database Administrator
-  institution: Luther College
+  title: "Database Administrator"
+  institution: "Luther College"
   email: sigcse2016-database@bw.edu
   image: committee-33.png
   blurb:
 
 - name: Leenkiat Soh
-  title: Database Administrator
-  institution: University of Nebraska - Lincoln
+  title: "Database Administrator"
+  institution: "University of Nebraska - Lincoln"
   email: sigcse2016-database@bw.edu
   image: henry-small.png
   rotation: 0
   blurb:
 
 - name: S. Monisha Pulimood
-  title: Student Volunteers and Student Activities Wrangler
-  institution: The College of New Jersey
+  title: "Student Volunteers and Student Activities Wrangler"
+  institution: "The College of New Jersey"
   email: sigcse2016-volunteers@bw.edu
   image: committee-19.png
   blurb:
 
 - name: Sarah Heckman
-  title: Student Volunteers and Student Activities Wrangler
-  institution: North Carolina State University
+  title: "Student Volunteers and Student Activities Wrangler"
+  institution: "North Carolina State University"
   email: sigcse2016-volunteers@bw.edu
   image: committee-34.png
   blurb:
 
 - name: Sara Melnick
-  title: Student Volunteers and Student Activities Wrangler
-  institution: Bronx Academy for Software Engineering
+  title: "Student Volunteers and Student Activities Wrangler"
+  institution: "Bronx Academy for Software Engineering"
   email: sigcse2016-volunteers@bw.edu
   image: committee-29.png
   blurb:
 
-- name: Jill Pala
-  title: K-12 Liaison
-  institution: Girls Preparatory School, Chattanooga
+- name: Jill Pieritz
+  title: "K-12 Liaison"
+  institution: "Girls Preparatory School, Chattanooga"
   email: sigcse2016-k12@bw.edu
   image: rj-small.png
   rotation: 0
   blurb:
 
 - name: Matt Jadud
-  title: Webmaster
-  institution: Berea College
+  title: "Webmaster"
+  institution: "Berea College"
   email: sigcse2016-webmaster@bw.edu
   image: committee-26.png
   blurb:
 
 - name: Daryl Hepting
-  title: International Liaison
-  institution: University of Regina, Saskatchewan, CA
+  title: "International Liaison"
+  institution: "University of Regina, Saskatchewan, CA"
   email: sigcse2016-international@bw.edu
   image: paul-denny-small.png
   rotation: 0
   blurb:
 
 - name: Scott McElfresh
-  title: Treasurer
-  institution: Longwood University
+  title: "Treasurer"
+  institution: "Longwood University"
   email: sigcse2016-treasurer@bw.edu
   image: committee-24.png
   blurb:
 
 - name: Christine Moore
-  title: Publicity / Social Media
-  institution: College of Charleston
+  title: "Publicity / Social Media"
+  institution: "College of Charleston"
   email: sigcse2016-publicity@bw.edu
   image: committee-12.png
   blurb:
 
 - name: Ann Sobel
-  title: Student Research Competition Chair
-  institution: Miami University (Ohio)
+  title: "Student Research Competition Chair"
+  institution: "Miami University (Ohio)"
   email: sigcse2016-src@bw.edu
   image: sobel-small.png
   rotation: 0
   blurb:
 
 - name: Laine Agee
-  title: Local Arrangements
-  institution: White Station High School, Memphis
+  title: "Local Arrangements"
+  institution: "White Station High School, Memphis"
   email: sigcse2016-local@bw.edu
   image: committee-25.png
   blurb:
+
+- name: Madeleine Schep
+  title: "Accessibility Chair"
+  institution: "Columbia College"
+  email: sigcse2016-accessibility@bw.edu
+  image: none.png
+  blurb: 
