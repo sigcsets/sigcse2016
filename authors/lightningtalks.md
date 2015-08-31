@@ -52,9 +52,9 @@ reviews.)
 
 ### Sample Proposal
 
--   Lightning talk Proposal Example (PDF) - **COMING SOON**
+* [Sample proposal (PDF)]({{site.base}}/docs/sigcse-sample-lightning-talk.pdf)
 
--   Lightning talk Proposal Example (Word) - **COMING SOON**
+* [Sample proposal (Word)]({{site.base}}/docs/sigcse-sample-lightning-talk.docx)
 
 ## How Do I Submit My Proposal?
 
