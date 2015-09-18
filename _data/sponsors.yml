@@ -29,14 +29,14 @@ Silver:
     blurb: "Providing students with hands-on software experiences with the worlds' largest companies."
     image: teradata-350.png
     link: "http://www.teradatauniversitynetwork.com/"
-  - name: "ZyBooks"
-    blurb: "Animated interactive learning"
-    image: zybooks-350.png
-    link: "http://www.zyante.com/"
   - name: "Turing's Craft"
     blurb: "CodeLab: A Powerful Tool for Programming Instruction"
     image: turingscraft-350.png
     link: "http://www.turingscraft.com/"
+  - name: "ZyBooks"
+    blurb: "Animated interactive learning"
+    image: zybooks-350.png
+    link: "http://www.zyante.com/"
 
 Bronze:
   - name: ABET
