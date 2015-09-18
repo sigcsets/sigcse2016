@@ -1,17 +1,13 @@
 Platinum:
   - name: "Google, Inc."
-    image: google-350.png
+    image: google-new-350.png
     link: "https://www.google.com/"
 
-  - name: "Microsoft"
-    image: microsoft-350.png
-    link: "https://msdn.microsoft.com/en-us/imagine.aspx"
+#  - name: "Microsoft"
+#    image: microsoft-350.png
+#    link: "https://msdn.microsoft.com/en-us/imagine.aspx"
 
 Gold:
-  - name: ABET
-    blurb: "Assuring Quality • Stimulating Innovation"
-    image: abet.png
-    link: "http://www.abet.org/"
   - name: Oracle Academy
     image: oracle-academy-144.png
     blurb: "Hardware and Software, Engineered to Work Together"
@@ -25,20 +21,29 @@ Silver:
     blurb: ""
     image: gradescope-350.png
     link: "https://gradescope.com/"
-  - name: Piazza
-    blurb: ""
-    image: piazza-350.png
-    link: "https://piazza.com/"
+#  - name: Piazza
+#    blurb: ""
+#    image: piazza-350.png
+#    link: "https://piazza.com/"
   - name: Teradata University Network
     blurb: "Providing students with hands-on software experiences with the worlds' largest companies."
     image: teradata-350.png
     link: "http://www.teradatauniversitynetwork.com/"
-  - name: Zyante
+  - name: "ZyBooks"
     blurb: "Animated interactive learning"
     image: zybooks-350.png
     link: "http://www.zyante.com/"
-Bronze:
   - name: "Turing's Craft"
     blurb: "CodeLab: A Powerful Tool for Programming Instruction"
     image: turingscraft-350.png
     link: "http://www.turingscraft.com/"
+
+Bronze:
+  - name: ABET
+    blurb: "Assuring Quality • Stimulating Innovation"
+    image: abet.png
+    link: "http://www.abet.org/"
+  - name: "CodeHS"
+    blurb: "Learn to Code At School or Home"
+    image: "codehs.png"
+    link: "https://codehs.com/"

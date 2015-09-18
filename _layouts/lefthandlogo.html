@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+          <title>
+              {{site.data.main.upper}} {{site.data.main.year}} - {{page.title}}
+          </title>
+
+          {% include meta-tags.html %}
+          {% include favicon.html %}
+          {% include js-bottom.html %}
+          {% include css.html %}
+
+      </head>
+
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+</head>
+
+<body>
+
+    <!--Header-->
+   <div class="navbar navbar-default navbar-fixed-top">
+     <div class="container">
+       <div class="navbar-header">
+         <a href="{{site.base}}/" class="navbar-brand">{{site.data.main.upper}} {{site.data.main.year}}</a>
+         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+       </div>
+       <!-- START COLLAPSE -->
+       <div class="navbar-collapse collapse" id="navbar-main">
+         <ul class="nav navbar-nav">
+
+           <!-- AUTHORS -->
+           {% for topItem in site.data.nav %}
+            {% if topItem["dropdown"] %}
+              <li class = "dropdown">
+                <a class = "dropdown-toggle" data-toggle = "dropdown" href = "#" id = "{{topItem['title']}}" >
+                  {{topItem['title']}} <span class = "caret"</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="themes">
+                  {% for menuItem in topItem["links"] %}
+                    {% if menuItem["title"] == "DIVIDER" %}
+                      <li class = "divider"></li>
+                    {% elsif menuItem["title"] == "ALLSUBMISSIONS" %}
+                      {% for submission in site.data.cfp.master %}
+                        {% for sub in submission.types %}
+                            {% capture link %}<a href = "{{site.base}}/authors/{{sub.plural | remove: ' ' | downcase}}.html">{{sub.plural}}</a>{% endcapture %}
+                            {% capture entry %}{{link}}{% endcapture %}
+                            <li> {{entry}} </li>
+                        {% endfor %}
+                      {% endfor %}
+                    {% else %}
+                      <li> <a href = "{{site.base}}/{{menuItem['link']}}">{{menuItem['title']}}</a> </li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li> <a href = "{{site.base}}/{{menuItem['link']}}">{{menuItem['title']}}</a> </li>
+            {% endif %}
+           {% endfor %}
+
+
+
+         </ul>
+
+
+
+       </div> <!-- END COLLAPSE -->
+     </div>
+   </div>
+    <!-- /header -->
+
+    <div class = "row">
+      <div class = "col-md-2" style = "margin-top: 30px;">
+        <img src = "{{site.base}}/images/logo-2016-280.png">
+      </div>
+      <div class = "col-md-7" style = "margin-left: 20px;">
+        <div class = "row">
+        {% if page.showTitle == false %}
+          <p>&nbsp;</p>
+        {% else %}
+        <h1>{{page.title}}</h1>
+
+        {% endif %}
+      </div>
+      <div class = "row">
+        {{content}}
+      </div>
+    </div>
+  </div>
+
+
+    <footer class="footer">
+      <div class="container">
+        <!-- FAR RIGHT -->
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://www.sigcse.org/" target="_blank">SIGCSE</a></li>
+          <li><a href="https://www.acm.org/" target="_blank">ACM</a></li>
+        </ul>
+
+      </div>
+    </footer>
+
+  <!-- Google Tracking -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-51050043-2', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  <script type="text/javascript" src="{{site.base}}/js/slick.min.js"></script>
+  </body>
+</html>

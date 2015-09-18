@@ -1,112 +1,51 @@
 
+<div class = "row">
 <h1 class="text-center">Supporters: Sponsors and Exhibitors</h1>
-
-<p class="text-center">
-  <a href="{{site.base}}/supporters/">Get involved! Become a sponsor of SIGCSE
- {{site.data.main.year}}, or join us as an exhibitor!</a>
-</p>
 
 <p>
   The support of many excellent sponsors and exhibitors help make SIGCSE the amazing conference that it is.
 </p>
 <p>
-  <strong>Sponsors  make this conference possible</strong>. The best way to transform how we approach the teaching of computing is to bring people together to share best practices, be they design strategies for active learning or assessment strategies for education online. 
+  <strong>Sponsors  make this conference possible</strong>. The best way to transform how we approach the teaching of computing is to bring people together to share best practices, be they design strategies for active learning or assessment strategies for education online.
 </p>
 
 <p>
   <strong>Exhibitors are an essential part of the SIGCSE community</strong>. As we engage in questions of how best to bring computing to students around the world, exhibitors connect us to what resources exist for our students.
-</p> 
-  
+</p>
+</div>
 
 {% for category in site.data.sponsors %}
-<div class="row">
-  <div class="col-md-12">
-    <h1 class="text-center" style="text-shadow: 1px 1px 1px {{site.data.main.gold}};">{{category[0]}} Sponsors</h1>
+  <div class="row">
+      <h1 class="text-center" style="text-shadow: 1px 1px 1px {{site.data.main.gold}};">{{category[0]}} Sponsors</h1>
   </div>
-</div>
-{% assign rowcount = "" %}
-{% for sponsor in category[1] %}
-  {% assign mod = forloop.index0 | mod:2 %}
-  {% if (mod == 0) %}
-    <div class="row">
-  {% endif %}
-  <div class="col-md-4">
-	  <div class="thumbnail" style="padding-top: 40px;">
-      <h3 class="text-center" style="margin-top: -25px;">{{sponsor.name}}</h3>
-      <a href="{{sponsor.link}}">
-		    <img alt="{{sponsor.name}}" 
-             src="{{site.base}}/images/sponsors/{{sponsor.image}}" 
-             />
-      </a>
-      <br/>
-	  </div>
-  </div>
-  {% if mod == 0 and forloop.index0 != 0 %}
-    </div><div class="row">
-  {% endif %}
-{% endfor %}
-</div>
-{% endfor %}
+  {% assign mod = 0 %}
+  {% assign modulus = 3 %}
+  {% capture span %}{{ 12 | divided_by: modulus }}{% endcapture %}
+  {% capture subone %}{{modulus | minus: 1}}{% endcapture %}
+  <!-- SPAN: {{span}} SUBONE: {{subone}} -->
 
-<style type="text/css">
-#parent {display: table;}
+  {% for sponsor in category[1]  %}
+    {% capture mod %}{{ forloop.index0 | mod: modulus }}{% endcapture %}
+    {% if mod == '0' or forloop.first %}
+      <div class="row">
+    {% endif %}
 
-#child {
-    display: table-cell;
-    vertical-align: middle;
-}
-</style>
-
-
-<div class="row" style="margin-bottom: 30px; margin-top:30px;">
-  <div class="col-md-12 text-center" style="margin-bottom:10px;">
-    <h3>Partial Sponsors</h3>
-    <em>We thank the ACM-W and NCWIT for their partial support of the conference reception, and Vocareum for sponsoring desert.</em>
-  </div>
-  <div class="col-md-12" id="parent">
-    
-    <div class="col-md-4 text-center">
-      <img src="/images/sponsors/acmw-200.png">
+    <!-- SPONSOR: {{mod}} -->
+    <div class="col-md-{{span}}" >
+  	  <div class="thumbnail" style="border: 0px; padding-top: 40px;">
+        <h3 class="text-center" style="margin-top: -25px; color: black;">{{sponsor.name}}</h3>
+        <a href="{{sponsor.link}}">
+  		    <img alt="{{sponsor.name}}"
+               src="{{site.base}}/images/sponsors/{{sponsor.image}}"
+               />
+        </a>
+        <br/>
+  	  </div>
     </div>
-    <div class="col-md-4 text-center" id="child">
-      <img src="/images/sponsors/ncwit-100.png">
-    </div>
-    <div class="col-md-4 text-center">
-      <img src="/images/sponsors/vocareum-blue-200.png">
-    </div>
-    
-  </div>
-</div>
 
-
-<div class="row" style="margin-bottom: 30px;">
-
-<div class="row">
-  <div class="col-md-12">
-    <h1 class="text-center" style="text-shadow: 1px 1px 1px {{site.data.main.silver}};">Exhibitors</h1>
-    <p> 
-      We have many excellent exhibitors this year: both old friends who we love to see, and new faces who will bring new ideas and tools to the table.
-    </p>
-  </div>
-</div>
-  
-
-{% assign modulus = 3 %}
-{% capture span %}{{ 12 | divided_by: modulus }}{% endcapture %}
-{% capture subone %}{{modulus | minus: 1}}{% endcapture %}
-{% for ex in site.data.exhibitors  %}
-  {% capture mod %}{{ forloop.index0 | mod: modulus }}{% endcapture %}
-  {% if mod == '0' or forloop.first %}
-    <div class="row" style="margin-top: 20px; margin-left: 30px;">
-  {% endif %}
-  
-  <div class="col-md-{{span}}">
-    {% icon heart-o %} {{ex}}
-  </div>
-  
-  {% if mod == subone or forloop.last %}
+    {% if mod == subone or forloop.last %}
     </div> <!-- end row -->
-  {% endif %}
-  
+    {% endif %}
+
+  {% endfor %}
 {% endfor %}
-</div>

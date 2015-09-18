@@ -10,4 +10,4 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      layout: "flat" # was "base"
+      layout: "lefthandlogo" # was "base"
