@@ -4,7 +4,7 @@ showTitle: false
 ---
 
 <div class = "row">
-  <div class = "col-md-10 center">
+  <div class = "col-md-10 center" style="padding-right: 30px;">
     <div class = "row">
       <h1 >
         {{page.title}} - {{site.data.main.month}} {{site.data.main.start}} - {{site.data.main.end}}
@@ -13,63 +13,34 @@ showTitle: false
       <p class="lead">Follow us on <a href="{{site.data.social.twitter}}">Twitter</a> and <a href="{{site.data.social.facebook}}">Facebook</a>!</p>
     </div>
 
-    <div class = "row"> <!-- Four Blocks -->
-      <div class = "row"> <!-- Top Row -->
-
-        <div class = "col-md-5">
-          <h3 class = "text-center">Contribute</h3>
-          <br>
-          <ul>
-            {% for submission in site.data.cfp.master %}
-              {% for sub in submission.types %}
-                  {% capture link %}<a href = "{{site.base}}/authors/{{sub.plural | remove: ' ' | downcase}}.html">{{sub.plural}}</a>{% endcapture %}
-                  {% capture entry %}{{link}}{% endcapture %}
-                  <li> {{entry}} </li>
-              {% endfor %}
+    <div class = "row"> <!-- Three Blocks -->
+      <div class = "col-md-5">
+        <h3 class = "text-center">Contribute</h3>
+        <br>
+        <ul>
+          {% for submission in site.data.cfp.master %}
+            {% for sub in submission.types %}
+                {% capture link %}<a href = "{{site.base}}/authors/{{sub.plural | remove: ' ' | downcase}}.html">{{sub.plural}}</a>{% endcapture %}
+                {% capture entry %}{{link}}{% endcapture %}
+                <li> {{entry}} </li>
             {% endfor %}
-          </ul>
-        </div>
+          {% endfor %}
+        </ul>
+      </div>
 
-        <div class = "col-md-5">
-          <h3 class = "text-center">Sponsors and Exhibitors</h3>
-          <br>
-          <div class = "row text-center">
-            <a href = "{{site.base}}/docs/sigcse2016-prospectus.pdf">
-              <img alt = " " src = "{{site.base}}/images/logos/engage-empower-prospectus-splash.png">
-            </a>
-          </div>
-          <div class = "row text-center" style = "padding: 20px;">
-            <h5>
-              <a href = "{{site.base}}/docs/sigcse2016-prospectus.pdf">The Prospectus</a>
-            </h5>
-            For Sponsors and Exhibitors
-          </div>
-        </div>
-      </div> <!-- End Top Row -->
+    <div class = "col-md-5">
+      <h3 class = "text-center">Attend<br>SIGCSE {{site.data.main.year}}</h3>
+      <br>
 
-      <div class = "row"> <!-- Bottom row -->
-        <div class = "col-md-5">
-          <h3 class = "text-center">Attend SIGCSE {{site.data.main.year}}</h3>
-          <br>
+      <ul>
+        <li> <a href = "{{site.base}}/attendees/hotel.html">Hotel, Airport, and Ground Transportation</a> </li>
+        <li> <a href = "{{site.base}}/attendees/travelgrants.html">Travel Grants</a></li>
+        <li> <span style = "color: #CCC">Conference Registration</span> </li>
+        <li> <span style = "color: #CCC">The Program</span> </li>
+      </ul>
+    </div> <!-- End Row -->
 
-          <ul>
-            <li> <a href = "{{site.base}}/attendees/hotel.html">Hotel, Airport, and Ground Transportation</a> </li>
-            <li> <span style = "color: #CCC">Conference Registration</span> </li>
-            <li> <span style = "color: #CCC">The Program</span> </li>
-          </ul>
-
-        </div>
-
-        <div class = "col-md-5">
-          <h3 class = "text-center">Your Committees</h3>
-          <br>
-            <ul>
-              <li> <a href = "{{site.base}}/committee/index.html">Program Commitee</a> </li>
-              <li> <span style = "color: #CCC">International Committee</span> </li>
-        </div>
-      </div> <!-- End Bottom Row -->
-
-    </div> <!-- End 4 Blocks -->
+    </div> <!-- End 3 Blocks -->
 
   <!-- SPONSORS -->
 
@@ -108,7 +79,7 @@ showTitle: false
 
 
     <div class = "row"> <!-- Scrolling Pictures -->
-      <div class="indexpictures">
+      <div class="indexpictures" style="margin-left: 20px;">
         <div><img src = "images/memphis/memphis-2-200.png"  width = 200 height = 400></div>
         <div><img src = "images/memphis/memphis-8-200.png"  width = 200 height = 400></div>
         <div><img src = "images/memphis/memphis-15-200.png"  width = 200 height = 400></div>
@@ -152,38 +123,3 @@ var conference = countdown (new Date (), new Date ("{{site.data.main.startdatest
 $("#conferencecountdown").html (conference.toString() + $("#conferencecountdown").html() + " " );
 </script>
 
-<!--
-<div class = "row"> &nbsp; </div>
-
-<div class = "row">
-
-  <div class = "col-md-3 col-md-offset-3">
-    <div class = "row">
-      <a href = "{{site.base}}/docs/sigcse2016-cfp.pdf">
-        <img alt = " " src = "{{site.base}}/images/logo-2016-280.png">
-      </a>
-    </div>
-    <div class = "row text-center" style = "padding: 20px;">
-      <h5>
-        <a href = "{{site.base}}/docs/sigcse2016-cfp.pdf">Call For Papers</a>
-      </h5>
-      For Authors and Presenters
-    </div>
-  </div>
-
-  <div class = "col-md-3 col-md-offset-1">
-    <div class = "row">
-      <a href = "{{site.base}}/docs/sigcse2016-prospectus.pdf">
-        <img alt = " " src = "{{site.base}}/images/engage-empower-energize-284.png">
-      </a>
-    </div>
-    <div class = "row text-center" style = "padding: 20px;">
-      <h5>
-        <a href = "{{site.base}}/docs/sigcse2016-prospectus.pdf">The Prospectus</a>
-      </h5>
-      For Sponsors and Exhibitors
-    </div>
-  </div>
-
-</div>
--->

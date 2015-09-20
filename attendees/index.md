@@ -8,6 +8,7 @@ showTitle: true
 <p>Everything you need for:
   <ul>
     <li> <a href="#registering">registering for SIGCSE</a>, </li>
+    <li> <a href="travelgrants.html">applying for a travel grant from SIGCSE,</a></li>
     <li> <a href="#reserving">reserving a room</a>,</li>
     <li> figuring out <a href="#travel">how to travel to {{site.data.main.conferencecity}}</a>, and</li>
     <li> <a href="#stufftodo">what to do once you are there</a></li>
@@ -122,6 +123,8 @@ A link for symposium registration will be made available here when the registrat
 {% endcallout %}
 {% endif %}
 
+
+<a name="travelgrants"></a>
 
 <a name="reserving"></a>
 
