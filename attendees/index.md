@@ -3,6 +3,13 @@ title: For Attendees
 showTitle: true
 ---
 
+{% comment %}
+
+ATTENTION: FOR SOME REASON, THIS PAGE IS NOT WHAT IS BEING USED AS THE MAIN LANDING PAGES FOR THIS SECTION. THAT NEEDS TO BE FIXED, BUT CAREFULLY... IN CASE I DID SOMETHING DUMB.
+
+
+{% endcomment %}
+
 <div class="row" style="margin-top: 20px; margin-bottom: 20px;">
 {% callout info %}
 <p>Everything you need for:
