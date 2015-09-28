@@ -10,7 +10,7 @@ showTitle: true
     <li> <a href="#registering">registering for SIGCSE</a>, </li>
     <li> <a href="travelgrants.html">applying for a travel grant from SIGCSE,</a></li>
     <li> <a href="#reserving">reserving a room</a>,</li>
-    <li> <a href="#find-a-roommate">Roommate Database</a></li>
+    <li> <a href="#roommatedb">finding a roommate in the roommate database</a>,</li>
     <li> figuring out <a href="#travel">how to travel to {{site.data.main.conferenceCity}}</a>, and</li>
     <li> <a href="#stufftodo">what to do once you are there</a></li>
   </ul>
@@ -168,6 +168,8 @@ We are at the {{site.data.main.conferenceHotel}} in {{site.data.main.conferenceC
 </div>
 
 <a name="travel"></a>
+
+<span class="anchor" id = "roommatedb"></span>
 
 ## Find a Roommate!
 
