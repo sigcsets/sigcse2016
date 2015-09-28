@@ -66,8 +66,8 @@ master:
     link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+Pre-Symposum+Deadline&iso=20150928T235959&p1=1033"
     track: false
     types:
-      - plural: Pre-Symposium Events
-        singular: Pre-Symposium Event
+      - plural: Pre-Symposium and Affiliated Events
+        singular: Pre-Symposium and Affiliated Event
         include: presymposium
 
   - date: "Friday, October 23rd, 2015"
@@ -136,7 +136,7 @@ details:
     abstract: "800 characters"
     length: "2 hours (poster session)"
     specialsubmission: true
-  Pre-Symposium Events:
+  Pre-Symposium and Affiliated Events:
     limits: "Request to host event at Convention Center"
     length: "Varies"
     specialsubmission: true

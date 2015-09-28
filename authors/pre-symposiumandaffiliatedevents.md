@@ -1,9 +1,9 @@
 ---
-title: Pre-Symposium Events
+title: Pre-Symposium and Affiliated Events
 showTitle: true
 ---
 
-{% include submissiondetails.html plural="Pre-Symposium Events" %}
+{% include submissiondetails.html plural="Pre-Symposium and Affiliated Events" %}
 
 
 ## Interested in organizing a special event at {{site.data.main.upper}}?  

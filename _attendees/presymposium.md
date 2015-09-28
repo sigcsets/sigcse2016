@@ -1,5 +1,5 @@
 ---
-title: Pre-Symposium Events
+title: Pre-Symposium and Affiliated Events
 showTitle: true
 ---
 
