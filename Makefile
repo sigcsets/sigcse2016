@@ -8,12 +8,12 @@ local:
 
 staging: buildstaging
 	rsync -vrz \
-		-e "ssh -p 7822" _site/ \
+		-e "ssh -p 7822 -i /Users/jadudm/.ssh/big-mac-berea" _site/ \
 		sigcse@sigcse.hosting.acm.org:/home/sigcse/www/sigcse2016/.staging
 
 remote: build
 	rsync -vrz \
-		-e "ssh -p 7822" _site/ \
+		-e "ssh -p 7822 -i /Users/jadudm/.ssh/big-mac-berea" _site/ \
 		sigcse@sigcse.hosting.acm.org:/home/sigcse/www/sigcse2016
 
 both: staging remote

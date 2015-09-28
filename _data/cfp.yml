@@ -2,11 +2,11 @@ submissionopen: "false"
 submissionurl: "https://www.openconf.org/sigcse2016/"
 track1open: true
 track1url: https://www.openconf.org/sigcse2016/track1/openconf.php
-track2open: false
-track2url: https://en.wikipedia.org/wiki/HTTP_404
+track2open: true
+track2url: https://www.openconf.org/sigcse2016/track2/openconf.php
 
-track1: "2015-08-28T00:00:00"
-track2: "2015-10-23T00:00:00"
+track1: "2015-08-28T00:23:59"
+track2: "2015-10-23T00:23:59"
 
 presymposiumdates: "Wednesday, March 2nd, 2016"
 presymposiumformurl: "docs/sigcse-pre-symposium-events.docx"
@@ -70,7 +70,7 @@ master:
         singular: Pre-Symposium Event
         include: presymposium
 
-  - date: "Monday, October 23rd, 2015"
+  - date: "Friday, October 23rd, 2015"
     shortdate: "2015-10-23"
     time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
     notification: "Tuesday, November 17th, 2015"
