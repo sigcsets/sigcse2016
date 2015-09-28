@@ -1,6 +1,6 @@
 submissionopen: "false"
 submissionurl: "https://www.openconf.org/sigcse2016/"
-track1open: false
+track1open: true
 track1url: https://www.openconf.org/sigcse2016/track1/openconf.php
 track2open: true
 track2url: https://www.openconf.org/sigcse2016/track2/openconf.php
