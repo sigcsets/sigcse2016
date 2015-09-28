@@ -33,9 +33,9 @@ showTitle: false
       <br>
 
       <ul>
-        <li> <a href = "{{site.base}}/attendees/hotel.html">Hotel, Airport, and Ground Transportation</a> </li>
+        <li> <a href = "{{site.base}}/attendees/index.html">Hotel, Airport, and Ground Transportation</a> </li>
         <li> <a href = "{{site.base}}/attendees/travelgrants.html">Travel Grants</a></li>
-        <li> <a href = "{{site.base}}/attendees/hotel.html#find-a-roommate">Roommate Database</a></li>
+        <li> <a href = "{{site.base}}/attendees/index.html#find-a-roommate">Roommate Database</a></li>
         <li> <span style = "color: #CCC">Conference Registration</span> </li>
         <li> <span style = "color: #CCC">The Program</span> </li>
       </ul>
@@ -118,7 +118,7 @@ $(document).ready(function(){
 $("#track1countdown").html("Papers due the 28th of August!");
 
 var track2 = countdown (new Date (), new Date ("{{site.data.cfp.track2}}"), countdown.DAYS);
-$("#track2countdown").html (track2.toString() + " until " + $("#track2countdown").html() + " submissions are due.");
+$("#track2countdown").html (track2.toString() + " until " + $("#track2countdown").html() + " submissions are due; <b>Friday, October 23rd</b>, 2015, 23:59, in Pago Pago.");
 
 var conference = countdown (new Date (), new Date ("{{site.data.main.startdatestring}}"), countdown.DAYS);
 $("#conferencecountdown").html (conference.toString() + $("#conferencecountdown").html() + " " );

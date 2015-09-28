@@ -3,6 +3,13 @@ title: For Attendees
 showTitle: true
 ---
 
+{% comment %}
+
+ATTENTION: FOR SOME REASON, THIS PAGE IS NOT WHAT IS BEING USED AS THE MAIN LANDING PAGES FOR THIS SECTION. THAT NEEDS TO BE FIXED, BUT CAREFULLY... IN CASE I DID SOMETHING DUMB.
+
+
+{% endcomment %}
+
 <div class="row" style="margin-top: 20px; margin-bottom: 20px;">
 {% callout info %}
 <p>Everything you need for:
@@ -10,8 +17,7 @@ showTitle: true
     <li> <a href="#registering">registering for SIGCSE</a>, </li>
     <li> <a href="travelgrants.html">applying for a travel grant from SIGCSE,</a></li>
     <li> <a href="#reserving">reserving a room</a>,</li>
-    <li> <a href="#find-a-roommate">Roommate Database</a></li>
-    <li> figuring out <a href="#travel">how to travel to {{site.data.main.conferenceCity}}</a>, and</li>
+    <li> figuring out <a href="#travel">how to travel to {{site.data.main.conferencecity}}</a>, and</li>
     <li> <a href="#stufftodo">what to do once you are there</a></li>
   </ul>
   is on this page.
@@ -120,10 +126,12 @@ Note that it could take some time for your request to be honored; leave plenty o
 </div>
 {% else %}
 {% callout info %}
-A link for registration will be made available here when we finish dusting off the ol' PDP-11 that's been running things since 1971. Just replacing a few tubes, and we'll be ready to go...
+A link for symposium registration will be made available here when the registration system wakes up from its annual slumber. We're cranking up the dynamos now.
 {% endcallout %}
 {% endif %}
 
+
+<a name="travelgrants"></a>
 
 <a name="reserving"></a>
 
@@ -133,23 +141,11 @@ A link for registration will be made available here when we finish dusting off t
 <div class="row">
   <div class="col-md-8">
 <p>
-We are at the {{site.data.main.conferenceHotel}} in {{site.data.main.conferenceCity}}. You can <a href="{{site.data.main.bookingURL}}">reserve your room now</a>; don't wait!
+We are at the {{site.data.main.conferenceHotel}} in {{site.data.main.conferenceCity}}. You can register your room now; don't wait!
 
 </p>
 
 <p><b>The conference rate is {{site.data.main.hotelrate}} plus tax per night.</b></p>
-
-
-<ul>
-<li> <b>Sheraton Memphis Downtown Hotel</b> (<a href="{{site.data.main.bookingURL}}">reservations</a>)
-  <br>
-  Deadline: {{site.data.main.hotelguaranteedate}}
-  <br>
-  250 North Main Street, Memphis,Tennessee 38103
-  <br>
-  Phone: <a href="tel:+1-901-527-7300">+1-901-522-2200</a>
-</li>
-</ul>
 
 <p>So <a href="{{site.data.main.bookingURL}}">go reserve your room now</a>. Conference room rates are guaranteed until {{site.data.main.hotelguaranteedate}}.  Please make your reservations before that date to ensure the SIGCSE rate.</p>
 
@@ -215,7 +211,7 @@ Once we fill the conference hotel (it is best if we do!), these are some (relati
 
 <h3>Ground Transportation</h3>
 
-Information on this critical part of your journey is forthcoming. Invariably, there are taxis, and shuttles, and we'll probably have a discount code of some sort. It's just not ready for posting, yet.
+Information on this critical part of your journey is forthcoming.
 
 
 <a name="stufftodo"></a>

@@ -41,9 +41,9 @@
   title: "Attendees"
   links:
     - title: "Air Travel"
-      link: "attendees/hotel.html"
+      link: "attendees/index.html"
     - title: "Hotel Information"
-      link: "attendees/hotel.html"
+      link: "attendees/index.html"
 
 - dropdown: true
   title: "Committees"
