@@ -3,7 +3,7 @@
 
 <div class = "row">
 
-<h1 class="text-center">Supporters: Sponsors and Exhibitors</h1>
+<h2 class="text-center">Supporters: Sponsors and Exhibitors</h1>
 
 <p>
   The support of many excellent sponsors and exhibitors help make SIGCSE the amazing conference that it is.
@@ -56,3 +56,28 @@
 
   {% endfor %}
 {% endfor %}
+
+
+<div class = "row">
+
+<h2 class="text-center">Exhibitors</h1>
+
+{% assign modulus = 3 %}
+{% capture span %}{{ 12 | divided_by: modulus }}{% endcapture %}
+{% capture subone %}{{modulus | minus: 1}}{% endcapture %}
+{% for ex in site.data.exhibitors  %}
+  {% capture mod %}{{ forloop.index0 | mod: modulus }}{% endcapture %}
+  {% if mod == '0' or forloop.first %}
+    <div class="row" style="margin-top: 20px; margin-left: 30px;">
+  {% endif %}
+  
+  <div class="col-md-{{span}}">
+    {% icon heart-o %} {{ex}}
+  </div>
+  
+  {% if mod == subone or forloop.last %}
+    </div> <!-- end row -->
+  {% endif %}
+  
+{% endfor %}
+</div>
