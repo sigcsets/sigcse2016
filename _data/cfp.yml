@@ -47,9 +47,9 @@ master:
   - date: "Monday, September 28th, 2015"
     shortdate: "2015-09-28"
     time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
-    notification: "TBA"
+    notification: "Monday, November 2nd, 2015"
     updates:
-    cameraready: "TBA"
+    cameraready: "Wednesday, December 9th, 2015"
     link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+SRC+Deadline&iso=20150928T235959&p1=1033"
     track: false
     types:
