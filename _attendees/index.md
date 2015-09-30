@@ -109,12 +109,19 @@ Note that it could take some time for your request to be honored; leave plenty o
 </div>
 
 
+{% if site.data.main.isregistrationopen %}
 <div class="text-center">
   <hr>
 <h3><a href="{{site.data.main.registrationurl}}">The Registration Link</a></h3>
 <hr>
 </div>
-
+{% else %}
+<div class = "text-center">
+  <hr>
+  <h3>SIGCSE registration will open soon!</h3>
+  <hr>
+</div>
+{% endif %}
 
 <a name="reserving"></a>
 

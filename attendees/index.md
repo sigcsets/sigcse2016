@@ -28,9 +28,23 @@ showTitle: true
 </div>
 
 
-{{site.data.main.upper}} {{site.data.main.year}} takes place between {{site.data.main.month}} {{site.data.main.start}} and {{site.data.main.month}} {{site.data.main.end}} of {{site.data.main.year}}. [Register now!]({{site.data.main.registrationurl}})
+{{site.data.main.upper}} {{site.data.main.year}} takes place between {{site.data.main.month}} {{site.data.main.start}} and {{site.data.main.month}} {{site.data.main.end}} of {{site.data.main.year}}. 
 
 As always, we encourage attendees to register early. This helps us with our planning, and in return, you get lower registration rates!
+
+{% if site.data.main.isregistrationopen %}
+<div class="text-center">
+<hr>
+<h3><a href="{{site.data.main.registrationurl}}">Register now!</a></h3>
+<hr>
+</div>
+{% else %}
+<div class="text-center">
+  <hr>
+  Registration will open soon!
+  <hr>
+</div>
+{% endif %}
 
 Also, it is <b>less expensive to join ACM SIGCSE and register for the conference as a regular member than to register as a regular non-member</b>. Joining SIGCSE is {{site.data.main.sigcsemembershipcost}} for professionals and {{site.data.main.sigcsestudentmembershipcost}} for students, and rates for regular member attendees are at least $75 less than regular nonmember attendees at all times. Furthermore, by joining you gain access to an incredible global network of dedicated professionals and educators who are part of the SIGCSE community, so it is a double benefit to join the world’s premier professional computer science education organization!
 

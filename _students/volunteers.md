@@ -20,9 +20,15 @@ volunteer hours.
 **SEPARATELY** register as a volunteer with the student volunteering
 team.
 
+{% if site.data.main.isregistrationopen %}
 <div class="text-center">
 <h3><a href="{{site.data.students.registrationurl}}">Register to Volunteer Here</a></h3>
 </div>
+{% else %}
+<div class="text-center">
+  <em>You can register when site-wide registration goes live.</em>
+</div>
+{% endif %}
 
 {% callout warning %}
 Please note that while in previous years we have been able to accept everyone who registered, and often anyone who was interested, we cannot guarantee that this is the case every year.  Please try to register as early as possible, and please make sure to provide your availability.
