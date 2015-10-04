@@ -21,10 +21,10 @@ Silver:
     blurb: ""
     image: gradescope-350.png
     link: "https://gradescope.com/"
-#  - name: Piazza
-#    blurb: ""
-#    image: piazza-350.png
-#    link: "https://piazza.com/"
+  - name: Piazza
+    blurb: ""
+    image: piazza-350.png
+    link: "https://piazza.com/"
   - name: Teradata University Network
     blurb: "Providing students with hands-on software experiences with the worlds' largest companies."
     image: teradata-350.png
@@ -33,6 +33,10 @@ Silver:
     blurb: "CodeLab: A Powerful Tool for Programming Instruction"
     image: turingscraft-350.png
     link: "http://www.turingscraft.com/"
+  - name: "Vocareum, Inc"
+    blurb: ""
+    image: vocareum-blue-350.png
+    link: "https://www.vocareum.com/"
   - name: "ZyBooks"
     blurb: "Animated interactive learning"
     image: zybooks-350.png
