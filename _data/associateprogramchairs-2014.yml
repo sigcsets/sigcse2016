@@ -1,0 +1,49 @@
+- name: "Eric Aaron"
+  institution: "Vasar College"
+  email: "eaaron@cs.vassar.edu"
+
+- name: "Don Blaheta"
+  institution: "Longwood University"
+  email: "blahetadp@longwood.edu"
+
+- name: "Alistair Campbell"
+  institution: "Hamilton College"
+  email: "acampbel@hamilton.edu"
+
+- name: "Steve Cooper"
+  institution: "Stanford University"
+  email: "coopers@stanford.edu"
+
+- name: "Adrienne Decker"
+  institution: "Rochester Institute of Technology"
+  email: "adrienne.decker@rit.edu"
+
+- name: "David Levine"
+  institution: "St. Bonaventure University"
+  email: "dlevine@sbu.edu"
+
+- name: "Robert McCartney"
+  institution: "University of Connecticut"
+  email: "robert@engr.uconn.edu"
+
+- name: "Samuel Rebelsky"
+  institution: "Grinnell College"
+  email: "rebelsky@grinnell.edu"
+
+- name: "Brad Richards"
+  institution: "Puget Sound"
+  email: "brichards@pugetsound.edu"
+
+- name: "Jaime Spacco"
+  institution: "Knox College"
+  email: "jspacco@knox.edu"
+
+- name: "Tammy VanDeGrift"
+  institution: "University of Portland"
+  email: "vandegri@up.edu"
+
+- name: "Ellen L. Walker"
+  institution: "Hiram College"
+  email: "walkerel@hiram.edu"
+
+

@@ -1,0 +1,67 @@
+- name: "Reyyan Ayfer"
+  institution: "Bilkent University, Turkey"
+  email: ayfer@bilkent.edu.tr
+
+- name: "Karen Bradshaw"
+  institution: "Rhodes University, South Africa"
+  email: k.bradshaw@ru.ac.za
+
+- name: "Paul Denny"
+  institution: "The University of Auckland, New Zealand"
+  email: paul@cs.auckland.ac.nz
+
+- name: "Orit Hazzan"
+  institution: "Technion - IIT, Israel"
+  email: oritha@technion.ac.il
+
+- name: "Fredrik Heintz"
+  institution: "Linköping University, Sweden"
+  email: fredrik.heintz@liu.se
+
+- name: "Jeisson Hidalgo-Céspedes"
+  institution: "University of Costa Rica, Costa Rica"
+  email: jeisson.hidalgo@ucr.ac.cr
+
+- name: "Meriel Huggard"
+  institution: "Trinity College Dublin, Ireland"
+  email: huggardm@scss.tcd.ie
+
+- name: "Ville Isomottonen"
+  institution: "University of Jyvaskyla, Finland"
+  email: ville.isomottonen@jyu.fi
+
+- name: "Sridhar Iyer"
+  institution: "Indian Institute of Technology Bombay, India"
+  email: sri@iitb.ac.in
+
+- name: "Janet Lin"
+  institution: "National Taiwan Normal University, Taiwan"
+  email: mjlin@ntnu.edu.tw
+
+- name: "Chris McDonald"
+  institution: "University of Western Australia, Australia"
+  email: chris.mcdonald@uwa.edu.au
+
+- name: "Ian Sanders"
+  institution: "University of South Africa, South Africa"
+  email: sandeid@unisa.ac.za
+
+- name: "Clarisse Sieckenius de Souza"
+  institution: "PUC-Rio, Brazil"
+  email: clarisse@inf.puc-rio.br
+
+- name: "Claudia Szabo"
+  institution: "The University of Adelaide, Australia"
+  email: claudia.szabo@adelaide.edu.au
+
+- name: "Gary Wong"
+  institution: "The Hong Kong Institute of Education, Hong Kong"
+  email: wongkawai@ied.edu.hk
+
+- name: "Mark Zarb"
+  institution: "University of Dundee, Scotland"
+  email: markzarb@computing.dundee.ac.uk
+
+- name: "Ming Zhang"
+  institution: "Peking University, China"
+  email: mzhang_cs@pku.edu.cn

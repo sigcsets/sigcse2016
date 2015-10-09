@@ -50,5 +50,7 @@
   links:
     - title: "Program Committee"
       link: "committee/index.html"
-    #- title: "International Committee"
-    #  link: "committee/international.html"
+    - title: "International Committee"
+      link: "committee/international.html"
+    - title: "Associate Program Chairs"
+      link: "committee/associatepcs.html"

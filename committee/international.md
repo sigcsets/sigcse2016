@@ -30,8 +30,9 @@ SIGCSE is an international organization made up of dedicated students, educators
 <div class="col-md-4">
 	<div class="thumbnail" style="padding-top: 0px;">
 		<div class="caption">
-			<h3>
-				<span class="label label-danger">{{letter[forloop.index]}}</span> {{member.name}}
+      <h3>
+				<!-- <span class="label label-danger">{{letter[forloop.index]}}</span> -->
+        {{member.name}}
 			</h3>
 			<p>
         {{member.institution}} <br/>
