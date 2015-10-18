@@ -38,9 +38,9 @@ The abstract is the description of the BOF that will appear on the conference we
 
 ### Sample Proposal
 
-* BOF Proposal Example (PDF) - **COMING SOON**
+* [Sample proposal (PDF)]({{site.base}}/docs/sigcse-sample-bof.pdf)
 
-* BOF Proposal Example (Word) - **COMING SOON**
+* [Sample proposal (Word)]({{site.base}}/docs/sigcse-sample-bof.doc)
 
 ## How Do I Submit My Proposal?
 
