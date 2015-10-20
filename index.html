@@ -10,7 +10,8 @@ showTitle: false
         {{page.title}} - {{site.data.main.month}} {{site.data.main.start}} - {{site.data.main.end}}
                   <br><small>Memphis, Tennessee</small>
       </h1>
-      <p class="lead">Follow us on <a href="{{site.data.social.twitter}}">Twitter</a> and <a href="{{site.data.social.facebook}}">Facebook</a>!</p>
+      <p class="lead">The <a href="{{site.base}}/docs/SIGCSE2016-Preliminary-Program.pdf">Preliminary Program</a> is now available!</p>
+      <p class="lead" style = "font-size: smaller; margin-top: -20px;">Follow us on <a href="{{site.data.social.twitter}}">Twitter</a> and <a href="{{site.data.social.facebook}}">Facebook</a>!</p>
     </div>
 
     <div class = "row"> <!-- Three Blocks -->
@@ -36,9 +37,7 @@ showTitle: false
         <li> <a href = "{{site.base}}/attendees/index.html">Hotel, Airport, and Ground Transportation</a> </li>
         <li> <a href = "{{site.base}}/attendees/travelgrants.html">Travel Grants</a></li>
         <li> <a href = "{{site.base}}/attendees/index.html#roommatedb">Roommate Database</a></li>
-        <!--
-        <li> <a href="{{site.base}}/docs/SIGCSE2016-Preliminary-Program.pdf">The Preliminary Program</a></li>
-      -->
+        <li> <a href = "{{site.base}}/docs/SIGCSE2016-Preliminary-Program.pdf">The Preliminary Program</a></li>
         <li> <span style = "color: #CCC">Conference Registration</span> </li>
 
       </ul>
@@ -120,8 +119,9 @@ $(document).ready(function(){
 
 $("#track1countdown").html("Papers due the 28th of August!");
 
-var track2 = countdown (new Date (), new Date ("{{site.data.cfp.track2}}"), countdown.DAYS);
-$("#track2countdown").html (track2.toString() + " until " + $("#track2countdown").html() + " submissions are due; <b>Friday, October 23rd</b>, 2015, 23:59, in Pago Pago.");
+// var track2 = countdown (new Date (), new Date ("{{site.data.cfp.track2}}"), countdown.DAYS);
+// $("#track2countdown").html (track2.toString() + " until " + $("#track2countdown").html() + " submissions are due; <b>Friday, October 23rd</b>, 2015, 23:59, in Pago Pago.");
+$("#track2countdown").html ("BOF, Poster, LT, and Demos are due <b>Friday, October 23rd</b>!");
 
 var conference = countdown (new Date (), new Date ("{{site.data.main.startdatestring}}"), countdown.DAYS);
 $("#conferencecountdown").html (conference.toString() + $("#conferencecountdown").html() + " " );

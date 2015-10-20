@@ -13,7 +13,7 @@ startdatestring: "2016-03-04T00:00:00"
 bookingURL: https://goo.gl/RI93kE
 bookingStart: 3rd
 bookingEnd: 7th
-conferenceCity: Memphis, Tennessee
+conferenceCity: "Memphis, Tennessee"
 conferenceHotel: Sheraton Memphis Downtown Hotel
 hotelrate: "$141"
 hotelguaranteedate: "January 30th, 2016"

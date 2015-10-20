@@ -44,6 +44,9 @@
       link: "attendees/index.html"
     - title: "Hotel Information"
       link: "attendees/index.html"
+    - title: "DIVIDER"
+    - title: "Preliminary Program"
+      link: "docs/SIGCSE2016-Preliminary-Program.pdf"
 
 - dropdown: true
   title: "Committees"
