@@ -1,48 +1,49 @@
 - name: "Eric Aaron"
-  institution: "Vassar College"
-  email: eaaron@cs.vassar.edu
-
-- name: "Ruth Anderson"
-  institution: "University of Washington"
-  email: rea@cs.washington.edu
+  institution: "Vasar College"
+  email: "eaaron@cs.vassar.edu"
 
 - name: "Don Blaheta"
   institution: "Longwood University"
-  email: blahetadp@longwood.edu
+  email: "blahetadp@longwood.edu"
 
 - name: "Alistair Campbell"
   institution: "Hamilton College"
-  email: acampbel@hamilton.edu
+  email: "acampbel@hamilton.edu"
 
-- name: "Stephen Edwards"
-  institution: "Virginia Tech"
-  email: edwards@cs.vt.edu
+- name: "Steve Cooper"
+  institution: "Stanford University"
+  email: "coopers@stanford.edu"
 
-- name: "Mary Anne Egan"
-  institution: "Siena College"
-  email: maegan@siena.edu
+- name: "Adrienne Decker"
+  institution: "Rochester Institute of Technology"
+  email: "adrienne.decker@rit.edu"
 
-- name: "Dave Levine"
-  institution: "St Bonaventure University"
-  email: DLEVINE@sbu.edu
+- name: "David Levine"
+  institution: "St. Bonaventure University"
+  email: "dlevine@sbu.edu"
 
-- name: "Sam Rebelsky"
+- name: "Robert McCartney"
+  institution: "University of Connecticut"
+  email: "robert@engr.uconn.edu"
+
+- name: "Samuel Rebelsky"
   institution: "Grinnell College"
-  email: rebelsky@grinnell.edu
+  email: "rebelsky@grinnell.edu"
 
 - name: "Brad Richards"
   institution: "Puget Sound"
-  email: brichards@pugetsound.edu
+  email: "brichards@pugetsound.edu"
 
-- name: "Tammy Vandegrift"
+- name: "Jaime Spacco"
+  institution: "Knox College"
+  email: "jspacco@knox.edu"
+
+- name: "Tammy VanDeGrift"
   institution: "University of Portland"
-  email: vandergri@up.edu
+  email: "vandegri@up.edu"
 
-- name: "Ellen Walker"
+- name: "Ellen L. Walker"
   institution: "Hiram College"
-  email: walkerel@hiram.edu
+  email: "walkerel@hiram.edu"
 
-- name: "Steve Wolfman"
-  institution: "Univesity of British Columbia"
-  email: wolf@CS.ubc.ca
 
