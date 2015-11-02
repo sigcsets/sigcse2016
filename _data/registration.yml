@@ -16,14 +16,14 @@ rates:
 
 deadlines:
   - category: "Early"
-    date: "TBA"
-  - category: "Late"
-    date: "TBA"
+    date: "Closes Monday, February 1st, 2016"
+#  - category: "Late"
+#    date: "TBA"
   - category: "ONLINE REGISTRATION CLOSES"
     alert: "alert alert-warning"
-    date: "TBA"
+    date: "Monday, February 22nd, 2016"
   - category: "On-site"
-    date: "TBA"
+    date: "Rates take effect Monday, February 23rd, 2016; register at SIGCSE"
 
 #deadlines:
 #  - category: "Early"

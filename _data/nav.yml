@@ -40,6 +40,9 @@
 - dropdown: true
   title: "Attendees"
   links:
+    - title: "Register!"
+      link: "attendees/index.html"
+    - title: "DIVIDER"
     - title: "Air Travel"
       link: "attendees/index.html"
     - title: "Hotel Information"
