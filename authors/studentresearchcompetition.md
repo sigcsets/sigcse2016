@@ -84,9 +84,7 @@ description of the project.
 ## How Do I Submit My Entry?
 
 Submit a plain ASCII-text electronic copy of the extended abstract
-({{site.data.cfp.details[plural].limits}}) by the submission deadline @
-5:00 p.m. EDT (Eastern Daylight Time) to Dr. Ann Sobel
-(sigcse2015-src@rit.edu).
+({{site.data.cfp.details[plural].limits}}) by the submission deadline.
 
 Travel grants of up to \$500 may be available for students who do not
 have another source of funding and are ACM student members.
