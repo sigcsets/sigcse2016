@@ -1,0 +1,3 @@
+
+In support of ACM's commitment to ethical professionalism, this event is designed to help faculty provide students with tools to better understand and resolve their ethical challenges. It will specifically address the needs of faculty who are teaching or are about to teach computer ethics, either as a stand-alone course, or as part of another course. The workshop will use both lecture and small group activities to introduce and enhance participants’ computer ethics teaching skills. We will present materials to be used in a complete computer ethics course and that can be used as examples and exercises in specific technical courses, including case studies, suggested course syllabi, and suggestions for creating and grading assignments consistent with CS2013 and SE. 
+

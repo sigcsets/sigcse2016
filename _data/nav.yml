@@ -48,6 +48,8 @@
     - title: "Hotel Information"
       link: "attendees/index.html"
     - title: "DIVIDER"
+    - title: "Pre-Symposium Events"
+      link:  "attendees/presymposium.html"
     - title: "Preliminary Program"
       link: "docs/SIGCSE2016-Preliminary-Program.pdf"
 

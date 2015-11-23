@@ -1,0 +1,2 @@
+POSSE, the Professors Open Source Software Experience, helps instructors prepare to guide student participation in Humanitarian Free and Open Source Software (HFOSS) projects.  This POSSE Roundup is a workshop for instructors who have previously attended POSSE.  It will provide an opportunity to share experiences and discuss challenges with student participation in HFOSS.  There will also be presentations and discussions of recent developments in HFOSS learning efforts.  The workshop structure of the day will emphasize active participation of attendees.
+

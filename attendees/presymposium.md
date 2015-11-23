@@ -76,4 +76,4 @@ If you are interested in hosting a pre-symposium event, please contact the Pre-C
 
 Depending on the number of applications submitted and space availability at the conference hotel, not all events may be selected for inclusion.  
 
-{% include submission-questions category="Pre-Conference Events Liaison" %}
+{% include submission-questions category="Pre-Symposium and Affiliated Events Liaison" %}

@@ -1,0 +1,3 @@
+This pre-symposium event is for experienced POGIL facilitators to share experiences and ideas on how to become better facilitators of POGIL activities. In Process Oriented Guided Inquiry Learning (POGIL), teams of 3-4 students work on scripted inquiry activities designed to help them discover concepts and construct their own knowledge. Using assigned team roles and meta-cognition, learners develop process skills and individual responsibility. The instructor serves as a facilitator, not a lecturer. Studies show that POGIL can significantly
+improve student performance and retention. For more information, please contact Helen Hu or Chris Mayfield.
+

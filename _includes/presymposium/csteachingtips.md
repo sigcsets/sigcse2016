@@ -1,3 +1,0 @@
-Do you like to talk about your teaching practice? Do you want to share CS teaching advice with other educators on CSTeachingTips.org? Come join the CS Teaching Tips team from Harvey Mudd College for our CSTeachingTips.org: Tip-A-Thon (NSF #1339404). Participants will be paid $400 for their participation and receive a CS Teaching Tips swag bag. Learn more about CS Teaching Tips by checking out CSTeachingTips.org and following us on twitter @CSTeachingTips. 
-
-For more information, please email <a href="mail:admin@csteachingtips.org">admin@csteachingtips.org</a> or visit our event page.
