@@ -23,12 +23,20 @@ showTitle: true
 
 ## Registering for SIGCSE {{site.data.main.year}}
 
+<!--
+# NOTES FROM NOV 23 2015 - FIXME 
+Early registration rates --  Apply through February 2.
+Late registration rates -- Apply from February 3, through February 23.
+Registration closed -- From February 24 through March 1, while we prepare registration packets
+Onsite registration -- Available beginning Wednesday, March 2, at 3:00 PM, and as shown above
+-->
+
 <div class="row">
   {% include onsiteregistration.md %}
 </div>
 
 
-{{site.data.main.upper}} {{site.data.main.year}} takes place between {{site.data.main.month}} {{site.data.main.start}} and {{site.data.main.month}} {{site.data.main.end}} of {{site.data.main.year}}. 
+{{site.data.main.upper}} {{site.data.main.year}} takes place between {{site.data.main.month}} {{site.data.main.start}} and {{site.data.main.month}} {{site.data.main.end}} of {{site.data.main.year}}.
 
 As always, we encourage attendees to register early. This helps us with our planning, and in return, you get lower registration rates!
 
@@ -46,7 +54,7 @@ As always, we encourage attendees to register early. This helps us with our plan
 </div>
 {% endif %}
 
-<p>Also, if you are not currently a SIGCSE member, you should <b>consider joining at the same time that you register</b> for the conference. Professionals can <b>save between $30 and $55</b>, while both professionals and students <b>save time</b> by not having to fill out a separate membership form.  The <a href="http://sigcse.org/membership/benefits" target = "_blank">benefits of SIGCSE membership</a> are too numerous to list here, but they include the quarterly publications <i>ACM Inroads</i> and the <i>SIGCSE Bulletin</i>, free access to SIGCSE publication archives, access to the SIGCSE-ANNOUNCE and SIGCSE-MEMBERS mailing lists, and the opportunity to network within a community of computing professionals.</p> 
+<p>Also, if you are not currently a SIGCSE member, you should <b>consider joining at the same time that you register</b> for the conference. Professionals can <b>save between $30 and $55</b>, while both professionals and students <b>save time</b> by not having to fill out a separate membership form.  The <a href="http://sigcse.org/membership/benefits" target = "_blank">benefits of SIGCSE membership</a> are too numerous to list here, but they include the quarterly publications <i>ACM Inroads</i> and the <i>SIGCSE Bulletin</i>, free access to SIGCSE publication archives, access to the SIGCSE-ANNOUNCE and SIGCSE-MEMBERS mailing lists, and the opportunity to network within a community of computing professionals.</p>
 
 Professionals should choose one of the "Non-member joining SIGCSE" registration categories, which are <b>less expensive</b> than the Non-member category. Students simply choose the "Student Non-member" registration category, and then don't opt-out of the included membership (that's right -- it couldn't be much easier). Alternatively, you could <a href="http://www.sigcse.org/membership" target = "_blank">join SIGCSE</a>, wait for your membership number, and then register for the conference using the "Member" category.
 
