@@ -17,7 +17,7 @@ master:
     time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
     notification: "Monday, October 12th, 2015"
     updates:
-    cameraready: "Monday, November 30th, 2015"
+    cameraready: "Sunday, December 6th (was November 30th)"
     link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+Paper+Submission+Deadline&iso=20150828T235959&p1=1033"
     track: track1
     types:
@@ -30,7 +30,7 @@ master:
     time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
     notification: "Monday, October 12th, 2015"
     updates:
-    cameraready: "Wednesday, December 9th, 2015"
+    cameraready: "Sunday, December 13th (was December 9th)"
     link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+Panel%2C+Workshop%2C+and+Special+Session+Submission+Deadline&iso=20150828T235959&p1=1033"
     track: track1
     types:
@@ -75,7 +75,7 @@ master:
     time: "23:59 in Pago Pago, American Samoa (UTC-11h)"
     notification: "Tuesday, November 17th, 2015"
     updates:
-    cameraready: "Wednesday, December 9th, 2015"
+    cameraready: "Sunday, December 13th (was December 9th)"
     link: "http://www.timeanddate.com/worldclock/fixedtime.html?msg=SIGCSE+2016+BOF%2C+Poster%2C+LT%2C+and+Demos+Deadline&iso=20151023T235959&p1=1033"
     track: track2
     types:
