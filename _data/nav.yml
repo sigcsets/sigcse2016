@@ -52,6 +52,8 @@
       link:  "attendees/presymposium.html"
     - title: "Preliminary Program"
       link: "docs/SIGCSE2016-Preliminary-Program.pdf"
+    - title: "Keynote and Award Speakers"
+      link: "attendees/speakers.html"
 
 - dropdown: true
   title: "Committees"
