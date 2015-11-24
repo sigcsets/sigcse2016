@@ -1,0 +1,131 @@
+---
+title: SIGCSE 2016
+showTitle: false
+---
+
+<div class = "row">
+  <div class = "col-md-10 center" style="padding-right: 30px;">
+    <div class = "row">
+      <h1 >
+        {{page.title}} - {{site.data.main.month}} {{site.data.main.start}} - {{site.data.main.end}}
+                  <br><small>Memphis, Tennessee</small>
+      </h1>
+      <p class="lead">The <a href="{{site.base}}/docs/SIGCSE2016-Preliminary-Program.pdf">Preliminary Program</a> is now available!</p>
+      <p class="lead" style = "font-size: smaller; margin-top: -20px;">Follow us on <a href="{{site.data.social.twitter}}">Twitter</a> and <a href="{{site.data.social.facebook}}">Facebook</a>!</p>
+    </div>
+
+    <div class = "row"> <!-- Three Blocks -->
+      <div class = "col-md-5">
+        <h3 class = "text-center">Contribute</h3>
+        <br>
+        <ul>
+          {% for submission in site.data.cfp.master %}
+            {% for sub in submission.types %}
+                {% capture link %}<a href = "{{site.base}}/authors/{{sub.plural | remove: ' ' | downcase}}.html">{{sub.plural}}</a>{% endcapture %}
+                {% capture entry %}{{link}}{% endcapture %}
+                <li> {{entry}} </li>
+            {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+
+    <div class = "col-md-5">
+      <h3 class = "text-center">Attend<br>SIGCSE {{site.data.main.year}}</h3>
+      <br>
+
+      <ul>
+        <li> <a href = "{{site.base}}/attendees/index.html">Hotel, Airport, and Ground Transportation</a> </li>
+        <li> <a href = "{{site.base}}/attendees/travelgrants.html">Travel Grants</a></li>
+        <li> <a href = "{{site.base}}/attendees/index.html#roommatedb">Roommate Database</a></li>
+        <li> <a href = "{{site.base}}/attendees/presymposium.html">Presymposium Events</a> </li>
+        <li> <a href = "{{site.base}}/docs/SIGCSE2016-Preliminary-Program.pdf">The Preliminary Program</a></li>
+        <li> <span style = "color: #CCC">Conference Registration</span> </li>
+
+      </ul>
+    </div> <!-- End Row -->
+
+    </div> <!-- End 3 Blocks -->
+
+  <!-- SPONSORS -->
+
+      <div class = "row">
+        {% include homepage/supporters.html %}
+      </div>
+
+  <!-- END SPONSORS -->
+  </div> <!-- End LH 9 -->
+
+  <div class = "col-md-2 center">
+
+    <div class = "row">
+      <div class = "row">
+        <h3>Mark the Calendar</h3>
+      </div>
+      <!--
+      <div class = "row">
+        <hr>
+      </div>
+      <div class = "row">
+          <div id = "track2countdown">BOF, Poster, LT, and Demo </div>
+      </div>
+      <div class = "row">
+        <hr>
+      </div>
+    -->
+      <div class = "row">
+        <div id = "conferencecountdown"> to SIGCSE {{site.data.main.year}}.</div>
+      </div>
+    </div> <!-- End countdown row -->
+
+
+
+    <div class = "row">
+      <hr>
+    </div>
+
+
+    <div class = "row"> <!-- Scrolling Pictures -->
+      <div class="indexpictures" style="margin-left: 20px;">
+        <div><img src = "images/memphis/memphis-2-200.png"  width = 200 height = 400></div>
+        <div><img src = "images/memphis/memphis-8-200.png"  width = 200 height = 400></div>
+        <div><img src = "images/memphis/memphis-15-200.png"  width = 200 height = 400></div>
+        <div><img src = "images/memphis/memphis-18-200.png"  width = 200 height = 400></div>
+        <div><img src = "images/memphis/memphis-28-200.png"  width = 200 height = 400></div>
+        <div><img src = "images/memphis/memphis-38-200.png"  width = 200 height = 400></div>
+        <div><img src = "images/memphis/memphis-43-200.png"  width = 200 height = 400></div>
+      </div>
+    </div> <!-- End Scrolling Pictures -->
+  </div> <!-- End RH 3 -->
+</div>
+
+<!-- Slick -->
+<script>
+$(document).ready(function(){
+  $('.indexpictures').slick({
+    // lazyLoad : "ondemand",
+    infinite : true,
+    mobileFirst : true,
+    // pauseOnHover : true,
+    swipe : true,
+    swipeToSlide : true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  });
+});
+</script>
+
+<!-- Countdown.js -->
+<script>
+
+// var track1 = countdown (new Date (), new Date ("{{site.data.cfp.track1}}"), countdown.DAYS);
+//$("#track1countdown").html (track1.toString() + " until " + //$("#track1countdown").html() + " submissions are due.");
+
+// $("#track1countdown").html("Papers due the 28th of August!");
+
+// var track2 = countdown (new Date (), new Date ("{{site.data.cfp.track2}}"), countdown.DAYS);
+// $("#track2countdown").html (track2.toString() + " until " + $("#track2countdown").html() + " submissions are due; <b>Friday, October 23rd</b>, 2015, 23:59, in Pago Pago.");
+// $("#track2countdown").html ("BOF, Poster, LT, and Demos are due <b>Friday, October 23rd</b>!");
+
+var conference = countdown (new Date (), new Date ("{{site.data.main.startdatestring}}"), countdown.DAYS);
+$("#conferencecountdown").html (conference.toString() + $("#conferencecountdown").html() + " " );
+</script>
