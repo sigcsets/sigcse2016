@@ -1,34 +1,56 @@
-rates:
-  - category: "Early"
-    rates: "$285 for SIGCSE members, $365 for non-members"
-  - category: "Late"
-    rates: "$335 for SIGCSE members, $415 for non-members"
-  - category: "On-site"
-    rates: "$385 for SIGCSE members, $460 for non-members"
-  - category: "Workshops"
-    rates: "$75 early; $90 late; $100 onsite"
+improved:
+  - cat: "Early"
+    members: 285
+    nonmembers: 365
+    #rates: "$285 for SIGCSE members, $365 for non-members"
+    date: "Apply through February 2nd"
+  - cat: "Late"
+    members: 335
+    nonmembers: 415
+    #rates: "$335 for SIGCSE members, $415 for non-members"
+    date: "Apply from February 3rd through February 23rd"
+  - cat: "CLOSED"
+    alert: "alert alert-warning"
+    date: "Closed from February 24th through March 1st, while registration packets are prepared"
+  - cat: "On-site"
+    members: 385
+    nonmembers: 460
+    # rates: "$385 for SIGCSE members, $460 for non-members"
+    date: "Available beginning Wednesday, March 2nd at 3PM"
+
+# rates:
+#   - category: "Early"
+#     rates: "$285 for SIGCSE members, $365 for non-members"
+#   - category: "Late"
+#     rates: "$335 for SIGCSE members, $415 for non-members"
+#   - category: "On-site"
+#     rates: "$385 for SIGCSE members, $460 for non-members"
+
+other:
   - category: "K-12 two-day (Friday/Saturday)"
     rates: "$150 for early, $180 for late or onsite"
   - category: "K-12 one-day (Saturday)"
     rates: "$80 for early, $110 for late or onsite"
   - category: "Students (at any time)"
     rates:  "$60 for ACM/SIGCSE members, $70 for non-members"
+  - category: "Workshops"
+    rates: "$75 early; $90 late; $100 onsite"
 
 # Early registration rates --  Apply through February 2.
 #Late registration rates -- Apply from February 3, through February 23.
 #Registration closed -- From February 24 through March 1, while we prepare registration packets
 #Onsite registration -- Available beginning Wednesday, March 2, at 3:00 PM, and as shown above
 
-deadlines:
-  - category: "Early"
-    date: "Apply through February 2nd"
-  - category: "Late"
-    date: "Apply from February 3rd through February 23rd"
-  - category: "ONLINE REGISTRATION CLOSES"
-    alert: "alert alert-warning"
-    date: "From February 24th through March 1st, while registration packets are prepared"
-  - category: "On-site"
-    date: "Available beginning Wednesday, March 2nd at 3PM"
+# deadlines:
+#   - category: "Early"
+#     date: "Apply through February 2nd"
+#   - category: "Late"
+#     date: "Apply from February 3rd through February 23rd"
+#   - category: "ONLINE REGISTRATION CLOSES"
+#     alert: "alert alert-warning"
+#     date: "From February 24th through March 1st, while registration packets are prepared"
+#   - category: "On-site"
+#     date: "Available beginning Wednesday, March 2nd at 3PM"
 
 #deadlines:
 #  - category: "Early"
