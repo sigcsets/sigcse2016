@@ -47,7 +47,7 @@ Bronze:
     blurb: "Assuring Quality • Stimulating Innovation"
     image: abet.png
     link: "http://www.abet.org/"
-  - name: "CodeHS"
-    blurb: "Learn to Code At School or Home"
-    image: "codehs.png"
-    link: "https://codehs.com/"
+  # - name: "CodeHS"
+  #   blurb: "Learn to Code At School or Home"
+  #   image: "codehs.png"
+  #   link: "https://codehs.com/"
