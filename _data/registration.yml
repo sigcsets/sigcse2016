@@ -14,16 +14,21 @@ rates:
   - category: "Students (at any time)"
     rates:  "$60 for ACM/SIGCSE members, $70 for non-members"
 
+# Early registration rates --  Apply through February 2.
+#Late registration rates -- Apply from February 3, through February 23.
+#Registration closed -- From February 24 through March 1, while we prepare registration packets
+#Onsite registration -- Available beginning Wednesday, March 2, at 3:00 PM, and as shown above
+
 deadlines:
   - category: "Early"
-    date: "Closes Monday, February 1st, 2016"
-#  - category: "Late"
-#    date: "TBA"
+    date: "Apply through February 2nd"
+  - category: "Late"
+    date: "Apply from February 3rd through February 23rd"
   - category: "ONLINE REGISTRATION CLOSES"
     alert: "alert alert-warning"
-    date: "Monday, February 22nd, 2016"
+    date: "From February 24th through March 1st, while registration packets are prepared"
   - category: "On-site"
-    date: "Rates take effect Monday, February 23rd, 2016; register at SIGCSE"
+    date: "Available beginning Wednesday, March 2nd at 3PM"
 
 #deadlines:
 #  - category: "Early"
