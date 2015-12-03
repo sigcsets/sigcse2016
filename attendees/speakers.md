@@ -104,23 +104,44 @@ showTitle: true
       <h4>
         Program Officer, CISE BPC 
         <br> &nbsp; <br>
-          SIGCSE Award for Lifetime Service to the Computer Science Education Community
+          SIGCSE Award for Outstanding Contributions to Computer Science Education
       </h4>
     </div>
     <div style="padding-bottom: 20px;">
-      <b> &nbsp; </b> <br> &nbsp;
+      <b> CS Education: Catching the Wave </b> <br> &nbsp;
     </div>
     <div class="text-center" style="padding-bottom: 20px;">
       <img src="{{site.base}}/images/speakers/cuny.jpg">
     </div>
     <div>
       <h4>
-        
+        Abstract
       </h4>
+    Computer Science (CS) education has caught a wave – of media attention, public support, public/private commitments, broad-based participation by educators, and a surge in student enrollments at the undergraduate level. It is a startling change over just the last 5 years. 
+
+    Over that 5 years, much has been accomplished at the high school level.  The Exploring Computer Science and Advanced Placement&reg; CS Principles courses were created to engage and inspire a diverse mix of students. Hundreds of teachers and university faculty have collaborated to develop course materials, assessments, MOOCS, and models of teacher professional development. Over 2,000 high schools now offer new CS courses, but that leaves out more than 34,000. 
+
+    Even then, students will need more than a single course, they will need a K-16 CS pathway.
+
+    At the K-8 level, CS does not have the decades of research on the teaching and learning that is available to many other, more established disciplines. A stronger evidence base is needed as the basis for pedagogy, curricula, standards, and teacher preparation. The CS community must put greater emphasis on research in CS education and broadening participation, and it must build stronger collaborations with researchers in related disciplines.
+
+    Over the last 5 years, college-level CS departments have been inundated with students. This growth is fueled by a strong job market for CS majors and an increasing awareness that computation is fundamental to many other industry sectors and academic disciplines.  How will departments cope with increasing numbers without sacrificing access or quality? How will they respond to increasing diversity—of ethnicity and gender, but also of interests, and career goals—of their students? 
+
+    For those interested in CS education, it’s an exciting time, but it comes with some urgency.  This talk will discuss how to catch the current wave, using it to full advantage. 
     
       <h4>
-        
+        Bio
       </h4>
+<p>      Jan Cuny received her Ph.D. in Computer and Communication Sciences from the University of Michigan. She spent the next 20 years as a faculty member, at Purdue University, the University of Massachusetts, and the University of Oregon. Her research focused on massively concurrent computation, particularly on debugging tools and programming environment support for computational science.
+</p>
+<p>      Jan was a long time member, co-chair, and steering committee member of the Computing Research Association’s Committee on the Status of Women in Computing Research (CRA-W). That work led to her current position at the National Science Foundation (NSF), where she work to address the longstanding underrepresentation of women, African Americans, Hispanics, Native Americans, and persons with disabilities in computing. CS education is integral to broadening participation. 
+</p>
+<p>      Focusing first K-12, Jan spearheaded NSF’s efforts to build foundational support for CS10K, a national initiative to get engaging, inclusive and rigorous computing courses into America’s public schools. Within this effort—named because its initial target was 10,000 teachers in10,000 schools—NSF funded the development of two new courses (Exploring Computer Science and Advanced Placement&reg; CS Principles), course materials, assessments, models of scalable professional development, and an online community of practice for teachers. NSF is now partnering with private organizations to pilot and scale these courses with the goal of giving all U.S. students the opportunity to take great computer science courses in high school. 
+</p>
+<p>      Additional efforts will be needed in diversifying and expanding K-8 and undergraduate education, and in building the CS education research enterprise.
+</p>
+<p>      Jan is a recipient of a 2006 ACM President’s Award, the 2007 CRA A. Nico Habermann Award, the 2009 Anita Borg Institute’s Woman of Vision Award, the 2014 Richard A. Tapia Achievement Award, and the University of Massachusetts School of Computing Alumni Award for Outstanding Contributions to Society.
+</p>      
   
     </div>
   </div>
