@@ -12,6 +12,10 @@ Gold:
     image: oracle-academy-144.png
     blurb: "Hardware and Software, Engineered to Work Together"
     link: "http://www.oracle.com/academy/"
+  - name: "Vocareum, Inc"
+    blurb: ""
+    image: vocareum-blue-350.png
+    link: "https://www.vocareum.com/"
 Silver:
   - name: GitHub
     blurb: "The best place to share code with friends, co-workers, classmates, and complete strangers."
@@ -33,10 +37,6 @@ Silver:
     blurb: "CodeLab: A Powerful Tool for Programming Instruction"
     image: turingscraft-350.png
     link: "http://www.turingscraft.com/"
-  - name: "Vocareum, Inc"
-    blurb: ""
-    image: vocareum-blue-350.png
-    link: "https://www.vocareum.com/"
   - name: "ZyBooks"
     blurb: "Animated interactive learning"
     image: zybooks-350.png
