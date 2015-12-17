@@ -35,7 +35,7 @@ sigcsemembershipurl: http://www.sigcse.org/membership
 sigcsemembershipcost: $25
 sigcsestudentmembershipcost: $8
 sigseregistrationsavings: $55
-isregistrationopen: false
+isregistrationopen: true
 registrationopens: December 2015
 registrationurl: http://www.regonline.com/sigcse2016
 acmpubguidelines: http://www.acm.org/publications/article-templates/proceedings-template.html

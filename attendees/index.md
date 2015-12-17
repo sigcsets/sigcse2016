@@ -207,7 +207,7 @@ We are at the {{site.data.main.conferenceHotel}} in {{site.data.main.conferenceC
   <br>
   250 North Main Street, Memphis,Tennessee 38103
   <br>
-  Phone: <a href="tel:+1-901-527-7300">+1-901-522-2200</a>
+  Phone: <a href="tel:+1-901-527-7300">+1-901-522-7300</a>
 </li>
 </ul>
 
