@@ -42,6 +42,8 @@
   links:
     - title: "Register!"
       link: "attendees/index.html"
+    - title: "Student Volunteers"
+      link: "students/index.html"
     - title: "DIVIDER"
     - title: "Air Travel"
       link: "attendees/index.html"

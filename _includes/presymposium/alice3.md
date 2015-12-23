@@ -1,0 +1,1 @@
+To celebrate the release of the Alice 3 to Java textbook, the Ghost Train crew invite you to a free (lunch / breakfast) with the crew of the Ghost Train.  A brief presentation will include an introduction to the Ghost Train story that runs through the program examples used in the textbook chapters.

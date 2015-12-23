@@ -8,6 +8,7 @@ showTitle: true
 <p>Everything you need for:
   <ul>
     <li> <a href="#registering">registering for SIGCSE</a>, </li>
+    <li> <a href="#registrationrates">this year's rates</a>, </li>
     <li> <a href="travelgrants.html">applying for a travel grant from SIGCSE,</a></li>
     <li> <a href="#reserving">reserving a room</a>,</li>
     <li> <a href="#roommatedb">finding a roommate in the roommate database</a>,</li>
@@ -65,6 +66,8 @@ Also, it is <b>less expensive to join ACM SIGCSE and register for the conference
 
 <p>If you <a href="{{site.data.main.sigcsemembershipurl}}" target = "_blank"><!-- __ -->join SIGCSE</a> ({{site.data.main.sigcsemembershipcost}}/year), you save at least {{site.data.main.sigseregistrationsavings}} on your registration, and gain access to an incredible global network of dedicated professionals and educators who are part of the SIGCSE community.</p>
 {% endcomment %}
+
+<a name="registrationrates"></a>
 
 ### Registration Rates
 

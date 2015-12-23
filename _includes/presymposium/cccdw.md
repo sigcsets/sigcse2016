@@ -1,0 +1,3 @@
+The ACM Committee for Computing Education in Community Colleges (CCECC) is revising its 2009 Computer Science Curricular Guidance in step with the ACM CS2013 guidelines and emerging cybersecurity education trends.  Come to this no-cost workshop to meet your community colleagues and to have input into the curriculum development process that will help shape the future of computer science education at more than 1,100 community colleges nationwide.
+
+There is no cost for this event however, registration is required.  Go to [http://ccecc.acm.org/contact](http://ccecc.acm.org/contact) with 'RSVP SIGCSE Workshop' in the Subject line. Registration is on a first come, first serve basis.
