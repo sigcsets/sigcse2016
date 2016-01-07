@@ -42,7 +42,7 @@
 
 - short: "COPE"
   max: "35"
-  date: "March 2nd, Afternoon, 3hrs"
+  date: "March 2nd, 1:00PM - 4:15PM"
   name: "Integrating Computing Ethics and Professionalism into the Technical Curriculum"
   info: "https://edocs.uis.edu/kmill2/www/ComputerEthicsSIGCSE2016.html"
   cost: "The event is sponsored by the ACM Committee on Professional Ethics at no cost to participants"
@@ -124,7 +124,7 @@
 
 - short: "POSSE"
   max: "30"
-  date: "March 2nd, All Day, 8hrs"
+  date: "March 2nd, 9AM - 5PM"
   name: "POSSE Roundup"
   info: "http://foss2serve.org/index.php/SIGCSE_2016_POSSE_Roundup"
   cost: "Free"
@@ -139,7 +139,7 @@
 
 - short: "Mean Stack"
   max: "30"
-  date: "March 2nd, morning, 4.5hrs"
+  date: "March 2nd,  8:00 AM - 12:30 PM"
   name: "Web Development with the MEAN Stack: A Comprehensive Hands-On Tutorial for Educators"
   info: "http://www.cs.indiana.edu/~dgerman/mean-tutorial/sigcse2016.html"
   cost: "Free (lunch provided for registered participants)"
@@ -173,7 +173,7 @@
   name: "New AP Computer Science Principles Course"
   info: "https://aphighered.collegeboard.org/"
   cost: "Free"
-  register: ""
+  register: "Please RSVP to Tejal Shah."
   organizers:
     - name: "Tejal Shah"
       email: "tshah@collegeboard.org"
