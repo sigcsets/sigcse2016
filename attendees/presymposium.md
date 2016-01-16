@@ -9,7 +9,7 @@ There are several exciting pre-symposium events this year; plan your travel so y
 <ul>
 {% for event in site.data.presymposium %}
 {% if event.name != "" %}
-{% assign inc = event.name | remove: 'presymposium/' | remove: '.html' %}
+{% assign inc = event.name | remove: 'presymposium/' | remove: '.html' | remove: " " %}
 <li> <a href="#{{inc}}">{{event.name}}</a> </li>
 {% endif %}
 {% endfor %}
@@ -18,7 +18,7 @@ There are several exciting pre-symposium events this year; plan your travel so y
 
 {% for event in site.data.presymposium %}
 {% if event.name != "" %}
-{% assign inc = event.name | remove: 'presymposium/' | remove: '.html' %}
+{% assign inc = event.name | remove: 'presymposium/' | remove: '.html' | remove: " " %}
 
 
 <p><a name="{{inc}}"></a></p>
