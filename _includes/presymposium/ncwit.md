@@ -1,0 +1,1 @@
+The National Center for Women & IT (NCWIT) Academic Alliance will host a reception sponsored by Microsoft Research.  NCWIT invites faculty members of higher education to attend our reception. Both current NCWIT members and those interested in becoming members of NCWIT are welcome.

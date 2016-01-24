@@ -1,0 +1,1 @@
+The members of the ACM Committee for Computing Education in Community Colleges (CCECC) are hosting a reception for all those interested in networking with others who are interested in computing education at two-year colleges. Refreshments will be provided. 

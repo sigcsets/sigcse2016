@@ -5,15 +5,30 @@ showTitle: true
 
 There are several exciting pre-symposium events this year; plan your travel so you can get in a day early and take part in these excellent professional development and educational opportunities.
 
+{% assign prev = "" %}
 <div class="row">
-<ul>
+<table>
 {% for event in site.data.presymposium %}
 {% if event.name != "" %}
 {% assign inc = event.name | remove: 'presymposium/' | remove: '.html' | remove: " " %}
-<li> <a href="#{{inc}}">{{event.name}}</a> </li>
+{% if event.start != prev %}
+<tr>
+  <td><hr></td>
+  <td> </td>
+</tr>
+{% endif %}
+<tr>
+{% if event.start == prev %}
+<td> </td>
+{% else %}
+  {% assign prev = event.start %}
+  <td>{{event.start}}</td>
+{% endif %}
+  <td><a href="#{{inc | remove: ' '}}">{{event.name}}</a></td>
+</tr>
 {% endif %}
 {% endfor %}
-</ul>
+</table>
 </div>
 
 {% for event in site.data.presymposium %}
