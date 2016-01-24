@@ -3,6 +3,8 @@ title: For Attendees
 showTitle: true
 ---
 
+This year, we are at the Sheraton Memphis Downtown Hotel in Memphis, Tennessee. 
+
 <div class="row" style="margin-top: 20px; margin-bottom: 20px;">
 {% callout info %}
 <p>Everything you need for:
@@ -280,8 +282,42 @@ Once we fill the conference hotel (it is best if we do!), these are some (relati
 
 <h3>Ground Transportation</h3>
 
-Information on this critical part of your journey is forthcoming. Invariably, there are taxis, and shuttles, and we'll probably have a discount code of some sort. It's just not ready for posting, yet.
+<div class="row" >
+  <div class="col-sm-12">
+<em>None of this information has been verified by anyone on the ground. Your friendly neighborhood Webmaster has just gone Googling. <b>YOU HAVE BEEN WARNED</b>.</em>
+</div>
+</div>
 
+<div class = "row text-center" style="margin-top: 20px">
+  <div class="col-sm-12">
+  <img src = "airport-hotel-route.png">
+</div>
+</div>
+
+<div class = "row" style="margin-top: 20px">
+  <div class = "col-sm-12">
+    
+<ul>
+  <li> It <a href="http://www.matatransit.com/ridersguide/train-and-plane-connect/">appears you can take the bus</a>. I welcome local knowledge as to whether this is even feasible.</li>
+    
+<li> <a href="http://www.taxifarefinder.com/">TaxiFareFinder.com</a> suggests a taxi will run $30-40 from the airport to the hotel. </li>
+
+<li><a href="http://www.bluescitytours.com/airport-shuttle.php">Blue City Tours</a> advertises $25/person airport shuttles (cheaper in groups). I'm sure, if there was someone who could write code in this group, we could find a way to connect people up via smartphone app, so that we could minimize travel cost and maximize ride sharing...</li>
+  
+
+<li>The website <a href="https://booking.airportshuttles.com/">airportshuttles.com</a> points to a number of services in Memphis, including Blacklane and GroundLink. Blacklane lists some "sedan class" rides from the hotel to the airport at roughly $56 (with room for three people, two suitcases, and two lunchboxes... I have <b>no idea</b> what the icons on this site mean), SUVs for $78 (which have room for 5 people and their associated suitcases and lunchboxes). </li>
+
+<li>If you book online, <a href="http://www.mearstransportation.com/memphis-international-airport-transportation/">Mears Transportation</a> seems to cost around $72 for a sedan-class airport-to-hotel service.</li>
+
+ 
+
+</div>
+</div>
+
+<div class = "row text-center" style="margin-top: 20px">
+  <div class="col-sm-12">
+Yellow Cab and Checker Cab ("sister companies") suggest that you can call them to to schedule a taxi to take you to the airport (901-577-7777 or 800-796-7750), and for scheduled group airport shuttles, call 901-577-7700 or 800-796-7750.
+</div></div>
 
 <a name="stufftodo"></a>
 
