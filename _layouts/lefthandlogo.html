@@ -55,7 +55,11 @@
                         {% endfor %}
                       {% endfor %}
                     {% else %}
-                      <li> <a href = "{{site.base}}/{{menuItem['link']}}">{{menuItem['title']}}</a> </li>
+                      {% if menuItem['link] contains "http" %}
+                        <li> <a href = "{{menuItem['link']}}">{{menuItem['title']}}</a> </li>
+                      {% else %}
+                        <li> <a href = "{{site.base}}/{{menuItem['link']}}">{{menuItem['title']}}</a> </li>
+                      {% endif %}
                     {% endif %}
                   {% endfor %}
                 </ul>
