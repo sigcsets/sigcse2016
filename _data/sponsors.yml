@@ -2,12 +2,11 @@ Platinum:
   - name: "Google, Inc."
     image: google-new-350.png
     link: "https://www.google.com/"
-
-#  - name: "Microsoft"
-#    image: microsoft-350.png
-#    link: "https://msdn.microsoft.com/en-us/imagine.aspx"
-
 Gold:
+  - name: "IBM"
+    blurb: ""
+    image: ibm-350.png
+    link: "https://www.ibm.com/"
   - name: Oracle Academy
     image: oracle-academy-144.png
     blurb: "Hardware and Software, Engineered to Work Together"
@@ -25,11 +24,15 @@ Silver:
     blurb: ""
     image: gradescope-160107-350.png
     link: "https://gradescope.com/"
-  - name: Piazza
+  - name: "Microsoft"
+    blurb: ""
+    image: microsoft-350.png
+    link: "https://msdn.microsoft.com/en-us/imagine.aspx"
+  - name: "Piazza Technologies, Inc."
     blurb: ""
     image: piazza-350.png
     link: "https://piazza.com/"
-  - name: Teradata University Network
+  - name: "Teradata University Network"
     blurb: "Providing students with hands-on software experiences with the worlds' largest companies."
     image: teradata-350.png
     link: "http://www.teradatauniversitynetwork.com/"
@@ -41,13 +44,8 @@ Silver:
     blurb: "Animated interactive learning"
     image: zybooks-350.png
     link: "http://www.zyante.com/"
-
 Bronze:
   - name: ABET
     blurb: "Assuring Quality • Stimulating Innovation"
     image: abet.png
     link: "http://www.abet.org/"
-  # - name: "CodeHS"
-  #   blurb: "Learn to Code At School or Home"
-  #   image: "codehs.png"
-  #   link: "https://codehs.com/"
