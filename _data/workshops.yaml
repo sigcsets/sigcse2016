@@ -1,0 +1,731 @@
+
+- number: 1
+  id: 1219
+  title: "CReST-Security Knitting Kit: Ready to Use Teaching Resources to Embed Security Topics into Upper Division CS Courses"
+  tags: "ACM/IEEE-CS Curricula 2013, Security Education"
+  abstract: "Information Assurance and Security has been designated as a new knowledge area in the new ACM/IEEE-CS Curricula 2013. This is not a trivial task to accomplish, especially with lack of resources. With support from NSF (Award# DUE-1140864, #1438861), we have developed a set of readily available resources called SecKnitKit (Security Knitting Kit, www.secknitkit.org), which offers a suite of instructional material for non-security faculty (faculty whose primary teaching/research focus is not security) to integrate security in upper division CS courses such as operating systems, software engineering, computer networks and databases. This workshop will introduce CS faculty to the SecKnitKit resources that can be easily adaptable into any standard CS curriculum. The participants will receive access to all SecKnitKit materials (instructional and assessment) of interest and demonstrated use of the active learning exercises."
+  authors: 
+    - name: "Ambareen Siraj"
+      org: "Tennessee Tech University"
+      country: "US"
+      email: "asiraj@tntech.edu"
+
+    - name: "Sheikh Ghafoor"
+      org: "Tennessee Tech University"
+      country: "US"
+      email: "sghafoor@tntech.edu"
+
+ 
+- number: 2
+  id: 1281
+  title: "Making Music with Computers: Creative Programming in Python"
+  tags: "music, creative programming, Python, CS0/CS1"
+  abstract: "This workshop is an introduction to creative software development and music making in Python. This material is intended for CS0/CS1 courses and for courses at the intersection of computing and the arts. The workshop will introduce music making activities for teaching traditional CS1 topics, GUIs, event-driven programming, and connecting to external devices (e.g., smartphones, digital pianos) via MIDI and OSC (Open Sound Control). Participants will be introduced to JythonMusic (http://jythonMusic.org), a library of Python modules for creative programming and music making, and will be making their own music artifacts a few minutes later. Software, course materials, and student activities will be provided. Laptop Required."
+  authors: 
+    - name: "Bill Manaris"
+      org: "College of Charleston"
+      country: "US"
+      email: "manarisb@cofc.edu"
+
+    - name: "Tobias Kohn"
+      org: "ETH Zürich"
+      country: "CH"
+      email: "webmaster@tobiaskohn.ch"
+
+ 
+- number: 3
+  id: 1334
+  title: "A Web-Based IDE for Teaching with Any Language"
+  tags: "CS50, Cloud9, IDE, GDB, Docker, debugger, linux, editor"
+  abstract: "This workshop introduces participants to CS50 IDE (cs50.io), a web-based integrated development environment based on Cloud9 (c9.io). Not only does the IDE enable students to work on programming projects within a browser, without need for local downloads or installations, it also provides students with an integrated terminal window and full sudo privileges. Underneath the hood is a Docker \"container\" that allows students to experiment with the underlying Ubuntu Linux OS, installing and configuring software at will, adapting it to their particular projects' needs. The IDE supports any compiler, interpreter, or other software that can be installed via a Linux command-line, while the IDE itself provides a fully-featured text editor for text files and source code that reside on the underlying instance. The Cloud9 GUI is fully extensible through a plugin system and is leveraged by CS50 IDE to provide additional functionality for students. Among the additional features implemented through this mechanism are a GUI-based file submission system, an optional \"less comfortable\" mode that simplifies the GUI to provide a scaffolded experience for students new to programming, and a GUI front end for the GNU Project Debugger, a CLI debugger for many languages, including C. This workshop will highlight useful features of the IDE in the context of classrooms (including the collaborative nature of a workspace to allow pair programming or provide alternative one-on-one instruction), provide tips for writing or adapting assignments based on its architecture, and introduce developing plugins for full customization."
+  authors: 
+    - name: "Dan Armendariz"
+      org: "Harvard University"
+      country: "US"
+      email: "danallan@cs.harvard.edu"
+
+    - name: "David Malan"
+      org: "Harvard University"
+      country: "US"
+      email: "malan@harvard.edu"
+
+    - name: "Nikolai Onken"
+      org: "Cloud9"
+      country: "NL"
+      email: "nikolai@c9.io"
+
+ 
+- number: 4
+  id: 1117
+  title: "High Yield in the Short Term: Planning Strategically to Get Women into your Major"
+  tags: "recruiting, women in computing, attracting majors"
+  abstract: "Most academic departments have outreach efforts to inform potential students and the public about their computing majors. Most participate in events and produce materials to communicate with students, teachers, parents, and employers. Often, however, these recruiting efforts are attended in an opportunistic way rather than strategically. Often, little thought is given to the return on investment of this nontrivial use of scarce resources (money, time), the message conveyed to the particular audience, or to tracking outcomes. In this workshop, participants will develop an actionable plan for increasing the enrollment of qualified women into their undergraduate majors. The workshop philosophy is that departments should accomplish the greatest return on investment, in the shortest time to bring benefits, with the smallest resource commitment. After all, recruiting women is rarely one's \"day job.\" Using research-based materials developed by the National Center for Women & Information Technology (NCWIT) and ideas shared by NCWIT's Academic Alliance members, the presenters will provide information, a planning structure, resources, and activities to support participants in developing a strategic plan to improve the gender diversity of their undergraduate majors."
+  authors: 
+    - name: "Lecia Barker"
+      org: "University of Texas at Austin"
+      country: "US"
+      email: "lecia@ischool.utexas.edu"
+
+    - name: "Leisa Thompson"
+      org: "University of Virginia"
+      country: "US"
+      email: "leisadthompson@gmail.com"
+
+ 
+- number: 5
+  id: 1065
+  title: "Guiding Students to Discover CS Concepts and Develop Process Skills using POGIL"
+  tags: "POGIL; guided inquiry learning; process skills; active learning"
+  abstract: "This workshop is for anyone who teaches CS, and introduces process-oriented guided inquiry learning (POGIL) in computer science. In a POGIL classroom, teams of 3-5 learners work on activities with active facilitation by the teacher. Through scripted inquiry and investigation, learners discover concepts and construct their own knowledge. Using assigned team roles and other scaffolding, learners develop process skills and individual responsibility. In a POGIL classroom, the teacher is not a lecturer, but a facilitator who helps to ensure that all students are engaged and able to achieve the learning objectives. POGIL activities have a particular structure based on learning cycles. POGIL is a research-based instructional strategy, and studies show that it can significantly improve student performance. Workshop participants will work through POGIL activities as students. Participants will also work through meta-activities that use POGIL and are designed to help teachers learn core POGIL concepts, practices, and benefits. POGIL materials for a variety of CS concepts will be shared. More information is available at http://pogil.org and http://cspogil.org, including sample activities for CS1, CS2, and other courses. Laptops optional."
+  authors: 
+    - name: "Clifton Kussmaul"
+      org: "Muhlenberg College"
+      country: "US"
+      email: "kussmaul@muhlenberg.edu"
+
+    - name: "Helen Hu"
+      org: "Westminster College"
+      country: "US"
+      email: "hhu@westminstercollege.edu"
+
+    - name: "Chris Mayfield"
+      org: "James Madison University"
+      country: "US"
+      email: "mayfiecs@jmu.edu"
+
+ 
+- number: 6
+  id: 1208
+  title: "Engage, Energize and Empower Your Students with Team-Based Learning"
+  tags: "active learning, diversity, course design , collaborative learning, teaching"
+  abstract: "Even when we believe the research that shows that active learning is particularly helpful to both engage and empower students---they learn better, they learn deeper and it addresses issues of diversity---it's often not clear to us how we can implement it while keeping the quality of our course high. At UAlbany, courses taught using TBL including: computer programming, data structures, databases, web programming, networking and others. TBL is a structured method that can help instructors improve student learning and energize their classrooms. Team Based Learning (TBL) is an approach to course design that takes advantage of research into what helps students learn. Students work in permanent teams and course meetings are organized around application exercises. Courses are divided into units, and students are held responsible for the core reading in a beginning-of-unit test taken both as individuals and as teams. Application exercises conform to core principles (\"4S\"): Teams all work on the SAME problem, teams make a SPECIFIC choice, the problem must be SIGNIFICANT, and the teams must make a SIMULTANEOUS report of answers. A variant of the \"flipped classroom,\" the TBL course spends far less time \"covering the material\" in class, allowing course time to be spent on skill development and feedback on student work. In this hands-on workshop, participants will experience a model TBL learning sequence and learn active learning techniques that they can adopt in any classroom while learning the basics of the TBL method."
+  authors: 
+    - name: "Lenore Horowitz"
+      org: "University at Albany"
+      country: "US"
+      email: "lhorowitz@albany.edu"
+
+    - name: "George Berg"
+      org: "University at Albany"
+      country: "US"
+      email: "berg@cs.albany.edu"
+
+    - name: "Kimberly Van Orman"
+      org: "University at Albany"
+      country: "US"
+      email: "kvanorman@albany.edu"
+
+ 
+- number: 7
+  id: 1017
+  title: "Teaching Parallel Computing Concepts with OpenMP"
+  tags: "C, C++, computing, multithreading, OpenMP, parallel, patterns, threads"
+  abstract: "OpenMP is an industry-standard, platform-independent parallel programming library built into all modern C and C++ compilers. Unlike complex parallel platforms, OpenMP is designed to make it relatively easy to add parallelism to existing sequential programs, as well as write new parallel programs from scratch. In this fun, interactive, hands-on workshop, participants will use OpenMP to learn about a variety of parallel programming concepts, including single program multiple data (SPMD) execution, fork-join threading, parallel loops, parallel blocks, atomic execution, mutual exclusion, and others. Participants will explore 15 short programs designed to help students understand specific parallel concepts, plus several longer programs in which OpenMP is used to solve significant problems. The workshop includes: (i) an introduction to OpenMP, (ii) self-paced hands-on experimentation with the OpenMP programs, and (iii) a discussion of how OpenMP may be used to achieve parallel computing objectives in CS 2013. Participants will also view visual examples that let students see parallelism happening in real time. Participants will need a laptop with an SSH client (e.g., BitVise, PuTTY), or a laptop with a compiler that supports OpenMP (e.g., gcc 4.2 or later, Visual Studio 2008 or later); Linux, Mac, and Windows laptops will be supported. Knowledge of a C-family language (e.g., C, C++, Java, ...) may be helpful but is not required to benefit from the workshop. All materials from this workshop will be freely available from csinparallel.org."
+  authors: 
+    - name: "Joel Adams"
+      org: "Calvin College"
+      country: "US"
+      email: "adams@calvin.edu"
+
+    - name: "Richard Brown"
+      org: "St. Olaf College"
+      country: "US"
+      email: "rab@stolaf.edu"
+
+    - name: "Elizabeth Shoop"
+      org: "Macalester College"
+      country: "US"
+      email: "shoop@macalester.edu"
+
+ 
+- number: 8
+  id: 1097
+  title: "Using OpenDSA eTextbooks in Your Class"
+  tags: "OpenDSA eTextbook, Data Structures and Algorithms, Formal Languages, Programming Languages"
+  abstract: "The OpenDSA eTextbook system provides a practical way for instructors to adopt algorithm visualizations, state machine simulations, and interactive practice exercises into a variety of courses, including CS2, Data Structures, Algorithms, Programming Languages, or Formal Languages. An OpenDSA eTextbook can be used either as a complete replacement for your traditional textbook and assignments or as supplemental readings, auto-graded assignments, or student practice. In this workshop, we will present use cases from successful adoption of OpenDSA into existing courses. We will guide you past the real-life hurdles and pitfalls that get in the way of using AVs, interactive exercises, and simulators. We show you how to adopt OpenDSA exercises, how to configure existing OpenDSA materials to suit your needs, and provide an overview of how to create new AVs or exercises. This workshop is about letting you engage students with highly interactive materials in ways that you have said for years that you wanted to do."
+  authors: 
+    - name: "Clifford Shaffer"
+      org: "Virginia Tech"
+      country: "US"
+      email: "shaffer@vt.edu"
+
+    - name: "Thomas Naps"
+      org: "University of Wisconsin--Oshkosh"
+      country: "US"
+      email: "naps@uwosh.edu"
+
+    - name: "Susan Rodger"
+      org: "Duke University"
+      country: "US"
+      email: "rodger@cs.duke.edu"
+
+ 
+- number: 9
+  id: 1167
+  title: "Reading and Writing like Computer Scientists: How to Promote Critical Thinking and Student Engagement"
+  tags: "Integrated communication skills, writing to learn, informal writing, critical thinking"
+  abstract: "This workshop introduces participants to an informal writing process that promotes student engagement and critical thinking with easily-assessed, low-stakes assignments. Unlike the formal writing typically used in software development or capstone courses to demonstrate knowledge, informal writing supports student learning (i.e., writing as thinking). Participants will use the Prioritize, Translate, and Analogize (PTA) Process in a model assignment; discuss how it works; and use it to develop a writing assignment. Participants will receive materials for the workshop assignment, samples of prompts employing the PTA process in a variety of courses, and other support materials. Participants are encouraged to bring an assignment idea to develop at the workshop. The workshop is intended for computer science instructors who want to learn about strategies for integrating writing in their courses to engage students and improve their critical thinking while limiting time for instruction and evaluation. No laptop is required."
+  authors: 
+    - name: "Mark Hoffman"
+      org: "Quinnipiac University"
+      country: "US"
+      email: "mark.hoffman@quinnipiac.edu"
+
+    - name: "Jerod Weinman"
+      org: "Grinnell College"
+      country: "US"
+      email: "weinman@cs.grinnell.edu"
+
+ 
+- number: 10
+  id: 1199
+  title: "Lego-based Case Studies for Teaching Software Engineering Concepts throughout the Curriculum"
+  tags: "Software Engineering, Case Study, Lego, Play"
+  abstract: "Lego Serious Play (LSP) is an experiential and highly creative process designed to facilitate strategic planning, team building, and problem solving using Lego bricks. In the LSP methodology, team members use their intelligence both as individuals and as a group to build simple models representing various concepts in response to a question posed by the faculty facilitator. Discussing the models helps students communicate valuable aspects of their own understanding and interpretation of the problem at hand, explore the team dynamics, and reduce the complexity of many projects. This workshop is intended for faculty interested in teaching undergraduate and graduate software engineering and related courses. This workshop will also benefit all other faculty (including high school teachers) looking for ways to supplement their course material with engaging and playful hands-on activities aimed to strengthen the teamwork, oral communication, problem solving, and design skills of students. LSP-based hands-on activities discussed during the workshop focus on a single software engineering topic including requirements engineering, architectural design, software testing, software dependability, project planning and management, design patterns, etc. Workshop participants will learn the basic principles of LSP and participate in two hands-on activities illustrating how LSP can be used to teach software engineering concepts in an engaging context. Participants will receive the necessary Lego kits, which they can keep after the workshop. Laptop is not required for this workshop. This work is supported in part by a 2015 ACM SIGCSE Special Project grant. More information at http://www.cs.ccsu.edu/~stan/sigcse2016/."
+  authors: 
+    - name: "Stan Kurkovsky"
+      org: "Central Connecticut State University"
+      country: "US"
+      email: "kurkovsky@ccsu.edu"
+
+ 
+- number: 11
+  id: 1111
+  title: "Peer Instruction in Computing: a Focus on Student Learning"
+  tags: "Peer Instruction, active learning, clickers"
+  abstract: "Recent work in computing has converged on a collection of complementary findings suggesting the value of the Peer Instruction (PI) pedagogy. Compared to lecture, PI has been shown to decrease fail rates, increase final exam grades, and increase engagement and enjoyment. In PI, students work together to exchange perspectives and use clickers to answer challenging conceptual questions in the presence of a knowledgeable instructor. In our efforts to mentor potential PI adopters, we note difficulties bootstrapping PI uptake at new institutions and new departments. In this workshop, our main goal is to support potential adopters in the process of shifting from lectures to PI. In recent months, we have contributed materials for many freely-available PI courses, and led a successful 3-day NSF-funded PI workshop. We will work with participants and their existing lecture-based resources to begin considering the ways that PI can enhance student learning. Instructors interested in increasing engagement in any CS course may attend. Participants are encouraged to bring current lecture materials. Laptop optional."
+  authors: 
+    - name: "Daniel Zingaro"
+      org: "University of Toronto Mississauga"
+      country: "CA"
+      email: "daniel.zingaro@utoronto.ca"
+
+    - name: "Leo Porter"
+      org: "University of California, San Diego"
+      country: "US"
+      email: "leporter@cs.ucsd.edu"
+
+    - name: "Quintin Cutts"
+      org: "University of Glasgow"
+      country: "GB"
+      email: "quintin@dcs.gla.ac.uk"
+
+    - name: "John Glick"
+      org: "University of San Diego"
+      country: "US"
+      email: "glick@sandiego.edu"
+
+    - name: "Joe Hummel"
+      org: "University of Illinois at Chicago"
+      country: "US"
+      email: "jhummel2@uic.edu"
+
+    - name: "Cynthia Lee"
+      org: "Stanford University"
+      country: "US"
+      email: "cynthia.b.lee@gmail.com"
+
+    - name: "Jaime Spacco"
+      org: "Knox College"
+      country: "US"
+      email: "jspacco@knox.edu"
+
+ 
+- number: 12
+  id: 1188
+  title: "How to launch a STARS Computing Corps cohort to improve retention and broaden participation in computing"
+  tags: "broadening participation in computing, gender and diversity, service learning"
+  abstract: "The STARS Computing Corps is a national alliance with the mission to grow a diverse community of computing leaders. STARS serves as a framework for integrating civic engagement into college computing departments with the goals of broadening participation of underrepresented groups in computing, recruiting K-12 students into the computing pipeline, and retaining students in computing majors. The STARS approach to broadening the participation of women and under-represented minorities in computing is based on research that has shown the value of creating a community and sense of identity. The Corps creates such a community across multiple institutions, including women's and historically black colleges and universities, with members that share the core values of becoming responsible leaders who use their computing skills for social benefit. Each cohort of students and faculty at a STARS member university collaborates with local K-12 schools and industry partners to conduct computing-related outreach, service, and research that can broaden participation in computing. These local cohorts help to build community within and across STARS member institutions, retain students in college degree programs in computing, recruit new students into computing, educate local K-12 teachers, counselors, students, and parents about computing, and build bridges with local industry and community organizations. This workshop will provide hands-on training for new schools to learn how to begin and build a STARS Computing Corps cohort on their own campus."
+  authors: 
+    - name: "Jamie Payton"
+      org: "University of North Carolina at Charlotte"
+      country: "US"
+      email: "payton@uncc.edu"
+
+    - name: "Tiffany Barnes"
+      org: "North Carolina State University"
+      country: "US"
+      email: "tmbarnes@ncsu.edu"
+
+ 
+- number: 301
+  id: 1096
+  title: "A Hands-On Introduction to the Internet of Things"
+  tags: "Internet of Things, Mobile"
+  abstract: "The Internet of Things (IoT), considered by many to be the next big revolution in computing, refers to the trend to include networking and computing in a wide range of devices, such as watches, appliances, health monitors, toys, etc. Including IoT applications early in the curriculum may serve multiple pedagogical purposes, such as demonstrating social relevance, (e.g., health monitoring applications) and motivating other CS topics (e.g. distributed systems, networking, OOP, event driven programming, computer organization, and databases). This workshop will introduce participants to basic terms and technologies behind IoT. Participants will then work through a hands-on, classroom-ready exercise to build a complete IoT solution. The embedded portion of this solution, based on the popular Arduino platform (hardware provided), will be targeted at students who have completed CS1. The completion of a mobile app that interacts with the embedded devices will require CS2 skills. Participants should have an interest in IoT or be interested in engaging assignments for both introductory and upper level students. Participants are asked to bring a laptop computer and a recent mobile device, with appropriate software tools installed. Links to these tools, as well as a list of compatible mobile devices, will be provided. Most Android and iOS devices made within the last three years are suitable."
+  authors: 
+    - name: "Bill Siever"
+      org: "Western Illinois University"
+      country: "US"
+      email: "bsiever@gmail.com"
+
+    - name: "Michael Rogers"
+      org: "Northwest Missouri State University"
+      country: "US"
+      email: "michael@nwmissouri.edu"
+
+ 
+- number: 302
+  id: 1069
+  title: "Introducing Secure Coding in CS0, CS1, and CS2"
+  tags: "secure coding, CS0, CS1, CS2, interactive learning; integer overflow, input validation, buffer overflow"
+  abstract: "The CS 2013 curriculum includes Information Assurance and Security as a pervasive knowledge area. However, introducing security in lower level courses is challenging because of lack of appropriate teaching resources and training. This workshop, part of the Cybersecurity Resources and Strategies for Teaching (CReST) project, www.crest4cs.org, will provide a well-tested strategy for introducing secure coding concepts in CS0, CS1, and CS2. We will introduce attendees to secure coding through hands-on exercises, and provide self-contained, lab-based modules designed to be injected into CS0-CS2 with minimal impact on the course (www.towson.edu/securityinjections). Participants will be encouraged to bring in their own syllabus and labs to modify to include secure coding concepts. The first 15 participants will be reimbursed for the workshop cost on attendance. Laptop recommended."
+  authors: 
+    - name: "Blair Taylor"
+      org: "Towson University"
+      country: "US"
+      email: "btaylor@towson.edu"
+
+    - name: "Siddharth Kaza"
+      org: "Towson University"
+      country: "US"
+      email: "skaza@towson.edu"
+
+ 
+- number: 303
+  id: 1162
+  title: "Building on Blocks: Getting Started With Frames in Greenfoot 3"
+  tags: "Greenfoot 3, Frame-based programming"
+  abstract: "Blocks-based programming has become a very popular technology for teaching introductory programming in schools, but it still faces some issues as learners progress. The large transition gap between blocks-based and text-based programming is a source of worry for many educators. However, the difficulties learners have with developing and maintaining progressively larger and more complex programs in block-based systems force teachers to move students on to text-based systems rather than remain with blocks. Greenfoot 3 introduces frame-based programming, a hybrid of blocks-based and text-based programming. Frame-based programming adds comprehensive keyboard support, along with several other usability improvements aimed at removing frustrations for intermediate and experienced programmers, while also providing a way to fill the gap in the transition process. This workshop will show how to teach introductory programming using the new frame-based editor from Greenfoot 3. We will help the participants to explore the new editor in a hands-on session, accompanied by explanations of its distinctive features and how they have been designed to overcome the friction and niggles present in current blocks-based editors, while also providing pedagogical guidance for learners."
+  authors: 
+    - name: "Amjad Altadmri"
+      org: "University of Kent"
+      country: "GB"
+      email: "aa803@kent.ac.uk"
+
+    - name: "Neil Brown"
+      org: "University of Kent"
+      country: "GB"
+      email: "nccb@kent.ac.uk"
+
+ 
+- number: 304
+  id: 1236
+  title: "Rubricking like a boss: writing and using rubrics for faster, fairer grading of student programs"
+  tags: "rubric, programming, grading"
+  abstract: "Educators responsible for coordinating a staff to grade a large volume of exams or projects have learned, sometimes the hard way, the importance of writing good rubrics: they keep the graders on track, grading equitably, consistently, and quickly. But these benefits of a well- written rubric extend also to those of us without a grading staff, even to single classrooms of twenty or so students. Good rubrics will change your life! In this workshop, we will present various principles we have found to write effective analytic rubrics for student programming work, helping to keep our grading unbiased and to assess the student work more quickly. We will show specific examples of good rubrics, and then participants will jointly grade some sample work according to a shared rubric, discussing what works and what doesn't. Finally, participants will break into small groups to workshop a rubric for an assignment they've given in their own class. Most examples will be at the CS1/CS2 level (and CS1-only educators are welcome), but some of the discussion will address higher-level courses as well. Participants should bring the specification/handout for a programming assignment they have recently given in class (which need not be CS1/CS2), and are encouraged (if possible) to bring a small number of handed-in student solutions for that assignment. Laptops are not necessary unless that's how the participant is bringing or accessing their student solutions."
+  authors: 
+    - name: "Don Blaheta"
+      org: "Longwood University"
+      country: "US"
+      email: "blahetadp@longwood.edu"
+
+    - name: "Adrienne Decker"
+      org: "Rochester Institute of Technology"
+      country: "US"
+      email: "Adrienne.Decker@rit.edu"
+
+ 
+- number: 305
+  id: 1178
+  title: "Permeating Data Visualization in CS Courses"
+  tags: "visualization; cs curriculum; creative computation; Processing"
+  abstract: "Since 2007, we have successfully designed and implemented a computational art based context for introductory computing courses at both the undergraduate and high school level, leveraging the Processing development environment. Students learn to create data visualizations ranging from simple time series and heatmaps to word clouds, treemaps, and map-based geographical data visualizations. We have noticed two emerging trends; increased student engagement and interest in the visualization of data, and a resurgence of the web as a media-rich platform. This workshop builds on lessons learned from the creative coding classroom during these past 8 years. Working with the Processing environment, as well as its web-based implementations Processing.js and P5.js, attendees will explore approaches to visualizing data, applicable to CS courses ranging from high school to upper level interdisciplinary courses that would benefit from visualizations. Attendees will learn how to connect to online data streams, input, parse, visualize, and ultimately interact with the data, in both 2D and 3D. We will demonstrate the basic principles of creative coding and its applicability to teaching core structures and theory for the computing classroom. We will demonstrate how to seamlessly translate data visualizations from the desktop to web-based implementations--enabling the development of an online portfolio. This hands-on workshop will balance formal presentations with hands on opportunities for attendees to develop a series of short data visualizations, including a web-based portfolio of their work. Basic familiarity with Java and/or JavaScript is expected, prior experience with Processing is helpful but not essential. Laptops required."
+  authors: 
+    - name: "Aaron Cadle"
+      org: "Fort Worth Country Day School"
+      country: "US"
+      email: "aaron.cadle@fwcd.com"
+
+    - name: "Ira Greenberg"
+      org: "Southern Methodist University"
+      country: "US"
+      email: "igreenberg@smu.edu"
+
+    - name: "Deepak Kumar"
+      org: "Bryn Mawr College"
+      country: "US"
+      email: "dkumar@cs.brynmawr.edu"
+
+    - name: "Dianna Xu"
+      org: "Bryn Mawr College"
+      country: "US"
+      email: "dxu@cs.brynmawr.edu"
+
+    - name: "Ursula Wolz"
+      org: "RiverSound Solutions"
+      country: "US"
+      email: "riversoundsol@gmail.com"
+
+ 
+- number: 306
+  id: 1340
+  title: "Learn CS1/2 by Playing and Building Commercial Grade Casual Games: No Background Required"
+  tags: "Computer Science Education, Assignment Design, Casual Games, CS1/2"
+  abstract: "Designed specifically for instructors of university or high school Introductory Java Programming Classes (CS1/2) with no background in videogames or computer graphics, and based on our original casual game designs, this workshop will: (1) lead participants through structured gameplay sessions; (2) analyze how game mechanics contribute to player engagement; (3) map core game logic and mechanics to programming constructs taught in CS1/2 classes (e.g., conditionals, loops); (4) guide participants to develop simplified versions of these games based on our custom APIs and using CS1/2 programming constructs; (5) present sample teaching materials based on the games that are being used in our own classrooms, including: lecture materials, hands-on worksheets, and programming assignments; and (6) discuss our experiences using the materials, including what worked and what to avoid. Our games are innovative twists on popular casual genres (e.g., a Breakout variant using the z-plane, and a Zuma variant with user-movable paths) and we're currently enhancing the educational versions for commercial release. We've developed custom APIs for our games that are readily accessible to new programmers based on the successful Game-Themed CS1/2 project. Participants of this workshop will gain the confidence to build similar games, examine approaches to developing teaching materials based on the games and APIs, and understand the challenges inherent to this approach. Students will have the unique opportunity to play with commercial-quality game demos while using CS1/2 concepts to build games that are fun and appropriate for all ages."
+  authors: 
+    - name: "Kelvin Sung"
+      org: "University of Washington Bothell"
+      country: "US"
+      email: "ksung@uw.edu"
+
+    - name: "Rob Nash"
+      org: "University of Washington Bothell"
+      country: "US"
+      email: "rynn@uw.edu"
+
+    - name: "Jason Pace"
+      org: "University of Washington Bothell"
+      country: "US"
+      email: "jasonpa@uw.edu"
+
+ 
+- number: 307
+  id: 1098
+  title: "CSinParallel: Using WebMapReduce to teach parallel computing concepts, hands-on"
+  tags: "CSinParallel, WebMapReduce, WMR, map-reduce, parallel computing, parallelism, distributed computing, education, parallel design patterns, curriculum, design patterns, exemplars, CS1, advanced courses, parallel and distributed computing."
+  abstract: "Map-reduce computation is the on-ramp to data-intensive cloud computing, and arguably the most widely deployed form of parallel/distributed computing. Participants will carry out exercises designed for students at CS1, intermediate, and advanced levels that introduce data-intensive scalable computing concepts using WebMapReduce (WMR), a simplified open-source interface to the dominant Hadoop map-reduce programming environment. WMR supports programming in a choice of languages including Python, Java, C++, and C#. Besides a hands-on experience with introductory teaching materials, the workshop includes an overview of teaching advanced map-reduce programming using WMR, and a comparison of WMR to direct Hadoop programming. All materials will reside on csinparallel.org, and the demonstration WMR system is reservable for participants' courses. Intended audience: CS instructors. Web-enabled laptop required."
+  authors: 
+    - name: "Richard Brown"
+      org: "St. Olaf College"
+      country: "US"
+      email: "rab@stolaf.edu"
+
+    - name: "Elizabeth Shoop"
+      org: "Macalester College"
+      country: "US"
+      email: "shoop@macalester.edu"
+
+    - name: "Joel Adams"
+      org: "Calvin College"
+      country: "US"
+      email: "adams@calvin.edu"
+
+ 
+- number: 308
+  id: 1296
+  title: "MUzECS: Block-based Arduino Programming for Exploring Computer Science"
+  tags: "ECS, Arduino, Scratch"
+  abstract: "The inexpensive Arduino makes for an attractive embedded platform in introductory courses. Its many variants, open source tools, and well-established hobbyist community support a staggering breadth of possible uses. In this workshop, we concentrate on block-based programming of the Arduino, providing a smooth path for Scratch programmers to expand into the wider world of sensors, actuators, and embedded systems. The MUzECS curriculum is designed to be an inexpensive replacement for the costly final robotics module of Exploring Computer Science (ECS), but also has clear applicability to Advanced Placement Computer Science Principles (AP CSP) and even college undergraduate courses. The session will introduce the Arduino Leonardo board, detail various \"shield\" extensions that are available, and present the tools and resources needed for high school or college instructors to get started. Demonstration activities will focus on ECS-style lessons that build programmable musical instruments. Laptop required."
+  authors: 
+    - name: "Dennis Brylow"
+      org: "Marquette University"
+      country: "US"
+      email: "dennis.brylow@marquette.edu"
+
+ 
+- number: 309
+  id: 1252
+  title: "How to Plan and Run Summer Computing Camps - Logistics"
+  tags: "Summer Camp, Outreach, K12"
+  abstract: "This workshop will provide details on how to plan and run non-residential, week-long computing summer camps for 4th -- 12th grade students. Georgia Tech has been offering computing summer camps since 2004. These camps are financially self-sustaining and effective. Items used in the camps include: CS Unplugged, LightBot, Scratch, Alice, LEGO robots (WeDo, NXT, EV3, and Tetrix), EarSketch, and App Inventor. Georgia Tech helped start other computing camps at eleven other colleges and universities in Georgia from 2007 to 2010 as part of Georgia Computes! NSF BPC grant. Since 2014, as part of the Expanding Computing Education Pathways (ECEP) NSF grant we have also helped institutions start or expand summer computing camps in South Carolina, Massachusetts, and California. The workshop will include presentation about application forms, a timeline, sample agendas, sample flyers, budget plans, a planning checklist, suggested projects, surveys, pre and post-tests, evaluation results, lessons learned, and more."
+  authors: 
+    - name: "Barbara Ericson"
+      org: "Georgia Institute of Technology"
+      country: "US"
+      email: "ericson@cc.gatech.edu"
+
+    - name: "Kristine Nagel"
+      org: "Georgia Gwinnett College"
+      country: "US"
+      email: "knagel@ggc.edu"
+
+    - name: "Nannette Napier"
+      org: "Georgia Gwinnett College"
+      country: "US"
+      email: "nnapier@ggc.edu"
+
+    - name: "Krishnendu Roy"
+      org: "Valdosta State University"
+      country: "US"
+      email: "kroy@valdosta.edu"
+
+ 
+- number: 310
+  id: 1310
+  title: "K-12 Teacher Support for Computer Science Principles: An Introduction to the UTeach Course, Thriving in Our Digital World: AP"
+  tags: "Computer Science Principles, Advanced Placement, AP, K-12"
+  abstract: "Thriving in Our Digital World: AP provides high school teachers a complete, classroom-ready curriculum, including custom online resources and flexible curricular materials, designed to satisfy the College Board's requirements for its new course, AP Computer Science Principles. Organized in a series of project-based modules, the course focuses on current areas of research among real-world computer scientists, including Big Data, artificial intelligence, digital manipulation, and data security. Beginning in Summer 2016, UTeach---the highly successful STEM teacher preparation program that began at The University of Texas at Austin in 1997 and is now being replicated nationwide---will offer professional development, ongoing support, and incentives for teachers to teach this exciting course. UTeach's PD model encourages the participation of teachers with a variety of backgrounds and levels of experience, and leverages participating teachers' diverse areas of expertise to improve PD and support opportunities for all participants. Individuals who teach Thriving in Our Digital World: AP can expect to join a national community of UTeach-trained educators dedicated to improving K-12 computer science education and better engaging girls and other historically underrepresented groups in computing. K-12 educators and school and district administrators should plan to attend this hands-on workshop. Presenters will engage participants in demonstration lessons and activities, and participants will leave with materials and handouts that are directly relevant to K-12 computer science classrooms. Laptops are required."
+  authors: 
+    - name: "Jeff Mickel"
+      org: "The UTeach Institute, The University of Texas at Austin"
+      country: "US"
+      email: "mickel@utexas.edu"
+
+    - name: "Alicia Beth"
+      org: "The UTeach Institute, The University of Texas at Austin"
+      country: "US"
+      email: "aliciabeth@utexas.edu"
+
+ 
+- number: 311
+  id: 1010
+  title: "Conducting educational research in the computer science classroom: Choosing the appropriate research design to address your research questions."
+  tags: "Computing"
+  abstract: "This workshop will provide CS educators with tools to conduct educational research. Primary objectives of this workshop are: (1) learn basic principles of research design; (2) learn about various types of research designs: qualitative vs. quantitative; experimental vs. quasi-experimental; case studies, survey; and (3) to practice designing research. This workshop will help participants make informed decisions when faced with limitations of educational research and collect empirical evidence about what works in the classroom. In addition, we will also discuss how to develop robust student outcome measures, such as surveys and tests. The workshop will be beneficial to participants who have not yet done all of these activities as well as those who have some background in educational research."
+  authors: 
+    - name: "Aman Yadav"
+      org: "Michigan State University"
+      country: "US"
+      email: "ayadav@msu.edu"
+
+ 
+- number: 312
+  id: 1392
+  title: "AP CS Principles and The Beauty and Joy of Computing Curriculum"
+  tags: "Computer science education, computer science principles, BJC"
+  abstract: "The Beauty and Joy of Computing (BJC) is a CS Principles (CSP) course developed at UC Berkeley, intended for high school juniors through university non-majors. It was twice chosen as a CSP pilot, and both the College Board and code.org have endorsed it. Since 2011, we have offered professional development to over 240 high school teachers. Through partnerships with EDC (Education Development Center), the New York City Department of Education, and CSNYC, our NSF-funded BJC4NYC project will be bringing BJC to 100 high school teachers in New York City, the largest and one of the most diverse school districts in the country. Our guiding philosophy is to meet students where they are, but not to leave them there. It covers the big ideas and computational thinking practices required in the AP CSP curriculum framework using an easy-to-learn blocks-based programming language called Snap! (based on Scratch), and powerful computer science ideas like recursion, higher-order functions and computability. Through the course, students learn to create beautiful images, and realize that code itself can be beautiful. Having fun is an explicit course goal. We take a \"lab-centric\" approach, and much of the learning occurs through guided programming labs that ask students to explore and play. In this workshop, we will provide an overview of BJC, share our experiences as instructors of the course at the university and high school level, provide a glimpse into a typical week of the course, and share details of potential crowd-funded summer professional development opportunities."
+  authors: 
+    - name: "Daniel Garcia"
+      org: "UC Berkeley"
+      country: "US"
+      email: "ddgarcia@cs.berkeley.edu"
+
+    - name: "Tiffany Barnes"
+      org: "NC State"
+      country: "US"
+      email: "tiffany.barnes@gmail.com"
+
+    - name: "Michael Ball"
+      org: "UC Berkeley"
+      country: "US"
+      email: "cycomachead@gmail.com"
+
+    - name: "Emil Biga"
+      org: "Millard North High School"
+      country: "US"
+      email: "efbiga@gmail.com"
+
+    - name: "Josh Paley"
+      org: "Gunn High School"
+      country: "US"
+      email: "josh.paley@gmail.com"
+
+    - name: "Marnie Hill"
+      org: "J. H. Rose High School"
+      country: "US"
+      email: "hillm1@pitt.k12.nc.us"
+
+    - name: "Nathan Mattix"
+      org: "Piedmont High School"
+      country: "US"
+      email: "nmattix@piedmont.k12.ca.us"
+
+    - name: "Parisa Safa"
+      org: "Urban School of San Francisco"
+      country: "US"
+      email: "parisa.safa@gmail.com"
+
+    - name: "Sean Morris"
+      org: "Albany High School"
+      country: "US"
+      email: "sean.smorris@gmail.com"
+
+    - name: "Shawn Kenner"
+      org: "Sharon High School"
+      country: "US"
+      email: "shawn5678@gmail.com"
+
+ 
+- number: 401
+  id: 1158
+  title: "JavaScript Applications for CS0/CS1: Getting Hands-on with Code.org's App Lab"
+  tags: "JavaScript Programming IDE CS0 CS1 Apps learning environment"
+  abstract: "App Lab (https://code.org/applab) is Code.org's rapid-prototyping environment for creating HTML, CSS, and JavaScript-powered web applications. It was created as part of a rich set of instructional resources designed for teachers of the new AP Computer Science Principles (CSP) course. Yet, App Lab far exceeds the needs of CSP, and would be an appropriate learning environment for students in any CS0/CS1 class, even at the university level. App Lab gives novice programmers access to capabilities previously reserved for courses that require sophisticated tech setup and knowledge of both front and backend web development, server-side scripting, databases, etc. Rather than focusing on curriculum, this workshop will focus on how App Lab works as a programming tool in its own right, and how it was designed to aid and motivate student learning. Participants will get hands-on time with some of App Lab's more advanced features guided by a Code.org product manager, while working with the education team to help understand the educational philosophy that went into its development. Participants will come away with exemplars that highlight App lab's possibilities, practice with some of its richer features, and do a hackathon to create something to share with each other (and the world)! Finally we will end with a discussion about how best to integrate App Lab into existing courses. App Lab was developed as part of collaboration between Code.org and David Bau (Google), creator of PencilCode.net."
+  authors: 
+    - name: "Baker Franke"
+      org: "Code.org"
+      country: "US"
+      email: "baker@code.org"
+
+    - name: "Sarah Filman"
+      org: "Code.org"
+      country: "US"
+      email: "sarah.filman@code.org"
+
+    - name: "Brook Osborne"
+      org: "Code.org"
+      country: "US"
+      email: "brook@code.org"
+
+ 
+- number: 402
+  id: 1230
+  title: "Programming web services on the cloud with Node.js"
+  tags: "web services, web development, javascript, node.js, cloud computing"
+  abstract: "Web services (a.k.a. web APIs) allow developers to build web and mobile applications using data from multiple online sources. This workshop is aimed at CS instructors that wish to teach how to use and write web services using Node.js on a cloud development environment. Node.js is an open source JavaScript platform that is currently used by companies like PayPal, DowJones, Walmart, Netflix, and Yahoo. Over 120 companies in the fortune 500 are not only using, but embracing Node.js in their everyday operations. Using and writing web services in Node.js is significantly easier than using other environments based on languages such as C# or Java. Because we will be using a cloud platform, all our tools are readily available through any modern web browser, thus eliminating the hassle related to installing a complete standalone development environment. Teaching web API design with Node.js on the cloud provides our students a relevant real life technical skill. Workshop participants will use the free service provided by Cloud9 IDE (https://c9.io/) to learn how to write scalable RESTful web services using Node.js, the Express web framework, MySQL, and jQuery. Participants should have a working knowledge of HTML, JavaScript, and SQL. Additional information available at: http://node.arielortiz.info/ Laptop required."
+  authors: 
+    - name: "Ariel Ortiz"
+      org: "Tecnologico de Monterrey, Campus Estado de Mexico"
+      country: "MX"
+      email: "ariel.ortiz@itesm.mx"
+
+ 
+- number: 403
+  id: 1214
+  title: "Teaching Robotics Using ROS"
+  tags: "Robotics, ROS"
+  abstract: "The deployment of autonomous and semi-autonomous robots is likely to increase dramatically over the next decade. Recent autonomous vehicle prototypes illustrate both the rapid progress of the underlying technology and the commercial possibilities of robotics. The next few years are likely to see increased interest in robotics among both students and employers. The Robot Operating System (ROS) is an open-source software framework for developing robotics applications. It has become a standard platform with a wide range of supported robots and a vibrant software ecosystem. This workshop will provide a hands-on introduction to ROS. Participants will have the opportunity to write ROS-based Python programs to control a Turtlebot educational robot. We will discuss the benefits and challenges of using ROS in an undergraduate robotics course. The workshop is intended for CS educators with an interest in teaching robotics. Laptops will be provided. No experience with ROS or Python is required."
+  authors: 
+    - name: "Nathan Sprague"
+      org: "James Madison University"
+      country: "US"
+      email: "spragunr@jmu.edu"
+
+    - name: "Ralph Grove"
+      org: "James Madison University"
+      country: "US"
+      email: "groverf@jmu.edu"
+
+ 
+- number: 405
+  id: 1330
+  title: "Advanced Placement Computer Science Principles Performance Task: Create -- Applications from Ideas, Approaches to Programming Collaboratively. It's a Hackathon Workshop!"
+  tags: "CS Principles, broadening participation, assessment, collaboration, programming"
+  abstract: "The AP Computer Science Principles assessment model comprises two main components: 1) an end-of-course AP Exam (i.e., a paper-pencil, multiple choice questions); and 2) a through-course assessment that includes two (2) performance tasks in which students complete during class time. This workshop focuses on content and skills included in one of the through-course assessment performance tasks: Create -- Applications from Ideas. In this task, students are expected to collaborate with another student in the development process of writing a program, and because each student will submit her/his own program for AP scoring purposes, students are also expected to be able to continue working on their program individually. To obtain the knowledge and skills students will need to be successful with this performance task, students can consider practicing various possible ways to write programs individually and collaboratively. That said, teachers can support student success with this performance task by considering different ways to teach how to develop programs collaboratively (beyond Pair Programming). In this workshop, participants will experience different collaborative programming techniques to develop a program. This workshop is meant for programmers \"from beginners to experts\". In addition, participants will reflect on the collaborative process, thereby learning some of the essential knowledge and skills that students will need to obtain in order to successfully complete the Create performance task."
+  authors: 
+    - name: "Lien Diaz"
+      org: "College Board"
+      country: "US"
+      email: "ldiaz@collegeboard.org"
+
+    - name: "Richard Kick"
+      org: "Newbury Park High School"
+      country: "US"
+      email: "kickrg@gmail.com"
+
+    - name: "Andrew Kuemmel"
+      org: "Madison West High School"
+      country: "US"
+      email: "andykuemmel@gmail.com"
+
+ 
+- number: 406
+  id: 1240
+  title: "Scaling up for CS10K: Teaching and Supporting New Computer Science High School Teachers"
+  tags: "broadening participation, computer science principles, teacher professional development"
+  abstract: "Increasing need for computing expertise in our everyday lives and in the workforce, paired with declining enrollments in computing by women and underrepresented minorities have made it critical to provide students with experiences in computing before college. CS10K is a national effort to engage 10,000 high school teachers in teaching computer science across the United States. With CS10K projects working on this goal since 2012 having prepared less than 1000 teachers for teaching computer science in high school, there is a need to scale professional development opportunities to local communities. College and university computing faculty have the unique preparation and call for community engagement that make it a win-win to support local high school teachers in learning to teach computer science. We will use the STARS model of building university-based communities that broaden participation in computing, adapted to the context of supporting K12 teachers to become change agents and educators prepared to teach computer science. In this workshop, participants will learn how to implement scalable team-based professional development for K12 teachers new to teaching computer science. We will provide resources to recruit, plan, and support small groups of new teachers to teach the new CS Principles course that will become an Advanced Placement course in 2016-2017."
+  authors: 
+    - name: "Tiffany Barnes"
+      org: "North Carolina State University"
+      country: "US"
+      email: "tiffany.barnes@gmail.com"
+
+    - name: "Jamie Payton"
+      org: "University of North Carolina at Charlotte"
+      country: "US"
+      email: "payton@uncc.edu"
+
+    - name: "Daniel Garcia"
+      org: "University of California and Berkeley"
+      country: "US"
+      email: "ddgarcia@cs.berkeley.edu"
+
+ 
+- number: 407
+  id: 1321
+  title: "App Development for All!"
+  tags: "mobile,apps,web,data,engagement,Bootstrap,PhoneGap"
+  abstract: "In this workshop, participants will learn how to build custom, data-driven mobile apps using the hybrid model and how to scaffold app development projects to focus students' efforts on specific lesson, unit or assignment goals. It is intended for post-secondary or late secondary educators who want to increase student engagement by including app projects in their courses. Previously, the specialized knowledge and software necessary prevented integration of app development in other than specialized classes. But with new tools and techniques, barriers to implementation have been reduced: in the hybrid model, developers use HTML5, CSS and Javascript - along with libraries enabling access to mobile device features such as accelerometer, camera, contacts, etc - to quickly develop apps and to distribute them on multiple platforms. Participants will learn how to create app interfaces using the Bootstrap Mobile framework, how to compile their apps using PhoneGap, and how to pull data from public APIs into their apps. Participants will also learn how to use Google tools to quickly create a web service, giving students greater capacity to design and develop relevant, engaging and useful apps. All languages, libraries and tools are free-of-charge and run in the browser, dramatically reducing barriers. Because participants will be developing apps during the workshop, they will need a laptop or will need to work with a colleague. Participants should have at least a rudimentary knowledge of HTML, CSS and Javascript."
+  authors: 
+    - name: "David Hayes"
+      org: "Lane Tech College Prep High School (Chicago Public Schools)"
+      country: "US"
+      email: "dphayes@cps.edu"
+
+    - name: "Dale Reed"
+      org: "University of Illinois at Chicago"
+      country: "US"
+      email: "reed@uic.edu"
+
+ 
+- number: 408
+  id: 1046
+  title: "Mixing Code and 3D Printers with Madeup"
+  tags: "3d printing, Logo, spatial thinking"
+  abstract: "Madeup is a text- and blocks-based programming language for making things up---literally. Programmers write sequences of commands to move and turn through space, tracing out printable 3D shapes with algorithms and mathematical operations. The language is designed to teach computation from a tangible, first-person perspective and help students integrate computation back into the physical world. In this workshop, we empower educators to use the freely-available and browser-based Madeup programming environment in their classrooms. Participants should expect to learn actively."
+  authors: 
+    - name: "Chris Johnson"
+      org: "University of Wisconsin, Eau Claire"
+      country: "US"
+      email: "johnch@uwec.edu"
+
+    - name: "Heather Amthauer"
+      org: "University of Wisconsin, Eau Claire"
+      country: "US"
+      email: "amthauha@uwec.edu"
+
+    - name: "Ryan Hardt"
+      org: "University of Wisconsin, Eau Claire"
+      country: "US"
+      email: "hardtr@uwec.edu"
+
+    - name: "Peter Bui"
+      org: "University of Notre Dame"
+      country: "US"
+      email: "pbui@nd.edu"
+
+ 
+- number: 409
+  id: 1182
+  title: "Infusing Cooperative Learning into Early Computer Science Courses to Support Improved Engagement"
+  tags: "cooperative learning; broadening participation; student engagement"
+  abstract: "Many new curricula and tools have been developed recently to promote the exciting opportunities available in computer science. However, curriculum and supporting tools alone do not drive engagement -- the most interesting and innovative curriculum can still be taught in a disengaged manner, leading to lost opportunities for broadening the appeal and interest in computing across a diverse student population. The learning science literature on Cooperative Learning (CL) has been shown to increase class participation and student learning, while also promoting diversity in a manner that supports the differentiated instruction needed to engage students who have mixed abilities. This workshop will demonstrate how the best practices of CL can be applied in early CS courses (e.g., CS Principles, AP CS A, or CS1). Workshop participants will be introduced to the CL structures that have been used in many different disciplines across multiple age/grade levels. These structures will be used to demonstrate specific applications toward computer science concepts. The workshop itself will be taught in a cooperative learning style so that participants can understand the dynamics and structure of a CL classroom. This workshop is intended for two types of educators: 1) K-12 teachers currently teaching AP CS A, AP CS Principles (AP CSP), or other introductory programming courses and 2) university faculty currently teaching CS 1 or other introductory computer science courses."
+  authors: 
+    - name: "Fran Trees"
+      org: "Rutgers University"
+      country: "US"
+      email: "fran.trees@cs.rutgers.edu"
+
+    - name: "Jeff Gray"
+      org: "University of Alabama"
+      country: "US"
+      email: "gray@cs.ua.edu"
+
+    - name: "Owen Astrachan"
+      org: "Duke University"
+      country: "US"
+      email: "ola@cs.duke.edu"
+
+ 
+- number: 410
+  id: 1072
+  title: "Solving the Cloud Computing Impasse with MBaaS"
+  tags: "MBaaS, Mobile Computing, Cloud Computing"
+  abstract: "Students raised on tablets and smart phones have a lot of expectations: data that is instantly available on all of their devices; social media integration so they can share that data with their friends; and push notifications, so that responses from their friends get the attention that they deserve. Unfortunately, the vendor-specific technologies required to make this magic happen are daunting, to put it mildly, well beyond the scope of a beginning mobile computing course. However, the last 2 years has seen the emergence of a new technology, Mobile Backend as a Service (MBaaS), that is vendor-agnostic and suitable for novice developers. This workshop will provide a hands-on introduction to this technology. Participants will be provided source code for Pigs Ahoy!, an implementation of the famed dice game Pig that lacks cloud storage and social media integration. During the course of the workshop, participants will add that functionality, and in the process of doing so, acquire a sufficiently detailed knowledge of MBaaS that they can confidently incorporate it into their classes."
+  authors: 
+    - name: "Michael Rogers"
+      org: "Northwest Missouri State University"
+      country: "US"
+      email: "mprogers@mac.com"
+
+    - name: "Bill Siever"
+      org: "Western Illinois University"
+      country: "US"
+      email: "wm-siever@wiu.edu"
+
+ 
+- number: 411
+  id: 1100
+  title: "Reviewing NSF Proposals: Learn about Effective Proposal Writing via the Review Process"
+  tags: "grant writing"
+  abstract: "This workshop focuses on the NSF proposal review process. Via close examination of the review process, participants gain an understanding of how to write good reviews and how to improve their own proposal writing. The workshop covers the following topic areas: the proposal review process from submission of a proposal to award or decline; elements of a good review; NSF merit criteria (intellectual merit and broader impacts); elements of a good proposal; and how to volunteer to review proposals. The workshop uses a structured guided-interactive methodology to lead participants through each topic by introducing related issues, engaging participants in group exercises designed to explore and share their understanding of the issues, and then providing some \"expert\" opinion on these issues. Good and bad examples and a Top Ten List of Do's and Don'ts will be provided."
+  authors: 
+    - name: "Paul Tymann"
+      org: "The National Science Foundation"
+      country: "US"
+      email: "ptymann@nsf.gov"
+
+    - name: "Michael Erlinger"
+      org: "The National Science Foundation"
+      country: "US"
+      email: "merlinge@nsf.gov"
+
+ 
+- number: 412
+  id: 1186
+  title: "Transition to Java Using Alice 3"
+  tags: "Alice, Alice 3, Java, NetBeans, pre-APCS, pre-CS1, animation, 3D Graphics, Introduction to Programming"
+  abstract: "This workshop, designed for pre-AP, Introduction to Programming, Programming for non-majors, and CS1 Java courses, will introduce the tools in Alice 3 that are specifically designed to support a transition to Java and will provide experience with the software, a new textbook, and the available course materials. The workshop offers hands-on experience in programming with Alice 3 and Java, together. Participants will see how to use Alice 3 to build virtual worlds and how to transfer these programs into a Java IDE. The workshop will also explore curricular design and implementation. Alice 3 uses built-in tools including a Java language display that dynamically updates and displays the Java syntax as students build their Alice project, and a plugin for a Java IDE that allows students to start their projects in Alice and then continue their work by writing Java code. These tools allow students to develop animations and simple games using objects in a truly object-oriented style."
+  authors: 
+    - name: "Donald Slater"
+      org: "Alice Project, Carnegie Mellon University"
+      country: "US"
+      email: "dslater@cmu.edu"
+
+    - name: "Wanda Dann"
+      org: "Alice Project, Carnegie Mellon University"
+      country: "US"
+      email: "wpdann@andrew.cmu.edu"
+
+ 
