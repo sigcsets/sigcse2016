@@ -3,7 +3,7 @@ title: For Attendees
 showTitle: true
 ---
 
-This year, we are at the Sheraton Memphis Downtown Hotel in Memphis, Tennessee. 
+This year, we are at the Sheraton Memphis Downtown Hotel in Memphis, Tennessee.
 
 <div class="row" style="margin-top: 20px; margin-bottom: 20px;">
 {% callout info %}
@@ -232,16 +232,11 @@ We are at the {{site.data.main.conferenceHotel}} in {{site.data.main.conferenceC
   </div>
 </div>
 
-<span class="anchor" id = "roommatedb"></span>
-
-## Find a Roommate!
-
-You can also use the [SIGCSE roommate database](http://sigcse.rit.edu/roommates/) to find someone to room with. This is the preferred database of SIGCSE members around the world for finding roommates at the SIGCSE Technical Symposium. Honest.
 
 
-## If Needed: Overflow Options
+## *Probably* Needed: Overflow Options
 
-Once we fill the conference hotel (it is best if we do!), these are some (relatively) nearby options that might serve for overflow.
+The conference hotel is pretty full, and these are our contracted overflow hotels. They're really close to the conference center.
 
 * **Mariott Courtyard** ([reservations](http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=SIGCSE%202016%5EMEMMP%60ACMACMA%7CACMACMB%60133.00-133.0%60USD%60false%604%60;MEMCD%60ACMACMA%7CACMACMB%60133.00%60USD%60false%604%603/1/16%603/7/16%602/1/16&app=resvlink&stop_mobi=yes))
 
@@ -264,6 +259,13 @@ Once we fill the conference hotel (it is best if we do!), these are some (relati
   Phone: <a href="tel:901-522-2100">901-522-2100</a>
 
 
+
+
+<span class="anchor" id = "roommatedb"></span>
+
+## Find a Roommate!
+
+You can also use the [SIGCSE roommate database](http://sigcse.rit.edu/roommates/) to find someone to room with. This is the preferred database of SIGCSE members around the world for finding roommates at the SIGCSE Technical Symposium. Honest.
 
 <a name="travel"></a>
 
@@ -296,20 +298,20 @@ Once we fill the conference hotel (it is best if we do!), these are some (relati
 
 <div class = "row" style="margin-top: 20px">
   <div class = "col-sm-12">
-    
+
 <ul>
   <li> It <a href="http://www.matatransit.com/ridersguide/train-and-plane-connect/">appears you can take the bus</a>. I welcome local knowledge as to whether this is even feasible.</li>
-    
+
 <li> <a href="http://www.taxifarefinder.com/">TaxiFareFinder.com</a> suggests a taxi will run $30-40 from the airport to the hotel. </li>
 
 <li><a href="http://www.bluescitytours.com/airport-shuttle.php">Blue City Tours</a> advertises $25/person airport shuttles (cheaper in groups). I'm sure, if there was someone who could write code in this group, we could find a way to connect people up via smartphone app, so that we could minimize travel cost and maximize ride sharing...</li>
-  
+
 
 <li>The website <a href="https://booking.airportshuttles.com/">airportshuttles.com</a> points to a number of services in Memphis, including Blacklane and GroundLink. Blacklane lists some "sedan class" rides from the hotel to the airport at roughly $56 (with room for three people, two suitcases, and two lunchboxes... I have <b>no idea</b> what the icons on this site mean), SUVs for $78 (which have room for 5 people and their associated suitcases and lunchboxes). </li>
 
 <li>If you book online, <a href="http://www.mearstransportation.com/memphis-international-airport-transportation/">Mears Transportation</a> seems to cost around $72 for a sedan-class airport-to-hotel service.</li>
 
- 
+
 
 </div>
 </div>
