@@ -1,5 +1,5 @@
 
-- number: 1
+- number: 101
   id: 1219
   title: "CReST-Security Knitting Kit: Ready to Use Teaching Resources to Embed Security Topics into Upper Division CS Courses"
   tags: "ACM/IEEE-CS Curricula 2013, Security Education"
@@ -16,7 +16,7 @@
       email: "sghafoor@tntech.edu"
 
  
-- number: 2
+- number: 102
   id: 1281
   title: "Making Music with Computers: Creative Programming in Python"
   tags: "music, creative programming, Python, CS0/CS1"
@@ -33,7 +33,7 @@
       email: "webmaster@tobiaskohn.ch"
 
  
-- number: 3
+- number: 103
   id: 1334
   title: "A Web-Based IDE for Teaching with Any Language"
   tags: "CS50, Cloud9, IDE, GDB, Docker, debugger, linux, editor"
@@ -55,7 +55,7 @@
       email: "nikolai@c9.io"
 
  
-- number: 4
+- number: 104
   id: 1117
   title: "High Yield in the Short Term: Planning Strategically to Get Women into your Major"
   tags: "recruiting, women in computing, attracting majors"
@@ -72,7 +72,7 @@
       email: "leisadthompson@gmail.com"
 
  
-- number: 5
+- number: 105
   id: 1065
   title: "Guiding Students to Discover CS Concepts and Develop Process Skills using POGIL"
   tags: "POGIL; guided inquiry learning; process skills; active learning"
@@ -94,7 +94,7 @@
       email: "mayfiecs@jmu.edu"
 
  
-- number: 6
+- number: 106
   id: 1208
   title: "Engage, Energize and Empower Your Students with Team-Based Learning"
   tags: "active learning, diversity, course design , collaborative learning, teaching"
@@ -116,7 +116,7 @@
       email: "kvanorman@albany.edu"
 
  
-- number: 7
+- number: 107
   id: 1017
   title: "Teaching Parallel Computing Concepts with OpenMP"
   tags: "C, C++, computing, multithreading, OpenMP, parallel, patterns, threads"
@@ -138,7 +138,7 @@
       email: "shoop@macalester.edu"
 
  
-- number: 8
+- number: 108
   id: 1097
   title: "Using OpenDSA eTextbooks in Your Class"
   tags: "OpenDSA eTextbook, Data Structures and Algorithms, Formal Languages, Programming Languages"
@@ -160,7 +160,7 @@
       email: "rodger@cs.duke.edu"
 
  
-- number: 9
+- number: 109
   id: 1167
   title: "Reading and Writing like Computer Scientists: How to Promote Critical Thinking and Student Engagement"
   tags: "Integrated communication skills, writing to learn, informal writing, critical thinking"
@@ -177,7 +177,7 @@
       email: "weinman@cs.grinnell.edu"
 
  
-- number: 10
+- number: 110
   id: 1199
   title: "Lego-based Case Studies for Teaching Software Engineering Concepts throughout the Curriculum"
   tags: "Software Engineering, Case Study, Lego, Play"
@@ -189,7 +189,7 @@
       email: "kurkovsky@ccsu.edu"
 
  
-- number: 11
+- number: 111
   id: 1111
   title: "Peer Instruction in Computing: a Focus on Student Learning"
   tags: "Peer Instruction, active learning, clickers"
@@ -231,7 +231,7 @@
       email: "jspacco@knox.edu"
 
  
-- number: 12
+- number: 112
   id: 1188
   title: "How to launch a STARS Computing Corps cohort to improve retention and broaden participation in computing"
   tags: "broadening participation in computing, gender and diversity, service learning"

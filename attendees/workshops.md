@@ -9,22 +9,22 @@ showTitle: true
 <!-- Title -->
 <div class = "row">
   <div class = "col-sm-12">
-      <h3 style = "font-size: 110%;">{{ws.title}}</h3>
+      <h3 style = "font-size: 110%;">#{{ws.number}}: {{ws.title}}</h3>
   </div>
 </div>
 
 <!-- Tags -->
-<div class = "row">
+<div class = "row" >
   <div class = "col-sm-2">
     <b>Tags:</b>
   </div>
-  <div class = "col-sm-10">
+  <div class = "col-sm-10" >
     {{ws.tags}}
   </div>
 </div>
 
 <!-- Abstract -->
-<div class = "row">
+<div class = "row" style = "margin-top: 15px; margin-bottom: 15px;">
   <div class = "col-sm-2">
     <b>Abstract:</b>
   </div>
@@ -33,22 +33,19 @@ showTitle: true
   </div>
 </div>
 
-{% assign modulus = 2 %}
+{% assign modulus = 3 %}
 {% capture span %}{{ 12 | divided_by: modulus }}{% endcapture %}
-{% for auth in ws.authors  %}
-  {% capture mod %}{{ forloop.index0 | mod: modulus }}{% endcapture %}
-  {% if mod == '0' or forloop.first %}
-    <div class="row">
-  {% endif %}
-  <!-- SPONSOR: {{mod}} -->
-  <div class="col-md-{{span}}" >
-      {{auth.name}} ({{auth.email}}) <br>
-      {{auth.org}}
-	  </div>
-  </div>
-  {% if mod == subone or forloop.last %}
-  </div> <!-- end row -->
-  {% endif %}
-{% endfor %}
+{% capture subone %}{{modulus | minus: 1}}{% endcapture %}
 
+<div class = "row"><div class = "col-sm-offset-2">
+<ul>
+{% for auth in ws.authors  %}
+  <li><a href="mailto:{{auth.email}}">{{auth.name}}</a> <br>
+  {{auth.org}}</li>
+{% endfor %}
+</ul>
+</div></div>
+
+</div>
+<hr>
 {% endfor %}
