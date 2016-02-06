@@ -116,7 +116,7 @@
   organizers:
     - name: "Ming Zhang"
       email: "mzhang@net.pku.edu.cn"
-      
+
 - short: "Engaging Activities"
   max: "75"
   start: "March 2nd, 2PM"
@@ -213,15 +213,15 @@
   where: "Heritage Ballroom, Sheraton Hotel"
   blurb: "presymposium/ncwit.md"
 
-- short: "Community College Reception"
+- short: "Community College Reception sponsored by Intel Education"
   where: "Nashville Ballroom, Sheraton Hotel"
   cost: "Free"
   max: "60"
   start: "March 4th, 6PM"
   date: "March 4, 6:00PM - 8:00 PM"
-  name: "Community College Reception"
+  name: "Community College Reception sponsored by Intel Education"
   info: "http://ccecc.acm.org/contact"
-  register: "Please RSVP via  http://ccecc.acm.org/contact and indicate 'RSVP SIGCSE Community College Reception' in the subject line."
+  register: "No registration required."
   organizers:
     - name: "Elizabeth Hawthorne"
       email: "ehawthorne@ccecc.acm.org"
@@ -231,7 +231,7 @@
       email: "ctucker@ccecc.acm.org"
   room: "Nashville Ballroom, Sheraton Hotel"
   blurb: "presymposium/ccr.md"
-  
+
 - short: "Community College Curriculum Development"
   max: "50"
   start: "March 5th, 3PM"
