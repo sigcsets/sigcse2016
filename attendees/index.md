@@ -258,7 +258,23 @@ The conference hotel is pretty full, and these are our contracted overflow hotel
 
   Phone: <a href="tel:901-522-2100">901-522-2100</a>
 
+### YET MORE HOTELS
 
+In no particular order, these additional hotels are generally within easy transportation distance (walking, bus) of the hotel. We recommend you use Google Maps to figure out what it looks like "on the ground" before you blindly reserve space into one of these.
+
+<ul>
+{% for hotel in site.data.additionalhotels %}
+<li> <b>{{hotel.name}}</b> <br>
+  <ul>
+    <li> Phone: {{hotel.phone}} </li>
+    <li> {{hotel.address}} </li>
+    {% if hotel.code %}
+    <li> CODE: {{hotel.code}} </li>
+    {% endif %}
+  </ul>
+</li>
+{% endfor %}
+</ul>
 
 
 <span class="anchor" id = "roommatedb"></span>
