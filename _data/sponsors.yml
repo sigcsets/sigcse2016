@@ -28,10 +28,10 @@ Silver:
     blurb: ""
     image: microsoft-350.png
     link: "https://msdn.microsoft.com/en-us/imagine.aspx"
-  - name: "Piazza Technologies, Inc."
-    blurb: ""
-    image: piazza-350.png
-    link: "https://piazza.com/"
+#  - name: "Piazza Technologies, Inc."
+#    blurb: ""
+#    image: piazza-350.png
+#    link: "https://piazza.com/"
   - name: "Teradata University Network"
     blurb: "Providing students with hands-on software experiences with the worlds' largest companies."
     image: teradata-350.png
