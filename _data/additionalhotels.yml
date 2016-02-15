@@ -1,0 +1,32 @@
+- name: Crowne Plaza, Memphis Downtown
+  phone: +1-(901)-525-1800
+  address: 300 N. Second Street
+  code: SIGSE (yes, it looks like they might have this as our code)
+
+- name: Sleep Inn at Court Square
+  phone: +1-(901)-522-9700
+  address: 40 N. Front Street
+
+- name: DoubleTree by Hilton Hotel - Memphis Downtown
+  phone: +1-(901)-528-1800
+  address: 185 Union Ave.
+
+- name: Comfort Inn - Downtown
+  phone: +1-(901)-526-0583
+  address: 100 N. Front St.
+
+- name: Residence Inn by Marriott
+  phone: +1-(901)-578-3700
+  address: 110 Monroe Ave.
+
+- name: Hampton Inn & Suites Memphis - Beale Street
+  phone: +1-(901)-260-4000
+  address: 175 Peabody Place
+
+- name: Holiday Inn Downtown Memphis
+  phone: +1-(901)-525-5491
+  address: 160 Union Ave.
+
+- name: The Peabody Memphis
+  phone: +1-(901)-529-4000
+  address: 149 Union Ave.
