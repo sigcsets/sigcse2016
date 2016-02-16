@@ -45,9 +45,9 @@
   register: "To register for this event, email <a mailto='Outreach@iie.org'>Outreach@iie.org</a>."
   organizers:
     - name: "Athena Fulay"
-      email: "afulay@iee.org"
+      email: "afulay@iie.org"
     - name: "Andy Riess"
-      email: "ariess@iee.org"
+      email: "ariess@iie.org"
   room: "L11-L12"
   where: "TBD"
   blurb: "presymposium/fullbright.md"
