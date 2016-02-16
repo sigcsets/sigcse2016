@@ -19,12 +19,12 @@ There are several exciting pre-symposium events this year; plan your travel so y
 {% endif %}
 <tr>
 {% if event.start == prev %}
-<td> </td>
+<td> &nbsp; </td>
 {% else %}
   {% assign prev = event.start %}
   <td>{{event.start}}</td>
 {% endif %}
-  <td><a href="#{{inc | remove: ' '}}">{{event.name}}</a></td>
+  <td style="padding-left: 20px;"><a href="#{{inc | remove: ' '}}">{{event.name}}</a></td>
 </tr>
 {% endif %}
 {% endfor %}
@@ -71,7 +71,7 @@ There are several exciting pre-symposium events this year; plan your travel so y
 **Organizers**:
 <ul>
 {% for org in event.organizers %}
-{% if org.email %}
+{% if org.email contains "@" %}
   <li>{{org.name}} (<a href="mailto:{{org.email}}">{{org.email}}</a>)</li>
   {% else %}
     <li>{{org.name}}</li>
