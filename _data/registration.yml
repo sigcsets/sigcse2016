@@ -32,7 +32,7 @@ other:
   - category: "K-12 one-day (Saturday)"
     rates: "$80 for early, $110 for late or onsite"
   - category: "Students (at any time)"
-    rates:  "$60 for ACM/SIGCSE members, $70 for non-members"
+    rates:  "$60 for ACM/SIGCSE members, $72 for non-members"
   - category: "Workshops"
     rates: "$75 early; $90 late; $100 onsite"
 
