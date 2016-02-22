@@ -1,7 +1,7 @@
 Platinum:
   - name: "Google, Inc."
     image: google-new-350.png
-    link: "https://www.google.com/"
+    link: "https://www.google.com/edu/resources/computerscience/"
 Gold:
   - name: "IBM"
     blurb: ""
@@ -19,7 +19,7 @@ Silver:
   - name: GitHub
     blurb: "The best place to share code with friends, co-workers, classmates, and complete strangers."
     image: github-text-350.png
-    link: "https://www.google.com/edu/resources/computerscience/"
+    link: "https://github.com/"
   - name: Gradescope
     blurb: ""
     image: gradescope-160107-350.png
