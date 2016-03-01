@@ -300,48 +300,80 @@ You can also use the [SIGCSE roommate database](http://sigcse.rit.edu/roommates/
 
 <h3>Ground Transportation</h3>
 
-<div class="row" >
-  <div class="col-sm-12">
-<em>None of this information has been verified by anyone on the ground. Your friendly neighborhood Webmaster has just gone Googling. <b>YOU HAVE BEEN WARNED</b>.</em>
-</div>
-</div>
-
 <div class = "row text-center" style="margin-top: 20px">
   <div class="col-sm-12">
   <img src = "airport-hotel-route.png">
 </div>
 </div>
 
-<div class = "row" style="margin-top: 20px">
-  <div class = "col-sm-12">
+<div class="row" style="margin-top: 20px">
+  <div class="col-sm-12">
+To get from the airport to the downtown area you have a few options (see below).
 
-<ul>
-  <li> It <a href="http://www.matatransit.com/ridersguide/train-and-plane-connect/">appears you can take the bus</a>. I welcome local knowledge as to whether this is even feasible.</li>
+To get from the conference center back to the hotel:
 
-<li> <a href="http://www.taxifarefinder.com/">TaxiFareFinder.com</a> suggests a taxi will run $30-40 from the airport to the hotel. </li>
+<ol>
+<li> If you are heading to the airport between noon and 5:00 we suggest you make use of motorcoaches we have contracted.  They leave every 20 minutes starting at noon, with the last one leaving at 4:40 PM.  Tickets are $10 per person and can be purchased on-site if you didn't but one when you registered.
 
-<li><a href="http://www.bluescitytours.com/airport-shuttle.php">Blue City Tours</a> advertises $25/person airport shuttles (cheaper in groups). I'm sure, if there was someone who could write code in this group, we could find a way to connect people up via smartphone app, so that we could minimize travel cost and maximize ride sharing...</li>
-
-
-<li>The website <a href="https://booking.airportshuttles.com/">airportshuttles.com</a> points to a number of services in Memphis, including Blacklane and GroundLink. Blacklane lists some "sedan class" rides from the hotel to the airport at roughly $56 (with room for three people, two suitcases, and two lunchboxes... I have <b>no idea</b> what the icons on this site mean), SUVs for $78 (which have room for 5 people and their associated suitcases and lunchboxes). </li>
-
-<li>If you book online, <a href="http://www.mearstransportation.com/memphis-international-airport-transportation/">Mears Transportation</a> seems to cost around $72 for a sedan-class airport-to-hotel service.</li>
-
-
+<li> If you are heading to the airport some other time the same options as for getting from the airport are viable.
+</ol>
 
 </div>
 </div>
 
 <div class = "row text-center" style="margin-top: 20px">
-  <div class="col-sm-12">
-Yellow Cab and Checker Cab ("sister companies") suggest that you can call them to to schedule a taxi to take you to the airport (901-577-7777 or 800-796-7750), and for scheduled group airport shuttles, call 901-577-7700 or 800-796-7750.
-</div></div>
+  NOTE (From The Organizers) <br>
+  <b>FOR TRANSPORTATION BACK TO THE AIRPORT ON
+SATURDAY AFTERNOON</b> <br>
+We have contracted motorcoaches to run continuously between the Sheraton and the airport, every 20 minutes, between noon and 4:40.  The cost is $10 per person.  Tickets will be sold on-site too, up to coach capacities.  The only coach that is full is one departing at 2:00 PM.
+</div>
+
+
+<div class = "row" style="margin-top: 20px">
+  <div class = "col-sm-12">
+
+<div style="margin-top: 20px;">
+Your friendly neighborhood web master has found the following helpful information:
+<p>&nbsp;</p>
+
+<ul>
+
+<li> <a href="http://www.taxifarefinder.com/">TaxiFareFinder.com</a> suggests a taxi will run $30-40 from the airport to the hotel. </li>
+
+<li>Yellow Cab and Checker Cab ("sister companies") suggest that you can call them to to schedule a taxi to take you to the airport (901-577-7777 or 800-796-7750), and for scheduled group airport shuttles, call 901-577-7700 or 800-796-7750.
+</li>
+
+<li>Blue City Tours advertises $25/person airport shuttles (cheaper in groups). I'm sure, if there was someone who could write code in this group, we could find a way to connect people up via smartphone app, so that we could minimize travel cost and maximize ride sharing...
+</li>
+
+<li>The website <a href="https://booking.airportshuttles.com/">airportshuttles.com</a> points to a number of services in Memphis, including Blacklane and GroundLink. Blacklane lists some "sedan class" rides from the hotel to the airport at roughly $56 (with room for three people, two suitcases, and two lunchboxes... I have <b>no idea</b> what the icons on this site mean), SUVs for $78 (which have room for 5 people and their associated suitcases and lunchboxes). </li>
+
+<li>If you book online, <a href="http://www.mearstransportation.com/memphis-international-airport-transportation/">Mears Transportation</a> seems to cost around $72 for a sedan-class airport-to-hotel service.</li>
+</div>
+
+
+</div>
+</div>
 
 <a name="stufftodo"></a>
 
-<h3>Once You Are There</h3>
+<h3>Things To Do Once You Are There</h3>
 
-Memphis is a great town (the Webmaster has been there before, and it's pretty groovy). We'll have information about all the excitement you hip cats can handle long before you arrive.
+<li>The "Cheat Sheet" has a whole bunch of stuff.<br>
+  <a href="http://ilovememphisblog.com/2016/01/memphis-cheat-sheet-must-dos-must-sees-and-must-eats/">http://ilovememphisblog.com/2016/01/memphis-cheat-sheet-must-dos-must-sees-and-must-eats/</a>
+
+<li>Memphis, Tennessee - Attractions, Restaurants, Hotels & Things To Do - Official Site<br>
+    <a href="http://www.memphistravel.com">http://www.memphistravel.com</a>
+    
+<li>City of Memphis - Visiting Memphis<br>
+    <a href="http://www.memphistn.gov/Visitors/VisitingMemphis.aspx">http://www.memphistn.gov/Visitors/VisitingMemphis.aspx</a>
+
+<li>Tennessee Vacations - Memphis Convention Visitors Bureau<br>
+  <a href="http://www.tnvacation.com/vendors/memphis_convention_visitors_bureau/">http://www.tnvacation.com/vendors/memphis_convention_visitors_bureau/</a>
+
+<li>Graceland.com - Plan Your Visit<br> 
+  <a href="http://www.graceland.com/visit/plan_your_visit/local_attractions.aspx">http://www.graceland.com/visit/plan_your_visit/local_attractions.aspx</a>
+
 
 </div>
 </div>
