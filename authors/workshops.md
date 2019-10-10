@@ -60,7 +60,7 @@ is accepted, the abstract is the description that appears on the
 Symposium website and in the Symposium program and proceedings. The
 format for the proposal is as follows.
 
-## Full Workshop Proposal Format ({{site.data.cfp.details.["Workshops"].limits}})
+## Full Workshop Proposal Format ({{site.data.cfp.details.Workshops.limits}})
 
 -   **Proposer**: Include name, affiliation,
     email address, and website address. You should expect most

@@ -2,7 +2,7 @@
 title: "Guidelines: Student Research Competition"
 ---
 
-{% include submissiondetails.html plural="Student Research Competition" %}
+{% include submissiondetails.html plural="StudentResearchCompetition" %}
 
 The ***ACM Student Research Competition*** held at the {{site.data.main.year}}
 SIGCSE conference will consist of two categories of competition,
@@ -53,7 +53,7 @@ research title; and an extended abstract (maximum
 sections:
 
 Student Research Competition Proposal Format and Contents (limited to
-{{site.data.cfp.details.["Student Research Competition"].limits}})
+{{site.data.cfp.details.StudentResearchCompetition.limits}})
 
 -   **Problem and Motivation**: This section should clearly state the
     problem being addressed and explain the reasons for seeking a
@@ -74,7 +74,7 @@ Student Research Competition Proposal Format and Contents (limited to
     results of your work contribute to computer science and should
     explain the significance of those results.
 
-## Student Research Competition Abstract (limited to {{site.data.cfp.details.["Student Research Competition"].abstract}})
+## Student Research Competition Abstract (limited to {{site.data.cfp.details.StudentResearchCompetition.abstract}})
 
 Include a separate paragraph (maximum of
 {{site.data.cfp.details[plural].abstract}}, including whitespace) for
@@ -84,7 +84,7 @@ description of the project.
 ## How Do I Submit My Entry?
 
 Submit a plain ASCII-text electronic copy of the extended abstract
-({{site.data.cfp.details[plural].limits}}) by the submission deadline.
+({{site.data.cfp.details.plural.limits}}) by the submission deadline.
 
 Travel grants of up to \$500 may be available for students who do not
 have another source of funding and are ACM student members.
